@@ -8,6 +8,7 @@
     "peerDependencies": {},
     "scripts": {
         "sass": "node-sass --watch src/app.scss -o dist",
+        "sassProd": "node-sass src/app.scss -o dist",
         "build": "webpack --mode=production",
         "start": "webpack --watch",
         "lint": "colby-package-lint",
