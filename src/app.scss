@@ -1,0 +1,68 @@
+$theme-colors: (
+    dark: #000,
+) !default;
+
+$grid-columns: 24 !default;
+$grid-gutter-width: 12px !default;
+
+$body-bg: #000 !default;
+$body-color: #fff !default;
+
+$navbar-dark-color: #fff !default;
+$navbar-dark-hover-color: #fff !default;
+$navbar-nav-link-padding-x: 15px;
+
+$font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.navbar .nav-item {
+    font-family: franklin-gothic-compressed, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    &:hover {
+        text-decoration: underline;
+    }
+    &.active:hover {
+        text-decoration: none;
+    }
+
+    &:last-child {
+        a {
+            padding-right: 0;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#soblu-title h1 {
+    letter-spacing: -3px !important;
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+#soblu-vertical-menu .soblu-vertical-menu-container {
+    height: 400px;
+    background-color: #fff;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #000;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    // padding-bottom: 10px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px;
+}

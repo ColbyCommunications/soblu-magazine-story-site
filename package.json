@@ -1,0 +1,53 @@
+{
+    "name": "@colbycommunications/colby-solbu-site",
+    "version": "1.0.1",
+    "description": "A app for the SOBLU story",
+    "main": "dist/index.js",
+    "author": "Brandon K. Waltz",
+    "license": "MIT",
+    "peerDependencies": {},
+    "scripts": {
+        "sass": "node-sass --watch src/app.scss -o dist",
+        "build": "webpack --mode=production",
+        "start": "webpack --watch",
+        "lint": "colby-package-lint",
+        "format": "colby-package-format",
+        "test": "colby-package-test --watch",
+        "check": "colby-package-lint && colby-package-test",
+        "prepublishOnly": "colby-package-registry && npm run check && colby-package-build"
+    },
+    "devDependencies": {
+        "@colbycommunications/babel-preset-colby": "^1.0.2",
+        "@colbycommunications/colby-package": "^2.2.3",
+        "autoprefixer": "^9.6.1",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^2.0.0",
+        "css-loader": "^1.0.1",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "file-loader": "^2.0.0",
+        "less-loader": "^4.1.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-sass": "^4.13.1",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "portfinder-sync": "0.0.2",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "terser-webpack-plugin": "^3.0.4",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.29.6",
+        "webpack-bundle-analyzer": "^3.4.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2",
+        "webpack-notifier": "^1.8.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "colby-package-format -s && colby-package-lint -s && colby-package-test -s"
+        }
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.0"
+    }
+}
