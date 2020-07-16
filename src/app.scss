@@ -58,7 +58,12 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
 }
 
 #soblu-vertical-menu {
+    margin-top: 2rem;
     position: relative;
+    .soblu-vertical-menu-sticky {
+        position: sticky;
+        top: 10px;
+    }
     .soblu-vertical-menu-container {
         position: absolute;
         height: 100%;
@@ -66,6 +71,7 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
         z-index: 1000;
     }
     .soblu-vertical-menu-bar {
+        margin-right: 5px;
         cursor: pointer;
         height: 400px;
         background-color: #fff;
@@ -77,10 +83,18 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
         justify-content: space-between;
         align-items: center;
         padding-top: 10px;
-        // padding-bottom: 10px;
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 10px;
+    }
+
+    #soblu-menu-drawer {
+        background-color: white;
+        top: 10px;
+        color: black;
+        z-index: 1000;
+        padding: 50px 20px;
+        width: 400px;
     }
 }
 

@@ -220,29 +220,12 @@
             <!-- End Heading Section -->
 
             <!-- Year 1970 -->
-            <div class="row" style="margin-top: 2rem;" id="soblu-vertical-menu">
+            <div class="row" id="soblu-vertical-menu">
                 <div class="col-md-2 d-flex justify-content-center" style="position: relative;">
                     <div class="soblu-vertical-menu-container soblu-mobile-hide">
-                        <div
-                            class=""
-                            onclick="sobluMenuOnclick()"
-                            style="
-    /* display: flex; */
-    position: sticky;
-    top: 10px;
-"
-                        >
-                            <div
-                                style="
-    display: flex;
-"
-                            >
-                                <div
-                                    class="soblu-vertical-menu-bar"
-                                    style="
-    margin-right: 5px;
-"
-                                >
+                        <div class="soblu-vertical-menu-sticky" onclick="sobluMenuOnclick()">
+                            <div style="display: flex;">
+                                <div class="soblu-vertical-menu-bar">
                                     <h1 style="font-size: 1.2rem;">
                                         <span style="font-weight: 600;">SOBLU</span
                                         ><span style="font-weight: 100;">AT</span
@@ -251,23 +234,49 @@
                                     </h1>
                                     <p style="font-weight: 100;">MENU</p>
                                 </div>
-                                <div
-                                    id="soblu-menu-drawer"
-                                    class="hide"
-                                    style="
-                    background-color: white;
-                    /* position: sticky; */
-                    top: 10px;
-                    color: black;
-                    /* position: absolute; */
-                    /* margin-left: 59px; */
-                    z-index:1000;
-                    width: 500px;
-                    /* left: -52px; */
-                    /* top: 0; */
-                    "
-                                >
-                                    stuff
+                                <div id="soblu-menu-drawer" class="hide">
+                                    <div>
+                                        <div
+                                            class="text-center"
+                                            style="background-color: #000; color:#fff; padding: 5px;"
+                                        >
+                                            <h3 style="font-size: 1.2rem; margin-bottom: 0;">
+                                                <span style="font-weight: 600;">SOBLU</span
+                                                ><span style="font-weight: 100;">AT</span
+                                                ><span style="font-weight: 600;">50</span>
+                                                <span style="font-weight: 100;">TIMELINE</span>
+                                            </h3>
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li>1970s</li>
+                                                <li>1980s</li>
+                                                <li>1990s</li>
+                                                <li>2000s</li>
+                                                <li>2010s</li>
+                                                <li>2020s</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div
+                                            class="text-center"
+                                            style="background-color: #000; color:#fff; padding: 5px;"
+                                        >
+                                            <h3 style="font-size: 1.2rem; margin-bottom: 0;">
+                                                <span style="font-weight: 100;"
+                                                    >ESSAYS AND MORE</span
+                                                >
+                                            </h3>
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <li>Chapel Takeover 1970</li>
+                                                <li>Photography Essay by Edwin Torres '12</li>
+                                                <li>Personal Essays</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div></div>
                             </div>
@@ -467,11 +476,6 @@
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
             crossorigin="anonymous"
         ></script>
         <script
