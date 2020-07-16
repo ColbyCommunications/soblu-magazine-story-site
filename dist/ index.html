@@ -20,6 +20,18 @@
                     document.getElementById('soblu-menu-drawer').classList.remove('show');
                 }
             }
+
+            function sobluMobileMenuOnclick() {
+                if (
+                    document.getElementById('soblu-menu-drawer-mobile').classList.contains('hide')
+                ) {
+                    document.getElementById('soblu-menu-drawer-mobile').classList.remove('hide');
+                    document.getElementById('soblu-menu-drawer-mobile').classList.add('show');
+                } else {
+                    document.getElementById('soblu-menu-drawer-mobile').classList.add('hide');
+                    document.getElementById('soblu-menu-drawer-mobile').classList.remove('show');
+                }
+            }
         </script>
     </head>
     <body style="background-color: #000;">
@@ -29,7 +41,7 @@
             top: 0;
             z-index: 1000;
             cursor: pointer;"
-            onclick="sobluMenuOnclick()"
+            onclick="sobluMobileMenuOnclick()"
         >
             <div style="background-color: #fff; padding: 10px 15px 10px 10px; margin-bottom: 5px;">
                 <ul style="margin: 0; list-style: none;">
@@ -39,7 +51,7 @@
                 </ul>
             </div>
             <div
-                id="soblu-menu-drawer"
+                id="soblu-menu-drawer-mobile"
                 class="hide"
                 style="background-color: #fff; padding: 10px 15px 10px 10px;"
             >
