@@ -25,15 +25,26 @@
     <body style="background-color: #000;">
         <div
             class="soblu-mobile-nav soblu-desktop-hide text-right"
-            style="background-color: #fff; padding: 10px 15px 10px 10px; color: #000; font-family: franklin-gothic-compressed, sans-serif; position: sticky;
+            style="color: #000; font-family: franklin-gothic-compressed, sans-serif; position: sticky;
             top: 0;
-            z-index: 1000;"
+            z-index: 1000;
+            cursor: pointer;"
+            onclick="sobluMenuOnclick()"
         >
-            <ul style="margin: 0; list-style: none;">
-                <li>
-                    <a>MENU</a>
-                </li>
-            </ul>
+            <div style="background-color: #fff; padding: 10px 15px 10px 10px; margin-bottom: 5px;">
+                <ul style="margin: 0; list-style: none;">
+                    <li>
+                        <a>MENU</a>
+                    </li>
+                </ul>
+            </div>
+            <div
+                id="soblu-menu-drawer"
+                class="hide"
+                style="background-color: #fff; padding: 10px 15px 10px 10px;"
+            >
+                stuff
+            </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark soblu-mobile-hide">
             <div class="container">
