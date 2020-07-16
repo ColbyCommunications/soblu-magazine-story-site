@@ -16,6 +16,13 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
+.soblu-desktop-hide {
+    display: none;
+}
+.soblu-mobile-hide {
+    display: block;
+}
+
 .navbar .nav-item {
     font-family: franklin-gothic-compressed, sans-serif;
     font-style: normal;
@@ -74,5 +81,29 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 10px;
+    }
+}
+
+.soblu-mobile-nav {
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+    .soblu-mobile-hide {
+        display: none;
+    }
+    .soblu-desktop-hide {
+        display: block;
+    }
+
+    .soblu-mobile-nav {
+        display: block;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
