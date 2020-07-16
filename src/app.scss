@@ -50,19 +50,29 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
     margin-bottom: 0;
 }
 
-#soblu-vertical-menu .soblu-vertical-menu-container {
-    height: 400px;
-    background-color: #fff;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    color: #000;
-    transform: rotate(180deg);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    // padding-bottom: 10px;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 10px;
+#soblu-vertical-menu {
+    position: relative;
+    .soblu-vertical-menu-container {
+        position: absolute;
+        height: 100%;
+        left: 0;
+        z-index: 1000;
+    }
+    .soblu-vertical-menu-bar {
+        cursor: pointer;
+        height: 400px;
+        background-color: #fff;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color: #000;
+        transform: rotate(180deg);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        // padding-bottom: 10px;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 10px;
+    }
 }

@@ -5,10 +5,22 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <link rel="stylesheet" href="https://use.typekit.net/jcq1ite.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/djf7stt.css" />
         <link rel="stylesheet" href="app.css" />
 
         <title>SOBLU at 50 | Colby College</title>
+
+        <script>
+            function sobluMenuOnclick() {
+                if (document.getElementById('soblu-menu-drawer').classList.contains('hide')) {
+                    document.getElementById('soblu-menu-drawer').classList.remove('hide');
+                    document.getElementById('soblu-menu-drawer').classList.add('show');
+                } else {
+                    document.getElementById('soblu-menu-drawer').classList.add('hide');
+                    document.getElementById('soblu-menu-drawer').classList.remove('show');
+                }
+            }
+        </script>
     </head>
     <body style="background-color: #000;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -51,9 +63,22 @@
             <div class="row" id="soblu-title">
                 <div class="col-sm text-right">
                     <h1>
-                        <span style="font-weight: 600;">SOBLU</span
-                        ><span style="font-weight: 100;">AT</span
-                        ><span style="font-weight: 600;">50</span>
+                        <span
+                            style="font-family: franklin-gothic-urw, sans-serif;
+                        font-style: normal;
+                        font-weight: 900;"
+                            >SOBLU</span
+                        ><span
+                            style="font-family: franklin-gothic-urw, sans-serif;
+                        font-style: normal;
+                        font-weight: 100;"
+                            >AT</span
+                        ><span
+                            style="font-family: franklin-gothic-urw, sans-serif;
+                        font-style: normal;
+                        font-weight: 900;"
+                            >50</span
+                        >
                     </h1>
                 </div>
             </div>
@@ -123,15 +148,57 @@
 
             <!-- Year 1970 -->
             <div class="row" style="margin-top: 2rem;" id="soblu-vertical-menu">
-                <div class="col-sm-2 d-flex justify-content-center">
+                <div class="col-sm-2 d-flex justify-content-center" style="position: relative;">
                     <div class="soblu-vertical-menu-container">
-                        <h1 style="font-size: 1.2rem;">
-                            <span style="font-weight: 600;">SOBLU</span
-                            ><span style="font-weight: 100;">AT</span
-                            ><span style="font-weight: 600;">50</span>
-                            <span style="font-weight: 100;">TIMELINE</span>
-                        </h1>
-                        <p style="font-weight: 100;">MENU</p>
+                        <div
+                            class=""
+                            onclick="sobluMenuOnclick()"
+                            style="
+    /* display: flex; */
+    position: sticky;
+    top: 10px;
+"
+                        >
+                            <div
+                                style="
+    display: flex;
+"
+                            >
+                                <div
+                                    class="soblu-vertical-menu-bar"
+                                    style="
+    margin-right: 5px;
+"
+                                >
+                                    <h1 style="font-size: 1.2rem;">
+                                        <span style="font-weight: 600;">SOBLU</span
+                                        ><span style="font-weight: 100;">AT</span
+                                        ><span style="font-weight: 600;">50</span>
+                                        <span style="font-weight: 100;">TIMELINE</span>
+                                    </h1>
+                                    <p style="font-weight: 100;">MENU</p>
+                                </div>
+                                <div
+                                    id="soblu-menu-drawer"
+                                    class="hide"
+                                    style="
+                    background-color: white;
+                    /* position: sticky; */
+                    top: 10px;
+                    color: black;
+                    /* position: absolute; */
+                    /* margin-left: 59px; */
+                    z-index:1000;
+                    width: 500px;
+                    /* left: -52px; */
+                    /* top: 0; */
+                    "
+                                >
+                                    stuff
+                                </div>
+                                <div></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-22">
