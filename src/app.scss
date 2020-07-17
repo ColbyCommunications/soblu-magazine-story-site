@@ -113,6 +113,39 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
                         text-decoration: underline;
                     }
                 }
+                > ul > li {
+                    font-family: franklin-gothic-urw, sans-serif;
+                    font-weight: 100;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
+#soblu-menu-drawer-mobile {
+    ul {
+        padding-left: 2rem;
+        font-family: franklin-gothic-compressed, sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: left;
+        li {
+            list-style: none;
+
+            a {
+                color: black;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            > ul > li {
+                font-family: franklin-gothic-urw, sans-serif;
+                font-weight: 100;
+                font-size: 1.1rem;
             }
         }
     }
