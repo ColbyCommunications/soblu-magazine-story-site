@@ -16,8 +16,8 @@
                     document.getElementById('soblu-menu-drawer').classList.remove('hide');
                     document.getElementById('soblu-menu-drawer').classList.add('show');
                 } else {
-                    document.getElementById('soblu-menu-drawer').classList.add('hide');
                     document.getElementById('soblu-menu-drawer').classList.remove('show');
+                    document.getElementById('soblu-menu-drawer').classList.add('hide');
                 }
             }
 
@@ -223,9 +223,9 @@
             <div class="row" id="soblu-vertical-menu">
                 <div class="col-md-2 d-flex justify-content-center" style="position: relative;">
                     <div class="soblu-vertical-menu-container soblu-mobile-hide">
-                        <div class="soblu-vertical-menu-sticky" onclick="sobluMenuOnclick()">
+                        <div class="soblu-vertical-menu-sticky">
                             <div style="display: flex;">
-                                <div class="soblu-vertical-menu-bar">
+                                <div class="soblu-vertical-menu-bar" onclick="sobluMenuOnclick()">
                                     <h1 style="font-size: 1.2rem;">
                                         <span style="font-weight: 600;">SOBLU</span
                                         ><span style="font-weight: 100;">AT</span
@@ -245,7 +245,7 @@
                                             >CLOSE</span
                                         >
                                     </div>
-                                    <div style="margin-top: 3rem; padding: 0 20px;">
+                                    <div style="margin-top: 2rem; padding: 0 20px;">
                                         <div
                                             class="text-center"
                                             style="background-color: #000; color:#fff; padding: 5px;"
@@ -259,12 +259,120 @@
                                         </div>
                                         <div>
                                             <ul class="mt-2">
-                                                <li>1970s</li>
-                                                <li>1980s</li>
-                                                <li>1990s</li>
-                                                <li>2000s</li>
-                                                <li>2010s</li>
-                                                <li>2020s</li>
+                                                <li>
+                                                    <a
+                                                        data-toggle="collapse"
+                                                        href="#soblu-vertical-menu-1970-collapse"
+                                                        role="button"
+                                                        aria-expanded="false"
+                                                        aria-controls="soblu-vertical-menu-1970-collapse"
+                                                        >1970s</a
+                                                    >
+                                                    <ul
+                                                        class="collapse"
+                                                        id="soblu-vertical-menu-1970-collapse"
+                                                    >
+                                                        <li><a href="#">A Radical Movement</a></li>
+                                                        <li><a href="#">Pillar of Support</a></li>
+                                                        <li><a href="#">A Cultural Outlet</a></li>
+                                                        <li><a href="#">A Space of its Own</a></li>
+                                                        <li>
+                                                            <a href="#"
+                                                                >An Organization for Whom?</a
+                                                            >
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        data-toggle="collapse"
+                                                        href="#soblu-vertical-menu-1980-collapse"
+                                                        role="button"
+                                                        aria-expanded="false"
+                                                        aria-controls="soblu-vertical-menu-1980-collapse"
+                                                        >1980s</a
+                                                    >
+                                                    <ul>
+                                                        <div
+                                                            class="collapse"
+                                                            id="soblu-vertical-menu-1980-collapse"
+                                                        >
+                                                            section links
+                                                        </div>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        data-toggle="collapse"
+                                                        href="#soblu-vertical-menu-1990-collapse"
+                                                        role="button"
+                                                        aria-expanded="false"
+                                                        aria-controls="soblu-vertical-menu-1990-collapse"
+                                                        >1990s</a
+                                                    >
+                                                    <ul>
+                                                        <div
+                                                            class="collapse"
+                                                            id="soblu-vertical-menu-1990-collapse"
+                                                        >
+                                                            section links
+                                                        </div>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        data-toggle="collapse"
+                                                        href="#soblu-vertical-menu-2000-collapse"
+                                                        role="button"
+                                                        aria-expanded="false"
+                                                        aria-controls="soblu-vertical-menu-2000-collapse"
+                                                        >2000s</a
+                                                    >
+                                                    <ul>
+                                                        <div
+                                                            class="collapse"
+                                                            id="soblu-vertical-menu-2000-collapse"
+                                                        >
+                                                            section links
+                                                        </div>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        data-toggle="collapse"
+                                                        href="#soblu-vertical-menu-2010-collapse"
+                                                        role="button"
+                                                        aria-expanded="false"
+                                                        aria-controls="soblu-vertical-menu-2010-collapse"
+                                                        >2010s</a
+                                                    >
+                                                    <ul>
+                                                        <div
+                                                            class="collapse"
+                                                            id="soblu-vertical-menu-2010-collapse"
+                                                        >
+                                                            section links
+                                                        </div>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a
+                                                        data-toggle="collapse"
+                                                        href="#soblu-vertical-menu-2020-collapse"
+                                                        role="button"
+                                                        aria-expanded="false"
+                                                        aria-controls="soblu-vertical-menu-2020-collapse"
+                                                        >2020s</a
+                                                    >
+                                                    <ul>
+                                                        <div
+                                                            class="collapse"
+                                                            id="soblu-vertical-menu-2020-collapse"
+                                                        >
+                                                            section links
+                                                        </div>
+                                                    </ul>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -281,9 +389,13 @@
                                         </div>
                                         <div>
                                             <ul class="mt-2">
-                                                <li>Chapel Takeover 1970</li>
-                                                <li>Photography Essay by Edwin Torres '12</li>
-                                                <li>Personal Essays</li>
+                                                <li><a href="#">Chapel Takeover 1970</a></li>
+                                                <li>
+                                                    <a href="#"
+                                                        >Photography Essay by Edwin Torres '12</a
+                                                    >
+                                                </li>
+                                                <li><a href="#">Personal Essays</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -415,7 +527,7 @@
                                     src="images/Chapel protest students speaking to audience.png"
                                     class="img-fluid soblu-desktop-hide"
                                 />
-                                <p>
+                                <p class="soblu-desktop-hide">
                                     Mauris augue neque gravida in. Condimentum id venenatis a
                                     condimentum.
                                 </p>

@@ -95,6 +95,26 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
         z-index: 1000;
         padding: 5px 10px;
         width: 400px;
+
+        ul {
+            padding-left: 2rem;
+            font-family: franklin-gothic-compressed, sans-serif;
+            font-weight: bold;
+            font-size: 1.3rem;
+            line-height: 2rem;
+            li {
+                list-style: none;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
     }
 }
 
