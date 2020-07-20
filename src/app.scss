@@ -155,6 +155,32 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
     display: none;
 }
 
+.soblu-quote {
+    font-family: franklin-gothic-compressed, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.soblu-img-caption {
+    font-family: franklin-gothic-compressed, sans-serif;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-weight: bold;
+}
+
+.soblu-edwin-adjust-left {
+    margin-left: 12px;
+}
+
+.soblu-first-section {
+    margin-top: 5rem;
+}
+
+.section-spacer {
+    margin-bottom: 4rem;
+}
+
 /* MEDIA QUERIES */
 
 // Medium devices (tablets, less than 992px)
@@ -182,15 +208,6 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
     }
 }
 
-@media (max-width: 767px) {
-    .soblu-mobile-hide {
-        display: none;
-    }
-    .soblu-desktop-hide {
-        display: block;
-    }
-}
-
 // phones
 @media (max-width: 576px) {
     .soblu-mobile-hide {
@@ -207,5 +224,17 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
     .container {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .soblu-edwin-adjust-left {
+        margin-left: 0;
+    }
+
+    .soblu-edwin-first-section img {
+        margin-bottom: 2rem;
+    }
+
+    .section-spacer {
+        margin-bottom: 2rem;
     }
 }
