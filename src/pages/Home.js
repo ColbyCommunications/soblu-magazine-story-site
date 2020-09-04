@@ -181,7 +181,7 @@ export default class Home extends React.Component {
                                         src={{ main: 'images/Juanluna_SOBLU_Torres0106.png' }}
                                         altText=""
                                         lightboxSrc="images/Juanluna_SOBLU_Torres0106.png"
-                                        lightboxGallery="homepage"
+                                        lightboxGallery="mobile-homepage"
                                     />
                                 </div>
                                 <div
