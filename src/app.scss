@@ -1,27 +1,50 @@
 $theme-colors: (
     dark: #000,
+    light: #fff,
 ) !default;
 
 $grid-columns: 24 !default;
 $grid-gutter-width: 12px !default;
 
-$body-bg: #000 !default;
-$body-color: #fff !default;
+$body-bg: #fff !default;
+$body-color: #000 !default;
 
-$navbar-dark-color: #fff !default;
-$navbar-dark-hover-color: #fff !default;
+$navbar-light-color: #000 !default;
+$navbar-light-hover-color: #000 !default;
 $navbar-nav-link-padding-x: 15px;
 
-$font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
+$font-family-sans-serif: franklin-gothic-urw, sans-serif !default;
+
+$btn-border-radius: 0px;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-.soblu-desktop-hide {
+// Utility Classes
+
+.desktop-hide {
     display: none;
 }
-.soblu-mobile-hide {
+.mobile-hide {
     display: block;
 }
+
+.fgCompressed {
+    font-family: franklin-gothic-compressed, sans-serif;
+}
+
+.heavy {
+    font-weight: 900;
+}
+
+.fgCompressed-normal-weight {
+    font-weight: 600;
+}
+
+.fgCompressed-quote {
+    font-size: 1.7rem;
+}
+
+// Elements
 
 .navbar .nav-item {
     font-family: franklin-gothic-compressed, sans-serif;
@@ -51,6 +74,16 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
     display: block;
 }
 
+.heading1 {
+    font-size: 4.6rem;
+    line-height: 4.6rem;
+}
+
+.bold-emphasis-text {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
 #soblu-title h1 {
     letter-spacing: -3px !important;
     font-size: 6rem;
@@ -74,10 +107,10 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
         margin-right: 5px;
         cursor: pointer;
         height: 400px;
-        background-color: #fff;
+        background-color: #000;
         writing-mode: vertical-rl;
         text-orientation: mixed;
-        color: #000;
+        color: #fff;
         transform: rotate(180deg);
         display: flex;
         justify-content: space-between;
@@ -89,9 +122,9 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
     }
 
     #soblu-menu-drawer {
-        background-color: white;
+        background-color: #000;
         top: 10px;
-        color: black;
+        color: #fff;
         z-index: 1000;
         padding: 5px 10px;
         width: 400px;
@@ -106,7 +139,7 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
                 list-style: none;
 
                 a {
-                    color: black;
+                    color: #fff;
                     text-decoration: none;
 
                     &:hover {
@@ -179,6 +212,24 @@ $font-family-sans-serif: franklin-gothic-itc, sans-serif !default;
 
 .section-spacer {
     margin-bottom: 4rem;
+}
+.fslightbox-container {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), #000 1810%) !important;
+}
+
+.fslightbox-caption {
+    background: rgba(255, 255, 255, 0.8) !important;
+    border: 1px solid #b7b7b7 !important;
+    .fslightbox-caption-inner {
+        color: #000 !important;
+    }
+}
+
+.fslightbox-slide-number-container {
+    color: black !important;
+    .fslightbox-slash {
+        background: #000 !important;
+    }
 }
 
 /* MEDIA QUERIES */

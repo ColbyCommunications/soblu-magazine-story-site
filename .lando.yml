@@ -1,0 +1,4 @@
+name: colby-soblu-site
+recipe: lamp
+config:
+  webroot: 'dist'

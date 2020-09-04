@@ -18,11 +18,14 @@ const postcssLoader = {
 let config = {
     mode: 'development',
     entry: {
-        bundle: ['./src/app.scss'],
+        bundle: [
+            './src/index.js',
+            './src/app.scss',
+            './libraries/fslightbox-pro-3.2.1/fslightbox.js',
+        ],
     },
     output: {
         path: `${currentDir}/dist`,
-        filename: 'bundle.css',
     },
     module: {
         rules: [
@@ -68,6 +71,18 @@ let config = {
                 test: /\.(ttf|eot|woff|woff2|mp3)$/,
                 loaders: ['file-loader'],
             },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        cacheDirectory: true,
+                        babelrc: false,
+                        presets: [require.resolve('@colbycommunications/babel-preset-colby')],
+                    },
+                },
+            },
         ],
     },
     plugins: [
@@ -86,13 +101,29 @@ if (process.env.NODE_ENV === 'production') {
     config = {
         mode: 'production',
         entry: {
-            bundle: ['./src/app.scss'],
+            bundle: ['./src/index.js', './src/app.scss'],
         },
         output: {
             path: `${currentDir}/dist`,
         },
         module: {
             rules: [
+                {
+                    test: /\.js$/,
+                    exclude: /node_modules/,
+                    use: [
+                        {
+                            loader: 'babel-loader',
+                            options: {
+                                cacheDirectory: true,
+                                babelrc: false,
+                                presets: [
+                                    require.resolve('@colbycommunications/babel-preset-colby'),
+                                ],
+                            },
+                        },
+                    ],
+                },
                 {
                     test: /\.scss$/,
                     use: [
