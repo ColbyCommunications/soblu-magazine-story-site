@@ -47,6 +47,7 @@
         }
     },
     "dependencies": {
+        "@colbycommunications/colby-hidden-block-component": "^1.0.1",
         "@colbycommunications/colby-image-component": "^1.1.0",
         "bootstrap": "^4.5.0",
         "lodash": "^4.17.15",

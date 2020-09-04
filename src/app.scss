@@ -19,12 +19,16 @@ $btn-border-radius: 0px;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
+body {
+    margin-right: 0 !important;
+}
+
 // Utility Classes
 
-.desktop-hide {
+.soblu-desktop-hide {
     display: none;
 }
-.mobile-hide {
+.soblu-mobile-hide {
     display: block;
 }
 
@@ -158,7 +162,7 @@ $btn-border-radius: 0px;
 
 #soblu-menu-drawer-mobile {
     ul {
-        padding-left: 2rem;
+        padding-left: 1.2rem;
         font-family: franklin-gothic-compressed, sans-serif;
         font-weight: bold;
         font-size: 1.3rem;
@@ -168,7 +172,7 @@ $btn-border-radius: 0px;
             list-style: none;
 
             a {
-                color: black;
+                color: #fff;
                 text-decoration: none;
 
                 &:hover {
@@ -207,7 +211,7 @@ $btn-border-radius: 0px;
 }
 
 .soblu-first-section {
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 .section-spacer {
@@ -231,6 +235,10 @@ $btn-border-radius: 0px;
         background: #000 !important;
     }
 }
+
+// #a-radical-movement {
+//     padding-top:
+// }
 
 /* MEDIA QUERIES */
 
@@ -281,11 +289,30 @@ $btn-border-radius: 0px;
         margin-left: 0;
     }
 
+    .soblu-first-section {
+        margin-top: 4rem;
+        img {
+            margin-bottom: 4rem;
+        }
+    }
+
     .soblu-edwin-first-section img {
         margin-bottom: 2rem;
     }
 
     .section-spacer {
         margin-bottom: 2rem;
+    }
+
+    .timeline-year {
+        margin-top: 2rem;
+    }
+
+    #a-radical-movement,
+    #a-pillar-of-support,
+    #a-cultural-outlet,
+    #a-space-of-its-own,
+    #an-organization-for-whom {
+        padding-top: 45px;
     }
 }
