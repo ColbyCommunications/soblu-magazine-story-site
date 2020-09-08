@@ -69,6 +69,15 @@ const Nav = withRouter((props) => {
                                     SOBLU Voices
                                 </Link>
                             </li>
+                            <li
+                                className={`nav-item ${
+                                    props.location.pathname === '/soblu-voices' ? 'active' : ''
+                                }`}
+                            >
+                                <Link className="nav-link" to="/chapel-takeover-1970">
+                                    Takeover
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

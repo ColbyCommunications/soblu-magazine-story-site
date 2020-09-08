@@ -18,11 +18,7 @@ const postcssLoader = {
 let config = {
     mode: 'development',
     entry: {
-        bundle: [
-            './src/index.js',
-            './src/app.scss',
-            './libraries/fslightbox-pro-3.2.1/fslightbox.js',
-        ],
+        bundle: ['./src/index.js', './src/app.scss'],
     },
     output: {
         path: `${currentDir}/dist`,

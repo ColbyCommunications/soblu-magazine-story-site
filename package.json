@@ -49,7 +49,10 @@
     "dependencies": {
         "@colbycommunications/colby-hidden-block-component": "^1.0.1",
         "@colbycommunications/colby-image-component": "^1.1.0",
+        "@colbycommunications/colby-modal": "^1.0.0",
+        "@colbycommunications/colby-swiper-component": "^1.0.1",
         "bootstrap": "^4.5.0",
+        "fslightbox-react": "file:dist/libraries/fslightbox-react-pro-1.3.0.tgz",
         "lodash": "^4.17.15",
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
