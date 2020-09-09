@@ -33,12 +33,18 @@ const ChapelTakeover = () => {
         'images/Long-view-of-chapel-gathering-students-speakers-on-balcony.png',
         'images/chapel-takover-slide-wide-at-podium.png',
         'images/chapel-takover-slide-at-podium.png',
+        'images/chapel-takover-slide-group-inside-three-people.png',
+        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+        'images/Serving-injunction-900-wide.png',
     ];
 
     const lightboxCaptions = [
         'Students gathered in front of Lorimer Chapel to hear SOBU17’s speech on March 1970.',
         'SOBU17 and the student government representatives addressed the crowd and reiterated SOBU’s demands.',
         'Charles Terrell ’70 (in glasses) alongside SOBU17 and student government leaders in front of Lorimer Chapel.',
+        'SOBU members, including Doris Ford ’73 (right), inside the chapel.',
+        '',
+        'Terrell (center) and SOBU17 served with a restraining order on March 9.',
     ];
 
     function openLightboxOnSlide(number) {
@@ -273,11 +279,11 @@ const ChapelTakeover = () => {
                                                             xmlns="http://www.w3.org/2000/svg"
                                                         >
                                                             <path
-                                                                fill-rule="evenodd"
+                                                                fillRule="evenodd"
                                                                 d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
                                                             />
                                                             <path
-                                                                fill-rule="evenodd"
+                                                                fillRule="evenodd"
                                                                 d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
                                                             />
                                                         </svg>
@@ -353,11 +359,11 @@ const ChapelTakeover = () => {
                                                             xmlns="http://www.w3.org/2000/svg"
                                                         >
                                                             <path
-                                                                fill-rule="evenodd"
+                                                                fillRule="evenodd"
                                                                 d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
                                                             />
                                                             <path
-                                                                fill-rule="evenodd"
+                                                                fillRule="evenodd"
                                                                 d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
                                                             />
                                                         </svg>
@@ -427,6 +433,434 @@ const ChapelTakeover = () => {
                                 onClick={() => openLightboxOnSlide(3)}
                                 caption="Charles Terrell ’70 (in glasses) alongside SOBU17 and student government leaders in front of Lorimer Chapel."
                             />
+                        </div>
+                        <div className="row" style={{ marginTop: '4rem' }}>
+                            <div className="col-md-12 d-flex align-items-center">
+                                <div className="row">
+                                    <div className="col-lg-20 offset-lg-2">
+                                        <p>
+                                            <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
+                                                “I had [a] scholarship to go to Moscow University
+                                                and Stockholm University but I had to study strictly
+                                                sports [there].”
+                                            </span>
+                                        </p>
+                                        <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
+                                            —Sebsibe Mamo ’70
+                                        </p>
+                                        <div className="d-flex">
+                                            <div
+                                                style={{
+                                                    padding: '7px',
+                                                    backgroundColor: '#fff',
+                                                    color: '#000',
+                                                    flex: '1',
+                                                    marginRight: '5px',
+                                                }}
+                                            >
+                                                More on Mamo’s journey to and from Colby
+                                            </div>
+                                            <Modal
+                                                trigger={
+                                                    <button
+                                                        type="button"
+                                                        className="btn btn-dark"
+                                                        style={{ fontSize: '1rem' }}
+                                                    >
+                                                        <svg
+                                                            width="1em"
+                                                            height="1em"
+                                                            viewBox="0 0 16 16"
+                                                            className="bi bi-card-text"
+                                                            fill="currentColor"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <path
+                                                                fillRule="evenodd"
+                                                                d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
+                                                            />
+                                                            <path
+                                                                fillRule="evenodd"
+                                                                d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
+                                                            />
+                                                        </svg>
+                                                    </button>
+                                                }
+                                                showModalCloseButton
+                                                title={'I am a modal'}
+                                            >
+                                                <div>
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed do eiusmod tempor
+                                                    incididunt ut labore et dolore magna aliqua. Ut
+                                                    enim ad minim veniam, quis nostrud exercitation
+                                                    ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aute irure dolor in
+                                                    reprehenderit in voluptate velit esse cillum
+                                                    dolore eu fugiat nulla pariatur. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa
+                                                    qui officia deserunt mollit anim id est laborum.
+                                                </div>
+                                            </Modal>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-12">
+                                <Image
+                                    src={{
+                                        main:
+                                            'images/chapel-takover-slide-group-inside-three-people.png',
+                                    }}
+                                    altText=""
+                                    onClick={() => openLightboxOnSlide(4)}
+                                    caption="SOBU members, including Doris Ford ’73 (right), inside the chapel."
+                                />
+                            </div>
+                        </div>
+                        <div className="row" style={{ marginTop: '4rem' }}>
+                            <div className="col-md-12 d-flex align-items-center">
+                                <div className="row">
+                                    <div className="col-lg-20 offset-lg-2">
+                                        <div style={{ marginBottom: '3rem' }}>
+                                            <Image
+                                                src={{
+                                                    main:
+                                                        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+                                                }}
+                                                altText=""
+                                                onClick={() => openLightboxOnSlide(5)}
+                                            />
+                                            <div
+                                                style={{
+                                                    marginTop: '5px',
+                                                }}
+                                            >
+                                                <div
+                                                    className="text-center"
+                                                    style={{
+                                                        padding: '7px',
+                                                        backgroundColor: '#000',
+                                                        color: '#fff',
+                                                    }}
+                                                >
+                                                    <span
+                                                        className="heavy"
+                                                        style={{ textTransform: 'uppercase' }}
+                                                    >
+                                                        <i>Echo</i>
+                                                    </span>{' '}
+                                                    <span style={{ textTransform: 'uppercase' }}>
+                                                        The Debate Begins
+                                                    </span>
+                                                </div>
+                                                <div
+                                                    style={{
+                                                        marginTop: '5px',
+                                                    }}
+                                                >
+                                                    Colby Echo, March 6, 1970
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <Image
+                                                src={{
+                                                    main:
+                                                        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+                                                }}
+                                                altText=""
+                                                onClick={() => openLightboxOnSlide(5)}
+                                            />
+                                            <div
+                                                style={{
+                                                    marginTop: '5px',
+                                                }}
+                                            >
+                                                <div
+                                                    className="text-center"
+                                                    style={{
+                                                        padding: '7px',
+                                                        backgroundColor: '#000',
+                                                        color: '#fff',
+                                                    }}
+                                                >
+                                                    <span
+                                                        className="heavy"
+                                                        style={{ textTransform: 'uppercase' }}
+                                                    >
+                                                        News
+                                                    </span>{' '}
+                                                    <span style={{ textTransform: 'uppercase' }}>
+                                                        Impact in the Media
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div
+                                                style={{
+                                                    marginTop: '5px',
+                                                }}
+                                            >
+                                                Portland Press Herald, March 6, 1970
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-12">
+                                <p>
+                                    Over that one week, letters traveled back and forth between
+                                    SOBU17 and the College’s president at the time, Robert Edward
+                                    Lee Strider II. On March 3, President Strider wrote: “Valid and
+                                    workable decisions on complex problems are reached, especially
+                                    in an academic community, through rational discussion and in an
+                                    atmosphere of cooperation and mutual respect among those
+                                    involved in making decisions.”
+                                </p>
+                                <p>
+                                    SOBU responded: “Obviously, we would not now be in the CHAPEL if
+                                    we were confident in the administrative mechanism that you have
+                                    instituted to bring about change.”
+                                </p>
+                                <p>More exchanges followed between two camps.</p>
+                                <p>
+                                    “We had a very good response to the pushback,” said Boston
+                                    native Vincent Guess ’73 in a coffee shop in Connecticut, where
+                                    he now lives. In addition, the group had been supported by the
+                                    Student Government, which tabled at Roberts Union to inform the
+                                    community about SOBU17’s mission and how the community could
+                                    help them. “It was well thoughtout. We had some very, very
+                                    talented, very smart people who were well connected with the
+                                    student community,” Guess said.
+                                </p>
+                                <p>
+                                    On March 5, the group’s leader, Charles Terrell ’70 gave a
+                                    30-minute speech outside the chapel’s main entrance. He
+                                    reiterated that the group wouldn’t leave until its demands were
+                                    met; highlighted the support they were receiving from Colby
+                                    students, alumni, and faculty, along with students at Unity and
+                                    Bowdoin colleges, the NAACP central Maine Chapter. Asking
+                                    supporters to continue boycotting classes, Terrell thanked white
+                                    Colby students who were running errands for the protesters while
+                                    they were in the chapel and the McDonald’s restaurant manager
+                                    who sent them food, which, to this day, Terrell fondly
+                                    remembers.
+                                </p>
+                                <p>
+                                    The newspapers reported at the time that 350 faculty and
+                                    students were listening to the speech, and around 50 students
+                                    came with placards saying things like “I support Black Demands.”
+                                    The news made the Portland Evening Express, Waterville Sentinel,
+                                    Bangor Daily News, and several other outlets. “It is useless to
+                                    ask us to leave; we are not leaving until our demands are met,”
+                                    Terrell told reporters.
+                                </p>
+                                <p>
+                                    “Charles was the man. He’s articulate and he’s well-known there.
+                                    And he was our leader,” said Guess, who was holding a red,
+                                    black, and green Pan-African flag behind Terrell that day.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row" style={{ marginTop: '4rem' }}>
+                            <Image
+                                src={{
+                                    main: 'images/Serving-injunction-900-wide.png',
+                                }}
+                                altText=""
+                                onClick={() => openLightboxOnSlide(6)}
+                                caption="Terrell (center) and SOBU17 served with a restraining order on March 9."
+                            />
+                        </div>
+                        <div className="row" style={{ marginTop: '4rem' }}>
+                            <div className="col-md-12 d-flex align-items-center">
+                                <div className="row">
+                                    <div className="col-lg-20 offset-lg-2">
+                                        <div style={{ marginBottom: '10rem' }}>
+                                            <p>
+                                                <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
+                                                    “... I had gone onto segregated schools in the
+                                                    South all my life.”
+                                                </span>
+                                            </p>
+                                            <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
+                                                —Doris Ford Mathis ’73
+                                            </p>
+                                            <div className="d-flex">
+                                                <div
+                                                    style={{
+                                                        padding: '7px',
+                                                        backgroundColor: '#fff',
+                                                        color: '#000',
+                                                        flex: '1',
+                                                        marginRight: '5px',
+                                                    }}
+                                                >
+                                                    More on Ford Mathis’s journey to and from Colby
+                                                </div>
+                                                <Modal
+                                                    trigger={
+                                                        <button
+                                                            type="button"
+                                                            className="btn btn-dark"
+                                                            style={{ fontSize: '1rem' }}
+                                                        >
+                                                            <svg
+                                                                width="1em"
+                                                                height="1em"
+                                                                viewBox="0 0 16 16"
+                                                                className="bi bi-card-text"
+                                                                fill="currentColor"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                            >
+                                                                <path
+                                                                    fillRule="evenodd"
+                                                                    d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
+                                                                />
+                                                                <path
+                                                                    fillRule="evenodd"
+                                                                    d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
+                                                                />
+                                                            </svg>
+                                                        </button>
+                                                    }
+                                                    showModalCloseButton
+                                                    title={'I am a modal'}
+                                                >
+                                                    <div>
+                                                        Lorem ipsum dolor sit amet, consectetur
+                                                        adipiscing elit, sed do eiusmod tempor
+                                                        incididunt ut labore et dolore magna aliqua.
+                                                        Ut enim ad minim veniam, quis nostrud
+                                                        exercitation ullamco laboris nisi ut aliquip
+                                                        ex ea commodo consequat. Duis aute irure
+                                                        dolor in reprehenderit in voluptate velit
+                                                        esse cillum dolore eu fugiat nulla pariatur.
+                                                        Excepteur sint occaecat cupidatat non
+                                                        proident, sunt in culpa qui officia deserunt
+                                                        mollit anim id est laborum.
+                                                    </div>
+                                                </Modal>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <Image
+                                                src={{
+                                                    main:
+                                                        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+                                                }}
+                                                altText=""
+                                                onClick={() => openLightboxOnSlide(5)}
+                                            />
+                                            <div
+                                                style={{
+                                                    marginTop: '5px',
+                                                }}
+                                            >
+                                                <div
+                                                    className="text-center"
+                                                    style={{
+                                                        padding: '7px',
+                                                        backgroundColor: '#000',
+                                                        color: '#fff',
+                                                    }}
+                                                >
+                                                    <span
+                                                        className="heavy"
+                                                        style={{ textTransform: 'uppercase' }}
+                                                    >
+                                                        <i>ECHO</i>
+                                                    </span>{' '}
+                                                    <span style={{ textTransform: 'uppercase' }}>
+                                                        Reaction
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div
+                                                style={{
+                                                    marginTop: '5px',
+                                                }}
+                                            >
+                                                Colby Echo, March 13, 1970
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-12">
+                                <p>
+                                    In the coming days, the administration visited the chapel to
+                                    talk with the occupying students. “They said, ‘we can’t do this,
+                                    we can’t do that.’ And we basically said, ‘well, we’re not
+                                    asking you to do this that particular way. You can do it this
+                                    way or do it that way. We’ll help you out,’” Guess said. “Our
+                                    demands really were not that outrageous in terms of the ability
+                                    to meet them.”
+                                </p>
+                                <p>
+                                    Amidst the exchange, the world was experiencing a unique moment
+                                    on March 7: a total solar eclipse. And the group wasn’t going to
+                                    miss it. “We were trying to watch it through various unsafe
+                                    means,” recalled Guess. “I do remember going upstairs up to the
+                                    tower.” The next day, a Sunday, a religious service was held in
+                                    Bixler Auditorium.
+                                </p>
+                                <p>
+                                    On March 9, President Strider wrote, “your idealism and your
+                                    persistence are commendable, and the articulate manner in which
+                                    you have argued is impressive. But the occupation of the chapel
+                                    cannot be justified, whatever your motives.” A few hours later a
+                                    court order was delivered by a sheriff’s deputy, telling the
+                                    group to vacate the chapel within two hours.
+                                </p>
+                                <p>
+                                    “We decided it would be more effective for us to leave and
+                                    protest on the outside instead of spending our time in jail,”
+                                    said Guess. But they weren’t going to leave quietly. “Once we
+                                    got out of the chapel, we ended up marching around the
+                                    administration building,” said Guess, referring to the Eustis
+                                    Building. The students chanted: What do we want? The five
+                                    demands. When do we want it? Now. “We did that for a long time,”
+                                    he said, noting that they were joined by others in their march.
+                                </p>
+                                <p>
+                                    “SOBU was probably the equivalent of a #MeToo Movement of years
+                                    ago,” Terrell said because it stood up for people whose voices
+                                    weren’t being heard before. “If you read about the activism in
+                                    this era—we were ready to stay there until our demands were met.
+                                    That’s who we were, but it was difficult because we were missing
+                                    class.”
+                                </p>
+                                <p>
+                                    It was also emotionally taxing. “We were getting all kinds of
+                                    calls and inquiries from the press,” he said. “Our families were
+                                    wary. It was a really difficult, stressful time.”
+                                </p>
+                                <p>
+                                    That concern was understandable given the climate across college
+                                    campuses at the time. At Cornell University, for instance, a
+                                    student takeover involved violence and guns. “In our action, no
+                                    weapons were used or considered,” Terrell said. “No property was
+                                    damaged. No essential campus functions were delayed. No
+                                    terrible, unpardonable things were said publicly. No student was
+                                    dismissed.” He added that no one, including students of color,
+                                    was ostracized if they chose not to participate or support
+                                    SOBU17.
+                                </p>
+                                <p>
+                                    Perhaps because of this, the chapel takeover is remembered as
+                                    one of the key, exemplary moments of activism in Colby’s
+                                    history.
+                                </p>
+                                <p>
+                                    “I think a legacy of protest was established, a Black
+                                    multicultural tradition was established, Black-white student
+                                    coalition was established, and a campus tradition of protest was
+                                    energized, if not created,” said Terrell. “I think the world of
+                                    social activism, responsibility, and awareness at that time was
+                                    brought to central Maine.”
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

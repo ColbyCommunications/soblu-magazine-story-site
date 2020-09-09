@@ -190,8 +190,24 @@ body {
     }
 }
 
+.modal-header {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    padding: 0.5rem 1rem;
+    button {
+        span {
+            color: #fff;
+        }
+    }
+}
+
 .soblu-mobile-nav {
     display: none;
+}
+
+img {
+    cursor: pointer;
 }
 
 .soblu-quote {
