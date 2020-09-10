@@ -50,6 +50,23 @@ body {
     font-size: 1.7rem;
 }
 
+.section-spacer {
+    margin-bottom: 4rem;
+}
+
+.d-table {
+    display: table;
+}
+
+// .d-inline-block {
+//     display: inline-block;
+// }
+
+.span-caption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
 // Elements
 
 .navbar .nav-item {
@@ -225,7 +242,7 @@ img {
 }
 
 .soblu-edwin-adjust-left {
-    margin-left: 12px;
+    margin-left: 50px;
 }
 
 .soblu-first-section {
@@ -236,9 +253,6 @@ img {
     margin-top: 4rem;
 }
 
-.section-spacer {
-    margin-bottom: 4rem;
-}
 .fslightbox-container {
     background: linear-gradient(rgba(255, 255, 255, 0.9), #000 1810%) !important;
 }

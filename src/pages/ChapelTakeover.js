@@ -132,7 +132,7 @@ const ChapelTakeover = () => {
                                             instead of a ’B.’”
                                         </span>
                                     </p>
-                                    <p>—Doris Ford Mathis ’73</p>
+                                    <p>&mdash;Doris Ford Mathis ’73</p>
                                 </div>
                             </div>
                         </div>
@@ -201,7 +201,7 @@ const ChapelTakeover = () => {
                                                 interfere with the activity of the school.”
                                             </span>
                                         </p>
-                                        <p>—Sebsibe Mamo ’70</p>
+                                        <p>&mdash;Sebsibe Mamo ’70</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@ const ChapelTakeover = () => {
                                             </span>
                                         </p>
                                         <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
-                                            —Charles Terrell ’70
+                                            &mdash;Charles Terrell ’70
                                         </p>
                                         <div className="d-flex">
                                             <div
@@ -334,7 +334,9 @@ const ChapelTakeover = () => {
                                                 to prep school ...”
                                             </span>
                                         </p>
-                                        <p style={{ fontSize: '1.4rem' }}>—Vincent Guess ’73</p>
+                                        <p style={{ fontSize: '1.4rem' }}>
+                                            &mdash;Vincent Guess ’73
+                                        </p>
                                         <div className="d-flex">
                                             <div
                                                 style={{
@@ -446,7 +448,7 @@ const ChapelTakeover = () => {
                                             </span>
                                         </p>
                                         <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
-                                            —Sebsibe Mamo ’70
+                                            &mdash;Sebsibe Mamo ’70
                                         </p>
                                         <div className="d-flex">
                                             <div
@@ -684,7 +686,7 @@ const ChapelTakeover = () => {
                                                 </span>
                                             </p>
                                             <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
-                                                —Doris Ford Mathis ’73
+                                                &mdash;Doris Ford Mathis ’73
                                             </p>
                                             <div className="d-flex">
                                                 <div

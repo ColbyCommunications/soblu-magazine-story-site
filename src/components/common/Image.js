@@ -13,7 +13,7 @@ const Image = (props) => {
         }
 
         return (
-            <div>
+            <div className="d-table">
                 <div>
                     <img
                         src={props.src.main}
@@ -22,26 +22,30 @@ const Image = (props) => {
                         onClick={props.onClick}
                     />
                 </div>
-                <div
-                    className="d-flex"
-                    style={{
-                        marginTop: '5px',
-                    }}
-                >
+                <div className="span-caption">
                     <div
+                        className="d-flex"
                         style={{
-                            padding: '7px',
-                            backgroundColor: bgcolor,
-                            color: color,
-                            flex: '1',
-                            marginRight: '5px',
+                            marginTop: '5px',
                         }}
                     >
-                        {props.caption}
+                        <div
+                            style={{
+                                padding: '7px',
+                                backgroundColor: bgcolor,
+                                color: color,
+                                flex: '1',
+                                marginRight: '5px',
+                            }}
+                        >
+                            {props.caption}
+                        </div>
+                        <div>
+                            <button className="btn btn-dark" onClick={props.onClick}>
+                                +
+                            </button>
+                        </div>
                     </div>
-                    <button className="btn btn-dark" onClick={props.onClick}>
-                        +
-                    </button>
                 </div>
             </div>
         );

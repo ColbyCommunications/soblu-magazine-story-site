@@ -292,7 +292,7 @@ const Home = () => {
                                                 marginLeft: '104px',
                                             }}
                                         >
-                                            —Charles Terrell ’70, SOBU’s first president
+                                            &mdash;Charles Terrell ’70, SOBU’s first president
                                         </p>
                                     </div>
                                 </div>
@@ -532,7 +532,7 @@ const Home = () => {
                                     in retaining the students of color that they’ve been able to
                                     retain.”
                                 </span>
-                                —Shaquan Huntt ’13
+                                &mdash;Shaquan Huntt ’13
                             </div>
                         </div>
                         <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
@@ -542,7 +542,7 @@ const Home = () => {
                                     resistance and though the club has changed over time, that’s
                                     something [that still] remains.”
                                 </span>
-                                —Kris de Luna ’20
+                                &mdash;Kris de Luna ’20
                             </div>
                         </div>
                         <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
@@ -586,7 +586,7 @@ const Home = () => {
                                     <div style={{ fontWeight: '600' }}>
                                         “To me, SOBU became my family away from home.”
                                     </div>
-                                    <div>—Doris Ford Mathis ’73</div>
+                                    <div>&mdash;Doris Ford Mathis ’73</div>
                                 </div>
                             </div>
                             <div className="col-md-1"></div>
@@ -649,7 +649,7 @@ const Home = () => {
                                     be with. … I feel like without it, I really don’t know what I’d
                                     be doing. Or who I’d talk to.”
                                 </span>
-                                —Deanna Perez ’22
+                                &mdash;Deanna Perez ’22
                             </div>
                         </div>
                         <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
@@ -665,7 +665,7 @@ const Home = () => {
                                     failures that we did because we now know better and now we can
                                     share that information with all.”
                                 </span>
-                                —Isadora “Izzy” Alteon ’13
+                                &mdash;Isadora “Izzy” Alteon ’13
                             </div>
                         </div>
                         <div className="row" style={{ marginTop: '5rem' }}>
@@ -757,7 +757,7 @@ const Home = () => {
                                     and bring [in] people that otherwise would not have come to
                                     Colby.”
                                 </span>
-                                —Kebba Tolbert ’94
+                                &mdash;Kebba Tolbert ’94
                             </div>
                         </div>
 
@@ -844,7 +844,7 @@ const Home = () => {
                                     wonder if SOBLU didn’t exist where my body would go
                                     automatically. And I have no idea.”
                                 </span>
-                                —Ashley Gissel Olvera ’20
+                                &mdash;Ashley Gissel Olvera ’20
                             </div>
                         </div>
                         <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
@@ -856,7 +856,7 @@ const Home = () => {
                                     of people were like, ‘why are they doing that?’ It’s not
                                     helpful. It’s a student center. It’s not meant to be raucous.”
                                 </span>
-                                —Antonio Mendez ’06
+                                &mdash;Antonio Mendez ’06
                             </div>
                         </div>
                         <div className="row" style={{ marginTop: '5rem' }}>
