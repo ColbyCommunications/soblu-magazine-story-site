@@ -29,8 +29,8 @@ const EdwinEssay = () => {
         'images/Colby_SOBLU_Torres0010.png',
         'images/Colby_SOBLU_Torres0013.png',
         'images/Colby_SOBLU_Torres0012.png',
-        'images/Colby_SOBLU_Torres0014.png',
-        'images/Colby_SOBLU_Torres0015.png',
+        'images/Colby_SOBLU_Torres0014.jpg',
+        'images/Colby_SOBLU_Torres0015.jpg',
         'images/Colby_SOBLU_Torres0016.png',
         'images/Colby_SOBLU_Torres0017.png',
     ];
@@ -494,7 +494,7 @@ const EdwinEssay = () => {
                             <div className="col-md-13">
                                 <Image
                                     src={{
-                                        main: 'images/Colby_SOBLU_Torres0014.png',
+                                        main: 'images/Colby_SOBLU_Torres0014.jpg',
                                     }}
                                     altText=""
                                     onClick={() => openLightboxOnSlide(14)}
