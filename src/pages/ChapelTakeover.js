@@ -31,9 +31,9 @@ const ChapelTakeover = () => {
 
     const lightboxImages = [
         'images/Long-view-of-chapel-gathering-students-speakers-on-balcony.png',
-        'images/chapel-takover-slide-wide-at-podium.png',
-        'images/chapel-takover-slide-at-podium.png',
-        'images/chapel-takover-slide-group-inside-three-people.png',
+        'images/chapel-takover-slide-wide-at-podium.jpg',
+        'images/chapel-takover-slide-at-podium.jpg',
+        'images/chapel-takover-slide-group-inside-three-people.jpg',
         'images/newspaper-01-black-students-urge-colby-headline-crop.png',
         'images/Serving-injunction-900-wide.png',
     ];
@@ -233,7 +233,7 @@ const ChapelTakeover = () => {
                             <div className="col-md-12">
                                 <Image
                                     src={{
-                                        main: 'images/chapel-takover-slide-wide-at-podium.png',
+                                        main: 'images/chapel-takover-slide-wide-at-podium.jpg',
                                     }}
                                     altText=""
                                     onClick={() => openLightboxOnSlide(2)}
@@ -429,7 +429,7 @@ const ChapelTakeover = () => {
                         <div className="row" style={{ marginTop: '4rem' }}>
                             <Image
                                 src={{
-                                    main: 'images/chapel-takover-slide-at-podium.png',
+                                    main: 'images/chapel-takover-slide-at-podium.jpg',
                                 }}
                                 altText=""
                                 onClick={() => openLightboxOnSlide(3)}
@@ -512,7 +512,7 @@ const ChapelTakeover = () => {
                                 <Image
                                     src={{
                                         main:
-                                            'images/chapel-takover-slide-group-inside-three-people.png',
+                                            'images/chapel-takover-slide-group-inside-three-people.jpg',
                                     }}
                                     altText=""
                                     onClick={() => openLightboxOnSlide(4)}
