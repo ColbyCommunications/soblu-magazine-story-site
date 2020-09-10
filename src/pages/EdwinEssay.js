@@ -21,9 +21,9 @@ const EdwinEssay = () => {
         'images/Colby_SOBLU_Torres0003.png',
         'images/Colby_SOBLU_Torres0005.png',
         'images/Colby_SOBLU_Torres0004.png',
-        'images/Colby_SOBLU_Torres0006.png',
+        'images/Colby_SOBLU_Torres0006.jpg',
         'images/Colby_SOBLU_Torres0007.png',
-        'images/Colby_SOBLU_Torres0009.png',
+        'images/Colby_SOBLU_Torres0009.jpg',
         'images/Colby_SOBLU_Torres0008.png',
         'images/Colby_SOBLU_Torres0011.png',
         'images/Colby_SOBLU_Torres0010.png',
@@ -311,7 +311,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-edwin-adjust-left">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0006.png',
+                                            main: 'images/Colby_SOBLU_Torres0006.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(7)}
@@ -355,7 +355,7 @@ const EdwinEssay = () => {
                                 <div style={{ maxWidth: '350px' }}>
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0009.png',
+                                            main: 'images/Colby_SOBLU_Torres0009.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(9)}
