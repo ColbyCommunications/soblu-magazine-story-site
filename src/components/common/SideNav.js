@@ -22,7 +22,14 @@ const SideNav = withRouter((props) => {
     }
 
     return (
-        <div className="d-flex">
+        <div
+            className="d-flex"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="top-center"
+        >
             <div className="soblu-vertical-menu-bar" onClick={onClick}>
                 <h1 style={{ fontSize: '1.2rem' }}>
                     <span style={{ fontWeight: '600' }}>SOBLU</span>

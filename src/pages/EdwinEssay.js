@@ -515,7 +515,7 @@ const EdwinEssay = () => {
                             <div className="col-md-13">
                                 <Image
                                     src={{
-                                        main: 'images/Colby_SOBLU_Torres0015.png',
+                                        main: 'images/Colby_SOBLU_Torres0015.jpg',
                                     }}
                                     altText=""
                                     onClick={() => openLightboxOnSlide(15)}
