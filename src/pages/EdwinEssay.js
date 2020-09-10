@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
-import { Link } from 'react-router-dom';
 import Image from '../components/common/Image';
 import FsLightbox from 'fslightbox-react';
-import Swiper from '@colbycommunications/colby-swiper-component';
-import Template from '../components/Templates/SwiperTemplate';
-import Modal from '@colbycommunications/colby-modal';
 
 const EdwinEssay = () => {
     const [lightboxController, setLightboxController] = useState({
