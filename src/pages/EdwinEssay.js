@@ -32,7 +32,7 @@ const EdwinEssay = () => {
         'images/Colby_SOBLU_Torres0014.jpg',
         'images/Colby_SOBLU_Torres0015.jpg',
         'images/Colby_SOBLU_Torres0016.png',
-        'images/Colby_SOBLU_Torres0017.png',
+        'images/Colby_SOBLU_Torres0017.jpg',
     ];
 
     const lightboxCaptions = [
@@ -574,7 +574,7 @@ const EdwinEssay = () => {
                         <div className="row section-spacer">
                             <Image
                                 src={{
-                                    main: 'images/Colby_SOBLU_Torres0017.png',
+                                    main: 'images/Colby_SOBLU_Torres0017.jpg',
                                 }}
                                 altText=""
                                 onClick={() => openLightboxOnSlide(17)}
