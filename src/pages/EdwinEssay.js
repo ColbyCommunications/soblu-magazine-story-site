@@ -584,7 +584,7 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0014.jpg',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(14)}
+                                        onClick={() => openLightboxOnSlide(15)}
                                     />
                                 </div>
                                 <div className="soblu-desktop-hide mobile-interrupt-block-margin">
@@ -593,7 +593,7 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0014.jpg',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(14)}
+                                        onClick={() => openLightboxOnSlide(15)}
                                         caption="Donte Tates ’05 reflects on his SOBLU experience from his
                                         home terrace in Washington D.C. Donte currently teaches
                                         literature, psychology, queer studies, and public speaking.
@@ -612,7 +612,7 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0015.jpg',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(15)}
+                                        onClick={() => openLightboxOnSlide(16)}
                                     />
                                 </div>
                                 <div className="soblu-desktop-hide mobile-interrupt-block-margin">
@@ -621,7 +621,7 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0015.jpg',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(15)}
+                                        onClick={() => openLightboxOnSlide(16)}
                                         caption="Donte’s desk at the Maret School in Washington D.C. in
                                     February."
                                     />
@@ -663,7 +663,7 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0016.jpg',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(16)}
+                                        onClick={() => openLightboxOnSlide(17)}
                                     />
                                 </div>
                                 <div className="soblu-desktop-hide mobile-interrupt-block-margin">
@@ -672,7 +672,7 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0016.jpg',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(16)}
+                                        onClick={() => openLightboxOnSlide(17)}
                                         caption="Ashley Olvera ’20 in her dorm room in downtown Waterville."
                                     />
                                 </div>
@@ -684,7 +684,7 @@ const EdwinEssay = () => {
                                     main: 'images/Colby_SOBLU_Torres0017.jpg',
                                 }}
                                 altText=""
-                                onClick={() => openLightboxOnSlide(17)}
+                                onClick={() => openLightboxOnSlide(18)}
                                 caption="Students sit tightly together on a SOBLU couch during one of their executive board club meetings on a Sunday night."
                             />
                         </div>
