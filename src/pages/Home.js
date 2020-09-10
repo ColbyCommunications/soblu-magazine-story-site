@@ -412,7 +412,7 @@ const Home = () => {
                                     <Image
                                         src={{
                                             main:
-                                                'images/Chapel protest students speaking to audience.jpg',
+                                                'images/Chapel-protest-students-speaking-to-audience.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(2)}

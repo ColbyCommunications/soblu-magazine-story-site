@@ -16,15 +16,11 @@ const ChapelTakeover = () => {
 
     const slides = [
         {
-            content: (
-                <img src="https://www.colby.edu/celebrate2020/images/hats-and-miller-Comm2016-162_optimized.jpg" />
-            ),
+            content: <img src="images/SOBU-original-demands_chapel-3-2-1970-1.jpg" />,
             type: 'image',
         },
         {
-            content: (
-                <img src="https://www.colby.edu/wp-content/uploads/2020/08/Will-Johnson-homepage-02-1.jpg" />
-            ),
+            content: <img src="images/SOBU-original-demands_chapel-3-2-1970-2.jpg" />,
             type: 'image',
         },
     ];
