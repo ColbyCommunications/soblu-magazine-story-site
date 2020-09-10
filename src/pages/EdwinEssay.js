@@ -22,6 +22,17 @@ const EdwinEssay = () => {
         'images/Colby_SOBLU_Torres0005.png',
         'images/Colby_SOBLU_Torres0004.png',
         'images/Colby_SOBLU_Torres0006.png',
+        'images/Colby_SOBLU_Torres0007.png',
+        'images/Colby_SOBLU_Torres0009.png',
+        'images/Colby_SOBLU_Torres0008.png',
+        'images/Colby_SOBLU_Torres0011.png',
+        'images/Colby_SOBLU_Torres0010.png',
+        'images/Colby_SOBLU_Torres0013.png',
+        'images/Colby_SOBLU_Torres0012.png',
+        'images/Colby_SOBLU_Torres0014.png',
+        'images/Colby_SOBLU_Torres0015.png',
+        'images/Colby_SOBLU_Torres0016.png',
+        'images/Colby_SOBLU_Torres0017.png',
     ];
 
     const lightboxCaptions = [
@@ -30,7 +41,19 @@ const EdwinEssay = () => {
         'A portrait of Doris Ford Mathis ‘73 at the Washington D.C. home. Doris was a first-year student when SOBLU was originally founded on Colby’s campus.',
         'Miller Library on Mayflower Hill in February of 2020.',
         'Students play a series of card games during a social night on a wintry Saturday in the SOBLU club room.',
+        'Kris de Luna ’20 is co-president of the SOBLU this year.',
         'Juan Luna ’20, co-president, in front of a mural wall made to inspire club members.',
+        'Rohnique Davy ’22 poses for a portrait on the SOBLU couch and President Obama “Hope” poster.',
+        'A photograph of Lorimer Chapel.',
+        'In Harlem, New York City, James Reynolds ’90 works on his artwork in his home studio. James was president of SOBHU and his goal then was to collaborate further with the international club.',
+        'Reagen Dennis ’23 poses for a portrait by the club computer in the SOBLU room.',
+        'Kenny Douyon ’23 by the Colby student mailboxes during his freshman year. Kenny traveled from Massachusetts to attend Colby. He was the first student I met while visiting campus for the story. I walked into the SOBLU club room unannounced and saw him lying on the couch bumping hip-hop music and nodding along.',
+        'Sarah Martinez Roth ’11 is a Ph.D. candidate at Georgetown in tumor biology. Sarah was a president of the club in her years and was mentored by one of the original SOBU members Charles Terell of Class of 1970.',
+        'A candid moment with Reagan Dennis ’22 and a few other students during a Saturday night at the Pugh Center.',
+        'Donte Tates ’05 reflects on his SOBLU experience from his home terrace in Washington D.C. Donte currently teaches literature, psychology, queer studies, and public speaking. Tates says SOBLU was where he discovered himself in terms of his identity. Now, he’s trying to do the same for his students as a teacher.',
+        'Donte’s desk at the Maret School in Washington D.C. in February.',
+        'Ashley Olvera ’20 in her dorm room in downtown Waterville.',
+        'Students sit tightly together on a SOBLU couch during one of their executive board club meetings on a Sunday night.',
     ];
 
     function openLightboxOnSlide(number) {
@@ -228,9 +251,7 @@ const EdwinEssay = () => {
                                         className="soblu-img-caption"
                                         style={{ marginTop: '2.5rem' }}
                                     >
-                                        Caption lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                        Miller Library on Mayflower Hill in February of 2020.
                                     </p>
                                 </div>
                             </div>
@@ -245,9 +266,7 @@ const EdwinEssay = () => {
                                 />
                                 <div className="soblu-desktop-hide">
                                     <p className="soblu-img-caption">
-                                        Caption lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                        Miller Library on Mayflower Hill in February of 2020.
                                     </p>
                                 </div>
                             </div>
@@ -300,6 +319,37 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="row section-spacer rohnique-davy">
+                            <div className="col-md-13">
+                                <Image
+                                    src={{
+                                        main: 'images/Colby_SOBLU_Torres0007.png',
+                                    }}
+                                    altText=""
+                                    onClick={() => openLightboxOnSlide(8)}
+                                />
+                                <div className="soblu-desktop-hide">
+                                    <p className="soblu-img-caption">
+                                        Rohnique Davy ’22 poses for a portrait on the SOBLU couch
+                                        and President Obama “Hope” poster.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                className="col-md-11 d-flex align-items-center justify-content-center"
+                                style={{ flexDirection: 'column' }}
+                            >
+                                <div className="soblu-mobile-hide">
+                                    <p
+                                        className="soblu-img-caption"
+                                        style={{ marginTop: '2.5rem' }}
+                                    >
+                                        Rohnique Davy ’22 poses for a portrait on the SOBLU couch
+                                        and President Obama “Hope” poster.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <div className="row section-spacer">
                             <div className="col-md-11 d-flex align-items-center justify-content-center">
                                 <div style={{ maxWidth: '350px' }}>
@@ -308,7 +358,7 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0009.png',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(8)}
+                                        onClick={() => openLightboxOnSlide(9)}
                                         caption="A photograph of Lorimer Chapel."
                                     />
                                 </div>
@@ -320,11 +370,216 @@ const EdwinEssay = () => {
                                             main: 'images/Colby_SOBLU_Torres0008.png',
                                         }}
                                         altText=""
-                                        onClick={() => openLightboxOnSlide(9)}
-                                        caption="in Harlem, New York City, James Reynolds ’90 works on his artwork in his home studio. James was president of SOBHU and his goal then was to collaborate further with the international club."
+                                        onClick={() => openLightboxOnSlide(10)}
+                                        caption="In Harlem, New York City, James Reynolds ’90 works on his artwork in his home studio. James was president of SOBHU and his goal then was to collaborate further with the international club."
                                     />
                                 </div>
                             </div>
+                        </div>
+                        <div className="row section-spacer">
+                            <div className="col-md-13">
+                                <Image
+                                    src={{
+                                        main: 'images/Colby_SOBLU_Torres0011.png',
+                                    }}
+                                    altText=""
+                                    onClick={() => openLightboxOnSlide(11)}
+                                />
+                                <div className="soblu-desktop-hide">
+                                    <p className="soblu-img-caption">
+                                        Reagen Dennis ’23 poses for a portrait by the club computer
+                                        in the SOBLU room.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                className="col-md-11 d-flex align-items-center justify-content-center"
+                                style={{ flexDirection: 'column' }}
+                            >
+                                <div className="soblu-mobile-hide">
+                                    <p
+                                        className="soblu-img-caption"
+                                        style={{ marginTop: '2.5rem' }}
+                                    >
+                                        Reagen Dennis ’23 poses for a portrait by the club computer
+                                        in the SOBLU room.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row section-spacer">
+                            <div
+                                className="col-md-11 d-flex align-items-center justify-content-center"
+                                style={{ flexDirection: 'column' }}
+                            >
+                                <div className="soblu-mobile-hide">
+                                    <p
+                                        className="soblu-img-caption"
+                                        style={{ marginTop: '2.5rem' }}
+                                    >
+                                        Kenny Douyon ’23 by the Colby student mailboxes during his
+                                        freshman year. Kenny traveled from Massachusetts to attend
+                                        Colby. He was the first student I met while visiting campus
+                                        for the story. I walked into the SOBLU club room unannounced
+                                        and saw him lying on the couch bumping hip-hop music and
+                                        nodding along.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col-md-13">
+                                <Image
+                                    src={{
+                                        main: 'images/Colby_SOBLU_Torres0010.png',
+                                    }}
+                                    altText=""
+                                    onClick={() => openLightboxOnSlide(12)}
+                                />
+                                <div className="soblu-desktop-hide">
+                                    <p className="soblu-img-caption">
+                                        Kenny Douyon ’23 by the Colby student mailboxes during his
+                                        freshman year. Kenny traveled from Massachusetts to attend
+                                        Colby. He was the first student I met while visiting campus
+                                        for the story. I walked into the SOBLU club room unannounced
+                                        and saw him lying on the couch bumping hip-hop music and
+                                        nodding along.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row section-spacer">
+                            <div className="col-md-13">
+                                <div>
+                                    <Image
+                                        src={{
+                                            main: 'images/Colby_SOBLU_Torres0013.png',
+                                        }}
+                                        altText=""
+                                        onClick={() => openLightboxOnSlide(13)}
+                                        caption="Sarah Martinez Roth ’11 is a Ph.D. candidate at Georgetown in tumor biology. Sarah was a president of the club in her years and was mentored by one of the original SOBU members Charles Terell of Class of 1970."
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-md-11 d-flex align-items-center">
+                                <div className="soblu-edwin-adjust-left">
+                                    <Image
+                                        src={{
+                                            main: 'images/Colby_SOBLU_Torres0012.png',
+                                        }}
+                                        altText=""
+                                        onClick={() => openLightboxOnSlide(14)}
+                                        caption="A candid moment with Reagan Dennis ’22 and a few other students during a Saturday night at the Pugh Center."
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row section-spacer">
+                            <div
+                                className="col-md-11 d-flex align-items-center justify-content-center"
+                                style={{ flexDirection: 'column' }}
+                            >
+                                <div className="soblu-mobile-hide">
+                                    <p
+                                        className="soblu-img-caption"
+                                        style={{ marginTop: '2.5rem' }}
+                                    >
+                                        Donte Tates ’05 reflects on his SOBLU experience from his
+                                        home terrace in Washington D.C. Donte currently teaches
+                                        literature, psychology, queer studies, and public speaking.
+                                        Tates says SOBLU was where he discovered himself in terms of
+                                        his identity. Now, he’s trying to do the same for his
+                                        students as a teacher.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col-md-13">
+                                <Image
+                                    src={{
+                                        main: 'images/Colby_SOBLU_Torres0014.png',
+                                    }}
+                                    altText=""
+                                    onClick={() => openLightboxOnSlide(14)}
+                                />
+                                <div className="soblu-desktop-hide">
+                                    <p className="soblu-img-caption">
+                                        Donte Tates ’05 reflects on his SOBLU experience from his
+                                        home terrace in Washington D.C. Donte currently teaches
+                                        literature, psychology, queer studies, and public speaking.
+                                        Tates says SOBLU was where he discovered himself in terms of
+                                        his identity. Now, he’s trying to do the same for his
+                                        students as a teacher.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row section-spacer">
+                            <div className="col-md-13">
+                                <Image
+                                    src={{
+                                        main: 'images/Colby_SOBLU_Torres0015.png',
+                                    }}
+                                    altText=""
+                                    onClick={() => openLightboxOnSlide(15)}
+                                />
+                                <div className="soblu-desktop-hide">
+                                    <p className="soblu-img-caption">
+                                        Donte’s desk at the Maret School in Washington D.C. in
+                                        February.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                className="col-md-11 d-flex align-items-center justify-content-center"
+                                style={{ flexDirection: 'column' }}
+                            >
+                                <div className="soblu-mobile-hide">
+                                    <p
+                                        className="soblu-img-caption"
+                                        style={{ marginTop: '2.5rem' }}
+                                    >
+                                        Donte’s desk at the Maret School in Washington D.C. in
+                                        February.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row section-spacer">
+                            <div
+                                className="col-md-11 d-flex align-items-center justify-content-center"
+                                style={{ flexDirection: 'column' }}
+                            >
+                                <div className="soblu-mobile-hide">
+                                    <p
+                                        className="soblu-img-caption"
+                                        style={{ marginTop: '2.5rem' }}
+                                    >
+                                        Ashley Olvera ’20 in her dorm room in downtown Waterville.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="col-md-13">
+                                <Image
+                                    src={{
+                                        main: 'images/Colby_SOBLU_Torres0016.png',
+                                    }}
+                                    altText=""
+                                    onClick={() => openLightboxOnSlide(16)}
+                                />
+                                <div className="soblu-desktop-hide">
+                                    <p className="soblu-img-caption">
+                                        Ashley Olvera ’20 in her dorm room in downtown Waterville.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row section-spacer">
+                            <Image
+                                src={{
+                                    main: 'images/Colby_SOBLU_Torres0017.png',
+                                }}
+                                altText=""
+                                onClick={() => openLightboxOnSlide(17)}
+                                caption="Students sit tightly together on a SOBLU couch during one of their executive board club meetings on a Sunday night."
+                            />
                         </div>
                     </div>
                 </div>
