@@ -15,16 +15,16 @@ const EdwinEssay = () => {
     });
 
     const lightboxImages = [
-        'images/Colby_SOBLU_Torres0016A.png',
-        'images/Colby_SOBLU_Torres0001.png',
+        'images/Colby_SOBLU_Torres0016A.jpg',
+        'images/Colby_SOBLU_Torres0001.jpg',
         'images/Colby_SOBLU_Torres0002.png',
         'images/Colby_SOBLU_Torres0003.png',
-        'images/Colby_SOBLU_Torres0005.png',
+        'images/Colby_SOBLU_Torres0005.jpg',
         'images/Colby_SOBLU_Torres0004.png',
         'images/Colby_SOBLU_Torres0006.jpg',
         'images/Colby_SOBLU_Torres0007.png',
         'images/Colby_SOBLU_Torres0009.jpg',
-        'images/Colby_SOBLU_Torres0008.png',
+        'images/Colby_SOBLU_Torres0008.jpg',
         'images/Colby_SOBLU_Torres0011.png',
         'images/Colby_SOBLU_Torres0010.png',
         'images/Colby_SOBLU_Torres0013.png',
@@ -121,7 +121,7 @@ const EdwinEssay = () => {
                         </div>
                         <Image
                             src={{
-                                main: 'images/Colby_SOBLU_Torres0016A.png',
+                                main: 'images/Colby_SOBLU_Torres0016A.jpg',
                             }}
                             altText=""
                             onClick={() => openLightboxOnSlide(1)}
@@ -181,7 +181,7 @@ const EdwinEssay = () => {
                             <div className="col-md-13">
                                 <Image
                                     src={{
-                                        main: 'images/Colby_SOBLU_Torres0001.png',
+                                        main: 'images/Colby_SOBLU_Torres0001.jpg',
                                     }}
                                     altText=""
                                     onClick={() => openLightboxOnSlide(2)}
@@ -276,7 +276,7 @@ const EdwinEssay = () => {
                                 <div>
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0005.png',
+                                            main: 'images/Colby_SOBLU_Torres0005.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(5)}
@@ -367,7 +367,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-edwin-adjust-left">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0008.png',
+                                            main: 'images/Colby_SOBLU_Torres0008.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(10)}
