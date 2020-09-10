@@ -6,7 +6,7 @@ const SobluVoices = () => {
     return (
         <>
             <Nav />
-            <div className="container">
+            <div className="container soblu-voices-page">
                 <div className="row soblu-mobile-hide" id="soblu-title">
                     <div className="col-sm text-right">
                         <h1>
@@ -100,34 +100,25 @@ const SobluVoices = () => {
                             >
                                 <div className="heading1">In Their Words</div>
                             </div>
-                            <div
-                                className="row mt-4"
-                                style={{
-                                    fontSize: '1.3rem',
-                                }}
-                            >
+                            <div className="row mt-4">
                                 <div className="col-lg-20">
-                                    SOBLU Members from different eras share their reflections
+                                    <p className="lead">
+                                        SOBLU Members from different eras share their reflections
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-12">
-                        <div
-                            className="fgCompressed heavy"
-                            style={{ fontSize: '2.9rem', marginTop: '8rem', lineHeight: '3.2rem' }}
-                        >
+                        <div className="fgCompressed heavy in-their-words-top-quote in-their-words-top-quote-offset mobile-text-center">
                             “... the SOBLU space, it’s the type of space where close to anything can
                             happen.”
                         </div>
                     </div>
                 </div>
-                <div className="row" style={{ marginBottom: '8rem' }}>
+                <div className="row">
                     <div className="col-md-22 offset-md-2">
-                        <div
-                            className="fgCompressed heavy"
-                            style={{ fontSize: '2.9rem', lineHeight: '3.2rem' }}
-                        >
+                        <div className="fgCompressed heavy in-their-words-top-quote mobile-text-center">
                             “... I wonder, where we are now regarding, social, cultural, academic
                             and economic diversity, inclusion and equity, nationally, and at Colby?
                         </div>
@@ -145,7 +136,7 @@ const SobluVoices = () => {
                         </div>
                     </div>
                     <div className="col-md-22">
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row section-spacer-voices-quote top-content">
                             <div className="col-md-22 offset-md-2 ">
                                 <div style={{ marginBottom: '1.7rem' }}>
                                     <p
@@ -188,7 +179,7 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col">
+                            <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “Through the ages, SOBLU has seen many chapters of Colby’s
                                     history. We have directly challenged our institution for our
@@ -313,7 +304,7 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col">
+                            <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “SOBHU gave me the courage to ... be me, unapologetically.”
                                 </span>
@@ -382,10 +373,8 @@ const SobluVoices = () => {
                         <div className="row section-spacer">
                             <div className="col">
                                 <div
-                                    className="fgCompressed heavy"
+                                    className="fgCompressed heavy large-quote"
                                     style={{
-                                        fontSize: '2.9rem',
-                                        lineHeight: '3.2rem',
                                         marginBottom: '15px',
                                     }}
                                 >
@@ -394,12 +383,11 @@ const SobluVoices = () => {
                                     important part in our lives, and we know SOBLU alums feel the
                                     same.”
                                 </div>
-                                <div
-                                    className="text-right heavy fgCompressed-quote"
-                                    style={{ lineHeight: '1.5rem' }}
-                                >
-                                    <p>Kris de Luna and Juan Luna</p>
-                                    <p>Co-Presidents of SOBLU for 2019-2020 Academic Year</p>
+                                <div className="text-right heavy fgCompressed-quote kris-juan">
+                                    <p className="p-no-margin-bottom">Kris de Luna and Juan Luna</p>
+                                    <p className="p-no-margin-bottom">
+                                        Co-Presidents of SOBLU for 2019-2020 Academic Year
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +439,7 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col">
+                            <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “Many of my most enduring friendships flourished at Colby. SOBHU
                                     provided me with the community to survive ...”
@@ -590,7 +578,7 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col">
+                            <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “SOBHU—the group, the people, and the room—was a place that felt
                                     comfortable, a place that felt like home.”
@@ -658,20 +646,15 @@ const SobluVoices = () => {
                         <div className="row section-spacer">
                             <div className="col">
                                 <div
-                                    className="fgCompressed heavy"
+                                    className="fgCompressed heavy large-quote"
                                     style={{
-                                        fontSize: '2.9rem',
-                                        lineHeight: '3.2rem',
                                         marginBottom: '15px',
                                     }}
                                 >
                                     “SOBHU—the group, the people, and the room—was a place that felt
                                     comfortable, a place that felt like home.”
                                 </div>
-                                <div
-                                    className="text-right heavy fgCompressed-quote"
-                                    style={{ lineHeight: '1.5rem' }}
-                                >
+                                <div className="text-right heavy fgCompressed-quote kris-juan">
                                     <p>Charles Terrell ’70</p>
                                 </div>
                             </div>
@@ -770,7 +753,7 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col">
+                            <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     As a student, I did not know SOBU as a club or as an accepted
                                     organization of the College community.

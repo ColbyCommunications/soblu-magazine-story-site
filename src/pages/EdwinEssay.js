@@ -62,7 +62,7 @@ const EdwinEssay = () => {
     return (
         <>
             <Nav />
-            <div className="container">
+            <div className="container edwin-essay-page">
                 <div className="row soblu-mobile-hide" id="soblu-title">
                     <div className="col-sm text-right">
                         <h1>
