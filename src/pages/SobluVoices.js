@@ -1,26 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
-import Image from '../components/common/Image';
-import FsLightbox from 'fslightbox-react';
 
 const SobluVoices = () => {
-    const [lightboxController, setLightboxController] = useState({
-        isLightboxOpen: false,
-        slide: 1,
-    });
-
-    const lightboxImages = [];
-
-    const lightboxCaptions = [];
-
-    function openLightboxOnSlide(number) {
-        setLightboxController({
-            isLightboxOpen: !lightboxController.isLightboxOpen,
-            slide: number,
-        });
-    }
-
     return (
         <>
             <Nav />
@@ -97,7 +79,7 @@ const SobluVoices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row section-spacer">
+                <div className="row" style={{ marginBottom: '8rem' }}>
                     <div className="col-md-22 offset-md-2">
                         <div
                             className="fgCompressed heavy"
@@ -122,19 +104,31 @@ const SobluVoices = () => {
                     <div className="col-md-22">
                         <div className="row section-spacer-voices-quote">
                             <div className="col-md-22 offset-md-2 ">
+                                <div style={{ marginBottom: '1.7rem' }}>
+                                    <p
+                                        className="fgCompressed heavy p-no-margin-bottom"
+                                        style={{ fontSize: '1.7rem' }}
+                                    >
+                                        A Message from SOBLU’s Co-Presidents
+                                    </p>
+                                    <p style={{ fontSize: '1.5rem' }}>
+                                        By Kris de Luna ’20 and Juan Luna ’20
+                                    </p>
+                                </div>
+                                <p style={{ fontSize: '1.5rem' }}>Dear readers, </p>
                                 <p>
-                                    Dear readers, Our names are Kris de Luna and Juan Luna, and
-                                    we’re the co-presidents of SOBLU (Students Organized for Black
-                                    and Latinx Unity) for the 2019-20 scholastic year. And just in
-                                    case you’re wondering, no, we are not related. This year, we’re
-                                    proud to be celebrating SOBLU’s 50th anniversary. For all of
-                                    those who don’t know too much about SOBLU, this organization was
-                                    born out of a need for community and space. Much like other
-                                    movements, SOBLU started as a motion for change in the late
-                                    1960s. It began with a group of Black students’ discontent with
-                                    the norms of Colby (and the greater nation) during that time
-                                    period. SOBLU has gone through a couple of name changes, but the
-                                    original spirit of this organization continues to prevail.
+                                    Our names are Kris de Luna and Juan Luna, and we’re the
+                                    co-presidents of SOBLU (Students Organized for Black and Latinx
+                                    Unity) for the 2019-20 scholastic year. And just in case you’re
+                                    wondering, no, we are not related. This year, we’re proud to be
+                                    celebrating SOBLU’s 50th anniversary. For all of those who don’t
+                                    know too much about SOBLU, this organization was born out of a
+                                    need for community and space. Much like other movements, SOBLU
+                                    started as a motion for change in the late 1960s. It began with
+                                    a group of Black students’ discontent with the norms of Colby
+                                    (and the greater nation) during that time period. SOBLU has gone
+                                    through a couple of name changes, but the original spirit of
+                                    this organization continues to prevail.
                                 </p>
                                 <p className="p-no-margin-bottom">
                                     More than anything, we decided to run as presidents because from
@@ -240,6 +234,16 @@ const SobluVoices = () => {
                         </div>
                         <div className="row section-spacer-voices-quote">
                             <div className="col-md-22 offset-md-2 ">
+                                <div style={{ marginBottom: '1.7rem' }}>
+                                    <p
+                                        className="fgCompressed heavy p-no-margin-bottom"
+                                        style={{ fontSize: '1.7rem' }}
+                                    >
+                                        Ode to the Courageous Chapel 17: A Legacy of Love &amp;
+                                        Courage
+                                    </p>
+                                    <p style={{ fontSize: '1.5rem' }}>By Tionna Haynes ’15</p>
+                                </div>
                                 <p className="p-no-margin-bottom">
                                     SOBU. SOBHU. SOBLU. No matter what it was called during your
                                     time on campus, Students Organized for Black and Latinx Unity
@@ -357,7 +361,16 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col-md-22 offset-md-2 ">
+                            <div className="col-md-22 offset-md-2">
+                                <div style={{ marginBottom: '1.7rem' }}>
+                                    <p
+                                        className="fgCompressed heavy p-no-margin-bottom"
+                                        style={{ fontSize: '1.7rem' }}
+                                    >
+                                        SOBHU
+                                    </p>
+                                    <p style={{ fontSize: '1.5rem' }}>By Claire Jimenez ’06</p>
+                                </div>
                                 <p className="p-no-margin-bottom">
                                     As a seventeen-year-old Puerto Rican girl from Staten Island,
                                     New York, I had no idea what to expect when I landed at Colby.
@@ -481,7 +494,16 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col-md-22 offset-md-2 ">
+                            <div className="col-md-22 offset-md-2">
+                                <div style={{ marginBottom: '1.7rem' }}>
+                                    <p
+                                        className="fgCompressed heavy p-no-margin-bottom"
+                                        style={{ fontSize: '1.7rem' }}
+                                    >
+                                        SOBHU reflection for 50th Anniversary
+                                    </p>
+                                    <p style={{ fontSize: '1.5rem' }}>By Kebba Tolbert ’94</p>
+                                </div>
                                 <p className="p-no-margin-bottom">
                                     When I reflect on my time at Colby, one of the things that
                                     resonates with me is that it was both challenging and
@@ -612,7 +634,17 @@ const SobluVoices = () => {
                             </div>
                         </div>
                         <div className="row section-spacer-voices-quote">
-                            <div className="col-md-22 offset-md-2 ">
+                            <div className="col-md-22 offset-md-2">
+                                <div style={{ marginBottom: '1.7rem' }}>
+                                    <p
+                                        className="fgCompressed heavy p-no-margin-bottom"
+                                        style={{ fontSize: '1.7rem' }}
+                                    >
+                                        Reflections: On the Student Organization for Black Unity
+                                        (SOBU)
+                                    </p>
+                                    <p style={{ fontSize: '1.5rem' }}>By Charles Terrell ’70</p>
+                                </div>
                                 <p className="p-no-margin-bottom">
                                     I believe reflections on the past are most useful relative to
                                     issues of the present and future. Hence, I am reflecting on my
@@ -800,12 +832,6 @@ const SobluVoices = () => {
                     </div>
                 </div>
             </div>
-            <FsLightbox
-                toggler={lightboxController.isLightboxOpen}
-                sources={lightboxImages}
-                captions={lightboxCaptions}
-                slide={lightboxController.slide}
-            />
         </>
     );
 };
