@@ -295,6 +295,18 @@ img {
     }
 }
 
+.video-question {
+    margin-top: -50px;
+}
+
+.mobile-interrupt-block-margin {
+    margin: 1rem 0;
+}
+
+.inner-byline {
+    font-size: 1.5rem;
+}
+
 /* MEDIA QUERIES */
 
 // Medium devices (tablets, less than 992px)
@@ -313,17 +325,32 @@ img {
 }
 
 // Small Tablets
-@media (max-width: 767px) {
-    .soblu-mobile-hide {
-        display: none;
-    }
-    .soblu-desktop-hide {
-        display: block;
-    }
-}
+// @media (max-width: 767px) {
+//     .soblu-mobile-hide {
+//         display: none;
+//     }
+//     .soblu-desktop-hide {
+//         display: block;
+//     }
+
+//     .soblu-first-section {
+//         margin-top: 4rem;
+//         img {
+//             margin-bottom: 4rem;
+//         }
+//     }
+
+//     #a-radical-movement,
+//     #a-pillar-of-support,
+//     #a-cultural-outlet,
+//     #a-space-of-its-own,
+//     #an-organization-for-whom {
+//         padding-top: 45px;
+//     }
+// }
 
 // phones
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .soblu-mobile-hide {
         display: none;
     }
@@ -338,6 +365,10 @@ img {
     .container {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .lead {
+        font-size: 1.5rem;
     }
 
     .soblu-edwin-adjust-left {
@@ -356,7 +387,7 @@ img {
     }
 
     .section-spacer {
-        margin-bottom: 2rem;
+        margin-bottom: 0;
     }
 
     .timeline-year {
@@ -373,5 +404,21 @@ img {
     #a-space-of-its-own,
     #an-organization-for-whom {
         padding-top: 45px;
+    }
+
+    .video-question {
+        margin-top: auto;
+    }
+
+    .inner-byline {
+        margin-top: 2rem;
+    }
+
+    .soblu-image {
+        margin-bottom: 2rem;
+    }
+
+    .rohnique-davy img {
+        width: 100%;
     }
 }

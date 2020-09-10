@@ -104,15 +104,12 @@ const ChapelTakeover = () => {
                             >
                                 <div className="heading1">The Insiders</div>
                             </div>
-                            <div
-                                className="row mt-4"
-                                style={{
-                                    fontSize: '1.3rem',
-                                }}
-                            >
+                            <div className="row mt-4">
                                 <div className="col-lg-20">
-                                    Four of the seventeen students from the Chapel Takeover recount
-                                    the landmark event
+                                    <p className="lead">
+                                        Four of the seventeen students from the Chapel Takeover
+                                        recount the landmark event
+                                    </p>
                                 </div>
                             </div>
                         </div>

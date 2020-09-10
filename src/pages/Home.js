@@ -218,15 +218,12 @@ const Home = () => {
                             >
                                 <div className="heading1">The More Things Change</div>
                             </div>
-                            <div
-                                className="row mt-4"
-                                style={{
-                                    fontSize: '1.3rem',
-                                }}
-                            >
+                            <div className="row mt-4">
                                 <div className="col-lg-20">
-                                    Since its inception, SOBLU has evolved while maintaining its
-                                    core
+                                    <p className="lead">
+                                        Since its inception, SOBLU has evolved while maintaining its
+                                        core
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -322,6 +319,30 @@ const Home = () => {
                                         beginning with the occupation of Lorimer Chapel in March
                                         1970.
                                     </p>
+                                    <div className="soblu-desktop-hide">
+                                        <p
+                                            className="fgCompressed"
+                                            style={{
+                                                fontWeight: '600',
+                                                fontSize: '1.5rem',
+                                            }}
+                                        >
+                                            “Certainly in the beginning, it was not a club, it was
+                                            not a part of Colby culture. It was a radical movement
+                                            that became a part of Colby culture, and that’s
+                                            something that I think many of us who were involved from
+                                            the beginning perhaps couldn’t have imagined.”
+                                        </p>
+                                        <p
+                                            style={{
+                                                fontSize: '1.3rem',
+                                            }}
+                                            className="text-right"
+                                        >
+                                            &mdash;Charles Terrell ’70, <br />
+                                            SOBU’s first president
+                                        </p>
+                                    </div>
                                     <p>
                                         Over the course of a half-century, from times of nationwide
                                         anti-racism movements, to racist incidents, to birthday
@@ -484,6 +505,53 @@ const Home = () => {
                                     umbrella term. “The Latino students who were with us identified
                                     as Black-Latino,” said Terrell.
                                 </p>
+                                <div className="soblu-desktop-hide mobile-interrupt-block-margin">
+                                    <Image
+                                        src={{
+                                            main:
+                                                'images/Chapel-protest-students-speaking-to-audience.jpg',
+                                        }}
+                                        altText=""
+                                        onClick={() => openLightboxOnSlide(2)}
+                                    />
+
+                                    <div
+                                        style={{
+                                            marginTop: '5px',
+                                        }}
+                                    >
+                                        <Link to="/chapel-takeover-1970">
+                                            <div
+                                                className="text-center"
+                                                style={{
+                                                    padding: '7px',
+                                                    backgroundColor: '#000',
+                                                    color: '#fff',
+                                                }}
+                                            >
+                                                <span
+                                                    className="heavy"
+                                                    style={{ textTransform: 'uppercase' }}
+                                                >
+                                                    MORE
+                                                </span>{' '}
+                                                <span style={{ textTransform: 'uppercase' }}>
+                                                    1970 Chapel Takeover
+                                                </span>
+                                            </div>
+                                        </Link>
+                                        <div
+                                            className="fgCompressed fgCompressed-normal-weight"
+                                            style={{
+                                                marginTop: '5px',
+                                                fontSize: '1.1rem',
+                                            }}
+                                        >
+                                            Four of the 17 students who were inside the Lorimer
+                                            Chapel in 1970 share their experiences.
+                                        </div>
+                                    </div>
+                                </div>
                                 <p>
                                     Terrell’s involvement with SOBU started when his friend Sebsibe
                                     Mamo ’70 told him that the first-year class had the largest
@@ -567,7 +635,7 @@ const Home = () => {
                                     allowFullScreen
                                 ></iframe>
                             </div>
-                            <div style={{ marginTop: '-50px' }}>
+                            <div className="video-question">
                                 <p
                                     style={{
                                         fontWeight: '600',
@@ -582,7 +650,7 @@ const Home = () => {
 
                         <div className="row" style={{ marginTop: '5rem' }}>
                             <div className="col-md-9 d-flex align-items-center">
-                                <div style={{ fontSize: '1.6rem' }}>
+                                <div className="soblu-mobile-hide" style={{ fontSize: '1.6rem' }}>
                                     <div style={{ fontWeight: '600' }}>
                                         “To me, SOBU became my family away from home.”
                                     </div>
@@ -621,6 +689,15 @@ const Home = () => {
                                     traveled [a] really long way, and just having people that I can
                                     count on and go to was very important.”
                                 </p>
+                                <div
+                                    className="soblu-desktop-hide mobile-interrupt-block-margin"
+                                    style={{ fontSize: '1.6rem' }}
+                                >
+                                    <div style={{ fontWeight: '600' }}>
+                                        “To me, SOBU became my family away from home.”
+                                    </div>
+                                    <div>&mdash;Doris Ford Mathis ’73</div>
+                                </div>
                                 <p>
                                     From Mathis’s years at Colby to the present, the organization
                                     has remained a support system that students turned to for

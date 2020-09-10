@@ -13,7 +13,7 @@ const Image = (props) => {
         }
 
         return (
-            <div className="d-table">
+            <div className="d-table soblu-image">
                 <div>
                     <img
                         src={props.src.main}
