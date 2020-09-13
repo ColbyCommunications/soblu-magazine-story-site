@@ -3,6 +3,7 @@ import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
 import { Link } from 'react-router-dom';
 import Image from '../components/common/Image';
+import HomeSvg from '../components/HomeSvg';
 import FsLightbox from 'fslightbox-react';
 
 const Home = () => {
@@ -35,170 +36,8 @@ const Home = () => {
     return (
         <>
             <Nav />
-            <div className="container">
-                <div className="row soblu-mobile-hide" id="soblu-title">
-                    <div className="col" style={{ marginTop: '5rem' }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1184.049 496.628">
-                            <title>SOBLU At 50: A Retrospective</title>
-                            <path
-                                d="M82.557,215.074c6.831,23.149,24.288,31.5,47.438,31.5,10.247,0,30.739-1.518,30.739-15.939,0-15.939-20.113-18.975-31.878-21.252C79.9,199.894,21.837,186.611,21.837,124.752c0-25.426,12.523-50.473,33.4-65.274C76.485,44.678,104.189,39.744,130,39.744c45.161,0,88.8,18.6,104.742,63.756L168.7,123.614c-7.59-19.355-22.011-26.186-42.124-26.186-10.626,0-25.807,3.036-25.807,16.7s18.976,16.319,28.842,18.6c24.668,4.933,50.854,9.108,73.624,20.872,25.426,13.662,38.709,37.95,38.709,66.413,0,62.618-62.239,87.665-116.128,87.665-54.648,0-103.224-22.77-117.265-79.316Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M511.014,174.467c0,74-45.54,133.205-124.476,133.205s-124.477-59.2-124.477-133.205c0-77.8,45.161-134.723,124.477-134.723S511.014,96.669,511.014,174.467Zm-163.565.38c0,25.047,2.656,73.243,39.089,73.243s39.088-48.2,39.088-73.243c0-25.427-3.794-76.28-39.088-76.28S347.449,149.42,347.449,174.847Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M534.927,43.539H662.06c19.734,0,39.847,1.518,56.166,13.283,17.457,12.523,27.7,33.775,27.7,55.027,0,27.324-17.457,50.474-44.023,56.546v.759c29.981,5.313,50.474,28.083,50.474,59.2,0,22.391-7.97,47.438-26.566,60.72-20.113,14.421-48.2,14.8-71.725,14.8H534.927Zm105.5,99.809c7.59,0,16.7.38,22.39-4.933a23.665,23.665,0,0,0,7.59-17.078c0-19.355-15.938-22.011-31.119-22.011H608.17v44.022Zm2.277,102.465c7.97,0,16.7.38,23.149-4.933a22.663,22.663,0,0,0-3.036-38.71c-6.831-3.415-15.938-3.415-23.149-3.415h-31.5v47.058Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M966.04,303.877H783.5V43.539h80.454V240.121H966.04Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M1192.6,210.9c0,30.36-3.416,54.648-28.463,74.762-22.391,17.457-49.715,22.011-77.039,22.011-23.909,0-55.028-5.313-75.141-18.6-27.7-18.216-33.017-42.883-33.017-74V43.539h81.213V205.966c0,8.728-.379,20.492,4.934,28.462,6.072,8.349,18.216,11.765,28.463,11.765,9.107,0,20.493-2.657,27.324-8.729,10.246-8.728,9.107-22.39,9.107-34.534V43.539H1192.6Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M137.36,534.011H116.578l-16.3-47.233H40.3L25.893,534.011h-17L61.317,372.005H84.7ZM71,393.731l-25.034,77.7H95.8Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M193.1,534.011h-20.31V389.717H126.734V372.005H239.146v17.712H193.1Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M294.878,411.916l-2.126,22.907a52.17,52.17,0,0,1,29.285-8.973c13.225,0,27.866,5.668,37.313,14.641,10.391,10.155,15.35,24.089,15.35,38.494,0,36.605-30.465,57.387-64.708,57.387-31.881,0-60.457-16.531-66.124-49.594l41.8-5.195c2.125,11.572,11.808,17.712,23.144,17.712,11.1,0,19.365-8.029,19.365-19.365,0-12.044-8.5-19.837-20.31-19.837-7.793,0-14.878,3.542-18.893,10.154l-37.313-5.195,7.085-93.047H366.907l-4.251,39.911Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M452.156,369.644c48.177,0,64.472,43.689,64.472,84.544,0,40.148-18.185,82.184-64.472,82.184s-64.471-42.036-64.471-82.184C387.685,413.333,403.979,369.644,452.156,369.644Zm0,34.006c-8.029,0-17.712,2.6-17.712,50.775,0,45.579,11.336,47.94,17.712,47.94,6.14,0,17.712-.708,17.712-47.94C469.868,417.584,465.145,403.65,452.156,403.65Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M606.847,370.162l15.34,53.85h-12.03l-2.745-11.061h-15.1l-2.664,11.061h-10.9l16.147-53.85Zm-1.615,33.5-5.409-21.96-5.248,21.96Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M670.949,370.162c5.409,0,10.656,0,14.775,4.6,2.825,3.148,3.875,7.427,3.875,11.707,0,9.526-4.925,12.432-7.589,14.047l9.929,23.494H679.022l-7.185-21.234h-5.975v21.234H654.075v-53.85Zm-5.087,8.719V394.06h5.248c5.086,0,6.944-3.311,6.944-7.751,0-7.428-5.409-7.428-7.428-7.428Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M734.165,370.162v9.284h-20.91V391.88h16.227v9.284H713.255V414.4h20.91v9.608h-32.7v-53.85Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M770.818,370.162v10.092h-10.98v43.758H748.051V380.254H737.313V370.162Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M795.6,370.162c5.41,0,10.657,0,14.775,4.6,2.825,3.148,3.875,7.427,3.875,11.707,0,9.526-4.925,12.432-7.589,14.047l9.93,23.494H803.678l-7.186-21.234h-5.974v21.234H778.73v-53.85Zm-5.086,8.719V394.06h5.248c5.086,0,6.943-3.311,6.943-7.751,0-7.428-5.409-7.428-7.428-7.428Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M861.242,397.127c0,9.85-1.775,27.692-19.537,27.692-17.277,0-19.538-16.874-19.538-27.692,0-10.334,2.019-27.773,19.538-27.773C858.82,369.354,861.242,385.905,861.242,397.127Zm-26.641,0c0,11.545,1.129,18.085,7.1,18.085,6.055,0,7.1-6.7,7.1-18.085,0-11.3-.969-18.165-7.1-18.165C835.73,378.962,834.6,385.421,834.6,397.127Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M895.959,385.663c-.646-1.937-2.18-6.7-7.589-6.7-3.956,0-5.651,2.745-5.651,4.925,0,3.714,3.552,5.006,9.285,7.185,6.055,2.341,14.854,5.652,14.854,16.551,0,9.2-6.459,17.2-19.133,17.2-3.875,0-9.689-.726-14.048-5.651a21.809,21.809,0,0,1-4.6-9.123l10.334-2.906c.646,2.422,2.18,8.073,8.639,8.073,4.036,0,6.862-2.261,6.862-5.814,0-3.794-3.39-5.328-7.428-6.781-7.346-2.664-16.227-5.812-16.227-16.793,0-8.4,5.409-16.47,17.2-16.47,13.4,0,16.228,8.962,17.358,12.514Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M933.1,370.162c5.651,0,11.545,0,15.582,4.117,3.714,3.875,4.521,9.042,4.521,12.756,0,5.329-1.453,10.738-5.651,13.968-4.037,3.148-10.657,3.148-13.968,3.148h-4.2v19.861H917.6v-53.85Zm-3.714,8.719v15.985H933.1c4.118,0,7.589-.887,7.589-8.073,0-7.912-5-7.912-7.589-7.912Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M994.857,370.162v9.284h-20.91V391.88h16.228v9.284H973.947V414.4h20.91v9.608h-32.7v-53.85Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M1041.2,405.12c-.887,10.9-7.023,19.7-18.81,19.7-16.39,0-20.265-15.421-20.265-27.692,0-9.769,2.422-27.773,20.426-27.773,8.154,0,12.191,3.714,14.613,7.267,3.149,4.683,3.552,10.334,3.794,13.563l-10.737.807c-.324-4.278-.808-12.029-7.589-12.029-6.7,0-8.073,8.154-8.073,19.054,0,9.042,1.048,17.2,8.073,17.2,6.378,0,7.265-7.912,7.67-10.818Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M1078.9,370.162v10.092h-10.98v43.758h-11.787V380.254H1045.4V370.162Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M1098.279,370.162v53.85h-11.787v-53.85Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M1118.06,370.162l8.235,41.094,8.558-41.094h10.171l-13.24,54.173-13.24-.242-12.917-53.931Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                            <path
-                                d="M1185.068,370.162v9.284h-20.91V391.88h16.228v9.284h-16.228V414.4h20.91v9.608h-32.7v-53.85Z"
-                                transform="translate(-8.555 -39.744)"
-                            />
-                        </svg>
-                    </div>
-                </div>
-                <div className="row mb-4 soblu-mobile-hide" style={{ marginTop: '-7px' }}>
-                    <div className="col-sm text-right">
-                        <p>By Kardelen Koldas '15 | Photography by Edwin Torres '12</p>
-                    </div>
-                </div>
-
-                <div className="row soblu-desktop-hide" id="soblu-title">
-                    <div className="col" style={{ marginTop: '3rem' }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 977.526 591.123">
-                            <title>SOBU At 50</title>
-                            <path
-                                d="M70.849,152.711c5.639,19.11,20.049,26,39.159,26,8.459,0,25.376-1.253,25.376-13.158,0-13.158-16.6-15.663-26.316-17.543-40.412-7.832-88.344-18.8-88.344-69.861,0-20.99,10.338-41.666,27.568-53.884,17.544-12.218,40.414-16.29,61.716-16.29,37.281,0,73.307,15.35,86.465,52.63l-54.51,16.6C135.7,61.234,123.792,55.6,107.189,55.6c-8.772,0-21.3,2.506-21.3,13.784S101.55,82.85,109.7,84.729c20.363,4.073,41.979,7.519,60.776,17.231,20.989,11.278,31.954,31.328,31.954,54.824,0,51.691-51.377,72.367-95.863,72.367-45.112,0-85.211-18.8-96.8-65.475Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M424.533,119.19c0,61.089-37.593,109.961-102.755,109.961S219.023,180.279,219.023,119.19c0-64.222,37.28-111.213,102.755-111.213S424.533,54.968,424.533,119.19ZM289.51,119.5c0,20.677,2.194,60.463,32.268,60.463s32.268-39.786,32.268-60.463c0-20.989-3.133-62.968-32.268-62.968S289.51,98.514,289.51,119.5Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M444.266,11.109H549.214c16.291,0,32.894,1.253,46.366,10.965,14.411,10.338,22.869,27.882,22.869,45.426,0,22.555-14.41,41.666-36.341,46.678v.626c24.75,4.386,41.667,23.183,41.667,48.872,0,18.483-6.579,39.159-21.93,50.124-16.6,11.905-39.786,12.218-59.21,12.218H444.266ZM531.357,93.5c6.266,0,13.785.313,18.484-4.072a19.534,19.534,0,0,0,6.265-14.1c0-15.977-13.157-18.17-25.689-18.17H504.729V93.5Zm1.88,84.585c6.579,0,13.784.314,19.11-4.072a18.708,18.708,0,0,0-2.506-31.954c-5.639-2.82-13.158-2.82-19.11-2.82h-26v38.846Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M800.144,226.018H649.458V11.109h66.415V173.387h84.271Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M987.167,149.265c0,25.062-2.819,45.112-23.5,61.715-18.483,14.412-41.039,18.171-63.6,18.171-19.737,0-45.425-4.386-62.03-15.351-22.869-15.037-27.254-35.4-27.254-61.089V11.109h67.041V145.192c0,7.2-.313,16.917,4.073,23.5,5.012,6.892,15.037,9.712,23.5,9.712,7.518,0,16.917-2.193,22.556-7.206,8.459-7.2,7.518-18.483,7.518-28.508V11.109h51.691Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M257.048,594.553h-40.01l-31.372-90.934H70.181L42.446,594.553H9.71l100.936-311.9h45.012ZM129.287,324.481,81.093,474.066h95.934Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M364.353,594.553h-39.1v-277.8h-88.66v-34.1H453.012v34.1H364.353Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M560.312,359.49l-4.093,44.1A100.439,100.439,0,0,1,612.6,386.315c25.461,0,53.651,10.913,71.837,28.19,20.006,19.551,29.554,46.376,29.554,74.11,0,70.474-58.653,110.485-124.579,110.485-61.38,0-116.394-31.828-127.306-95.481l80.476-10c4.091,22.279,22.733,34.1,44.557,34.1,21.369,0,37.282-15.459,37.282-37.282,0-23.189-16.368-38.193-39.1-38.193-15,0-28.644,6.82-36.373,19.551l-71.838-10,13.641-179.138H698.985L690.8,359.49Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M863.112,278.105c92.752,0,124.124,84.114,124.124,162.771,0,77.293-35.009,158.224-124.124,158.224S738.989,518.169,738.989,440.876C738.989,362.219,770.361,278.105,863.112,278.105Zm0,65.472c-15.458,0-34.1,5-34.1,97.753,0,87.751,21.824,92.3,34.1,92.3,11.821,0,34.1-1.364,34.1-92.3C897.212,370.4,888.119,343.577,863.112,343.577Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                        </svg>
-                    </div>
-                </div>
-                <div className="row mb-4 soblu-desktop-hide">
-                    <div className="col-sm text-center">
-                        <h1 className="heavy" style={{ fontSize: '2.4rem', marginTop: '1rem' }}>
-                            A RETROSPECTIVE
-                        </h1>
-                    </div>
-                </div>
-                <div className="row mb-4 soblu-desktop-hide">
-                    <div className="col-sm">
-                        <p style={{ fontSize: '1.4rem' }}>
-                            By Kardelen Koldas '15 | Photography by Edwin Torres '12
-                        </p>
-                    </div>
-                </div>
-
+            <div id="home-page" className="container">
+                <HomeSvg />
                 <div className="row soblu-first-section">
                     <div className="col-md-12 d-flex align-items-center">
                         <div>
@@ -209,14 +48,14 @@ const Home = () => {
                                     onClick={() => openLightboxOnSlide(1)}
                                 />
                             </div>
-                            <div
-                                className="row fgCompressed"
-                                style={{
-                                    fontWeight: '600',
-                                    fontSize: '2.6rem',
-                                }}
-                            >
-                                <div className="heading1">The More Things Change</div>
+                            <div className="row fgCompressed">
+                                <h1
+                                    style={{
+                                        fontWeight: '600',
+                                    }}
+                                >
+                                    The More Things Change
+                                </h1>
                             </div>
                             <div className="row mt-4">
                                 <div className="col-lg-20">
@@ -238,12 +77,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div
-                    className="row "
-                    style={{
-                        marginTop: '2rem',
-                    }}
-                >
+                <div className="row">
                     <div className="bold-emphasis-text col-lg-22 offset-lg-2">
                         <p>
                             At 8 p.m. sharp, the Students Organized for Black and Latinx Unity
@@ -254,11 +88,8 @@ const Home = () => {
                         <p>It was time for the club’s biweekly meeting to start.</p>
                     </div>
                 </div>
-                <div className="row" id="soblu-vertical-menu">
-                    <div
-                        className="col-md-2 d-flex justify-content-center"
-                        style={{ position: 'relative' }}
-                    >
+                <div className="row mt-md-3 mt-0" id="soblu-vertical-menu">
+                    <div className="col-md-2 d-flex justify-content-center position-relative">
                         <div className="soblu-vertical-menu-container soblu-mobile-hide">
                             <div className="soblu-vertical-menu-sticky">
                                 <SideNav />
@@ -267,7 +98,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-22">
                         <div className="row">
-                            <div className="row" style={{ marginTop: '2rem' }}>
+                            <div className="row mt-4">
                                 <div className="col-md-9 d-flex align-items-center">
                                     <div className="soblu-mobile-hide">
                                         <p
@@ -319,7 +150,7 @@ const Home = () => {
                                         beginning with the occupation of Lorimer Chapel in March
                                         1970.
                                     </p>
-                                    <div className="soblu-desktop-hide">
+                                    <div className="soblu-desktop-hide my-4">
                                         <p
                                             className="fgCompressed"
                                             style={{
@@ -395,31 +226,20 @@ const Home = () => {
                         </div>
                         <div className="row">
                             <div>
-                                <h2
-                                    className="fgCompressed fgCompressed-normal-weight timeline-year"
-                                    style={{
-                                        fontSize: '5rem',
-                                        marginBottom: '0',
-                                        display: 'inline-block',
-                                        marginRight: '25px',
-                                    }}
-                                >
+                                <h2 className="fgCompressed fgCompressed-normal-weight timeline-year">
                                     1970s
                                 </h2>
                                 <h3
-                                    className="fgCompressed fgCompressed-normal-weight"
-                                    style={{
-                                        display: 'inline-block',
-                                    }}
+                                    className="fgCompressed fgCompressed-normal-weight d-inline-block"
                                     id="a-radical-movement"
                                 >
                                     A Radical Movement
                                 </h3>
                                 <p
+                                    className="mb-0"
                                     style={{
                                         fontSize: '1.6rem',
                                         fontStyle: 'normal',
-                                        marginBottom: '0',
                                     }}
                                 >
                                     SOBU was built “on the shoulders of the Civil Rights Movement”
@@ -427,52 +247,50 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="row" style={{ marginTop: '2rem' }}>
+                        <div className="row mt-4">
                             <div className="col-md-9 d-flex align-items-center">
                                 <div className="soblu-mobile-hide">
-                                    <Image
-                                        src={{
-                                            main:
-                                                'images/Chapel-protest-students-speaking-to-audience.jpg',
-                                        }}
-                                        altText=""
-                                        onClick={() => openLightboxOnSlide(2)}
-                                    />
+                                    <div className="d-table">
+                                        <Image
+                                            src={{
+                                                main:
+                                                    'images/Chapel-protest-students-speaking-to-audience.jpg',
+                                            }}
+                                            altText=""
+                                            onClick={() => openLightboxOnSlide(2)}
+                                        />
 
-                                    <div
-                                        style={{
-                                            marginTop: '5px',
-                                        }}
-                                    >
-                                        <Link to="/chapel-takeover-1970">
+                                        <div className="mt-2 span-caption">
+                                            <Link to="/chapel-takeover-1970">
+                                                <div
+                                                    className="text-center"
+                                                    style={{
+                                                        padding: '7px',
+                                                        backgroundColor: '#000',
+                                                        color: '#fff',
+                                                    }}
+                                                >
+                                                    <span
+                                                        className="heavy"
+                                                        style={{ textTransform: 'uppercase' }}
+                                                    >
+                                                        MORE
+                                                    </span>{' '}
+                                                    <span style={{ textTransform: 'uppercase' }}>
+                                                        1970 Chapel Takeover
+                                                    </span>
+                                                </div>
+                                            </Link>
                                             <div
-                                                className="text-center"
+                                                className="fgCompressed fgCompressed-normal-weight"
                                                 style={{
-                                                    padding: '7px',
-                                                    backgroundColor: '#000',
-                                                    color: '#fff',
+                                                    marginTop: '5px',
+                                                    fontSize: '1.1rem',
                                                 }}
                                             >
-                                                <span
-                                                    className="heavy"
-                                                    style={{ textTransform: 'uppercase' }}
-                                                >
-                                                    MORE
-                                                </span>{' '}
-                                                <span style={{ textTransform: 'uppercase' }}>
-                                                    1970 Chapel Takeover
-                                                </span>
+                                                Four of the 17 students who were inside the Lorimer
+                                                Chapel in 1970 share their experiences.
                                             </div>
-                                        </Link>
-                                        <div
-                                            className="fgCompressed fgCompressed-normal-weight"
-                                            style={{
-                                                marginTop: '5px',
-                                                fontSize: '1.1rem',
-                                            }}
-                                        >
-                                            Four of the 17 students who were inside the Lorimer
-                                            Chapel in 1970 share their experiences.
                                         </div>
                                     </div>
                                 </div>
@@ -505,7 +323,7 @@ const Home = () => {
                                     umbrella term. “The Latino students who were with us identified
                                     as Black-Latino,” said Terrell.
                                 </p>
-                                <div className="soblu-desktop-hide mobile-interrupt-block-margin">
+                                <div className="soblu-desktop-hide my-4">
                                     <Image
                                         src={{
                                             main:
@@ -515,16 +333,11 @@ const Home = () => {
                                         onClick={() => openLightboxOnSlide(2)}
                                     />
 
-                                    <div
-                                        style={{
-                                            marginTop: '5px',
-                                        }}
-                                    >
+                                    <div className="mt-2">
                                         <Link to="/chapel-takeover-1970">
                                             <div
-                                                className="text-center"
+                                                className="text-center p-2"
                                                 style={{
-                                                    padding: '7px',
                                                     backgroundColor: '#000',
                                                     color: '#fff',
                                                 }}
@@ -541,9 +354,8 @@ const Home = () => {
                                             </div>
                                         </Link>
                                         <div
-                                            className="fgCompressed fgCompressed-normal-weight"
+                                            className="fgCompressed fgCompressed-normal-weight mt-2"
                                             style={{
-                                                marginTop: '5px',
                                                 fontSize: '1.1rem',
                                             }}
                                         >
@@ -593,7 +405,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div className="col-lg-20 offset-lg-4">
                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                     “Without SOBHU I’m not sure Colby could have been as successful
@@ -603,7 +415,7 @@ const Home = () => {
                                 &mdash;Shaquan Huntt ’13
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div>
                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                     “I think SOBLU, first and foremost, was created as a form of
@@ -613,26 +425,12 @@ const Home = () => {
                                 &mdash;Kris de Luna ’20
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
-                            <div
-                                style={{
-                                    padding: '56.25% 0 0 0',
-                                    position: 'relative',
-                                    width: '100%',
-                                }}
-                            >
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
+                            <div className="embed-responsive embed-responsive-16by9">
                                 <iframe
+                                    className="embed-responsive-item"
                                     src="https://player.vimeo.com/video/239157971?title=0&byline=0&portrait=0"
-                                    style={{
-                                        position: 'absolute',
-                                        top: '0',
-                                        left: '0',
-                                        width: '100%',
-                                        height: '100%',
-                                    }}
-                                    frameBorder="0"
-                                    allow="autoplay; fullscreen"
-                                    allowFullScreen
+                                    allowfullscreen
                                 ></iframe>
                             </div>
                             <div className="video-question">
@@ -648,7 +446,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="row" style={{ marginTop: '5rem' }}>
+                        <div className="row">
                             <div className="col-md-9 d-flex align-items-center">
                                 <div className="soblu-mobile-hide" style={{ fontSize: '1.6rem' }}>
                                     <div style={{ fontWeight: '600' }}>
@@ -669,10 +467,10 @@ const Home = () => {
                                     Pillar of Support
                                 </h3>
                                 <p
+                                    className="mb-3"
                                     style={{
                                         fontSize: '1.6rem',
                                         fontStyle: 'normal',
-                                        marginBottom: '1rem',
                                     }}
                                 >
                                     For minority students, SOBU becomes a vehicle to pass down
@@ -690,7 +488,7 @@ const Home = () => {
                                     count on and go to was very important.”
                                 </p>
                                 <div
-                                    className="soblu-desktop-hide mobile-interrupt-block-margin"
+                                    className="soblu-desktop-hide my-4"
                                     style={{ fontSize: '1.6rem' }}
                                 >
                                     <div style={{ fontWeight: '600' }}>
@@ -718,7 +516,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div>
                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                     “Without SOBLU, I don’t think I would have as much of a support
@@ -729,7 +527,7 @@ const Home = () => {
                                 &mdash;Deanna Perez ’22
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div className="col-lg-22 offset-lg-2">
                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                     “Do you need a jacket? Do you need books? Do you need to figure
@@ -745,33 +543,32 @@ const Home = () => {
                                 &mdash;Isadora “Izzy” Alteon ’13
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '5rem' }}>
+                        <div className="row">
                             <div className="col-md-9 d-flex align-items-center">
-                                <Image
-                                    src={{
-                                        main: 'images/Newspaper_preview.png',
-                                    }}
-                                    altText=""
-                                    onClick={() => openLightboxOnSlide(3)}
-                                    caption="Morning Sentinel May 1, 1974"
-                                />
+                                <div className="soblu-mobile-hide">
+                                    <Image
+                                        src={{
+                                            main: 'images/Newspaper_preview.png',
+                                        }}
+                                        altText=""
+                                        onClick={() => openLightboxOnSlide(3)}
+                                        caption="Morning Sentinel May 1, 1974"
+                                    />
+                                </div>
                             </div>
                             <div className="col-md-1"></div>
                             <div className="col-md-14">
                                 <h3
-                                    className="fgCompressed fgCompressed-normal-weight"
-                                    style={{
-                                        display: 'inline-block',
-                                    }}
+                                    className="fgCompressed fgCompressed-normal-weight d-inline-block"
                                     id="a-cultural-outlet"
                                 >
                                     A Cultural Outlet
                                 </h3>
                                 <p
+                                    className="mb-3"
                                     style={{
                                         fontSize: '1.6rem',
                                         fontStyle: 'normal',
-                                        marginBottom: '1rem',
                                     }}
                                 >
                                     With financial resources allocated, SOBU alters the programming
@@ -791,6 +588,16 @@ const Home = () => {
                                     that campus and acceptance of it,” especially important in the
                                     early 1970s.
                                 </p>
+                                <div className="soblu-desktop-hide my-4">
+                                    <Image
+                                        src={{
+                                            main: 'images/Newspaper_preview.png',
+                                        }}
+                                        altText=""
+                                        onClick={() => openLightboxOnSlide(3)}
+                                        caption="Morning Sentinel May 1, 1974"
+                                    />
+                                </div>
                                 <p>
                                     “That was the heyday of the Black Panther Party, student
                                     activism, and Black nationalism across the country,” he said.
@@ -821,7 +628,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div className="col-lg-22 offset-lg-2">
                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                     “We wanted to provide educational opportunities for ourselves
@@ -838,33 +645,32 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="row" style={{ marginTop: '5rem' }}>
+                        <div className="row">
                             <div className="col-md-9 d-flex align-items-center">
-                                <Image
-                                    src={{
-                                        main: 'images/Newspaper_preview2.png',
-                                    }}
-                                    altText=""
-                                    onClick={() => openLightboxOnSlide(4)}
-                                    caption="Morning Sentinel Month and year coming"
-                                />
+                                <div className="soblu-mobile-hide">
+                                    <Image
+                                        src={{
+                                            main: 'images/Newspaper_preview2.png',
+                                        }}
+                                        altText=""
+                                        onClick={() => openLightboxOnSlide(4)}
+                                        caption="Morning Sentinel Month and year coming"
+                                    />
+                                </div>
                             </div>
                             <div className="col-md-1"></div>
                             <div className="col-md-14">
                                 <h3
-                                    className="fgCompressed fgCompressed-normal-weight"
-                                    style={{
-                                        display: 'inline-block',
-                                    }}
+                                    className="fgCompressed fgCompressed-normal-weight d-inline-block"
                                     id="a-space-of-its-own"
                                 >
                                     A Space of its Own
                                 </h3>
                                 <p
+                                    className="mb-3"
                                     style={{
                                         fontSize: '1.6rem',
                                         fontStyle: 'normal',
-                                        marginBottom: '1rem',
                                     }}
                                 >
                                     Over the years, the SOBU room provides a safe haven for students
@@ -882,6 +688,16 @@ const Home = () => {
                                     library, we wanted to have resources that all students could use
                                     to show our place at Colby too.”
                                 </p>
+                                <div className="soblu-desktop-hide my-4">
+                                    <Image
+                                        src={{
+                                            main: 'images/Newspaper_preview2.png',
+                                        }}
+                                        altText=""
+                                        onClick={() => openLightboxOnSlide(4)}
+                                        caption="Morning Sentinel Month and year coming"
+                                    />
+                                </div>
                                 <p>
                                     A room and a budget, combined with more students of color
                                     joining the Colby community, meant change for SOBU. “I think
@@ -911,7 +727,7 @@ const Home = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div className="col-lg-20 offset-lg-4">
                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                     “I think my body is automated to go directly to SOBLU [room] any
@@ -924,7 +740,7 @@ const Home = () => {
                                 &mdash;Ashley Gissel Olvera ’20
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '2rem', fontSize: '1.4rem' }}>
+                        <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div>
                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                     “I remember at times I’d walk by and there would be loud hip-hop
@@ -936,24 +752,21 @@ const Home = () => {
                                 &mdash;Antonio Mendez ’06
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '5rem' }}>
+                        <div className="row">
                             <div className="col-md-9 d-flex align-items-center"></div>
                             <div className="col-md-1"></div>
                             <div className="col-md-14">
                                 <h3
-                                    className="fgCompressed fgCompressed-normal-weight"
-                                    style={{
-                                        display: 'inline-block',
-                                    }}
+                                    className="fgCompressed fgCompressed-normal-weight d-inline-block"
                                     id="an-organization-for-whom"
                                 >
                                     An Organization for Whom?
                                 </h3>
                                 <p
+                                    className="mb-3"
                                     style={{
                                         fontSize: '1.6rem',
                                         fontStyle: 'normal',
-                                        marginBottom: '1rem',
                                     }}
                                 >
                                     The changing makeup of SOBU raises questions about membership

@@ -29,31 +29,25 @@ const SideNav = withRouter((props) => {
             data-aos-offset="500"
         >
             <div className="soblu-vertical-menu-bar" onClick={onClick}>
-                <h1 style={{ fontSize: '1.2rem' }}>
+                <div style={{ fontSize: '1.2rem' }}>
                     <span style={{ fontWeight: '600' }}>SOBLU</span>
                     <span style={{ fontWeight: '100' }}>AT</span>
                     <span style={{ fontWeight: '600' }}>50</span>
+                    <span> </span>
                     <span style={{ fontWeight: '10' }}>TIMELINE</span>
-                </h1>
+                </div>
                 <p style={{ fontWeight: '100' }}>MENU</p>
             </div>
             <div id="soblu-menu-drawer" className={`${isDrawerOpen ? 'show' : 'hide'}`}>
                 <div className="text-right" style={{ cursor: 'pointer' }} onClick={closeDrawer}>
-                    <span
-                        style={{
-                            fontFamily: 'franklin-gothic-compressed, sans-serif',
-                            fontSize: '1rem',
-                        }}
-                    >
-                        CLOSE
-                    </span>
+                    <span>CLOSE</span>
                 </div>
-                <div style={{ marginTop: '2rem', padding: '0 20px' }}>
+                <div className="mt-4 px-3">
                     <div
-                        className="text-center"
-                        style={{ backgroundColor: '#fff', color: '#000', padding: '5px' }}
+                        className="text-center p-2"
+                        style={{ backgroundColor: '#fff', color: '#000' }}
                     >
-                        <h3 style={{ fontSize: '1.2rem', marginBottom: '0' }}>
+                        <h3 className="mb-0" style={{ fontSize: '1.2rem' }}>
                             <span style={{ fontWeight: '100' }}>TIMELINE</span>
                         </h3>
                     </div>
@@ -130,19 +124,18 @@ const SideNav = withRouter((props) => {
                         </ul>
                     </div>
                 </div>
-                <div style={{ padding: '0 20px', marginTop: '2rem' }}>
+                <div className="mt-4 px-3">
                     <div
-                        className="text-center"
+                        className="text-center p-2"
                         style={{
                             backgroundColor: '#fff',
                             color: '#000',
-                            padding: '5px',
                         }}
                     >
                         <h3
+                            className="mb-0"
                             style={{
                                 fontSize: '1.2rem',
-                                marginBottom: '0',
                             }}
                         >
                             <span style={{ fontWeight: '100' }}>ESSAYS AND MORE</span>

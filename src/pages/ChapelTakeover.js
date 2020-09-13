@@ -7,6 +7,7 @@ import FsLightbox from 'fslightbox-react';
 import Swiper from '@colbycommunications/colby-swiper-component';
 import Template from '../components/Templates/SwiperTemplate';
 import Modal from '@colbycommunications/colby-modal';
+import InnerSvg from '../components/InnerSvg';
 
 const ChapelTakeover = () => {
     const [lightboxController, setLightboxController] = useState({
@@ -53,58 +54,21 @@ const ChapelTakeover = () => {
     return (
         <>
             <Nav />
-            <div className="container">
-                <div className="row soblu-mobile-hide" id="soblu-title">
-                    <div className="col-sm text-right">
-                        <h1>
-                            <span
-                                style={{
-                                    fontFamily: 'franklin-gothic-urw, sans-serif',
-                                    fontStyle: 'normal',
-                                    fontWeight: '900',
-                                }}
-                            >
-                                SOBLU
-                            </span>
-                            <span
-                                style={{
-                                    fontFamily: 'franklin-gothic-urw, sans-serif',
-                                    fontStyle: 'normal',
-                                    fontWeight: '100',
-                                }}
-                            >
-                                AT
-                            </span>
-                            <span
-                                style={{
-                                    fontFamily: 'franklin-gothic-urw, sans-serif',
-                                    fontStyle: 'normal',
-                                    fontWeight: '900',
-                                }}
-                            >
-                                50
-                            </span>
-                        </h1>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-sm text-right">
-                        <h2 style={{ fontSize: '1.5rem' }}>Chapel Takeover | March 1970</h2>
-                    </div>
-                </div>
-                <div className="row soblu-first-section-inner">
-                    <div className="col-md-12" style={{ display: 'flex', flexDirection: 'column' }}>
+            <div id="takeover-page" className="container">
+                <InnerSvg headline="Chapel Takeover | March 1970" />
+                <div className="row soblu-first-section-inner mb-4">
+                    <div className="col-md-12 d-flex flex-column">
                         <div style={{ flexGrow: '2' }}>
-                            <div
-                                className="row fgCompressed"
-                                style={{
-                                    fontWeight: '600',
-                                    fontSize: '2.6rem',
-                                }}
-                            >
-                                <div className="heading1">The Insiders</div>
+                            <div className="row fgCompressed">
+                                <h1
+                                    style={{
+                                        fontWeight: '600',
+                                    }}
+                                >
+                                    The Insiders
+                                </h1>
                             </div>
-                            <div className="row mt-4">
+                            <div className="row mt-4 mb-4">
                                 <div className="col-lg-20">
                                     <p className="lead">
                                         Four of the seventeen students from the Chapel Takeover
@@ -114,7 +78,7 @@ const ChapelTakeover = () => {
                             </div>
                         </div>
                         <div style={{ flexGrow: '1' }}>
-                            <div className="row" style={{ fontSize: '1.4rem' }}>
+                            <div className="row mb-4" style={{ fontSize: '1.4rem' }}>
                                 <div
                                     className="col-lg-20 offset-lg-2"
                                     style={{ fontSize: '1.4rem' }}
@@ -157,19 +121,16 @@ const ChapelTakeover = () => {
                         </p>
                     </div>
                 </div>
-                <div className="row" id="soblu-vertical-menu">
-                    <div
-                        className="col-md-2 d-flex justify-content-center"
-                        style={{ position: 'relative' }}
-                    >
+                <div className="row mt-md-4 mt-0" id="soblu-vertical-menu">
+                    <div className="col-md-2 d-flex justify-content-center position-relative">
                         <div className="soblu-vertical-menu-container soblu-mobile-hide">
                             <div className="soblu-vertical-menu-sticky">
                                 <SideNav />
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-22">
-                        <div className="row">
+                    <div className="col-md-22 main-content">
+                        <div className="row mb-4">
                             <Image
                                 src={{
                                     main:
@@ -180,9 +141,9 @@ const ChapelTakeover = () => {
                                 caption="Students gathered in front of Lorimer Chapel to hear SOBU17’s speech on March 1970."
                             />
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-4">
                             <div className="col-md-12 d-flex align-items-center">
-                                <div className="row" style={{ fontSize: '1.4rem' }}>
+                                <div className="row mb-4" style={{ fontSize: '1.4rem' }}>
                                     <div
                                         className="col-lg-20 offset-lg-2"
                                         style={{ fontSize: '1.4rem' }}
@@ -222,7 +183,7 @@ const ChapelTakeover = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-4">
                             <div className="col-md-12">
                                 <Image
                                     src={{
@@ -234,35 +195,30 @@ const ChapelTakeover = () => {
                                 />
                             </div>
                             <div className="col-md-12 d-flex align-items-center">
-                                <div className="row">
-                                    <div className="col-lg-20 offset-lg-2">
+                                <div>
+                                    <div className="col-lg-20 offset-lg-2 my-4">
                                         <p>
                                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                                 “Coming to Colby was a huge cultural shock for me.”
                                             </span>
                                         </p>
-                                        <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
+                                        <p className="mb-0" style={{ fontSize: '1.4rem' }}>
                                             &mdash;Charles Terrell ’70
                                         </p>
                                         <div className="d-flex">
                                             <div
+                                                className="p-2 mr-2"
                                                 style={{
-                                                    padding: '7px',
                                                     backgroundColor: '#fff',
                                                     color: '#000',
                                                     flex: '1',
-                                                    marginRight: '5px',
                                                 }}
                                             >
                                                 More on Terrell’s journey to and from Colby
                                             </div>
                                             <Modal
                                                 trigger={
-                                                    <button
-                                                        type="button"
-                                                        className="btn btn-dark"
-                                                        style={{ fontSize: '1rem' }}
-                                                    >
+                                                    <button type="button" className="btn btn-dark">
                                                         <svg
                                                             width="1em"
                                                             height="1em"
@@ -303,7 +259,7 @@ const ChapelTakeover = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-5">
                             <div className="col">
                                 <Swiper
                                     slides={slides}
@@ -315,9 +271,9 @@ const ChapelTakeover = () => {
                                 />
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-4">
                             <div className="col-md-12 d-flex align-items-center">
-                                <div className="row" style={{ fontSize: '1.4rem' }}>
+                                <div className="row mb-4">
                                     <div className="col-lg-20 offset-lg-2">
                                         <p>
                                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
@@ -332,12 +288,11 @@ const ChapelTakeover = () => {
                                         </p>
                                         <div className="d-flex">
                                             <div
+                                                className="p-2 mr-2"
                                                 style={{
-                                                    padding: '7px',
                                                     backgroundColor: '#fff',
                                                     color: '#000',
                                                     flex: '1',
-                                                    marginRight: '5px',
                                                 }}
                                             >
                                                 More on Guess’s journey to and from Colby
@@ -419,7 +374,7 @@ const ChapelTakeover = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-4">
                             <Image
                                 src={{
                                     main: 'images/chapel-takover-slide-at-podium.jpg',
@@ -429,9 +384,9 @@ const ChapelTakeover = () => {
                                 caption="Charles Terrell ’70 (in glasses) alongside SOBU17 and student government leaders in front of Lorimer Chapel."
                             />
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-5">
                             <div className="col-md-12 d-flex align-items-center">
-                                <div className="row">
+                                <div className="row mb-5">
                                     <div className="col-lg-20 offset-lg-2">
                                         <p>
                                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
@@ -440,28 +395,23 @@ const ChapelTakeover = () => {
                                                 sports [there].”
                                             </span>
                                         </p>
-                                        <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
+                                        <p className="mb-0" style={{ fontSize: '1.4rem' }}>
                                             &mdash;Sebsibe Mamo ’70
                                         </p>
                                         <div className="d-flex">
                                             <div
+                                                className="p-2 mr-2"
                                                 style={{
-                                                    padding: '7px',
                                                     backgroundColor: '#fff',
                                                     color: '#000',
                                                     flex: '1',
-                                                    marginRight: '5px',
                                                 }}
                                             >
                                                 More on Mamo’s journey to and from Colby
                                             </div>
                                             <Modal
                                                 trigger={
-                                                    <button
-                                                        type="button"
-                                                        className="btn btn-dark"
-                                                        style={{ fontSize: '1rem' }}
-                                                    >
+                                                    <button type="button" className="btn btn-dark">
                                                         <svg
                                                             width="1em"
                                                             height="1em"
@@ -513,11 +463,11 @@ const ChapelTakeover = () => {
                                 />
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-4">
                             <div className="col-md-12 d-flex align-items-center">
-                                <div className="row">
+                                <div className="row mb-4">
                                     <div className="col-lg-20 offset-lg-2">
-                                        <div style={{ marginBottom: '3rem' }}>
+                                        <div className="mb-5">
                                             <Image
                                                 src={{
                                                     main:
@@ -526,15 +476,10 @@ const ChapelTakeover = () => {
                                                 altText=""
                                                 onClick={() => openLightboxOnSlide(5)}
                                             />
-                                            <div
-                                                style={{
-                                                    marginTop: '5px',
-                                                }}
-                                            >
+                                            <div className="mt-2">
                                                 <div
-                                                    className="text-center"
+                                                    className="text-center p-2"
                                                     style={{
-                                                        padding: '7px',
                                                         backgroundColor: '#000',
                                                         color: '#fff',
                                                     }}
@@ -558,7 +503,7 @@ const ChapelTakeover = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div>
+                                        <div className="mb-4">
                                             <Image
                                                 src={{
                                                     main:
@@ -567,15 +512,10 @@ const ChapelTakeover = () => {
                                                 altText=""
                                                 onClick={() => openLightboxOnSlide(5)}
                                             />
-                                            <div
-                                                style={{
-                                                    marginTop: '5px',
-                                                }}
-                                            >
+                                            <div className="mt-2">
                                                 <div
-                                                    className="text-center"
+                                                    className="text-center p-2"
                                                     style={{
-                                                        padding: '7px',
                                                         backgroundColor: '#000',
                                                         color: '#fff',
                                                     }}
@@ -591,11 +531,7 @@ const ChapelTakeover = () => {
                                                     </span>
                                                 </div>
                                             </div>
-                                            <div
-                                                style={{
-                                                    marginTop: '5px',
-                                                }}
-                                            >
+                                            <div className="mt-2">
                                                 Portland Press Herald, March 6, 1970
                                             </div>
                                         </div>
@@ -657,7 +593,7 @@ const ChapelTakeover = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-4">
                             <Image
                                 src={{
                                     main: 'images/Serving-injunction-900-wide.png',
@@ -667,28 +603,27 @@ const ChapelTakeover = () => {
                                 caption="Terrell (center) and SOBU17 served with a restraining order on March 9."
                             />
                         </div>
-                        <div className="row" style={{ marginTop: '4rem' }}>
+                        <div className="row mb-4">
                             <div className="col-md-12 d-flex align-items-center">
-                                <div className="row">
-                                    <div className="col-lg-20 offset-lg-2">
-                                        <div style={{ marginBottom: '10rem' }}>
+                                <div className="row mb-4">
+                                    <div className="col-lg-20 offset-lg-2 d-flex justify-content-around flex-column h-100">
+                                        <div className="mb-4">
                                             <p>
                                                 <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                                     “... I had gone onto segregated schools in the
                                                     South all my life.”
                                                 </span>
                                             </p>
-                                            <p style={{ fontSize: '1.4rem', marginBottom: '0' }}>
+                                            <p className="mb-0" style={{ fontSize: '1.4rem' }}>
                                                 &mdash;Doris Ford Mathis ’73
                                             </p>
                                             <div className="d-flex">
                                                 <div
+                                                    className="p-2 mr-2"
                                                     style={{
-                                                        padding: '7px',
                                                         backgroundColor: '#fff',
                                                         color: '#000',
                                                         flex: '1',
-                                                        marginRight: '5px',
                                                     }}
                                                 >
                                                     More on Ford Mathis’s journey to and from Colby
@@ -698,7 +633,6 @@ const ChapelTakeover = () => {
                                                         <button
                                                             type="button"
                                                             className="btn btn-dark"
-                                                            style={{ fontSize: '1rem' }}
                                                         >
                                                             <svg
                                                                 width="1em"
@@ -738,45 +672,46 @@ const ChapelTakeover = () => {
                                                 </Modal>
                                             </div>
                                         </div>
-                                        <div>
-                                            <Image
-                                                src={{
-                                                    main:
-                                                        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
-                                                }}
-                                                altText=""
-                                                onClick={() => openLightboxOnSlide(5)}
-                                            />
-                                            <div
-                                                style={{
-                                                    marginTop: '5px',
-                                                }}
-                                            >
-                                                <div
-                                                    className="text-center"
-                                                    style={{
-                                                        padding: '7px',
-                                                        backgroundColor: '#000',
-                                                        color: '#fff',
+                                        <div className="mb-4">
+                                            <div className="d-table">
+                                                <Image
+                                                    src={{
+                                                        main:
+                                                            'images/newspaper-01-black-students-urge-colby-headline-crop.png',
                                                     }}
-                                                >
-                                                    <span
-                                                        className="heavy"
-                                                        style={{ textTransform: 'uppercase' }}
-                                                    >
-                                                        <i>ECHO</i>
-                                                    </span>{' '}
-                                                    <span style={{ textTransform: 'uppercase' }}>
-                                                        Reaction
-                                                    </span>
+                                                    altText=""
+                                                    onClick={() => openLightboxOnSlide(5)}
+                                                />
+                                                <div className="span-caption">
+                                                    <div className="mt-2">
+                                                        <div
+                                                            className="text-center p-2"
+                                                            style={{
+                                                                backgroundColor: '#000',
+                                                                color: '#fff',
+                                                            }}
+                                                        >
+                                                            <span
+                                                                className="heavy"
+                                                                style={{
+                                                                    textTransform: 'uppercase',
+                                                                }}
+                                                            >
+                                                                <i>ECHO</i>
+                                                            </span>{' '}
+                                                            <span
+                                                                style={{
+                                                                    textTransform: 'uppercase',
+                                                                }}
+                                                            >
+                                                                Reaction
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div className="mt-2">
+                                                        Colby Echo, March 13, 1970
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div
-                                                style={{
-                                                    marginTop: '5px',
-                                                }}
-                                            >
-                                                Colby Echo, March 13, 1970
                                             </div>
                                         </div>
                                     </div>

@@ -18,11 +18,26 @@ $font-family-sans-serif: franklin-gothic-urw, sans-serif !default;
 $btn-border-radius: 0px;
 
 $modal-content-border-radius: 0px;
+$spacer: 1rem;
+
+$spacers: (
+    6: (
+        $spacer * 5,
+    ),
+    7: (
+        $spacer * 6,
+    ),
+);
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 body {
     margin-right: 0 !important;
+}
+
+h1 {
+    font-size: 4.6rem;
+    line-height: 4.6rem;
 }
 
 // Utility Classes
@@ -109,14 +124,15 @@ body {
     display: block;
 }
 
-.heading1 {
-    font-size: 4.6rem;
-    line-height: 4.6rem;
-}
+// .heading1 {
+//     font-size: 4.6rem;
+//     line-height: 4.6rem;
+// }
 
 .bold-emphasis-text {
     font-size: 1.5rem;
     font-weight: 900;
+    margin-top: 3rem;
 }
 
 #soblu-title h1 {
@@ -126,7 +142,6 @@ body {
 }
 
 #soblu-vertical-menu {
-    margin-top: 2rem;
     position: relative;
     .soblu-vertical-menu-sticky {
         position: sticky;
@@ -190,6 +205,18 @@ body {
         }
     }
 }
+
+// #home-page #soblu-vertical-menu {
+//     margin-top: 1rem;
+// }
+
+// #soblu-voices-page,
+// #edwin-essay-page,
+// #takeover-page {
+//     #soblu-vertical-menu {
+//         margin-top: 2rem;
+//     }
+// }
 
 #soblu-menu-drawer-mobile {
     ul {
@@ -300,7 +327,7 @@ img {
 }
 
 .mobile-interrupt-block-margin {
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .inner-byline {
@@ -323,6 +350,39 @@ img {
 
 .kris-juan {
     line-height: 2rem;
+}
+
+#pillar-of-support,
+#a-cultural-outlet,
+#a-space-of-its-own,
+#an-organization-for-whom {
+    margin-top: 5rem;
+}
+
+.timeline-year {
+    margin-top: 2rem;
+    font-size: 5rem;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#soblu-voices-page .top-content {
+    margin-top: 3rem;
+}
+
+#soblu-voices-page .soblu-first-section-inner {
+    margin-bottom: 3rem;
+}
+
+.main-content .row {
+    margin-top: 4rem;
+}
+
+.main-content .row:nth-child(10) {
+    .col-md-12 > div {
+        height: 60%;
+    }
 }
 
 /* MEDIA QUERIES */
@@ -404,24 +464,31 @@ img {
         margin-bottom: 2rem;
     }
 
-    .soblu-voices-page .section-spacer {
+    #soblu-voices-page .section-spacer {
         margin-bottom: 2rem;
     }
 
-    .edwin-essay-page .section-spacer {
+    #edwin-essay-page .section-spacer {
         margin-bottom: 0;
     }
 
     .timeline-year {
         margin-top: 2rem;
+        display: block;
+        text-align: center;
     }
 
-    #soblu-vertical-menu {
-        margin-top: 0;
-    }
+    // #soblu-voices-page,
+    // #edwin-essay-page,
+    // #takeover-page,
+    // #home-page {
+    //     #soblu-vertical-menu {
+    //         margin-top: 0;
+    //     }
+    // }
 
     #a-radical-movement,
-    #a-pillar-of-support,
+    #pillar-of-support,
     #a-cultural-outlet,
     #a-space-of-its-own,
     #an-organization-for-whom {
@@ -436,9 +503,13 @@ img {
         margin-top: 2rem;
     }
 
-    .soblu-image {
-        margin-bottom: 2rem;
-    }
+    // .soblu-image {
+    //     margin-bottom: 2rem;
+    // }
+
+    // #takeover-page .soblu-image {
+    //     margin: 2rem 0;
+    // }
 
     .rohnique-davy img {
         width: 100%;
@@ -450,11 +521,11 @@ img {
         margin: 1rem 0;
     }
 
-    .soblu-voices-page .top-content {
-        margin-top: 3rem;
+    #soblu-voices-page .top-content {
+        margin-top: 0;
     }
 
-    .soblu-voices-page .large-quote {
+    #soblu-voices-page .large-quote {
         font-size: 2.2rem;
         line-height: 2.2rem;
     }
@@ -471,5 +542,30 @@ img {
 
     .mobile-text-center {
         text-align: center;
+    }
+
+    .bold-emphasis-text {
+        margin-top: 2rem;
+    }
+
+    #pillar-of-support,
+    #a-cultural-outlet,
+    #a-space-of-its-own,
+    #an-organization-for-whom {
+        margin-top: 1rem;
+    }
+
+    #soblu-voices-page .soblu-first-section-inner {
+        margin-bottom: 0;
+    }
+
+    .main-content .row {
+        margin-top: 0;
+    }
+
+    .main-content .row:nth-child(10) {
+        .col-md-12 > div {
+            height: 100%;
+        }
     }
 }

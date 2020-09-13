@@ -21,18 +21,6 @@ const Nav = withRouter((props) => {
         }
     }
 
-    /*
-<li
-                                className={`nav-item ${
-                                    props.location.pathname === '/soblu-voices' ? 'active' : ''
-                                }`}
-                            >
-                                <Link className="nav-link" to="/chapel-takeover-1970">
-                                    Takeover
-                                </Link>
-                            </li>
-    */
-
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light soblu-mobile-hide">
@@ -81,7 +69,6 @@ const Nav = withRouter((props) => {
                                     SOBLU Voices
                                 </Link>
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
@@ -99,13 +86,13 @@ const Nav = withRouter((props) => {
             >
                 <div
                     onClick={onClick}
+                    className="mb-2"
                     style={{
                         backgroundColor: '#000',
                         padding: '10px 15px 10px 10px',
-                        marginBottom: '5px',
                     }}
                 >
-                    <ul style={{ margin: '0', listStyle: 'none' }}>
+                    <ul className="m-0" style={{ listStyle: 'none' }}>
                         <li>
                             <a>MENU</a>
                         </li>
@@ -120,31 +107,23 @@ const Nav = withRouter((props) => {
                     }}
                 >
                     <div className="d-flex justify-content-between" style={{ cursor: 'pointer' }}>
-                        <div style={{ backgroundColor: '#000', color: '#fff', padding: '5px' }}>
-                            <h3 style={{ fontSize: '1.8rem', marginBottom: '0' }}>
+                        <div className="p-2" style={{ backgroundColor: '#000', color: '#fff' }}>
+                            <h3 className="mb-0" style={{ fontSize: '1.8rem' }}>
                                 <span style={{ fontWeight: '600' }}>SOBLU</span>
                                 <span style={{ fontWeight: '100' }}>AT</span>
                                 <span style={{ fontWeight: '600' }}>50</span>
                             </h3>
                         </div>
                         <div className="d-flex align-items-start">
-                            <span
-                                onClick={closeDrawer}
-                                style={{
-                                    fontFamily: 'franklin-gothic-compressed, sans-serif',
-                                    fontSize: '1rem',
-                                }}
-                            >
-                                CLOSE
-                            </span>
+                            <span onClick={closeDrawer}>CLOSE</span>
                         </div>
                     </div>
-                    <div style={{ marginTop: '2rem', padding: '0 20px' }}>
+                    <div className="mt-4 px-3">
                         <div
-                            className="text-center"
-                            style={{ backgroundColor: '#fff', color: '#000', padding: '5px' }}
+                            className="text-center p-2"
+                            style={{ backgroundColor: '#fff', color: '#000' }}
                         >
-                            <h3 style={{ fontSize: '1.2rem', marginBottom: '0' }}>
+                            <h3 className="mb-0" style={{ fontSize: '1.2rem' }}>
                                 <span style={{ fontWeight: '100' }}>TIMELINE</span>
                             </h3>
                         </div>
@@ -221,12 +200,12 @@ const Nav = withRouter((props) => {
                             </ul>
                         </div>
                     </div>
-                    <div style={{ padding: '0 20px', marginTop: '2rem' }}>
+                    <div className="mt-4 px-3">
                         <div
-                            className="text-center"
-                            style={{ backgroundColor: '#fff', color: '#000', padding: '5px' }}
+                            className="text-center p-2"
+                            style={{ backgroundColor: '#fff', color: '#000' }}
                         >
-                            <h3 style={{ fontSize: '1.2rem', marginBottom: '0' }}>
+                            <h3 className="mb-0" style={{ fontSize: '1.2rem' }}>
                                 <span style={{ fontWeight: '100' }}>ESSAYS AND MORE</span>
                             </h3>
                         </div>

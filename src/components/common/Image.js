@@ -23,20 +23,14 @@ const Image = (props) => {
                     />
                 </div>
                 <div className="span-caption">
-                    <div
-                        className="d-flex"
-                        style={{
-                            marginTop: '5px',
-                        }}
-                    >
+                    <div className="d-flex mt-2">
                         <div
                             style={{
-                                padding: '7px',
                                 backgroundColor: bgcolor,
                                 color: color,
                                 flex: '1',
-                                marginRight: '5px',
                             }}
+                            className="p-2 mr-2"
                         >
                             {props.caption}
                         </div>

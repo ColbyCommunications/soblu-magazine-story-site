@@ -1,104 +1,25 @@
 import React from 'react';
 import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
+import InnerSvg from '../components/InnerSvg';
 
 const SobluVoices = () => {
     return (
         <>
             <Nav />
-            <div className="container soblu-voices-page">
-                <div className="row soblu-mobile-hide" id="soblu-title">
-                    <div className="col-sm text-right">
-                        <h1>
-                            <span
-                                style={{
-                                    fontFamily: 'franklin-gothic-urw, sans-serif',
-                                    fontStyle: 'normal',
-                                    fontWeight: '900',
-                                }}
-                            >
-                                SOBLU
-                            </span>
-                            <span
-                                style={{
-                                    fontFamily: 'franklin-gothic-urw, sans-serif',
-                                    fontStyle: 'normal',
-                                    fontWeight: '100',
-                                }}
-                            >
-                                AT
-                            </span>
-                            <span
-                                style={{
-                                    fontFamily: 'franklin-gothic-urw, sans-serif',
-                                    fontStyle: 'normal',
-                                    fontWeight: '900',
-                                }}
-                            >
-                                50
-                            </span>
-                        </h1>
-                    </div>
-                </div>
-                <div className="row soblu-desktop-hide" id="soblu-title">
-                    <div className="col" style={{ marginTop: '3rem' }}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 977.526 591.123">
-                            <title>SOBU At 50</title>
-                            <path
-                                d="M70.849,152.711c5.639,19.11,20.049,26,39.159,26,8.459,0,25.376-1.253,25.376-13.158,0-13.158-16.6-15.663-26.316-17.543-40.412-7.832-88.344-18.8-88.344-69.861,0-20.99,10.338-41.666,27.568-53.884,17.544-12.218,40.414-16.29,61.716-16.29,37.281,0,73.307,15.35,86.465,52.63l-54.51,16.6C135.7,61.234,123.792,55.6,107.189,55.6c-8.772,0-21.3,2.506-21.3,13.784S101.55,82.85,109.7,84.729c20.363,4.073,41.979,7.519,60.776,17.231,20.989,11.278,31.954,31.328,31.954,54.824,0,51.691-51.377,72.367-95.863,72.367-45.112,0-85.211-18.8-96.8-65.475Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M424.533,119.19c0,61.089-37.593,109.961-102.755,109.961S219.023,180.279,219.023,119.19c0-64.222,37.28-111.213,102.755-111.213S424.533,54.968,424.533,119.19ZM289.51,119.5c0,20.677,2.194,60.463,32.268,60.463s32.268-39.786,32.268-60.463c0-20.989-3.133-62.968-32.268-62.968S289.51,98.514,289.51,119.5Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M444.266,11.109H549.214c16.291,0,32.894,1.253,46.366,10.965,14.411,10.338,22.869,27.882,22.869,45.426,0,22.555-14.41,41.666-36.341,46.678v.626c24.75,4.386,41.667,23.183,41.667,48.872,0,18.483-6.579,39.159-21.93,50.124-16.6,11.905-39.786,12.218-59.21,12.218H444.266ZM531.357,93.5c6.266,0,13.785.313,18.484-4.072a19.534,19.534,0,0,0,6.265-14.1c0-15.977-13.157-18.17-25.689-18.17H504.729V93.5Zm1.88,84.585c6.579,0,13.784.314,19.11-4.072a18.708,18.708,0,0,0-2.506-31.954c-5.639-2.82-13.158-2.82-19.11-2.82h-26v38.846Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M800.144,226.018H649.458V11.109h66.415V173.387h84.271Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M987.167,149.265c0,25.062-2.819,45.112-23.5,61.715-18.483,14.412-41.039,18.171-63.6,18.171-19.737,0-45.425-4.386-62.03-15.351-22.869-15.037-27.254-35.4-27.254-61.089V11.109h67.041V145.192c0,7.2-.313,16.917,4.073,23.5,5.012,6.892,15.037,9.712,23.5,9.712,7.518,0,16.917-2.193,22.556-7.206,8.459-7.2,7.518-18.483,7.518-28.508V11.109h51.691Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M257.048,594.553h-40.01l-31.372-90.934H70.181L42.446,594.553H9.71l100.936-311.9h45.012ZM129.287,324.481,81.093,474.066h95.934Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M364.353,594.553h-39.1v-277.8h-88.66v-34.1H453.012v34.1H364.353Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M560.312,359.49l-4.093,44.1A100.439,100.439,0,0,1,612.6,386.315c25.461,0,53.651,10.913,71.837,28.19,20.006,19.551,29.554,46.376,29.554,74.11,0,70.474-58.653,110.485-124.579,110.485-61.38,0-116.394-31.828-127.306-95.481l80.476-10c4.091,22.279,22.733,34.1,44.557,34.1,21.369,0,37.282-15.459,37.282-37.282,0-23.189-16.368-38.193-39.1-38.193-15,0-28.644,6.82-36.373,19.551l-71.838-10,13.641-179.138H698.985L690.8,359.49Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                            <path
-                                d="M863.112,278.105c92.752,0,124.124,84.114,124.124,162.771,0,77.293-35.009,158.224-124.124,158.224S738.989,518.169,738.989,440.876C738.989,362.219,770.361,278.105,863.112,278.105Zm0,65.472c-15.458,0-34.1,5-34.1,97.753,0,87.751,21.824,92.3,34.1,92.3,11.821,0,34.1-1.364,34.1-92.3C897.212,370.4,888.119,343.577,863.112,343.577Z"
-                                transform="translate(-9.71 -7.977)"
-                            />
-                        </svg>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-sm text-right">
-                        <h2 className="inner-byline">SOBLU Voices</h2>
-                    </div>
-                </div>
-                <div className="row soblu-first-section-inner section-spacer">
+            <div id="soblu-voices-page" className="container">
+                <InnerSvg headline="SOBLU Voices" />
+                <div className="row soblu-first-section-inner">
                     <div className="col-md-12">
                         <div>
-                            <div
-                                className="row fgCompressed"
-                                style={{
-                                    fontWeight: '600',
-                                    fontSize: '2.6rem',
-                                }}
-                            >
-                                <div className="heading1">In Their Words</div>
+                            <div className="row fgCompressed">
+                                <h1
+                                    style={{
+                                        fontWeight: '600',
+                                    }}
+                                >
+                                    In Their Words
+                                </h1>
                             </div>
                             <div className="row mt-4">
                                 <div className="col-lg-20">
@@ -116,7 +37,7 @@ const SobluVoices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mb-4 mb-md-0">
                     <div className="col-md-22 offset-md-2">
                         <div className="fgCompressed heavy in-their-words-top-quote mobile-text-center">
                             “... I wonder, where we are now regarding, social, cultural, academic
@@ -124,11 +45,8 @@ const SobluVoices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row" id="soblu-vertical-menu">
-                    <div
-                        className="col-md-2 d-flex justify-content-center"
-                        style={{ position: 'relative' }}
-                    >
+                <div className="row mt-md-4 mt-0" id="soblu-vertical-menu">
+                    <div className="col-md-2 d-flex justify-content-center position-relative">
                         <div className="soblu-vertical-menu-container soblu-mobile-hide">
                             <div className="soblu-vertical-menu-sticky">
                                 <SideNav />
@@ -136,9 +54,9 @@ const SobluVoices = () => {
                         </div>
                     </div>
                     <div className="col-md-22">
-                        <div className="row section-spacer-voices-quote top-content">
+                        <div className="row mb-4 top-content">
                             <div className="col-md-22 offset-md-2 ">
-                                <div style={{ marginBottom: '1.7rem' }}>
+                                <div className="mb-4">
                                     <p
                                         className="fgCompressed heavy p-no-margin-bottom"
                                         style={{ fontSize: '1.7rem' }}
@@ -178,7 +96,7 @@ const SobluVoices = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4">
                             <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “Through the ages, SOBLU has seen many chapters of Colby’s
@@ -187,7 +105,7 @@ const SobluVoices = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col-md-22 offset-md-2 ">
                                 <div>
                                     <p>
@@ -230,34 +148,20 @@ const SobluVoices = () => {
                             </div>
                         </div>
 
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col">
-                                <div
-                                    style={{
-                                        padding: '56.25% 0 0 0',
-                                        position: 'relative',
-                                        width: '100%',
-                                    }}
-                                >
+                                <div className="embed-responsive embed-responsive-16by9">
                                     <iframe
+                                        className="embed-responsive-item"
                                         src="https://player.vimeo.com/video/239157971?title=0&byline=0&portrait=0"
-                                        style={{
-                                            position: 'absolute',
-                                            top: '0',
-                                            left: '0',
-                                            width: '100%',
-                                            height: '100%',
-                                        }}
-                                        frameBorder="0"
-                                        allow="autoplay; fullscreen"
-                                        allowFullScreen
+                                        allowfullscreen
                                     ></iframe>
                                 </div>
                                 <div className="video-question" style={{ fontSize: '1.4rem' }}>
                                     <p
+                                        className="d-inline-block"
                                         style={{
                                             fontWeight: '600',
-                                            display: 'inline-block',
                                             fontSize: '1.5rem',
                                         }}
                                     >
@@ -266,7 +170,7 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4">
                             <div className="col-md-22 offset-md-2 ">
                                 <div style={{ marginBottom: '1.7rem' }}>
                                     <p
@@ -303,14 +207,14 @@ const SobluVoices = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4">
                             <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “SOBHU gave me the courage to ... be me, unapologetically.”
                                 </span>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col-md-22 offset-md-2 ">
                                 <div>
                                     <p>
@@ -370,7 +274,7 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col">
                                 <div
                                     className="fgCompressed heavy large-quote"
@@ -391,9 +295,9 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
-                            <div className="col-md-22 offset-md-2">
-                                <div style={{ marginBottom: '1.7rem' }}>
+                        <div className="row mb-4">
+                            <div className="col-md-22 offset-md-2 mb-4">
+                                <div>
                                     <p
                                         className="fgCompressed heavy p-no-margin-bottom"
                                         style={{ fontSize: '1.7rem' }}
@@ -438,7 +342,7 @@ const SobluVoices = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4">
                             <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “Many of my most enduring friendships flourished at Colby. SOBHU
@@ -446,7 +350,7 @@ const SobluVoices = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col-md-22 offset-md-2 ">
                                 <div>
                                     <p>
@@ -488,34 +392,20 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col">
-                                <div
-                                    style={{
-                                        padding: '56.25% 0 0 0',
-                                        position: 'relative',
-                                        width: '100%',
-                                    }}
-                                >
+                                <div className="embed-responsive embed-responsive-16by9">
                                     <iframe
+                                        className="embed-responsive-item"
                                         src="https://player.vimeo.com/video/239157971?title=0&byline=0&portrait=0"
-                                        style={{
-                                            position: 'absolute',
-                                            top: '0',
-                                            left: '0',
-                                            width: '100%',
-                                            height: '100%',
-                                        }}
-                                        frameBorder="0"
-                                        allow="autoplay; fullscreen"
-                                        allowFullScreen
+                                        allowfullscreen
                                     ></iframe>
                                 </div>
                                 <div className="video-question" style={{ fontSize: '1.4rem' }}>
                                     <p
+                                        className="d-inline-block"
                                         style={{
                                             fontWeight: '600',
-                                            display: 'inline-block',
                                             fontSize: '1.5rem',
                                         }}
                                     >
@@ -524,9 +414,9 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4">
                             <div className="col-md-22 offset-md-2">
-                                <div style={{ marginBottom: '1.7rem' }}>
+                                <div className="mb-4">
                                     <p
                                         className="fgCompressed heavy p-no-margin-bottom"
                                         style={{ fontSize: '1.7rem' }}
@@ -577,7 +467,7 @@ const SobluVoices = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4">
                             <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     “SOBHU—the group, the people, and the room—was a place that felt
@@ -585,7 +475,7 @@ const SobluVoices = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col-md-22 offset-md-2 ">
                                 <div>
                                     <p>
@@ -643,7 +533,7 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col">
                                 <div
                                     className="fgCompressed heavy large-quote"
@@ -659,9 +549,9 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4s">
                             <div className="col-md-22 offset-md-2">
-                                <div style={{ marginBottom: '1.7rem' }}>
+                                <div className="mb-4">
                                     <p
                                         className="fgCompressed heavy p-no-margin-bottom"
                                         style={{ fontSize: '1.7rem' }}
@@ -671,7 +561,7 @@ const SobluVoices = () => {
                                     </p>
                                     <p style={{ fontSize: '1.5rem' }}>By Charles Terrell ’70</p>
                                 </div>
-                                <p className="p-no-margin-bottom">
+                                <p>
                                     I believe reflections on the past are most useful relative to
                                     issues of the present and future. Hence, I am reflecting on my
                                     experiences with SOBU relative to the past, present, and future.
@@ -706,7 +596,7 @@ const SobluVoices = () => {
                                     single Black, Latino, or Native American faculty or staff member
                                     at Colby during this time.
                                 </p>
-                                <p>
+                                <p className="p-no-margin-bottom">
                                     We were significantly influenced by attending Colby in
                                     revolutionary times in higher education. Racially and
                                     ethnically, the Civil Rights Movement transitioned into the
@@ -752,7 +642,7 @@ const SobluVoices = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row section-spacer-voices-quote">
+                        <div className="row mb-4">
                             <div className="col mobile-text-center">
                                 <span className="fgCompressed heavy fgCompressed-voices-quote">
                                     As a student, I did not know SOBU as a club or as an accepted
@@ -760,7 +650,7 @@ const SobluVoices = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="row section-spacer">
+                        <div className="row mb-4">
                             <div className="col-md-22 offset-md-2 ">
                                 <div>
                                     <p>
