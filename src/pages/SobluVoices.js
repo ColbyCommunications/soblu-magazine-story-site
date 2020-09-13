@@ -148,7 +148,7 @@ const SobluVoices = () => {
                             </div>
                         </div>
 
-                        <div className="row mb-4">
+                        <div className="row mb-4 mb-lg-5">
                             <div className="col">
                                 <div className="embed-responsive embed-responsive-16by9">
                                     <iframe
@@ -274,7 +274,7 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-4">
+                        <div className="row mb-4 mb-lg-5">
                             <div className="col">
                                 <div
                                     className="fgCompressed heavy large-quote"
@@ -392,7 +392,7 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-4">
+                        <div className="row mb-4 mb-lg-5">
                             <div className="col">
                                 <div className="embed-responsive embed-responsive-16by9">
                                     <iframe
@@ -533,7 +533,7 @@ const SobluVoices = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-4">
+                        <div className="row mb-4 mb-lg-5">
                             <div className="col">
                                 <div
                                     className="fgCompressed heavy large-quote"
