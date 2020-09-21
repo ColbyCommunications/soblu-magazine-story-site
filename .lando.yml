@@ -2,3 +2,6 @@ name: colby-soblu-site
 recipe: lamp
 config:
   webroot: 'dist'
+  config:
+    server: config/httpd.conf
+    vhosts: config/custom.conf
