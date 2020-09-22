@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
+import FsLightbox from 'fslightbox-react';
+import { Link } from 'react-router-dom';
 import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
-import { Link } from 'react-router-dom';
 import Image from '../components/common/Image';
 import HomeSvg from '../components/HomeSvg';
-import FsLightbox from 'fslightbox-react';
 
 const Home = () => {
     const [lightboxController, setLightboxController] = useState({
@@ -124,7 +124,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="col-md-1"></div>
+                                <div className="col-md-1" />
                                 <div className="col-md-14">
                                     <p>
                                         For a half-century, these Sunday meetings have been a SOBLU
@@ -295,7 +295,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-1"></div>
+                            <div className="col-md-1" />
                             <div className="col-md-14">
                                 <p>
                                     “Certainly in the beginning, it was not a club, it was not a
@@ -428,10 +428,11 @@ const Home = () => {
                         <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                             <div className="embed-responsive embed-responsive-16by9">
                                 <iframe
+                                    title="When was the first time you knew you wanted to be part of SOBLU?"
                                     className="embed-responsive-item"
                                     src="https://player.vimeo.com/video/239157971?title=0&byline=0&portrait=0"
-                                    allowfullscreen
-                                ></iframe>
+                                    allowFullScreen
+                                />
                             </div>
                             <div className="video-question">
                                 <p
@@ -455,7 +456,7 @@ const Home = () => {
                                     <div>&mdash;Doris Ford Mathis ’73</div>
                                 </div>
                             </div>
-                            <div className="col-md-1"></div>
+                            <div className="col-md-1" />
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight"
@@ -556,7 +557,7 @@ const Home = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-md-1"></div>
+                            <div className="col-md-1" />
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
@@ -658,7 +659,7 @@ const Home = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-md-1"></div>
+                            <div className="col-md-1" />
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
@@ -753,8 +754,8 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-9 d-flex align-items-center"></div>
-                            <div className="col-md-1"></div>
+                            <div className="col-md-9 d-flex align-items-center" />
+                            <div className="col-md-1" />
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"

@@ -6,7 +6,7 @@ import ClickButton from '@colbycommunications/colby-click-button-component';
 import PropTypes from 'prop-types';
 import Style from './style.css';
 
-const SwiperTemplate = (props) => {
+const SwiperTemplate = props => {
     const goNext = () => {
         if (props.sliderRef.current !== null && props.sliderRef.current.swiper !== null) {
             props.sliderRef.current.swiper.slideNext();
@@ -92,7 +92,8 @@ const SwiperTemplate = (props) => {
 };
 
 SwiperTemplate.propTypes = {
-    slides: PropTypes.array.isRequired,
+    slider: PropTypes.node.isRequired,
+    sliderRef: PropTypes.node.isRequired,
 };
 
 export default SwiperTemplate;

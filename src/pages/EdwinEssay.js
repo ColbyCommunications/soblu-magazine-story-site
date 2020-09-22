@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import FsLightbox from 'fslightbox-react';
 import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
 import Image from '../components/common/Image';
-import FsLightbox from 'fslightbox-react';
 import InnerSvg from '../components/InnerSvg';
 
 const EdwinEssay = () => {

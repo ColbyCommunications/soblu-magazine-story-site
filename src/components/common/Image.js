@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable no-else-return */
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Image = (props) => {
+const Image = props => {
     if (props.caption) {
         let bgcolor = '#fff';
         let color = 'auto';
@@ -27,7 +28,7 @@ const Image = (props) => {
                         <div
                             style={{
                                 backgroundColor: bgcolor,
-                                color: color,
+                                color,
                                 flex: '1',
                             }}
                             className="p-2 mr-2"
@@ -35,7 +36,7 @@ const Image = (props) => {
                             {props.caption}
                         </div>
                         <div>
-                            <button className="btn btn-dark" onClick={props.onClick}>
+                            <button type="button" className="btn btn-dark" onClick={props.onClick}>
                                 +
                             </button>
                         </div>

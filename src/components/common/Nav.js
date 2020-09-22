@@ -1,8 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import HiddenBlock from '@colbycommunications/colby-hidden-block-component';
 
-const Nav = withRouter((props) => {
+const Nav = withRouter(props => {
     const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
 
     function openDrawer() {
@@ -34,7 +37,7 @@ const Nav = withRouter((props) => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon" />
                     </button>
 
                     <div
@@ -57,7 +60,7 @@ const Nav = withRouter((props) => {
                                 }`}
                             >
                                 <Link className="nav-link" to="/edwin-essay">
-                                    Photography Essay by Edwin Torres '12
+                                    Photography Essay by Edwin Torres &lsquo;12
                                 </Link>
                             </li>
                             <li
@@ -93,9 +96,7 @@ const Nav = withRouter((props) => {
                     }}
                 >
                     <ul className="m-0" style={{ listStyle: 'none' }}>
-                        <li>
-                            <a>MENU</a>
-                        </li>
+                        <li>MENU</li>
                     </ul>
                 </div>
                 <div
@@ -216,7 +217,7 @@ const Nav = withRouter((props) => {
                                 </li>
                                 <li>
                                     <Link to="/edwin-essay">
-                                        Photography Essay by Edwin Torres '12
+                                        Photography Essay by Edwin Torres &lsquo;12
                                     </Link>
                                 </li>
                                 <li>

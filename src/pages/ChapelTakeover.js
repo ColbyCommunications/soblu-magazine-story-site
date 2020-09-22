@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import Nav from '../components/common/Nav';
-import SideNav from '../components/common/SideNav';
-import { Link } from 'react-router-dom';
-import Image from '../components/common/Image';
 import FsLightbox from 'fslightbox-react';
 import Swiper from '@colbycommunications/colby-swiper-component';
-import Template from '../components/Templates/SwiperTemplate';
 import Modal from '@colbycommunications/colby-modal';
+import Nav from '../components/common/Nav';
+import SideNav from '../components/common/SideNav';
+import Image from '../components/common/Image';
+import Template from '../components/Templates/SwiperTemplate';
 import InnerSvg from '../components/InnerSvg';
 
 const ChapelTakeover = () => {
@@ -17,11 +16,21 @@ const ChapelTakeover = () => {
 
     const slides = [
         {
-            content: <img src="images/SOBU-original-demands_chapel-3-2-1970-1.jpg" />,
+            content: (
+                <img
+                    src="images/SOBU-original-demands_chapel-3-2-1970-1.jpg"
+                    alt="List of demands (page 1)"
+                />
+            ),
             type: 'image',
         },
         {
-            content: <img src="images/SOBU-original-demands_chapel-3-2-1970-2.jpg" />,
+            content: (
+                <img
+                    src="images/SOBU-original-demands_chapel-3-2-1970-2.jpg"
+                    alt="List of demands (page 2)"
+                />
+            ),
             type: 'image',
         },
     ];
@@ -93,7 +102,7 @@ const ChapelTakeover = () => {
                                 </div>
                             </div>
                         </div>
-                        <div style={{ flexGrow: '1' }}></div>
+                        <div style={{ flexGrow: '1' }} />
                     </div>
                     <div className="col-md-12">
                         <p>
@@ -239,7 +248,7 @@ const ChapelTakeover = () => {
                                                     </button>
                                                 }
                                                 showModalCloseButton
-                                                title={'I am a modal'}
+                                                title="I am a modal"
                                             >
                                                 <div>
                                                     Lorem ipsum dolor sit amet, consectetur
@@ -320,7 +329,7 @@ const ChapelTakeover = () => {
                                                     </button>
                                                 }
                                                 showModalCloseButton
-                                                title={'I am a modal'}
+                                                title="I am a modal"
                                             >
                                                 <div>
                                                     Lorem ipsum dolor sit amet, consectetur
@@ -432,7 +441,7 @@ const ChapelTakeover = () => {
                                                     </button>
                                                 }
                                                 showModalCloseButton
-                                                title={'I am a modal'}
+                                                title="I am a modal"
                                             >
                                                 <div>
                                                     Lorem ipsum dolor sit amet, consectetur
@@ -654,7 +663,7 @@ const ChapelTakeover = () => {
                                                         </button>
                                                     }
                                                     showModalCloseButton
-                                                    title={'I am a modal'}
+                                                    title="I am a modal"
                                                 >
                                                     <div>
                                                         Lorem ipsum dolor sit amet, consectetur

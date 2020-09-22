@@ -1,8 +1,11 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import HiddenBlock from '@colbycommunications/colby-hidden-block-component';
 
-const SideNav = withRouter((props) => {
+const SideNav = withRouter(props => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
     function openDrawer() {
@@ -147,7 +150,9 @@ const SideNav = withRouter((props) => {
                                 <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/edwin-essay">Photography Essay by Edwin Torres '12</Link>
+                                <Link to="/edwin-essay">
+                                    Photography Essay by Edwin Torres &lsquo;12
+                                </Link>
                             </li>
                             <li>
                                 <Link to="/soblu-voices">SOBLU Voices</Link>

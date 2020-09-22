@@ -18,9 +18,11 @@ const postcssLoader = {
 let config = {
     mode: 'development',
     entry: {
-        bundle: ['./src/index.js', './src/app.scss'],
+        soblu: ['./src/index.js'],
     },
     output: {
+        filename: '[name].bundle.js',
+        chunkFilename: '[name].bundle.js',
         path: `${currentDir}/dist`,
     },
     module: {
@@ -34,7 +36,15 @@ let config = {
                     },
                     {
                         loaders: [
-                            'style-loader',
+                            {
+                                loader: MiniCssExtractPlugin.loader,
+                                options: {
+                                    // only enable hot in development
+                                    hmr: process.env.NODE_ENV === 'development',
+                                    // if hmr does not work, this is a forceful method.
+                                    // reloadAll: true,
+                                },
+                            },
                             {
                                 loader: 'css-loader',
                                 options: {
@@ -81,11 +91,16 @@ let config = {
             },
         ],
     },
+    devServer: {
+        contentBase: './dist',
+        hot: true,
+    },
     plugins: [
         // Show notifications
         new WebpackNotifierPlugin(),
         new MiniCssExtractPlugin({
-            filename: 'bundle.css',
+            filename: '[name].bundle.css',
+            chunkFilename: '[name].bundle.css',
         }),
     ],
     optimization: {
@@ -97,9 +112,11 @@ if (process.env.NODE_ENV === 'production') {
     config = {
         mode: 'production',
         entry: {
-            bundle: ['./src/index.js', './src/app.scss'],
+            soblu: ['./src/index.js'],
         },
         output: {
+            filename: '[name].bundle.js',
+            chunkFilename: '[name].bundle.js',
             path: `${currentDir}/dist`,
         },
         module: {
@@ -173,11 +190,9 @@ if (process.env.NODE_ENV === 'production') {
         },
         plugins: [
             new MiniCssExtractPlugin({
-                filename: 'bundle.css',
+                filename: '[name].bundle.css',
+                chunkFilename: '[name].bundle.css',
             }),
-
-            // Remove all moment locals except english ones
-            new webpack.ContextReplacementPlugin(/node_modules\/moment\/locale/, /en/),
         ],
         optimization: {
             noEmitOnErrors: true,
