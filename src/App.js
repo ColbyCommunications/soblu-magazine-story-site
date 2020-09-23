@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import loadable from '@loadable/component';
 import ScrollTop from './components/common/ScrollTop';
 
+import LoadingComponent from './components/common/Loading';
+
 const Home = loadable(
     () =>
         import(
@@ -10,7 +12,7 @@ const Home = loadable(
             /* webpackMode: "lazy" */ './pages/Home.js'
         ),
     {
-        fallback: <div />,
+        fallback: <LoadingComponent />,
     }
 );
 const EdwinEssay = loadable(
@@ -20,7 +22,7 @@ const EdwinEssay = loadable(
             /* webpackMode: "lazy" */ './pages/EdwinEssay'
         ),
     {
-        fallback: <div />,
+        fallback: <LoadingComponent />,
     }
 );
 const SobluVoices = loadable(
@@ -30,7 +32,7 @@ const SobluVoices = loadable(
             /* webpackMode: "lazy" */ './pages/SobluVoices'
         ),
     {
-        fallback: <div />,
+        fallback: <LoadingComponent />,
     }
 );
 const ChapelTakeover = loadable(
@@ -40,7 +42,7 @@ const ChapelTakeover = loadable(
             /* webpackMode: "lazy" */ './pages/ChapelTakeover'
         ),
     {
-        fallback: <div />,
+        fallback: <LoadingComponent />,
     }
 );
 
