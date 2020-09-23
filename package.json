@@ -8,7 +8,7 @@
     "peerDependencies": {},
     "scripts": {
         "build": "webpack --mode=production",
-        "start": "webpack-dev-server --open",
+        "start": "webpack-dev-server --open --history-api-fallback",
         "lint": "colby-package-lint",
         "format": "colby-package-format",
         "test": "colby-package-test --watch",

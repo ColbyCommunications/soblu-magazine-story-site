@@ -17,7 +17,11 @@ const Image = props => {
         return (
             <div className="soblu-image">
                 <div>
-                    <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
+                    <ProgressiveImage
+                        delay={1000}
+                        src={props.src.main}
+                        placeholder={props.src.thumbnail}
+                    >
                         {(src, loading) => (
                             <img
                                 style={{
@@ -58,7 +62,7 @@ const Image = props => {
     }
 
     return (
-        <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
+        <ProgressiveImage delay={1000} src={props.src.main} placeholder={props.src.thumbnail}>
             {(src, loading) => (
                 <img
                     style={{
