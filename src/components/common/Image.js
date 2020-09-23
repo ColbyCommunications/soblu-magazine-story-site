@@ -3,6 +3,7 @@
 /* eslint-disable no-else-return */
 import React from 'react';
 import PropTypes from 'prop-types';
+import ProgressiveImage from 'react-progressive-image';
 
 const Image = props => {
     if (props.caption) {
@@ -16,12 +17,22 @@ const Image = props => {
         return (
             <div className="d-table soblu-image">
                 <div>
-                    <img
-                        src={props.src.main}
-                        className="img-fluid"
-                        alt={props.altText}
-                        onClick={props.onClick}
-                    />
+                    <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
+                        {(src, loading) => (
+                            <img
+                                style={{
+                                    ...{ filter: 'none' },
+                                    width: '100%',
+                                    filter: loading ? 'blur(3px)' : 'none',
+                                    transition: 'filter 100ms ease-in',
+                                }}
+                                src={src}
+                                className="img-fluid"
+                                alt={props.altText}
+                                onClick={props.onClick}
+                            />
+                        )}
+                    </ProgressiveImage>
                 </div>
                 <div className="span-caption">
                     <div className="d-flex mt-2">
@@ -47,14 +58,22 @@ const Image = props => {
     }
 
     return (
-        <>
-            <img
-                src={props.src.main}
-                className="img-fluid"
-                alt={props.altText}
-                onClick={props.onClick}
-            />
-        </>
+        <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
+            {(src, loading) => (
+                <img
+                    style={{
+                        ...{ filter: 'none' },
+                        width: '100%',
+                        filter: loading ? 'blur(3px)' : 'none',
+                        transition: 'filter 100ms ease-in',
+                    }}
+                    src={src}
+                    className="img-fluid"
+                    alt={props.altText}
+                    onClick={props.onClick}
+                />
+            )}
+        </ProgressiveImage>
     );
 };
 
