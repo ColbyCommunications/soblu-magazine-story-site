@@ -240,6 +240,8 @@ const EdwinEssay = () => {
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0003.png',
+                                            thumbnail:
+                                                'images/Colby_SOBLU_Torres0003_thumbnail.png',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(4)}
@@ -254,6 +256,8 @@ const EdwinEssay = () => {
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0005.jpg',
+                                            thumbnail:
+                                                'images/Colby_SOBLU_Torres0005_thumbnail.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(5)}
