@@ -80,6 +80,7 @@ const EdwinEssay = () => {
                         <Image
                             src={{
                                 main: 'images/Colby_SOBLU_Torres0016A.jpg',
+                                thumbnail: 'images/Colby_SOBLU_Torres0016A_thumbnail.jpg',
                             }}
                             altText=""
                             onClick={() => openLightboxOnSlide(1)}
@@ -147,6 +148,8 @@ const EdwinEssay = () => {
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0001.jpg',
+                                            thumbnail:
+                                                'images/Colby_SOBLU_Torres0001_thumbnail.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(2)}
@@ -163,6 +166,8 @@ const EdwinEssay = () => {
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0002.png',
+                                            thumbnail:
+                                                'images/Colby_SOBLU_Torres0002_thumbnail.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(3)}
@@ -223,6 +228,8 @@ const EdwinEssay = () => {
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0003.png',
+                                            thumbnail:
+                                                'images/Colby_SOBLU_Torres0003_thumbnail.png',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(4)}
