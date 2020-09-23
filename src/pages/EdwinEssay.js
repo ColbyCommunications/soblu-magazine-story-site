@@ -77,6 +77,7 @@ const EdwinEssay = () => {
                         >
                             The Meaning of Home
                         </div>
+
                         <Image
                             src={{
                                 main: 'images/Colby_SOBLU_Torres0016A.jpg',
@@ -87,7 +88,7 @@ const EdwinEssay = () => {
                             caption="Edwin Torres ’12"
                         />
                     </div>
-                    <div className="col-md-12">
+                    <div className="col-md-11 offset-md-1">
                         <p>
                             Photographing for Colby Magazine has prompted me to revisit the meaning
                             of home. What is it that best reminds us of home? Is it a porch with a
@@ -177,7 +178,7 @@ const EdwinEssay = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-md-13">
+                            <div className="col-md-12 offset-md-1">
                                 <p>
                                     The sense of comfort in knowing that you all share similar
                                     perspectives and are looking out for each other—that was a

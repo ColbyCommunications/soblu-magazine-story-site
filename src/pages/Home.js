@@ -73,7 +73,10 @@ const Home = () => {
                     <div className="col-md-12">
                         <div className="soblu-mobile-hide">
                             <Image
-                                src={{ main: 'images/Juanluna_SOBLU_Torres0106.png' }}
+                                src={{
+                                    main: 'images/Juanluna_SOBLU_Torres0106.png',
+                                    thumbnail: 'images/Juanluna_SOBLU_Torres0106_thumbnail.jpg',
+                                }}
                                 altText=""
                                 onClick={() => openLightboxOnSlide(1)}
                             />

@@ -15,7 +15,7 @@ const Image = props => {
         }
 
         return (
-            <div className="d-table soblu-image">
+            <div className="soblu-image">
                 <div>
                     <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
                         {(src, loading) => (
@@ -34,7 +34,7 @@ const Image = props => {
                         )}
                     </ProgressiveImage>
                 </div>
-                <div className="span-caption">
+                <div>
                     <div className="d-flex mt-2">
                         <div
                             style={{
