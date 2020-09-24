@@ -66,7 +66,7 @@ const EdwinEssay = () => {
             <div id="edwin-essay-page" className="container">
                 <InnerSvg headline="Photography essay by Edwin J. Torres ’12" />
                 <div className="row soblu-first-section-inner">
-                    <div className="col-md-10 offset-md-2">
+                    <div className="col-md-10 offset-md-2 mb-md-0 mb-4">
                         <div
                             style={{
                                 fontStyle: 'normal',
@@ -116,7 +116,7 @@ const EdwinEssay = () => {
                         </p>
                     </div>
                 </div>
-                <div className="row mt-md-4 mt-0" id="soblu-vertical-menu">
+                <div className="row mt-md-5 mt-0" id="soblu-vertical-menu">
                     <div className="col-md-2 d-flex justify-content-center position-relative">
                         <div className="soblu-vertical-menu-container soblu-mobile-hide">
                             <div className="soblu-vertical-menu-sticky">
@@ -125,7 +125,7 @@ const EdwinEssay = () => {
                         </div>
                     </div>
                     <div className="col-md-22">
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-11 d-flex align-items-center">
                                 <div className="soblu-mobile-hide">
                                     <p className="soblu-img-caption">
@@ -145,7 +145,7 @@ const EdwinEssay = () => {
                                         onClick={() => openLightboxOnSlide(2)}
                                     />
                                 </div>
-                                <div className="soblu-desktop-hide my-4">
+                                <div className="soblu-desktop-hide my-4 my-md-0">
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0001.jpg',
@@ -161,9 +161,9 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-11">
-                                <div className="mb-3">
+                                <div className="mb-4 mb-md-0">
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0002.png',
@@ -210,7 +210,7 @@ const EdwinEssay = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div
                                 className="col-md-11 d-flex align-items-center justify-content-center"
                                 style={{ flexDirection: 'column' }}
@@ -237,7 +237,7 @@ const EdwinEssay = () => {
                                         caption=""
                                     />
                                 </div>
-                                <div className="soblu-desktop-hide " style={{ marginTop: '2rem' }}>
+                                <div className="soblu-desktop-hide">
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0003.png',
@@ -251,9 +251,9 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-13">
-                                <div>
+                                <div className="mb-4">
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0005.jpg',
@@ -280,7 +280,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-11 d-flex align-items-center">
                                 <div className="soblu-mobile-hide">
                                     <p className="soblu-img-caption">
@@ -300,7 +300,7 @@ const EdwinEssay = () => {
                                             onClick={() => openLightboxOnSlide(7)}
                                         />
                                     </div>
-                                    <div className="soblu-desktop-hide ">
+                                    <div className="soblu-desktop-hide">
                                         <Image
                                             src={{
                                                 main: 'images/Colby_SOBLU_Torres0006.jpg',
@@ -314,7 +314,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6 rohnique-davy">
+                        <div className="row rohnique-davy mb-4 mb-md-5">
                             <div className="col-md-13">
                                 <div className="soblu-mobile-hide">
                                     <Image
@@ -325,7 +325,7 @@ const EdwinEssay = () => {
                                         onClick={() => openLightboxOnSlide(8)}
                                     />
                                 </div>
-                                <div className="soblu-desktop-hide ">
+                                <div className="soblu-desktop-hide">
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0007.png',
@@ -337,7 +337,7 @@ const EdwinEssay = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
+                            <div className="col-md-10 offset-md-1 d-flex align-items-center justify-content-center flex-column">
                                 <div className="soblu-mobile-hide">
                                     <p className="soblu-img-caption mt-5">
                                         Rohnique Davy ’22 poses for a portrait on the SOBLU couch
@@ -346,9 +346,9 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-11 d-flex align-items-center justify-content-center">
-                                <div style={{ maxWidth: '350px' }}>
+                                <div className="mb-4" style={{ maxWidth: '350px' }}>
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0009.jpg',
@@ -372,7 +372,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-13">
                                 <div className="soblu-mobile-hide">
                                     <Image
@@ -383,7 +383,7 @@ const EdwinEssay = () => {
                                         onClick={() => openLightboxOnSlide(11)}
                                     />
                                 </div>
-                                <div className="soblu-desktop-hide ">
+                                <div className="soblu-desktop-hide mb-4">
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0011.jpg',
@@ -404,7 +404,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                                 <div className="soblu-mobile-hide">
                                     <p className="soblu-img-caption mt-5">
@@ -444,9 +444,9 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-13">
-                                <div>
+                                <div className="mb-4 mb-md-0">
                                     <Image
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0013.jpg',
@@ -470,7 +470,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                                 <div className="soblu-mobile-hide">
                                     <p className="soblu-img-caption mt-5">
@@ -510,7 +510,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-13">
                                 <div className="soblu-mobile-hide">
                                     <Image
@@ -542,7 +542,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                                 <div className="soblu-mobile-hide">
                                     <p className="soblu-img-caption mt-5s">
@@ -572,7 +572,7 @@ const EdwinEssay = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mb-lg-6">
+                        <div className="row mb-4 mb-md-5">
                             <Image
                                 src={{
                                     main: 'images/Colby_SOBLU_Torres0017.jpg',
