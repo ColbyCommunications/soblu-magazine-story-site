@@ -144,6 +144,8 @@ const ChapelTakeover = () => {
                                 src={{
                                     main:
                                         'images/Long-view-of-chapel-gathering-students-speakers-on-balcony.png',
+                                    thumbnail:
+                                        'images/Long-view-of-chapel-gathering-students-speakers-on-balcony-thumbnail.jpg',
                                 }}
                                 altText=""
                                 onClick={() => openLightboxOnSlide(1)}
