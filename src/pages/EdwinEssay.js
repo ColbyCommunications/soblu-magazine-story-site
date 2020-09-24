@@ -230,7 +230,7 @@ const EdwinEssay = () => {
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0003.png',
                                             thumbnail:
-                                                'images/Colby_SOBLU_Torres0003_thumbnail.png',
+                                                'images/Colby_SOBLU_Torres0003_thumbnail.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(4)}
@@ -242,7 +242,7 @@ const EdwinEssay = () => {
                                         src={{
                                             main: 'images/Colby_SOBLU_Torres0003.png',
                                             thumbnail:
-                                                'images/Colby_SOBLU_Torres0003_thumbnail.png',
+                                                'images/Colby_SOBLU_Torres0003_thumbnail.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(4)}

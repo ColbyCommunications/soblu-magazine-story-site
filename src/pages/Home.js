@@ -814,7 +814,7 @@ const Home = () => {
                                 </h2>
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-radical-movement"
+                                    id="back-to-the-old-days"
                                 >
                                     Back to the Old Days
                                 </h3>
@@ -875,7 +875,7 @@ const Home = () => {
                                 </h2>
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-radical-movement"
+                                    id="branching-out"
                                 >
                                     Branching Out
                                 </h3>
@@ -943,7 +943,7 @@ const Home = () => {
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-space-of-its-own"
+                                    id="an-agency-of-change"
                                 >
                                     An Agency of Change
                                 </h3>
@@ -1062,7 +1062,7 @@ const Home = () => {
                                 </h2>
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-radical-movement"
+                                    id="activism-its-just-one-facet-of-sobhu"
                                 >
                                     Activism—It’s just one Facet of SOBHU
                                 </h3>
@@ -1200,7 +1200,7 @@ const Home = () => {
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-space-of-its-own"
+                                    id="a-journey-of-self-discovery"
                                 >
                                     A Journey of Self Discovery
                                 </h3>
@@ -1283,7 +1283,7 @@ const Home = () => {
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-space-of-its-own"
+                                    id="incredibly-diverse-within"
                                 >
                                     Incredibly Diverse from Within
                                 </h3>
@@ -1389,7 +1389,7 @@ const Home = () => {
                                 </h2>
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-radical-movement"
+                                    id="an-extended-family"
                                 >
                                     An Extended Family
                                 </h3>
@@ -1481,7 +1481,7 @@ const Home = () => {
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-space-of-its-own"
+                                    id="developing-leaders"
                                 >
                                     Developing Leaders
                                 </h3>
@@ -1563,7 +1563,7 @@ const Home = () => {
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-space-of-its-own"
+                                    id="a-home-and-a-family"
                                 >
                                     A Home and a Family
                                 </h3>
@@ -1651,7 +1651,7 @@ const Home = () => {
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-space-of-its-own"
+                                    id="the-b-and-the-l"
                                 >
                                     The “B” and the “L”
                                 </h3>
@@ -1743,7 +1743,7 @@ const Home = () => {
                                 </h2>
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-radical-movement"
+                                    id="the-soblu-room"
                                 >
                                     The SOBLU Room
                                 </h3>
@@ -1859,7 +1859,7 @@ const Home = () => {
                             <div className="col-md-14">
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="a-space-of-its-own"
+                                    id="still-a-critical-organization"
                                 >
                                     Still a Critical Organization
                                 </h3>

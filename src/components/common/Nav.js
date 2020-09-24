@@ -5,6 +5,8 @@ import React, { useState } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import HiddenBlock from '@colbycommunications/colby-hidden-block-component';
 
+import { HashLink } from 'react-router-hash-link';
+
 const Nav = withRouter(props => {
     const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
 
@@ -134,21 +136,29 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="1970s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <a href="#a-radical-movement">A Radical Movement</a>
+                                                <HashLink to="/#a-radical-movement">
+                                                    A Radical Movement
+                                                </HashLink>
                                             </li>
                                             <li>
-                                                <a href="#pillar-of-support">Pillar of Support</a>
+                                                <HashLink to="/#pillar-of-support">
+                                                    Pillar of Support
+                                                </HashLink>
                                             </li>
                                             <li>
-                                                <a href="#a-cultural-outlet">A Cultural Outlet</a>
+                                                <HashLink to="/#a-cultural-outlet">
+                                                    A Cultural Outlet
+                                                </HashLink>
                                             </li>
                                             <li>
-                                                <a href="#a-space-of-its-own">A Space of its Own</a>
+                                                <HashLink to="/#a-space-of-its-own">
+                                                    A Space of its Own
+                                                </HashLink>
                                             </li>
                                             <li>
-                                                <a href="#an-organization-for-whom">
+                                                <HashLink to="/#an-organization-for-whom">
                                                     An Organization for Whom?
-                                                </a>
+                                                </HashLink>
                                             </li>
                                         </ul>
                                     </HiddenBlock>
@@ -157,7 +167,9 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="1980s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <a href="#">Section</a>
+                                                <HashLink to="/#back-to-the-old-days">
+                                                    Back to the Old Days
+                                                </HashLink>
                                             </li>
                                         </ul>
                                     </HiddenBlock>
@@ -166,7 +178,14 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="1990s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <a href="#">Section</a>
+                                                <HashLink to="/#branching-out">
+                                                    Branching Out
+                                                </HashLink>
+                                            </li>
+                                            <li>
+                                                <HashLink to="/#an-agency-of-change">
+                                                    An Agency of Change
+                                                </HashLink>
                                             </li>
                                         </ul>
                                     </HiddenBlock>
