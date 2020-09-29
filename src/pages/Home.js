@@ -14,7 +14,7 @@ const Home = () => {
 
     const lightboxImages = [
         'images/Juanluna_SOBLU_Torres0106.png',
-        'images/Chapel-protest-students-speaking-to-audience.jpg',
+        'images/Chapel-protest-students-speaking-to-audience-1200high.jpg',
         'images/20181204_145739.png',
         'images/20181204_150625.png',
     ];
