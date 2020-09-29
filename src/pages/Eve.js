@@ -8,7 +8,7 @@ const TowerAbove = () => (
         <Nav />
         <div id="soblu-voices-page" className="container">
             <InnerSvg headline="E.V.E: Ethnic Vocal Ensemble" />
-            <div className="row soblu-first-section-inner">
+            <div className="row">
                 <div className="col-md-12">
                     <div>
                         <div className="row fgCompressed">
