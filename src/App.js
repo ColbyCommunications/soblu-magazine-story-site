@@ -45,6 +45,26 @@ const ChapelTakeover = loadable(
         fallback: <LoadingComponent />,
     }
 );
+const Eve = loadable(
+    () =>
+        import(
+            /* webpackChunkName: "eve" */
+            /* webpackMode: "lazy" */ './pages/Eve'
+        ),
+    {
+        fallback: <LoadingComponent />,
+    }
+);
+const TheUnity = loadable(
+    () =>
+        import(
+            /* webpackChunkName: "the-unity" */
+            /* webpackMode: "lazy" */ './pages/TheUnity'
+        ),
+    {
+        fallback: <LoadingComponent />,
+    }
+);
 
 const App = () => (
     <Router>
@@ -61,6 +81,12 @@ const App = () => (
                 </Route>
                 <Route exact path="/chapel-takeover-1970">
                     <ChapelTakeover />
+                </Route>
+                <Route exact path="/eve">
+                    <Eve />
+                </Route>
+                <Route exact path="/the-unity">
+                    <TheUnity />
                 </Route>
             </Switch>
         </ScrollTop>
