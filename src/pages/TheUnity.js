@@ -15,6 +15,8 @@ const TheUnity = () => (
                             <h1
                                 style={{
                                     fontWeight: '600',
+                                    fontSize: '3.6rem',
+                                    lineHeight: '3.6rem',
                                 }}
                             >
                                 Keeping In Touch
@@ -32,7 +34,7 @@ const TheUnity = () => (
                     </div>
                 </div>
                 <div className="col-md-22">
-                    <div className="row mb-4 top-content">
+                    <div className="row mb-4">
                         <div className="col-md-22 offset-md-2 ">
                             <p>
                                 A growing membership body, robust programming, and generations of

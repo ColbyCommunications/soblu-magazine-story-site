@@ -15,6 +15,8 @@ const TowerAbove = () => (
                             <h1
                                 style={{
                                     fontWeight: '600',
+                                    fontSize: '3.6rem',
+                                    lineHeight: '3.6rem',
                                 }}
                             >
                                 Tower Above
@@ -32,7 +34,7 @@ const TowerAbove = () => (
                     </div>
                 </div>
                 <div className="col-md-22">
-                    <div className="row mb-4 top-content">
+                    <div className="row mb-4">
                         <div className="col-md-22 offset-md-2 ">
                             <p>
                                 The Colbyettes, the Megs, Broadway Musical Revenue (BMR)—Amina
