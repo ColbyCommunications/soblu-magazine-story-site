@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
 import FsLightbox from 'fslightbox-react';
 import Swiper from '@colbycommunications/colby-swiper-component';
@@ -40,7 +42,7 @@ const ChapelTakeover = () => {
         'images/chapel-takover-slide-wide-at-podium.jpg',
         'images/chapel-takover-slide-at-podium.jpg',
         'images/chapel-takover-slide-group-inside-three-people.jpg',
-        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+        'images/Echo-blacks-in-chapel-composit.jpg',
         'images/Serving-injunction-900-wide.png',
     ];
 
@@ -482,7 +484,7 @@ const ChapelTakeover = () => {
                                             <Image
                                                 src={{
                                                     main:
-                                                        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+                                                        'images/Echo-blacks-in-chapel-composit.jpg',
                                                 }}
                                                 altText=""
                                                 onClick={() => openLightboxOnSlide(5)}
@@ -493,7 +495,14 @@ const ChapelTakeover = () => {
                                                     style={{
                                                         backgroundColor: '#000',
                                                         color: '#fff',
+                                                        cursor: 'pointer',
                                                     }}
+                                                    onClick={() =>
+                                                        window.open(
+                                                            'pdfs/Blacks-in-chapel_CBO_1970_03_06.pdf',
+                                                            '_blank'
+                                                        )
+                                                    }
                                                 >
                                                     <span
                                                         className="heavy"
