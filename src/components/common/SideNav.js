@@ -45,14 +45,14 @@ const SideNav = withRouter(props => {
             </div>
             <div id="soblu-menu-drawer" className={`${isDrawerOpen ? 'show' : 'hide'}`}>
                 <div className="text-right" style={{ cursor: 'pointer' }} onClick={closeDrawer}>
-                    <span>CLOSE</span>
+                    <span style={{ fontSize: '0.7rem' }}>CLOSE</span>
                 </div>
                 <div className="mt-4 px-3">
                     <div
                         className="text-center p-2"
                         style={{ backgroundColor: '#fff', color: '#000' }}
                     >
-                        <h3 className="mb-0" style={{ fontSize: '1.2rem' }}>
+                        <h3 className="mb-0" style={{ fontSize: '1rem' }}>
                             <span style={{ fontWeight: '100' }}>TIMELINE</span>
                         </h3>
                     </div>
@@ -191,7 +191,7 @@ const SideNav = withRouter(props => {
                         <h3
                             className="mb-0"
                             style={{
-                                fontSize: '1.2rem',
+                                fontSize: '1rem',
                             }}
                         >
                             <span style={{ fontWeight: '100' }}>ESSAYS AND MORE</span>
