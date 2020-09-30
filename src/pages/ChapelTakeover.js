@@ -39,20 +39,24 @@ const ChapelTakeover = () => {
 
     const lightboxImages = [
         'images/Long-view-of-chapel-gathering-students-speakers-on-balcony.png',
-        'images/chapel-takover-slide-wide-at-podium.jpg',
+        'images/Black-student-strike-in-March-1970-chapel-takeover-student-speakers-and-audience.jpg',
         'images/chapel-takover-slide-at-podium.jpg',
         'images/chapel-takover-slide-group-inside-three-people.jpg',
         'images/Echo-blacks-in-chapel-composit.jpg',
+        'images/newspaper-01-black-students-urge-colby-act-on-demands--full.png',
         'images/Serving-injunction-900-wide.png',
+        'images/Echo-blacks-OUT-chapel-composit-thumb.jpg',
     ];
 
     const lightboxCaptions = [
         'Students gathered in front of Lorimer Chapel to hear SOBU17’s speech on March 1970.',
         'SOBU17 and the student government representatives addressed the crowd and reiterated SOBU’s demands.',
         'Charles Terrell ’70 (in glasses) alongside SOBU17 and student government leaders in front of Lorimer Chapel.',
+        '',
         'SOBU members, including Doris Ford ’73 (right), inside the chapel.',
         '',
         'Terrell (center) and SOBU17 served with a restraining order on March 9.',
+        'Colby Echo, March 13, 1970',
     ];
 
     function openLightboxOnSlide(number) {
@@ -489,6 +493,7 @@ const ChapelTakeover = () => {
                                                 altText=""
                                                 onClick={() => openLightboxOnSlide(5)}
                                             />
+
                                             <div className="mt-2">
                                                 <div
                                                     className="text-center p-2"
@@ -510,8 +515,31 @@ const ChapelTakeover = () => {
                                                     >
                                                         <i>Echo</i>
                                                     </span>{' '}
-                                                    <span style={{ textTransform: 'uppercase' }}>
+                                                    <span
+                                                        style={{
+                                                            textTransform: 'uppercase',
+                                                            marginRight: '5px',
+                                                        }}
+                                                    >
                                                         The Debate Begins
+                                                    </span>{' '}
+                                                    <span style={{ verticalAlign: 'top' }}>
+                                                        <svg
+                                                            version="1.1"
+                                                            width="16"
+                                                            height="16"
+                                                            viewBox="0 0 16 16"
+                                                            style={{ marginTop: '-2px' }}
+                                                        >
+                                                            <path
+                                                                fill="currentColor"
+                                                                d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
+                                                            />
+                                                            <path
+                                                                fill="currentColor"
+                                                                d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
+                                                            />
+                                                        </svg>
                                                     </span>
                                                 </div>
                                                 <div
@@ -530,7 +558,7 @@ const ChapelTakeover = () => {
                                                         'images/newspaper-01-black-students-urge-colby-headline-crop.png',
                                                 }}
                                                 altText=""
-                                                onClick={() => openLightboxOnSlide(5)}
+                                                onClick={() => openLightboxOnSlide(6)}
                                             />
                                             <div className="mt-2">
                                                 <div
@@ -538,7 +566,14 @@ const ChapelTakeover = () => {
                                                     style={{
                                                         backgroundColor: '#000',
                                                         color: '#fff',
+                                                        cursor: 'pointer',
                                                     }}
+                                                    onClick={() =>
+                                                        window.open(
+                                                            'pdfs/newspaper-black-students-urge-colby.pdf',
+                                                            '_blank'
+                                                        )
+                                                    }
                                                 >
                                                     <span
                                                         className="heavy"
@@ -548,6 +583,24 @@ const ChapelTakeover = () => {
                                                     </span>{' '}
                                                     <span style={{ textTransform: 'uppercase' }}>
                                                         Impact in the Media
+                                                    </span>{' '}
+                                                    <span style={{ verticalAlign: 'top' }}>
+                                                        <svg
+                                                            version="1.1"
+                                                            width="16"
+                                                            height="16"
+                                                            viewBox="0 0 16 16"
+                                                            style={{ marginTop: '-2px' }}
+                                                        >
+                                                            <path
+                                                                fill="currentColor"
+                                                                d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
+                                                            />
+                                                            <path
+                                                                fill="currentColor"
+                                                                d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
+                                                            />
+                                                        </svg>
                                                     </span>
                                                 </div>
                                             </div>
@@ -619,7 +672,7 @@ const ChapelTakeover = () => {
                                     main: 'images/Serving-injunction-900-wide.png',
                                 }}
                                 altText=""
-                                onClick={() => openLightboxOnSlide(6)}
+                                onClick={() => openLightboxOnSlide(7)}
                                 caption="Terrell (center) and SOBU17 served with a restraining order on March 9."
                             />
                         </div>
@@ -697,10 +750,10 @@ const ChapelTakeover = () => {
                                                 <Image
                                                     src={{
                                                         main:
-                                                            'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+                                                            'images/Echo-blacks-OUT-chapel-composit-thumb.jpg',
                                                     }}
                                                     altText=""
-                                                    onClick={() => openLightboxOnSlide(5)}
+                                                    onClick={() => openLightboxOnSlide(8)}
                                                 />
                                                 <div className="span-caption">
                                                     <div className="mt-2">
@@ -709,7 +762,14 @@ const ChapelTakeover = () => {
                                                             style={{
                                                                 backgroundColor: '#000',
                                                                 color: '#fff',
+                                                                cursor: 'pointer',
                                                             }}
+                                                            onClick={() =>
+                                                                window.open(
+                                                                    'pdfs/Blacks-out-of-chapel_CBO_1970_03_13.pdf',
+                                                                    '_blank'
+                                                                )
+                                                            }
                                                         >
                                                             <span
                                                                 className="heavy"
@@ -725,6 +785,24 @@ const ChapelTakeover = () => {
                                                                 }}
                                                             >
                                                                 Reaction
+                                                            </span>{' '}
+                                                            <span style={{ verticalAlign: 'top' }}>
+                                                                <svg
+                                                                    version="1.1"
+                                                                    width="16"
+                                                                    height="16"
+                                                                    viewBox="0 0 16 16"
+                                                                    style={{ marginTop: '-2px' }}
+                                                                >
+                                                                    <path
+                                                                        fill="currentColor"
+                                                                        d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
+                                                                    />
+                                                                    <path
+                                                                        fill="currentColor"
+                                                                        d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
+                                                                    />
+                                                                </svg>
                                                             </span>
                                                         </div>
                                                     </div>
