@@ -161,7 +161,7 @@ h1 {
         z-index: 1000;
     }
     .soblu-vertical-menu-bar {
-        margin-right: 5px;
+        margin-right: 2px;
         cursor: pointer;
         height: 400px;
         background-color: #000;
@@ -176,6 +176,7 @@ h1 {
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 10px;
+        max-width: 35px;
     }
 
     #soblu-menu-drawer {
@@ -184,7 +185,7 @@ h1 {
         color: #fff;
         z-index: 1000;
         padding: 5px 10px;
-        width: 300px;
+        width: 295px;
 
         svg {
             width: 0.9rem;
