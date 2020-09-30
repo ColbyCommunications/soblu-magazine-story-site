@@ -14,18 +14,18 @@ const EdwinEssay = () => {
     const lightboxImages = [
         'images/Colby_SOBLU_Torres0016A.jpg',
         'images/Colby_SOBLU_Torres0001.jpg',
-        'images/Colby_SOBLU_Torres0002.png',
-        'images/Colby_SOBLU_Torres0003.png',
+        'images/Colby_SOBLU_Torres0002.jpg',
+        'images/Colby_SOBLU_Torres0003.jpg',
         'images/Colby_SOBLU_Torres0005.jpg',
-        'images/Colby_SOBLU_Torres0004.png',
+        'images/Colby_SOBLU_Torres0004.jpg',
         'images/Colby_SOBLU_Torres0006.jpg',
-        'images/Colby_SOBLU_Torres0007.png',
+        'images/Colby_SOBLU_Torres0007.jpg',
         'images/Colby_SOBLU_Torres0009.jpg',
         'images/Colby_SOBLU_Torres0008.jpg',
         'images/Colby_SOBLU_Torres0011.jpg',
         'images/Colby_SOBLU_Torres0010.jpg',
         'images/Colby_SOBLU_Torres0013.jpg',
-        'images/Colby_SOBLU_Torres0012.png',
+        'images/Colby_SOBLU_Torres0012.jpg',
         'images/Colby_SOBLU_Torres0014.jpg',
         'images/Colby_SOBLU_Torres0015.jpg',
         'images/Colby_SOBLU_Torres0016.jpg',
@@ -139,7 +139,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0001.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0001-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(2)}
@@ -166,7 +166,7 @@ const EdwinEssay = () => {
                                 <div className="mb-4 mb-md-0">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0002.png',
+                                            main: 'images/Colby_SOBLU_Torres0002-thumb.jpg',
                                             thumbnail:
                                                 'images/Colby_SOBLU_Torres0002_thumbnail.jpg',
                                         }}
@@ -228,7 +228,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0003.png',
+                                            main: 'images/Colby_SOBLU_Torres0003-thumb.jpg',
                                             thumbnail:
                                                 'images/Colby_SOBLU_Torres0003_thumbnail.jpg',
                                         }}
@@ -240,7 +240,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-desktop-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0003.png',
+                                            main: 'images/Colby_SOBLU_Torres0003-thumb.jpg',
                                             thumbnail:
                                                 'images/Colby_SOBLU_Torres0003_thumbnail.jpg',
                                         }}
@@ -256,7 +256,7 @@ const EdwinEssay = () => {
                                 <div className="mb-4">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0005.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0005-thumb.jpg',
                                             thumbnail:
                                                 'images/Colby_SOBLU_Torres0005_thumbnail.jpg',
                                         }}
@@ -271,7 +271,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-edwin-adjust-left">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0004.png',
+                                            main: 'images/Colby_SOBLU_Torres0004-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(6)}
@@ -294,7 +294,7 @@ const EdwinEssay = () => {
                                     <div className="soblu-mobile-hide">
                                         <Image
                                             src={{
-                                                main: 'images/Colby_SOBLU_Torres0006.jpg',
+                                                main: 'images/Colby_SOBLU_Torres0006-thumb.jpg',
                                             }}
                                             altText=""
                                             onClick={() => openLightboxOnSlide(7)}
@@ -303,7 +303,7 @@ const EdwinEssay = () => {
                                     <div className="soblu-desktop-hide">
                                         <Image
                                             src={{
-                                                main: 'images/Colby_SOBLU_Torres0006.jpg',
+                                                main: 'images/Colby_SOBLU_Torres0006-thumb.jpg',
                                             }}
                                             altText=""
                                             onClick={() => openLightboxOnSlide(7)}
@@ -319,7 +319,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0007.png',
+                                            main: 'images/Colby_SOBLU_Torres0007-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(8)}
@@ -328,7 +328,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-desktop-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0007.png',
+                                            main: 'images/Colby_SOBLU_Torres0007-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(8)}
@@ -351,7 +351,7 @@ const EdwinEssay = () => {
                                 <div className="mb-4" style={{ maxWidth: '350px' }}>
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0009.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0009-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(9)}
@@ -363,7 +363,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-edwin-adjust-left">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0008.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0008-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(10)}
@@ -377,7 +377,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0011.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0011-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(11)}
@@ -386,7 +386,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-desktop-hide mb-4">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0011.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0011-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(11)}
@@ -421,7 +421,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0010.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0010-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(12)}
@@ -430,7 +430,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-desktop-hide ">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0010.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0010-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(12)}
@@ -449,7 +449,7 @@ const EdwinEssay = () => {
                                 <div className="mb-4 mb-md-0">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0013.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0013-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(13)}
@@ -461,7 +461,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-edwin-adjust-left">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0012.png',
+                                            main: 'images/Colby_SOBLU_Torres0012-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(14)}
@@ -487,7 +487,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0014.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0014-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(15)}
@@ -496,7 +496,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-desktop-hide ">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0014.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0014-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(15)}
@@ -515,7 +515,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0015.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0015-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(16)}
@@ -524,7 +524,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-desktop-hide Z">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0015.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0015-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(16)}
@@ -554,7 +554,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-mobile-hide">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0016.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0016-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(17)}
@@ -563,7 +563,7 @@ const EdwinEssay = () => {
                                 <div className="soblu-desktop-hide ">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0016.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0016-thumb.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(17)}
@@ -575,7 +575,7 @@ const EdwinEssay = () => {
                         <div className="row mb-4 mb-md-5">
                             <Image
                                 src={{
-                                    main: 'images/Colby_SOBLU_Torres0017.jpg',
+                                    main: 'images/Colby_SOBLU_Torres0017-thumb.jpg',
                                 }}
                                 altText=""
                                 onClick={() => openLightboxOnSlide(18)}
