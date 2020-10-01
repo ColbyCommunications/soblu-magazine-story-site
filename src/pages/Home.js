@@ -13,7 +13,7 @@ const Home = () => {
     });
 
     const lightboxImages = [
-        'images/Juanluna_SOBLU_Torres0106.png',
+        'images/Colby_SOBLU_Torres0017-retouched-1200.jpg',
         'images/Chapel-protest-students-speaking-to-audience-1200high.jpg',
         'images/20181204_145739.png',
         'images/20181204_150625.png',
@@ -44,8 +44,9 @@ const Home = () => {
                             <div className="soblu-desktop-hide">
                                 <Image
                                     src={{
-                                        main: 'images/Juanluna_SOBLU_Torres0106.png',
-                                        thumbnail: 'images/Juanluna_SOBLU_Torres0106_thumbnail.jpg',
+                                        main: 'images/Colby_SOBLU_Torres0017-retouched-600.jpg',
+                                        thumbnail:
+                                            'images/Colby_SOBLU_Torres0017-retouched-thumb.jpg',
                                     }}
                                     altText=""
                                     onClick={() => openLightboxOnSlide(1)}
@@ -74,8 +75,8 @@ const Home = () => {
                         <div className="soblu-mobile-hide">
                             <Image
                                 src={{
-                                    main: 'images/Juanluna_SOBLU_Torres0106.png',
-                                    thumbnail: 'images/Juanluna_SOBLU_Torres0106_thumbnail.jpg',
+                                    main: 'images/Colby_SOBLU_Torres0017-retouched-600.jpg',
+                                    thumbnail: 'images/Colby_SOBLU_Torres0017-retouched-thumb.jpg',
                                 }}
                                 altText=""
                                 onClick={() => openLightboxOnSlide(1)}

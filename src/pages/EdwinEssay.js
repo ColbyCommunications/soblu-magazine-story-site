@@ -18,7 +18,7 @@ const EdwinEssay = () => {
         'images/Colby_SOBLU_Torres0003.jpg',
         'images/Colby_SOBLU_Torres0005.jpg',
         'images/Colby_SOBLU_Torres0004.jpg',
-        'images/Colby_SOBLU_Torres0006.jpg',
+        'images/Juanluna_SOBLU_Torres0114-retouched-1200.jpg',
         'images/Colby_SOBLU_Torres0007.jpg',
         'images/Colby_SOBLU_Torres0009.jpg',
         'images/Colby_SOBLU_Torres0008.jpg',
@@ -294,7 +294,8 @@ const EdwinEssay = () => {
                                     <div className="soblu-mobile-hide">
                                         <Image
                                             src={{
-                                                main: 'images/Colby_SOBLU_Torres0006-thumb.jpg',
+                                                main:
+                                                    'images/Juanluna_SOBLU_Torres0114-retouched-600.jpg',
                                             }}
                                             altText=""
                                             onClick={() => openLightboxOnSlide(7)}
@@ -303,7 +304,8 @@ const EdwinEssay = () => {
                                     <div className="soblu-desktop-hide">
                                         <Image
                                             src={{
-                                                main: 'images/Colby_SOBLU_Torres0006-thumb.jpg',
+                                                main:
+                                                    'images/Juanluna_SOBLU_Torres0114-retouched-600.jpg',
                                             }}
                                             altText=""
                                             onClick={() => openLightboxOnSlide(7)}
@@ -575,7 +577,8 @@ const EdwinEssay = () => {
                         <div className="row mb-4 mb-md-5">
                             <Image
                                 src={{
-                                    main: 'images/Colby_SOBLU_Torres0017-thumb.jpg',
+                                    main: 'images/Colby_SOBLU_Torres0017-retouched-1200.jpg',
+                                    thumbnail: 'images/Colby_SOBLU_Torres0017-retouched-thumb.jpg',
                                 }}
                                 altText=""
                                 onClick={() => openLightboxOnSlide(18)}
