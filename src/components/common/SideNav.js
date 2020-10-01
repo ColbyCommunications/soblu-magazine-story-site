@@ -34,7 +34,7 @@ const SideNav = withRouter(props => {
             data-aos-offset="500"
         >
             <div className="soblu-vertical-menu-bar" onClick={onClick}>
-                <div style={{ fontSize: '1.2rem' }}>
+                <div style={{ fontSize: '1rem' }}>
                     <span style={{ fontWeight: '600' }}>SOBLU</span>
                     <span style={{ fontWeight: '100' }}>AT</span>
                     <span style={{ fontWeight: '600' }}>50</span>
