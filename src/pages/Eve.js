@@ -7,7 +7,7 @@ const TowerAbove = () => (
     <>
         <Nav />
         <div id="soblu-voices-page" className="container">
-            <InnerSvg headline="E.V.E: Ethnic Vocal Ensemble" />
+            <InnerSvg headline="Ethnic Vocal Ensemble" />
             <div className="row">
                 <div className="col-md-12">
                     <div>
@@ -21,6 +21,11 @@ const TowerAbove = () => (
                             >
                                 Tower Above
                             </h1>
+                        </div>
+                        <div className="row mt-4">
+                            <div className="col-lg-20">
+                                <p className="lead">SOBHU members find their voice</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -37,7 +42,7 @@ const TowerAbove = () => (
                     <div className="row mb-4">
                         <div className="col-md-22 offset-md-2 ">
                             <p>
-                                The Colbyettes, the Megs, Broadway Musical Revenue (BMR)—Amina
+                                The Colbyettes, the Megs, Broadway Musical Revue (BMR)—Amina
                                 McIntryre ’04 had auditioned for all of them but hadn’t been
                                 selected. In a conversation at the SOBHU room, she discovered she
                                 wasn’t the only one in that situation.
@@ -64,25 +69,25 @@ const TowerAbove = () => (
                                 people; next year we had like 14,” she said.
                             </p>
                             <p>
-                                The Echo reported on their success with a story on 5 September 2002:
+                                The Echo reported on their success with a story on Sept. 5, 2002:
                                 “These girls blew everyone away, new and returning students alike.
                                 They approached a cappella in a new way by incorporating poetry into
                                 their performance, which was set to the theme of love. They
                                 impressed the audience with their delightful renditions of Maxwell’s
-                                ‘Drowndeep’ and Alicia Keys’ ‘Jane Doe.’ They also received the only
-                                standing ovation of the night after they performed Nelly Furtado’s
-                                ‘I’m Like a Bird.’”
+                                ‘Drowndeep’ and Alicia Keys’s ‘Jane Doe.’ They also received the
+                                only standing ovation of the night after they performed Nelly
+                                Furtado’s ‘I’m Like a Bird.’”
                             </p>
                             <p>
-                                In another story from 12 September 2002, the founding members shared
-                                details of their formation. “It was a joke at first,” said Oliver to
+                                In another story from Sept. 12, 2002, the founding members shared
+                                details of their formation. “It was a joke at first,” Oliver told
                                 the Echo, adding: “It’s a blessing in disguise that all of us didn’t
                                 make the other a cappella groups; though it is kinda strange to
                                 think. This way, we wouldn’t have been able to come together like
-                                this.” They explained their name choice was because it captured
-                                their musical selections and styling. “Ethnic does not mean that it
-                                has to be a person of color. Ethnic is just soulful singing,” said
-                                another founding member, Ramos.
+                                this.” Their name choice, they explained, was chosen because it
+                                captured their musical selections and styling. “Ethnic does not mean
+                                that it has to be a person of color. Ethnic is just soulful
+                                singing,” said Ramos.
                             </p>
                             <p>
                                 “We literally started out [with] one white woman and all the rest of

@@ -22,6 +22,13 @@ const TheUnity = () => (
                                 Keeping In Touch
                             </h1>
                         </div>
+                        <div className="row mt-4">
+                            <div className="col-lg-20">
+                                <p className="lead">
+                                    SOBHU members launched a newsletter to document their activities
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -44,32 +51,31 @@ const TheUnity = () => (
                                 in 2013.
                             </p>
                             <p>
-                                “Black and Brown SOBHU alums didn&rsquo;t really come back to campus
-                                at all,” said then-president Tionna Haynes ’15 in an email. “We
-                                needed them to know the amazing things that the club was doing, try
-                                to encourage them to come back into the Colby fold and give back,
-                                and to be unique—I don’t think any other club has the network that
-                                we had and have.”
+                                “[At that time] Black and Brown SOBHU alums didn&rsquo;t really come
+                                back to campus,” said then-president Tionna Haynes ’15 in an email.
+                                “We needed them to know the amazing things that the club was doing,
+                                try to encourage them to come back into the Colby fold and give
+                                back, and to be unique—I don’t think any other club has the network
+                                that we had and have.”
                             </p>
                             <p>
                                 Shaped in the hands of the subcommittee, “The Unity” has been a
                                 vehicle to introduce past and present members to one another, share
-                                news and messages from campus, and circulate photos from current
-                                times.“It is a way for future generations of SOBHU members and
-                                alumni to see our lives and what we find important,” said Katia
-                                Licea ’14, in a Q&A published on the first issue of “The Unity” in
-                                October 2013. “It’s a record that we were here and that we had
-                                passion and love for our organization.”
+                                news and messages from campus, and circulate photos. “It is a way
+                                for future generations of SOBHU members and alumni to see our lives
+                                and what we find important,” said Katia Licea ’14, in a Q&amp;A
+                                published on the first issue of “The Unity” in October 2013.
                             </p>
                             <p>
                                 The goal of the newsletter’s former editor and former SOBHU vice
-                                president Miriam Valle-Mancilla ’16 was also to capture fun moments.
-                                “For whoever was reading this newsletter, we wanted them to really
-                                understand that we still have fun, we enjoyed our college
-                                experience, and this is the area that we would really have a good
-                                time in,” she said. By capturing moments such as family dinners,
-                                dances, and jokes, she tried to show the club as a whole with all of
-                                its greatness.
+                                president Miriam Valle-Mancilla ’16, currently the Linde Family
+                                Foundation Coordinator of Academic Access at Colby, was also to
+                                capture fun moments. “For whoever was reading this newsletter, we
+                                wanted them to really understand that we still have fun, we enjoyed
+                                our college experience, and this is the area that we would really
+                                have a good time in,” she said. By capturing moments such as family
+                                dinners, dances, and jokes, she tried to show the club as a whole
+                                with all of its greatness.
                             </p>
                             <p>
                                 But while documenting its current state, this was also an
@@ -79,8 +85,8 @@ const TheUnity = () => (
                                 “A lot of times we didn&rsquo;t know a lot about the collective
                                 history of what was going on prior to when we were there,” said
                                 Valle-Mancilla. “I think it was us trying to seek out where we can
-                                get information, past people, really understanding the history of
-                                what SOBHU was.”
+                                get information about past people, really understanding the history
+                                of what SOBHU was.”
                             </p>
                         </div>
                     </div>

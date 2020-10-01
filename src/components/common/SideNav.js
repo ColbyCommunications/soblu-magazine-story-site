@@ -118,8 +118,8 @@ const SideNav = withRouter(props => {
                                 <HiddenBlock title="2000s">
                                     <ul id="soblu-vertical-menu-1970-collapse">
                                         <li>
-                                            <HashLink to="/#activism-its-just-one-facet-of-sobhu">
-                                                Activism—It’s just one Facet of SOBHU
+                                            <HashLink to="/#activism-and-support-in-tandem">
+                                                Activism and Support in Tandem
                                             </HashLink>
                                         </li>
                                         <li>
@@ -149,9 +149,7 @@ const SideNav = withRouter(props => {
                                             </HashLink>
                                         </li>
                                         <li>
-                                            <HashLink to="/#a-home-and-a-family">
-                                                A Home and a Family
-                                            </HashLink>
+                                            <HashLink to="/#a-second-home">A Second Home</HashLink>
                                         </li>
                                         <li>
                                             <HashLink to="/#the-b-and-the-l">

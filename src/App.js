@@ -82,7 +82,7 @@ const App = () => (
                 <Route exact path="/chapel-takeover-1970">
                     <ChapelTakeover />
                 </Route>
-                <Route exact path="/eve">
+                <Route exact path="/ethnic-vocal-ensemble">
                     <Eve />
                 </Route>
                 <Route exact path="/the-unity">
