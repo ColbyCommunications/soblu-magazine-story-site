@@ -451,7 +451,7 @@ const EdwinEssay = () => {
                                 <div className="mb-4 mb-md-0">
                                     <Image
                                         src={{
-                                            main: 'images/Colby_SOBLU_Torres0013-thumb.jpg',
+                                            main: 'images/Colby_SOBLU_Torres0013.jpg',
                                         }}
                                         altText=""
                                         onClick={() => openLightboxOnSlide(13)}
