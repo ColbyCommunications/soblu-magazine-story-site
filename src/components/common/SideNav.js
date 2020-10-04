@@ -202,7 +202,7 @@ const SideNav = withRouter(props => {
                             </li>
                             <li>
                                 <Link to="/edwin-essay">
-                                    Photography Essay by Edwin Torres &lsquo;12
+                                    Photography Essay by Edwin Torres &rsquo;12
                                 </Link>
                             </li>
                             <li>

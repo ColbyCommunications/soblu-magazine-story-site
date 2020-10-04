@@ -126,7 +126,8 @@ const Home = () => {
                                                 marginLeft: '104px',
                                             }}
                                         >
-                                            &mdash;Charles Terrell ’70, SOBU’s first president
+                                            &mdash;Trustee Emeritus Charles Terrell ’70, SOBU’s
+                                            first president
                                         </p>
                                     </div>
                                 </div>
@@ -1898,6 +1899,78 @@ const Home = () => {
                                     those were there when we were there.”
                                 </span>
                                 &mdash;Jacquelyn Lindsey Wynn ’75
+                            </div>
+                        </div>
+                        <div className="row mt-4">
+                            <div>
+                                <h3
+                                    className="fgCompressed fgCompressed-normal-weight d-inline-block"
+                                    id="still-a-critical-organization"
+                                >
+                                    Kardelen&rsquo;s Reflection
+                                </h3>
+                                <p
+                                    className="mb-3"
+                                    style={{
+                                        fontSize: '1.6rem',
+                                        fontStyle: 'normal',
+                                    }}
+                                >
+                                    A Months-long Effort to Document SOBLU’s Importance
+                                </p>
+                                <p>
+                                    As with almost anything, there’s a backstory to this piece. And
+                                    knowing that might put this microsite into perspective.
+                                </p>
+                                <p>
+                                    This project was one of the first assignments I took on when I
+                                    returned to Colby as a staff writer in December 2018. I can
+                                    imagine some of you asking, what took you so long to get it
+                                    done? Well, that’s a very valid question. I must admit that none
+                                    of us at Colby Magazine anticipated it would take this long to
+                                    complete or be at this length. But one thing I knew from the
+                                    very beginning was we wanted these stories and images to capture
+                                    the essence of this organization that has continuously changed
+                                    and challenged both its members and Colby for the better.
+                                </p>
+                                <p>
+                                    I spent over a year tracking down former SOBLU members from
+                                    early Echo stories and materials from Colby’s Special
+                                    Collections. Trying to connect with members of the so-called
+                                    SOBU17, I sometimes called all the numbers listed under that
+                                    name in online directories until I found the Colby alumnus. One
+                                    conversation led to another, one event guided me to the next. In
+                                    the end, I spoke with over 40 members of the club who inevitably
+                                    and generously shared their time and stories with me. But all of
+                                    this reporting took place over time. When I finished writing
+                                    this story, I could still count my quarantine days on all my
+                                    fingers.
+                                </p>
+                                <p>
+                                    If I were to start my reporting last winter instead of two
+                                    winters ago, its focus would have drastically shifted given
+                                    COVID-19 and the recent anti-racism protests. Although COVID-19
+                                    is indeed novel, racial violence, unfortunately, isn’t. I tried
+                                    to note those national moments as much as possible in this story
+                                    to show a pattern. Some might have hoped to see more of those,
+                                    but one thing that came up in several conversations was that
+                                    activism is only one component of SOBLU, and I tried to reflect
+                                    that in my writing.
+                                </p>
+                                <p>
+                                    While my conversations shed light on parts of SOBLU’s, Colby’s,
+                                    and the nation’s history, I know that I only interviewed a small
+                                    percentage of all those whose lives were touched by SOBLU. If
+                                    this story prompts recollections or reflections, we would like
+                                    to hear them.
+                                </p>
+                                <p>
+                                    To any and all SOBLU members, thank you for making SOBLU and
+                                    Colby what it was and what it will be. And to all former,
+                                    current, future residents of Mayflower Hill, I hope you find
+                                    ways to meaningfully engage with SOBLU.
+                                </p>
+                                <div>&mdash;Kardelen Koldas ’15, July 2020</div>
                             </div>
                         </div>
                     </div>
