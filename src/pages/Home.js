@@ -1901,18 +1901,21 @@ const Home = () => {
                                 &mdash;Jacquelyn Lindsey Wynn ’75
                             </div>
                         </div>
-                        <div className="row mt-4">
+                        <div className="row d-flex align-items-center justify-content-center mt-7">
+                            <div style={{ borderBottom: '1px solid #676767', width: '100px' }} />
+                        </div>
+                        <div className="row mb-7">
                             <div>
                                 <h3
                                     className="fgCompressed fgCompressed-normal-weight d-inline-block"
-                                    id="still-a-critical-organization"
+                                    id="kardelens-reflection"
                                 >
                                     Kardelen&rsquo;s Reflection
                                 </h3>
                                 <p
                                     className="mb-3"
                                     style={{
-                                        fontSize: '1.6rem',
+                                        fontSize: '1.3rem',
                                         fontStyle: 'normal',
                                     }}
                                 >
