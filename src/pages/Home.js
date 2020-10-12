@@ -511,18 +511,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-9 d-flex align-items-center">
-                                <div className="soblu-mobile-hide">
-                                    <Image
-                                        src={{
-                                            main: 'images/Newspaper_preview.png',
-                                        }}
-                                        altText=""
-                                        onClick={() => openLightboxOnSlide(3)}
-                                        caption="Morning Sentinel May 1, 1974"
-                                    />
-                                </div>
-                            </div>
+                            <div className="col-md-9 d-flex align-items-center" />
                             <div className="col-md-1" />
                             <div className="col-md-14">
                                 <h3
@@ -555,16 +544,6 @@ const Home = () => {
                                     brought to that campus and acceptance of it,” especially
                                     important in the early 1970s.
                                 </p>
-                                <div className="soblu-desktop-hide my-4">
-                                    <Image
-                                        src={{
-                                            main: 'images/Newspaper_preview.png',
-                                        }}
-                                        altText=""
-                                        onClick={() => openLightboxOnSlide(3)}
-                                        caption="Morning Sentinel May 1, 1974"
-                                    />
-                                </div>
                                 <p>
                                     “That was the heyday of the Black Panther Party, student
                                     activism, and Black nationalism across the country,” he said.
@@ -608,18 +587,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-9 d-flex align-items-center">
-                                <div className="soblu-mobile-hide">
-                                    <Image
-                                        src={{
-                                            main: 'images/Newspaper_preview2.png',
-                                        }}
-                                        altText=""
-                                        onClick={() => openLightboxOnSlide(4)}
-                                        caption="Morning Sentinel Month and year coming"
-                                    />
-                                </div>
-                            </div>
+                            <div className="col-md-9 d-flex align-items-center" />
                             <div className="col-md-1" />
                             <div className="col-md-14">
                                 <h3
@@ -650,16 +618,6 @@ const Home = () => {
                                     wanted to have a library, we wanted to have resources that all
                                     students could use to show our place at Colby, too.”
                                 </p>
-                                <div className="soblu-desktop-hide my-4">
-                                    <Image
-                                        src={{
-                                            main: 'images/Newspaper_preview2.png',
-                                        }}
-                                        altText=""
-                                        onClick={() => openLightboxOnSlide(4)}
-                                        caption="Morning Sentinel Month and year coming"
-                                    />
-                                </div>
                                 <p>
                                     A room and a budget, combined with more students of color
                                     joining the Colby community, meant change for SOBU. “I think
