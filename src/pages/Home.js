@@ -1011,8 +1011,7 @@ const Home = () => (
                                 the administrators, any faculty who were interested, and all the
                                 students who were interested in dealing with issues having to do
                                 with people of color on campus,” said Gilkes. “And it was a weekly
-                                meeting with
-                                <i>the</i> president.”
+                                meeting with <em>the</em> president.”
                             </p>
                             <p>
                                 SOBHU had a social, political, and academic side to it, noted Venola

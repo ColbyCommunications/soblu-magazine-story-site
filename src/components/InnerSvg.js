@@ -36,7 +36,7 @@ const InnerSvg = props => (
                 </h1>
             </div>
         </div>
-        <div className="row soblu-desktop-hide" id="soblu-title">
+        <div className="row soblu-desktop-hide" id="soblu-title-mobile">
             <div className="col mt-5">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 977.526 591.123">
                     <title>SOBU At 50</title>
