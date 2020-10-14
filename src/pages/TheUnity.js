@@ -7,7 +7,7 @@ const TheUnity = () => (
     <>
         <Nav />
         <div id="soblu-voices-page" className="container">
-            <InnerSvg headline="The Unity" />
+            <InnerSvg headline="The Unity Newsletter" />
             <div className="row">
                 <div className="col-md-12">
                     <div>
