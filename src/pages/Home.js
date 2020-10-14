@@ -21,7 +21,7 @@ const Home = () => (
                                     thumbnail: 'images/Colby_SOBLU_Torres0017-retouched-thumb.jpg',
                                 }}
                                 lightboxSrc="images/Colby_SOBLU_Torres0017-retouched-1200.jpg"
-                                altText=""
+                                altText="Students sit tightly together on a SOBLU couch during one of their executive board club meetings on a Sunday night."
                             />
                         </div>
                         <div className="row fgCompressed">
@@ -51,7 +51,7 @@ const Home = () => (
                                 thumbnail: 'images/Colby_SOBLU_Torres0017-retouched-thumb.jpg',
                             }}
                             lightboxSrc="images/Colby_SOBLU_Torres0017-retouched-1200.jpg"
-                            altText=""
+                            altText="Students sit tightly together on a SOBLU couch during one of their executive board club meetings on a Sunday night.s"
                         />
                     </div>
                 </div>
