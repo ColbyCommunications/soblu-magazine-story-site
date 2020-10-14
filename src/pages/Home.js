@@ -1781,7 +1781,7 @@ const Home = () => (
                             &mdash;Jacquelyn Lindsey Wynn ’75
                         </div>
                     </div>
-                    <div className="row d-flex align-items-center justify-content-center mt-7">
+                    <div className="row d-flex align-items-center justify-content-center my-6 mt-md-7 mb-md-0">
                         <div style={{ borderBottom: '1px solid #676767', width: '100px' }} />
                     </div>
                     <div className="row mb-7">
