@@ -1,7 +1,7 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
-import React, { useState } from 'react';
-import FsLightbox from 'fslightbox-react';
+import React from 'react';
 import Swiper from '@colbycommunications/colby-swiper-component';
 import Modal from '@colbycommunications/colby-modal';
 import Nav from '../components/common/Nav';
@@ -11,11 +11,6 @@ import Template from '../components/Templates/SwiperTemplate';
 import InnerSvg from '../components/InnerSvg';
 
 const ChapelTakeover = () => {
-    const [lightboxController, setLightboxController] = useState({
-        isLightboxOpen: false,
-        slide: 1,
-    });
-
     const slides = [
         {
             content: (
@@ -36,35 +31,6 @@ const ChapelTakeover = () => {
             type: 'image',
         },
     ];
-
-    const lightboxImages = [
-        'images/Long-view-of-chapel-gathering-students-speakers-on-balcony.png',
-        'images/Black-student-strike-in-March-1970-chapel-takeover-student-speakers-and-audience.jpg',
-        'images/chapel-takover-slide-at-podium.jpg',
-        'images/chapel-takover-slide-group-inside-three-people.jpg',
-        'images/Echo-blacks-in-chapel-composit.jpg',
-        'images/newspaper-01-black-students-urge-colby-act-on-demands--full.png',
-        'images/Serving-injunction-900-wide.png',
-        'images/Echo-blacks-OUT-chapel-composit-thumb.jpg',
-    ];
-
-    const lightboxCaptions = [
-        'Students gathered in front of Lorimer Chapel to hear SOBU17’s speech on March 1970.',
-        'SOBU17 and the student government representatives addressed the crowd and reiterated SOBU’s demands.',
-        'Charles Terrell ’70 (in glasses) alongside SOBU17 and student government leaders in front of Lorimer Chapel.',
-        '',
-        'SOBU members, including Doris Ford ’73 (right), inside the chapel.',
-        '',
-        'Terrell (center) and SOBU17 served with a restraining order on March 9.',
-        'Colby Echo, March 13, 1970',
-    ];
-
-    function openLightboxOnSlide(number) {
-        setLightboxController({
-            isLightboxOpen: !lightboxController.isLightboxOpen,
-            slide: number,
-        });
-    }
 
     return (
         <>
@@ -169,8 +135,8 @@ const ChapelTakeover = () => {
                                     thumbnail:
                                         'images/Long-view-of-chapel-gathering-students-speakers-on-balcony-thumbnail.jpg',
                                 }}
-                                altText=""
-                                onClick={() => openLightboxOnSlide(1)}
+                                lightboxSrc="images/Long-view-of-chapel-gathering-students-speakers-on-balcony.png"
+                                altText="tudents gathered in front of Lorimer Chapel to hear SOBU17’s speech on March 1970."
                                 caption="Students gathered in front of Lorimer Chapel to hear SOBU17’s speech on March 1970."
                             />
                         </div>
@@ -222,8 +188,8 @@ const ChapelTakeover = () => {
                                     src={{
                                         main: 'images/chapel-takover-slide-wide-at-podium.jpg',
                                     }}
-                                    altText=""
-                                    onClick={() => openLightboxOnSlide(2)}
+                                    lightboxSrc="images/Black-student-strike-in-March-1970-chapel-takeover-student-speakers-and-audience.jpg"
+                                    altText="SOBU17 and the student government representatives addressed the crowd and reiterated SOBU’s demands."
                                     caption="SOBU17 and the student government representatives addressed the crowd and reiterated SOBU’s demands."
                                 />
                             </div>
@@ -473,8 +439,8 @@ const ChapelTakeover = () => {
                                 src={{
                                     main: 'images/chapel-takover-slide-at-podium.jpg',
                                 }}
-                                altText=""
-                                onClick={() => openLightboxOnSlide(3)}
+                                lightboxSrc="images/chapel-takover-slide-at-podium.jpg"
+                                altText="Charles Terrell ’70 (in glasses) alongside SOBU17 and student government leaders in front of Lorimer Chapel."
                                 caption="Charles Terrell ’70 (in glasses) alongside SOBU17 and student government leaders in front of Lorimer Chapel."
                             />
                         </div>
@@ -569,8 +535,8 @@ const ChapelTakeover = () => {
                                         main:
                                             'images/chapel-takover-slide-group-inside-three-people.jpg',
                                     }}
-                                    altText=""
-                                    onClick={() => openLightboxOnSlide(4)}
+                                    lightboxSrc="images/chapel-takover-slide-group-inside-three-people.jpg"
+                                    altText="SOBU members, including Doris Ford ’73 (right), inside the chapel."
                                     caption="SOBU members, including Doris Ford ’73 (right), inside the chapel."
                                 />
                             </div>
@@ -580,15 +546,17 @@ const ChapelTakeover = () => {
                                 <div className="row mb-4">
                                     <div className="col-lg-20 offset-lg-2">
                                         <div className="mb-5">
-                                            <Image
-                                                src={{
-                                                    main:
-                                                        'images/Echo-blacks-in-chapel-composit.jpg',
-                                                }}
-                                                altText=""
-                                                onClick={() => openLightboxOnSlide(5)}
+                                            <img
+                                                src="images/Echo-blacks-in-chapel-composit.jpg"
+                                                className="img-fluid"
+                                                alt=""
+                                                onClick={() =>
+                                                    window.open(
+                                                        'pdfs/Blacks-in-chapel_CBO_1970_03_06.pdf',
+                                                        '_blank'
+                                                    )
+                                                }
                                             />
-
                                             <div className="mt-2">
                                                 <div
                                                     className="text-center p-2"
@@ -647,13 +615,16 @@ const ChapelTakeover = () => {
                                             </div>
                                         </div>
                                         <div className="mb-4">
-                                            <Image
-                                                src={{
-                                                    main:
-                                                        'images/newspaper-01-black-students-urge-colby-headline-crop.png',
-                                                }}
-                                                altText=""
-                                                onClick={() => openLightboxOnSlide(6)}
+                                            <img
+                                                src="images/newspaper-01-black-students-urge-colby-headline-crop.png"
+                                                className="img-fluid"
+                                                alt=""
+                                                onClick={() =>
+                                                    window.open(
+                                                        'pdfs/newspaper-black-students-urge-colby.pdf',
+                                                        '_blank'
+                                                    )
+                                                }
                                             />
                                             <div className="mt-2">
                                                 <div
@@ -765,8 +736,8 @@ const ChapelTakeover = () => {
                                 src={{
                                     main: 'images/Serving-injunction-900-wide.png',
                                 }}
-                                altText=""
-                                onClick={() => openLightboxOnSlide(7)}
+                                lightboxSrc="images/Serving-injunction-900-wide.png"
+                                altText="Terrell (center) and SOBU17 served with a restraining order on March 9."
                                 caption="Terrell (center) and SOBU17 served with a restraining order on March 9."
                             />
                         </div>
@@ -853,13 +824,16 @@ const ChapelTakeover = () => {
                                         </div>
                                         <div className="mb-4">
                                             <div className="d-table">
-                                                <Image
-                                                    src={{
-                                                        main:
-                                                            'images/Echo-blacks-OUT-chapel-composit-thumb.jpg',
-                                                    }}
-                                                    altText=""
-                                                    onClick={() => openLightboxOnSlide(8)}
+                                                <img
+                                                    src="images/Echo-blacks-OUT-chapel-composit-thumb.jpg"
+                                                    className="img-fluid"
+                                                    alt=""
+                                                    onClick={() =>
+                                                        window.open(
+                                                            'pdfs/Blacks-out-of-chapel_CBO_1970_03_13.pdf',
+                                                            '_blank'
+                                                        )
+                                                    }
                                                 />
                                                 <div className="span-caption">
                                                     <div className="mt-2">
@@ -999,12 +973,6 @@ const ChapelTakeover = () => {
                     </div>
                 </div>
             </div>
-            <FsLightbox
-                toggler={lightboxController.isLightboxOpen}
-                sources={lightboxImages}
-                captions={lightboxCaptions}
-                slide={lightboxController.slide}
-            />
         </>
     );
 };

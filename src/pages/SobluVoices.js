@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
 import InnerSvg from '../components/InnerSvg';
+import VideoPlayer from '../components/common/Video';
 
 const SobluVoices = () => (
     <>
@@ -146,17 +147,15 @@ const SobluVoices = () => (
                         </div>
                     </div>
 
-                    <div className="row mb-4 mb-lg-5">
+                    <div className="row mb-4 mt-6 mb-lg-5">
                         <div className="col">
                             <div className="embed-responsive embed-responsive-16by9">
-                                <iframe
-                                    title="Rohnique Davy ’22 talks about what SOBLU is and does."
-                                    className="embed-responsive-item"
-                                    src="https://player.vimeo.com/video/239157971?title=0&byline=0&portrait=0"
-                                    allowFullScreen
+                                <VideoPlayer
+                                    url="videos/DareNorthward_ColbyCollege.mp4"
+                                    image="images/Colby_SOBLU_Torres0017-retouched-1200.jpg"
                                 />
                             </div>
-                            <div className="video-question" style={{ fontSize: '1.4rem' }}>
+                            <div className="mt-4" style={{ fontSize: '1.4rem' }}>
                                 <p
                                     className="d-inline-block"
                                     style={{
@@ -381,17 +380,15 @@ const SobluVoices = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="row mb-4 mb-lg-5">
+                    <div className="row mb-4 mt-6 mb-lg-5">
                         <div className="col">
                             <div className="embed-responsive embed-responsive-16by9">
-                                <iframe
-                                    title="Stephanie Rivera ’18 reflects back on SOBLU."
-                                    className="embed-responsive-item"
-                                    src="https://player.vimeo.com/video/239157971?title=0&byline=0&portrait=0"
-                                    allowFullScreen
+                                <VideoPlayer
+                                    url="videos/DareNorthward_ColbyCollege.mp4"
+                                    image="images/Colby_SOBLU_Torres0017-retouched-1200.jpg"
                                 />
                             </div>
-                            <div className="video-question" style={{ fontSize: '1.4rem' }}>
+                            <div className="mt-4" style={{ fontSize: '1.4rem' }}>
                                 <p
                                     className="d-inline-block"
                                     style={{
