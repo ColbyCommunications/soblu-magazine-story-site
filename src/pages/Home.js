@@ -209,7 +209,7 @@ const Home = () => (
                                         <img
                                             src="images/Chapel-protest-students-speaking-to-audience.jpg"
                                             className="img-fluid"
-                                            alt=""
+                                            alt="SOBU members, who occupied the Lorimer Chapel in 1970, address the crowd outside the building."
                                         />
                                     </Link>
 
