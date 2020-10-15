@@ -133,6 +133,42 @@ const TheUnity = () => (
                                 get information about past people, really understanding the history
                                 of what SOBHU was.”
                             </p>
+                            <p
+                                className="fgCompressed mt-md-5"
+                                style={{
+                                    fontWeight: '600',
+                                    fontSize: '1.7rem',
+                                }}
+                            >
+                                “We needed them to know the amazing things that the club was doing,
+                                try to encourage them to come back into the Colby fold and give
+                                back, and to be unique—I don’t think any other club has the network
+                                that we had and have.”
+                            </p>
+                            <p
+                                style={{
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                &mdash;Tionna Haynes ’15
+                            </p>
+                            <p
+                                className="fgCompressed mt-md-5"
+                                style={{
+                                    fontWeight: '600',
+                                    fontSize: '1.7rem',
+                                }}
+                            >
+                                “A lot of times we didn&#39;t know a lot about the collective
+                                history of what was going on prior to when we were there.”
+                            </p>
+                            <p
+                                style={{
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                &mdash;Miriam Valle-Mancilla ’16
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -135,6 +135,42 @@ const TowerAbove = () => (
                                 carrying our voices, and we didn&rsquo;t have a place to sing
                                 because we weren&rsquo;t getting accepted into a lot of the groups.”
                             </p>
+                            <p
+                                className="fgCompressed mt-md-5"
+                                style={{
+                                    fontWeight: '600',
+                                    fontSize: '1.7rem',
+                                }}
+                            >
+                                “It came out of SOBHU because we weren&#39;t seeing our kind of
+                                songs, we weren&#39;t carrying our voices, and we didn&#39;t have a
+                                place to sing because we weren&#39;t getting accepted into a lot of
+                                the groups.”
+                            </p>
+                            <p
+                                style={{
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                &mdash;Amina McIntyre ’04
+                            </p>
+                            <p
+                                className="fgCompressed mt-md-5"
+                                style={{
+                                    fontWeight: '600',
+                                    fontSize: '1.7rem',
+                                }}
+                            >
+                                “It’s a blessing in disguise that all of us didn’t make the other a
+                                cappella groups.”
+                            </p>
+                            <p
+                                style={{
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                &mdash;Chyann Oliver ’04 to the Echo
+                            </p>
                         </div>
                     </div>
                 </div>
