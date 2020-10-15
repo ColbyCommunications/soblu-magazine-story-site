@@ -2,35 +2,14 @@ import React from 'react';
 import Nav from '../components/common/Nav';
 import SideNav from '../components/common/SideNav';
 import InnerSvg from '../components/InnerSvg';
+import Image from '../components/common/Image';
 
 const TowerAbove = () => (
     <>
         <Nav />
-        <div id="soblu-voices-page" className="container">
+        <div id="soblu-eve-page" className="container">
             <InnerSvg headline="Ethnic Vocal Ensemble" />
-            <div className="row">
-                <div className="col-md-12">
-                    <div>
-                        <div className="row fgCompressed">
-                            <h1
-                                style={{
-                                    fontWeight: '600',
-                                    fontSize: '3.6rem',
-                                    lineHeight: '3.6rem',
-                                }}
-                            >
-                                Tower Above
-                            </h1>
-                        </div>
-                        <div className="row mt-4">
-                            <div className="col-lg-20">
-                                <p className="lead">SOBHU members find their voice</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="row mt-md-4 mt-0" id="soblu-vertical-menu">
+            <div className="row soblu-first-section-inner" id="soblu-vertical-menu">
                 <div className="col-md-2 d-flex justify-content-center position-relative">
                     <div className="soblu-vertical-menu-container soblu-mobile-hide">
                         <div className="soblu-vertical-menu-sticky">
@@ -39,8 +18,49 @@ const TowerAbove = () => (
                     </div>
                 </div>
                 <div className="col-md-22">
-                    <div className="row mb-4">
-                        <div className="col-md-22 offset-md-2 ">
+                    <div className="row mb-4 mb-md-5">
+                        <div className="col-md-11">
+                            <div className="row fgCompressed">
+                                <h1
+                                    style={{
+                                        fontWeight: '600',
+                                        fontSize: '3.6rem',
+                                        lineHeight: '3.6rem',
+                                    }}
+                                >
+                                    Tower Above
+                                </h1>
+                            </div>
+                            <div className="row mt-4">
+                                <div className="col-lg-20">
+                                    <p className="lead">SOBHU members find their voice</p>
+                                </div>
+                            </div>
+                            <div className="row mt-4 mt-md-6">
+                                <div className="col-lg-20">
+                                    <div className="soblu-mobile-hide">
+                                        <div className="mb-0 mb-md-4">
+                                            <Image
+                                                src={{
+                                                    main: 'images/Eve-a-new-sound-thumb-600.jpg',
+                                                }}
+                                                lightboxSrc="images/Eve-a-new-sound-1200.jpg"
+                                                altText="Ethical Vocal Ensemble news clipping"
+                                            />
+                                        </div>
+                                        <Image
+                                            src={{
+                                                main: 'images/Great-EVEning-thumb-600.jpg',
+                                            }}
+                                            lightboxSrc="images/Great-EVEning-1200.jpg"
+                                            altText="Ethical Vocal Ensemble news clipping"
+                                            caption="Read more about the E.V.E. in the Echo"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-13">
                             <p>
                                 The Colbyettes, the Megs, Broadway Musical Revue (BMR)—Amina
                                 McIntryre ’04 had auditioned for all of them but hadn’t been
@@ -58,6 +78,25 @@ const TowerAbove = () => (
                                 E.V.E., or Ethnic Vocal Ensemble, which is currently called
                                 Everything Vocal Ensemble.
                             </p>
+                            <div className="soblu-desktop-hide my-4">
+                                <div className="mb-4">
+                                    <Image
+                                        src={{
+                                            main: 'images/Eve-a-new-sound-thumb-600.jpg',
+                                        }}
+                                        lightboxSrc="images/Eve-a-new-sound-1200.jpg"
+                                        altText="Ethical Vocal Ensemble news clipping"
+                                    />
+                                </div>
+                                <Image
+                                    src={{
+                                        main: 'images/Great-EVEning-thumb-600.jpg',
+                                    }}
+                                    lightboxSrc="images/Great-EVEning-1200.jpg"
+                                    altText="Ethical Vocal Ensemble news clipping"
+                                    caption="Read more about the E.V.E. in the Echo"
+                                />
+                            </div>
                             <p>
                                 “We had an open concert in the coffeehouse,” said McIntyre,
                                 recalling that they sang four or five songs that night. “We did a
