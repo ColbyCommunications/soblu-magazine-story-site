@@ -154,16 +154,14 @@ const Home = () => (
                                     </p>
                                 </div>
                                 <p>
-                                    Over the course of a half-century, from times of nationwide
-                                    anti-racism movements, to racist incidents, to birthday
-                                    celebrations, to day-to-day student life, SOBLU has provided a
-                                    loving and caring family for Colby students.
+                                    Over the course of a half-century SOBLU has provided a loving
+                                    and caring family for Colby students.
                                 </p>
                                 <p>
-                                    This story travels back to each of those periods and presents
-                                    this organization through the eyes of its members, who spent
-                                    only four years on Mayflower Hill but took away many memories
-                                    that remain, for many, powerful decades later.
+                                    This story travels back to its founding and presents this
+                                    organization through the eyes of its members, who spent only
+                                    four years on Mayflower Hill but took away many memories that
+                                    remain, for many, powerful decades later.
                                 </p>
                                 <p>
                                     More than 40 members across the 50-year spectrum, including many
@@ -352,34 +350,19 @@ const Home = () => (
                             </p>
                             <p>
                                 The chapel takeover put SOBU in the spotlight and left its mark in
-                                Colby’s history, but more importantly, it established a legacy of
-                                activism for generations to come. Even as the organization served as
-                                a gathering place, the legacy of activism has remained, taking the
-                                form of everything from a sit-in to an information session to an
-                                opinion piece in the Echo. Across SOBU’s 50 years, students have
-                                continued to revisit, reshape, and recreate that takeover, prompting
-                                discussions that changed the campus culture.
+                                Colby’s history, but more importantly, it established a legacy for
+                                generations to come.
                             </p>
                         </div>
                     </div>
                     <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
-                        <div className="col-lg-20 offset-lg-4">
+                        <div>
                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                 “Without SOBHU I&rsquo;m not sure Colby could have been as
                                 successful in retaining the students of color that they&rsquo;ve
                                 been able to retain.”
                             </span>
                             &mdash;Trustee Shaquan Huntt ’13
-                        </div>
-                    </div>
-                    <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
-                        <div>
-                            <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
-                                “I think SOBLU, first and foremost, was created as a form of
-                                resistance, and though the club has changed over time, that&rsquo;s
-                                something [that still] remains.”
-                            </span>
-                            &mdash;Kris de Luna ’20
                         </div>
                     </div>
                     <div className="row mt-6" style={{ fontSize: '1.4rem' }}>
@@ -495,13 +478,15 @@ const Home = () => (
                                 through the College and began to serve as a cultural outlet, too.
                                 “Typically, most of us were coming from predominantly Black or
                                 minority communities and were getting away for the first time from
-                                home,” said Ken Melvin ’74, a judge from Virginia, whose high school
-                                was integrated only for a year before he came to Colby. “So to have
-                                an organization that reinforced the culture that we left behind was
-                                extremely important.” Having SOBU as an official College entity was
-                                equally valuable. “That,” Melvin said, ”was the recognition of the
-                                cultural differences that we brought to that campus and acceptance
-                                of it,” especially important in the early 1970s.
+                                home,” said Ken Melvin ’74, who went on to become a state circuit
+                                court judge and longtime member of the Virginia House of Delegates—
+                                and whose high school was integrated only for a year before he came
+                                to Colby. “So to have an organization that reinforced the culture
+                                that we left behind was extremely important.” Having SOBU as an
+                                official College entity was equally valuable. “That,” Melvin said,
+                                ”was the recognition of the cultural differences that we brought to
+                                that campus and acceptance of it,” especially important in the early
+                                1970s.
                             </p>
                             <p>
                                 “That was the heyday of the Black Panther Party, student activism,
@@ -563,16 +548,16 @@ const Home = () => (
                                 members
                             </p>
                             <p>
-                                It was 1971 or 1972, a few years after the chapel takeover, that
-                                SOBU finally got its own room—on the third floor of Runnals Union,
-                                which was also home to sorority meeting rooms and the women’s
-                                gymnasium. “Most of the frats and other organizations had rooms
-                                assigned to them or built, and we had no place to gather for
-                                cultural reinforcement,” said Sylvia Hodges ’75, who now works in
-                                secondary education in Virginia. “This room was just symbolic,
-                                really, because it was not a huge place, and we wanted to have a
-                                library, we wanted to have resources that all students could use to
-                                show our place at Colby, too.”
+                                It was 1971 or 1972, a few years after the chapel takeover, SOBU got
+                                its own space—on the third floor of Runnals Union, which was also
+                                home to sorority meeting rooms and the women’s gymnasium. “Most of
+                                the frats and other organizations had rooms assigned to them or
+                                built, and we had no place to gather for cultural reinforcement,”
+                                said Sylvia Hodges ’75, who now works in secondary education in
+                                Virginia. “This room was just symbolic, really, because it was not a
+                                huge place, and we wanted to have a library, we wanted to have
+                                resources that all students could use to show our place at Colby,
+                                too.”
                             </p>
                             <p>
                                 A room and a budget, combined with more students of color joining
@@ -606,10 +591,7 @@ const Home = () => (
                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
                                 “I remember at times I&rsquo;d walk by and there would be loud
                                 hip-hop there [playing] from the SOBHU room, and I loved that
-                                because it made me feel like I was back home in New York. But I know
-                                a lot of people were like, ‘Why are they doing that?’ It&rsquo;s not
-                                helpful. It&rsquo;s a student center. It&rsquo;s not meant to be
-                                raucous.”
+                                because it made me feel like I was back home in New York.”
                             </span>
                             &mdash;Antonio Mendez ’06
                         </div>
@@ -617,12 +599,11 @@ const Home = () => (
                     <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                         <div>
                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
-                                “I think my body is automated to go directly to SOBLU [room] any
-                                time after anything. ... I just get out of class, first thing to do:
-                                go to SOBLU, even if 2 seconds later, I remember, ‘Oh wait,
-                                I&rsquo;m supposed to be in a meeting right now’ and then I leave. I
-                                wonder if SOBLU didn&rsquo;t exist where my body would go
-                                automatically.”
+                                “I think my body is automated to go directly to SOBLU any time after
+                                anything. ... I just get out of class, first thing to do: go to
+                                SOBLU, even if 2 seconds later, I remember, ‘Oh wait, I&rsquo;m
+                                supposed to be in a meeting right now’ and then I leave. I wonder if
+                                SOBLU didn&rsquo;t exist where my body would go automatically.”
                             </span>
                             &mdash;Ashley Gissel Olvera ’20
                         </div>
@@ -761,10 +742,9 @@ const Home = () => (
                                 why they brought non-SOBHU friends to all of the club’s events—a
                                 coffee chat, Black History Month celebration, or a movie night.
                                 SOBHU members also used music as a unifier. Continuing the Friday
-                                night dance tradition, they played hip hop, R&amp;B, rap—genres
-                                unfamiliar to much of the wider student population—to bring students
-                                to the club room. “We taught many Colby students the latest dance
-                                moves,” Giangrande said.
+                                night dance tradition, they played hip hop, R&amp;B, rap to bring
+                                students to the club room. “We taught many Colby students the latest
+                                dance moves,” Giangrande said.
                             </p>
                             <p>
                                 The student activism that defined the club at its inception also
@@ -833,11 +813,7 @@ const Home = () => (
                                 connect SOBHU with the International Club, with which he was equally
                                 involved. “I felt like a lot of our concerns were the same,” he said
                                 in his apartment in upper Manhattan, where he works as an arts
-                                educator in New York City. To him, members of both clubs shared
-                                common ground. “As people of African descent, we are all
-                                international; being stolen, as it were, versus emigrating, are
-                                certainly two very different experiences, but the reality is that we
-                                are all rooted in some otherness.”
+                                educator in New York City.”
                             </p>
                         </div>
                     </div>
@@ -1056,9 +1032,7 @@ const Home = () => (
                             </p>
                             <p>
                                 The protest and the accompanying 16 demands were a culmination of
-                                several things, including what was seen as unresponsiveness to an
-                                open letter by Mayra Diaz ’98 that talked about racial harassment in
-                                her English class and lack of voting rights in the Student
+                                several things, including a lack of voting rights in the Student
                                 Government Association (SGA) as the College was looking for its next
                                 president.
                             </p>
@@ -1070,8 +1044,7 @@ const Home = () => (
                                 director of African-American Studies. “[The meeting] involved all of
                                 the administrators, any faculty who were interested, and all the
                                 students who were interested in dealing with issues having to do
-                                with people of color on campus,” said Gilkes. “And it was a weekly
-                                meeting with <em>the</em> president.”
+                                with people of color on campus,” said Gilkes.
                             </p>
                             <p>
                                 SOBHU had a social, political, and academic side to it, noted Venola
@@ -1085,20 +1058,7 @@ const Home = () => (
                             </p>
                             <p>
                                 “We encouraged each other to do all those things so that we&rsquo;re
-                                not just in our own little world by ourselves,” Mason said. But the
-                                classes after them didn’t follow the same course. “For my class,
-                                Colby was more of an opportunity, and it seemed for the younger
-                                classes after us it was more of a struggle,” she said.
-                            </p>
-                            <p>
-                                Melissa Minaya-Wilson ’03 from Lawrence, Mass., an administrator at
-                                Harvard Law School, was in that next generation of students. Feeling
-                                invisible, Minaya-Wilson and other SOBHU members protested by going
-                                to classes with tape over their mouths. “We did not feel heard by
-                                any administration, by other students, or sometimes by our
-                                professors,” she said. For Minaya-Wilson, the club and its room
-                                served as “a safe haven,” where she could escape protests,
-                                microaggressions, and daily struggles.
+                                not just in our own little world by ourselves,” Mason said.
                             </p>
                             <div className="soblu-desktop-hide  my-4">
                                 <div className="d-table">
@@ -1210,18 +1170,16 @@ const Home = () => (
                                 stories from his Colby and SOBHU experiences.
                             </p>
                             <p>
-                                “[SOBHU] was a space of resistance and a place of subversion, a
-                                place to have a little bit of power, but also it was a home,” Tates
-                                said. “We would argue like a family, we would fight like family, we
-                                would laugh like family, we would talk it out like family. ... Even
-                                in our worst times when there were screams and fights and arguments,
-                                we found ways to make that space a place for all of us.”
+                                “We would argue like a family, we would fight like family, we would
+                                laugh like family, we would talk it out like family. ... Even in our
+                                worst times when there were screams and fights and arguments, we
+                                found ways to make that space a place for all of us.”
                             </p>
                             <p>
                                 That family looked out for others, too. They supported other clubs
                                 like Hillel, the International Club, and the Colby Muslim Society.
                                 “What set us apart was our desire to always be both fighters for
-                                justice, but of lovers of life on campus.”
+                                justice, but of lovers of life on campus.” Tates said.
                             </p>
                         </div>
                     </div>
@@ -1285,10 +1243,8 @@ const Home = () => (
                                 opinions.
                             </p>
                             <p>
-                                “I think for Colby, SOBHU meant ethnic diversity specifically
-                                related to the mainland Black and Hispanic unity,” he said. “But I
-                                think what SOBHU brought was actually diversity of thought, and
-                                that&rsquo;s really important.”
+                                “I think what SOBHU brought was actually diversity of thought, and
+                                that&rsquo;s really important” said Mendez.
                             </p>
                             <p>
                                 When former SOBHU president Ajima Olaghere ’07, assistant professor
@@ -1635,23 +1591,12 @@ const Home = () => (
                                 skin.”
                             </p>
                             <p>
-                                As a first-year student in 2014, when mass protests were sparked by
-                                police brutality against minorities, Avant was among the SOBHU
-                                members who organized their own demonstrations. The next year, she
-                                and other students led a Black Lives Matter protest, which prompted
-                                anonymous racist posts on an app called Yik Yak. She recalled the
-                                response—a campus-wide stance against racism spearheaded by SOBHU
-                                and including an address by President David Greene.
-                            </p>
-                            <p>
-                                But even in troubled times, for many, including Avant, SOBHU was
-                                about more than protests. She still fondly remembers memories and
-                                relationships formed when producing Ntozake Shange’s for colored
-                                girls for Sounds of Blackness, a Black History Month show that
-                                started in 2014. “There were so many different strong messages in
-                                there about Black womanhood in general,” she said. “I felt very
-                                empowered when I did that show and got out there with my SOBHU
-                                sisters.”
+                                Avant still fondly remembers memories and relationships formed when
+                                producing Ntozake Shange’s for colored girls for Sounds of
+                                Blackness, a Black History Month show that started in 2014. “There
+                                were so many different strong messages in there about Black
+                                womanhood in general,” she said. “I felt very empowered when I did
+                                that show and got out there with my SOBHU sisters.”
                             </p>
                             <p>
                                 SOBHU has been creative in taking initiative in planning events
@@ -1724,18 +1669,6 @@ const Home = () => (
                                 learn from each other.”
                             </p>
                             <p>
-                                Bradley said that it should be recognized that students in the Pugh
-                                Center, seen as multicultural and diverse, also learn from one
-                                another. “When you think about the programming that SOBLU did and
-                                does, …it adds to the cultural piece of the [College], the learning
-                                piece. It supports the academic experience, especially as it relates
-                                to global studies, African-American studies, anthropology, all of
-                                these different academic programs,” said Bradley, who was impressed
-                                by students&rsquo; commitment to learning and willingness to share
-                                that. In the room, she said, students read together, discussed their
-                                reading, and helped each other with their academic work.
-                            </p>
-                            <p>
                                 Another benefit of the dual identity reveals itself in events like
                                 the diaspora dinner. Although many clubs organize dinners, in
                                 SOBHu’s case, it often became a vehicle for members to realize their
@@ -1758,9 +1691,8 @@ const Home = () => (
                                 SOBLU has been at the forefront, listening, asking questions,
                                 sharing its views on issues at hand. “I think that in addition to
                                 providing something very valuable for students to grow,” Olvera
-                                said, SOBLU has been “a big helper in making Colby a better place
-                                for people of color, especially since every year it gets more and
-                                more diverse.”
+                                said, SOBLU has been “a big helper in making Colby a better place,
+                                especially since every year it gets more and more diverse.”
                             </p>
                         </div>
                     </div>
@@ -1874,9 +1806,7 @@ const Home = () => (
                     <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                         <div>
                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
-                                “It just gave us a safe place to be where you were not the odd
-                                person out. If you were going through a rough time, you knew where
-                                to go.”
+                                “If you were going through a rough time, you knew where to go.”
                             </span>
                             &mdash;Angela Hansen ’85
                         </div>
@@ -2028,9 +1958,7 @@ const Home = () => (
                             <p>
                                 While my conversations shed light on parts of SOBLU’s, Colby’s, and
                                 the nation’s history, I know that I only interviewed a small
-                                percentage of all those whose lives were touched by SOBLU. If this
-                                story prompts recollections or reflections, we would like to hear
-                                them.
+                                percentage of all those whose lives were touched by SOBLU.
                             </p>
                             <p>
                                 To any and all SOBLU members, thank you for making SOBLU and Colby
