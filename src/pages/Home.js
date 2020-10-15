@@ -273,14 +273,13 @@ const Home = () => (
                                 culture and values.”
                             </p>
                             <div className="soblu-desktop-hide my-4">
-                                <Image
-                                    src={{
-                                        main:
-                                            'images/Chapel-protest-students-speaking-to-audience.jpg',
-                                    }}
-                                    lightboxSrc="images/Chapel-protest-students-speaking-to-audience-1200high.jpg"
-                                    altText=""
-                                />
+                                <Link to="/chapel-takeover-1970">
+                                    <img
+                                        src="images/Chapel-protest-students-speaking-to-audience.jpg"
+                                        className="img-fluid"
+                                        alt="SOBU members, who occupied the Lorimer Chapel in 1970, address the crowd outside the building."
+                                    />
+                                </Link>
 
                                 <div className="mt-2">
                                     <Link to="/chapel-takeover-1970">
@@ -714,7 +713,26 @@ const Home = () => (
                     </div>
                     <div className="row mt-4">
                         <div className="col-md-9 d-flex align-items-center">
-                            <div className="soblu-mobile-hide" />
+                            <div className="soblu-mobile-hide">
+                                <div className="mb-0 mb-md-4">
+                                    <Image
+                                        src={{
+                                            main: 'images/Race-Relations-Colby-topic-thumb-600.jpg',
+                                        }}
+                                        lightboxSrc="images/Race-Relations-Colby-topic-1200.jpg"
+                                        altText=""
+                                        caption="lorem ipsum"
+                                    />
+                                </div>
+                                <Image
+                                    src={{
+                                        main: 'images/Black-oppresses-thumb-600.jpg',
+                                    }}
+                                    lightboxSrc="images/Black-oppresses-1200.jpg"
+                                    altText=""
+                                    caption="lorem ipsum"
+                                />
+                            </div>
                         </div>
                         <div className="col-md-1" />
                         <div className="col-md-14">
@@ -980,7 +998,49 @@ const Home = () => (
                     </div>
                     <div className="row mt-4">
                         <div className="col-md-9 d-flex align-items-center">
-                            <div className="soblu-mobile-hide" />
+                            <div className="soblu-mobile-hide">
+                                <div className="d-table">
+                                    <Link to="/ethnic-vocal-ensemble">
+                                        <img
+                                            src="images/Eve-a-new-sound-thumb-600.jpg"
+                                            className="img-fluid"
+                                            alt=""
+                                        />
+                                    </Link>
+
+                                    <div className="mt-2 span-caption">
+                                        <Link to="/ethnic-vocal-ensemble">
+                                            <div
+                                                className="text-center"
+                                                style={{
+                                                    padding: '7px',
+                                                    backgroundColor: '#000',
+                                                    color: '#fff',
+                                                }}
+                                            >
+                                                <span
+                                                    className="heavy"
+                                                    style={{ textTransform: 'uppercase' }}
+                                                >
+                                                    MORE
+                                                </span>{' '}
+                                                <span style={{ textTransform: 'uppercase' }}>
+                                                    Lorem ipsum
+                                                </span>
+                                            </div>
+                                        </Link>
+                                        <div
+                                            className="fgCompressed fgCompressed-normal-weight"
+                                            style={{
+                                                marginTop: '5px',
+                                                fontSize: '1.1rem',
+                                            }}
+                                        >
+                                            Lorem ipsum and stuff
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-md-1" />
                         <div className="col-md-14">
@@ -1040,6 +1100,49 @@ const Home = () => (
                                 served as “a safe haven,” where she could escape protests,
                                 microaggressions, and daily struggles.
                             </p>
+                            <div className="soblu-desktop-hide  my-4">
+                                <div className="d-table">
+                                    <Link to="/ethnic-vocal-ensemble">
+                                        <img
+                                            src="images/Eve-a-new-sound-thumb-600.jpg"
+                                            className="img-fluid"
+                                            alt=""
+                                        />
+                                    </Link>
+
+                                    <div className="mt-2 span-caption">
+                                        <Link to="/ethnic-vocal-ensemble">
+                                            <div
+                                                className="text-center"
+                                                style={{
+                                                    padding: '7px',
+                                                    backgroundColor: '#000',
+                                                    color: '#fff',
+                                                }}
+                                            >
+                                                <span
+                                                    className="heavy"
+                                                    style={{ textTransform: 'uppercase' }}
+                                                >
+                                                    MORE
+                                                </span>{' '}
+                                                <span style={{ textTransform: 'uppercase' }}>
+                                                    Lorem ipsum
+                                                </span>
+                                            </div>
+                                        </Link>
+                                        <div
+                                            className="fgCompressed fgCompressed-normal-weight"
+                                            style={{
+                                                marginTop: '5px',
+                                                fontSize: '1.1rem',
+                                            }}
+                                        >
+                                            Lorem ipsum and stuff
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <p>
                                 “It was the place that when I had a rough day, I could always come
                                 in SOBHU and feel like I was myself,” said Amina McIntyre ’04, a
@@ -1332,7 +1435,49 @@ const Home = () => (
                     </div>
                     <div className="row">
                         <div className="col-md-9 d-flex align-items-center">
-                            <div className="soblu-mobile-hide" />
+                            <div className="soblu-mobile-hide">
+                                <div className="d-table">
+                                    <Link to="/the-unity">
+                                        <img
+                                            src="images/The-Unity-de-donde-vengo-yo-1200.jpg"
+                                            className="img-fluid"
+                                            alt=""
+                                        />
+                                    </Link>
+
+                                    <div className="mt-2 span-caption">
+                                        <Link to="/the-unity">
+                                            <div
+                                                className="text-center"
+                                                style={{
+                                                    padding: '7px',
+                                                    backgroundColor: '#000',
+                                                    color: '#fff',
+                                                }}
+                                            >
+                                                <span
+                                                    className="heavy"
+                                                    style={{ textTransform: 'uppercase' }}
+                                                >
+                                                    MORE
+                                                </span>{' '}
+                                                <span style={{ textTransform: 'uppercase' }}>
+                                                    Lorem ipsum
+                                                </span>
+                                            </div>
+                                        </Link>
+                                        <div
+                                            className="fgCompressed fgCompressed-normal-weight"
+                                            style={{
+                                                marginTop: '5px',
+                                                fontSize: '1.1rem',
+                                            }}
+                                        >
+                                            Lorem ipsum and stuff
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-md-1" />
                         <div className="col-md-14">
@@ -1373,6 +1518,49 @@ const Home = () => (
                                 the club with its past and present and a senior farewell party to
                                 celebrate those graduating.
                             </p>
+                            <div className="soblu-desktop-hide my-4">
+                                <div className="d-table">
+                                    <Link to="/the-unity">
+                                        <img
+                                            src="images/The-Unity-de-donde-vengo-yo-1200.jpg"
+                                            className="img-fluid"
+                                            alt=""
+                                        />
+                                    </Link>
+
+                                    <div className="mt-2 span-caption">
+                                        <Link to="/the-unity">
+                                            <div
+                                                className="text-center"
+                                                style={{
+                                                    padding: '7px',
+                                                    backgroundColor: '#000',
+                                                    color: '#fff',
+                                                }}
+                                            >
+                                                <span
+                                                    className="heavy"
+                                                    style={{ textTransform: 'uppercase' }}
+                                                >
+                                                    MORE
+                                                </span>{' '}
+                                                <span style={{ textTransform: 'uppercase' }}>
+                                                    Lorem ipsum
+                                                </span>
+                                            </div>
+                                        </Link>
+                                        <div
+                                            className="fgCompressed fgCompressed-normal-weight"
+                                            style={{
+                                                marginTop: '5px',
+                                                fontSize: '1.1rem',
+                                            }}
+                                        >
+                                            Lorem ipsum and stuff
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <p>
                                 Haynes wasn’t the only one to flourish through SOBHU. “One of the
                                 things I loved about it was that it gave me space where I could be

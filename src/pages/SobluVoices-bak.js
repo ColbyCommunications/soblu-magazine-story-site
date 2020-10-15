@@ -168,6 +168,105 @@ const SobluVoices = () => (
                             </div>
                         </div>
                     </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div style={{ marginBottom: '1.7rem' }}>
+                                <p
+                                    className="fgCompressed heavy p-no-margin-bottom"
+                                    style={{ fontSize: '1.7rem' }}
+                                >
+                                    Ode to the Courageous Chapel 17: A Legacy of Love &amp; Courage
+                                </p>
+                                <p style={{ fontSize: '1.5rem' }}>By Tionna Haynes ’15</p>
+                            </div>
+                            <p className="p-no-margin-bottom">
+                                SOBU. SOBHU. SOBLU. No matter what it was called during your time on
+                                campus, Students Organized for Black and Latinx Unity (SOBLU) has
+                                not only spoken truth to power but has taken risks for the greater
+                                good through activism. During the 1970s, there were few Black
+                                students enrolled at Colby, and SOBU organized to improve the
+                                recruitment support for Black students. For students who received
+                                scholarships, there was a higher minimum GPA than for
+                                non-scholarship students. This was a practice that adversely
+                                impacted the brilliant Black students at Colby. The occupation of
+                                the chapel was a protest against this discriminatory practice and
+                                demanded the institution to direct action to create better support
+                                for Black students. Led by senior Charles Terrell ’70 (now a Colby
+                                trustee emeritus), 17 students locked themselves in the chapel for
+                                eight days to try to end this unfair policy, improve remediation
+                                academic support, and demand acceptance of more Black students.
+                                Ultimately, their efforts brought equity to the institutional
+                                practice: the higher GPA requirement for scholarship was eliminated.
+                                The Chapel 17 protest led to the creation of SOBU as a staple
+                                organization, which is still fighting for fair treatment and support
+                                of Black and Brown students on campus and in Waterville.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col mobile-text-center">
+                            <span className="fgCompressed heavy fgCompressed-voices-quote">
+                                “SOBHU gave me the courage to ... be me, unapologetically.”
+                            </span>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div>
+                                <p>
+                                    I am an African-American woman who attended Colby as a Posse-NY
+                                    scholar and therefore received financial aid. The Chapel 17 and
+                                    their allies will never understand how indebted I am to them for
+                                    their courage and for their leadership by example. I have so
+                                    many fond memories of Colby because of the friendships,
+                                    acquaintances, events, and opportunities for coalition-building
+                                    that happened due to being a member and leader of SOBHU. During
+                                    my first year, I recognized my calling and became an active
+                                    member of SOBHU. The first demonstration I led was a march from
+                                    the student center to Miller steps in protest of the murder of
+                                    Trayvon Martin at the hands of vigilante George Zimmerman. Later
+                                    on that semester, with the Pugh Community Board, we organized a
+                                    conversation about affirmative action. These formative instances
+                                    led me to join the SOBHU board, and, ultimately, become
+                                    president of the longest-standing multicultural organization in
+                                    Colby’s history.
+                                </p>
+                                <p>
+                                    SOBHU gave me the courage to lead protests, the courage to lead
+                                    demonstrations, the courage to pursue a double major in
+                                    African-American studies and history, the courage to choose to
+                                    be an educator in Black communities in Chicago in a world that
+                                    does not value Black lives or the education that Black children
+                                    receive, and the courage to be me, unapologetically. I know my
+                                    story might be unique to me, but for anyone who was a member of
+                                    the club or attended an event, you know that at the club’s
+                                    foundation was love and empowerment.
+                                </p>
+                                <p>
+                                    From fighting against the institution’s discriminatory practices
+                                    to bringing cultural awareness of issues concerning Black and
+                                    Latinx people throughout the diasporas to celebrating traditions
+                                    and helping students feel good about being themselves in Maine
+                                    at Colby, SOBLU has been at the forefront of the student-led
+                                    changes on the campus. The diversity in applicants and the high
+                                    graduation rates of Black students at Colby can only be
+                                    celebrated since the Courageous Chapel 17 changed policy and
+                                    changed the trajectory for success of international or domestic
+                                    students of color at the school. The 50-year legacy of Students
+                                    Organized for Black and Latinx Unity is proof that courage can
+                                    change the world. On behalf of the many students of color who
+                                    attended and graduated from Colby, thank you SOBU, every member
+                                    and president since them, and allies for your courage. Because
+                                    of you, we can.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <i>Essay submitted on Nov. 2019</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div className="row mb-4 mb-lg-5">
                         <div className="col">
                             <div
@@ -184,6 +283,99 @@ const SobluVoices = () => (
                                 <p className="p-no-margin-bottom">Kris de Luna and Juan Luna</p>
                                 <p className="p-no-margin-bottom">
                                     Co-Presidents of SOBLU for 2019-2020 Academic Year
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 mb-4">
+                            <div>
+                                <p
+                                    className="fgCompressed heavy p-no-margin-bottom"
+                                    style={{ fontSize: '1.7rem' }}
+                                >
+                                    SOBHU
+                                </p>
+                                <p style={{ fontSize: '1.5rem' }}>By Claire Jimenez ’06</p>
+                            </div>
+                            <p className="p-no-margin-bottom">
+                                As a seventeen-year-old Puerto Rican girl from Staten Island, New
+                                York, I had no idea what to expect when I landed at Colby. The year
+                                was 2002, and there was way too much Eminem playing on the radio.
+                                Only a year before, two planes crashed into the Twin Towers, setting
+                                them on fire and shutting the city down for weeks. New York had
+                                become so apocalyptic that I wondered if college would even happen.
+                            </p>
+                            <p>
+                                But it did. I came to Colby on a full tuition scholarship from the
+                                Posse Foundation with nine other students from New York City, who I
+                                had met and trained with for a year. It turned out that much of my
+                                experience attending Colby was actually painful; there was a great
+                                deal of racism that students faced on campus at that time. And, yet,
+                                many of my most enduring friendships flourished at Colby. SOBHU
+                                provided me with the community to survive what were often terrible
+                                moments.
+                            </p>
+                            <p>
+                                One of my greatest friends, Shapel Mallard ’08, was the president of
+                                SOBHU, a fellow Posse scholar and the mastermind behind a midnight
+                                Friday open mic called Poets Rest at Dawn. In New York, as
+                                teenagers, Shapel and I would travel to the Nuyorican to perform our
+                                poetry, then he would chase the M15 so that we could ride down to
+                                the ferry. He was a high school football player from Brooklyn who
+                                was obsessed with philosophy and would carry around Nietzsche books
+                                the size of bricks in his backpack, while reciting lyrics from Black
+                                on Both Sides. You always wanted to make a guy like Shapel laugh at
+                                an open mic because the sound of his joy was infectious. His booming
+                                laughter bounced around you and across the room as if it were alive.
+                                He was 17 years old. And he was brilliant.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col mobile-text-center">
+                            <span className="fgCompressed heavy fgCompressed-voices-quote">
+                                “Many of my most enduring friendships flourished at Colby. SOBHU
+                                provided me with the community to survive ...”
+                            </span>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div>
+                                <p>
+                                    Because we missed those New York City open mics, somehow Shapel
+                                    managed to convince the folks who ran the coffeehouse downstairs
+                                    of the quiet dorm to let us use it Friday nights to read our
+                                    poetry. Come 12 o’clock, he’d drag a mic up to the stage and
+                                    offer up one of his poems to lure people to read. Gradually,
+                                    other students would come into the coffeehouse, smelling like
+                                    whatever party they just left, sometimes tearful, sometimes
+                                    spinning happily into the room, drunk; they’d take the mic. Kids
+                                    you never expected to perform, who you never even imagined liked
+                                    poetry. Sometimes the coffeehouse was packed with people
+                                    cheering after each person read. And sometimes there would be
+                                    only five of us sitting in the dark, taking turns reading our
+                                    poems. What I know is that those nights nurtured me as a writer,
+                                    who didn’t yet understand that she would become a writer.
+                                </p>
+                                <p>
+                                    Right now, over 10,000 people have died of the coronavirus in my
+                                    home of New York City. All around the country, many writers are
+                                    trying to understand if what they do actually matters. But here,
+                                    quarantined in my little house in Nebraska, thinking about Poets
+                                    Rest at Dawn, I’m reminded of the real value of writing and why
+                                    I first loved it. Not book deals or awards or fancy
+                                    publications. I picture a few homesick eighteen-year-old kids
+                                    dragging a mic at midnight to the front of the room, week after
+                                    week, trying to recreate some type of semblance of home, to make
+                                    each other feel safe, to bring each other joy, with the faith
+                                    that they could do so with their words.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <i>Essay submitted on April 2020</i>
                                 </p>
                             </div>
                         </div>
@@ -205,6 +397,120 @@ const SobluVoices = () => (
                                     }}
                                 >
                                     Stephanie Rivera ’18 reflects back on SOBLU.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2">
+                            <div className="mb-4">
+                                <p
+                                    className="fgCompressed heavy p-no-margin-bottom"
+                                    style={{ fontSize: '1.7rem' }}
+                                >
+                                    SOBHU reflection for 50th Anniversary
+                                </p>
+                                <p style={{ fontSize: '1.5rem' }}>By Kebba Tolbert ’94</p>
+                            </div>
+                            <p className="p-no-margin-bottom">
+                                When I reflect on my time at Colby, one of the things that resonates
+                                with me is that it was both challenging and fulfilling. As a young
+                                African-American in Waterville—there were times where you just felt
+                                out of place. I was a third-generation college student, had gone to
+                                a public high school and an elite boarding school, so I’d spent most
+                                of my educational career at majority white institutions. I was on
+                                the track team as well, so I had a built-in, ready-made community.
+                                This all helped ease my transition. But there were still times when
+                                it felt like I was in a foreign land. SOBHU—the group, the people,
+                                and the room—was a place that felt comfortable, a place that felt
+                                like home. It was home in ways big and small. From just being to
+                                take off the mask of double consciousness and just be. The people in
+                                SOBHU created a space to talk about things particular and familiar.
+                                We had conversations about things important (representation in the
+                                curriculum) and inane (which rap mc). We created space to laugh
+                                about the ridiculous (the local theater explaining that they weren’t
+                                showing “Boyz n the Hood” because they were afraid of gang violence
+                                in Waterville!) and to support each other through serious trials.
+                                And we had the SOBHU room—in the SOBHU room we had dances, we hung
+                                out in the SOBHU room, we rented movies that we wanted to see, we
+                                had a representative—in a sense extracurricular—library in the SOBHU
+                                room. It was a safe space, it was relaxing, it was home.
+                            </p>
+                            <p>
+                                I remember in talking with Jonathan Thomas ’94, a good friend and
+                                SOBHU vice president, about our senior year—he recalled that there
+                                were several SOBHU members that were part of Stu-A our freshman
+                                year. He said, “Let’s make it seem like Black History Month all year
+                                long.” So, in addition to being president of SOBHU, I was the
+                                student government cultural chair. The Stu-A government that year
+                                was very diverse—Marinel Mateo ’94 was president, Kendra King ’94
+                                was the parliamentarian, Mike Miller ’95 was the social chair. We
+                                worked hard to be more inclusive, be more sensitive to students’
+                                needs, and in many ways we were successful. We had vigorous support
+                                from people in administration like Tulio Nieman and Dean (Victoria)
+                                Hershey.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col mobile-text-center">
+                            <span className="fgCompressed heavy fgCompressed-voices-quote">
+                                “SOBHU—the group, the people, and the room—was a place that felt
+                                comfortable, a place that felt like home.”
+                            </span>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div>
+                                <p>
+                                    When I look back, I was able to play a big part as SOBHU
+                                    president and Stu-A cultural chair in bringing a certain type of
+                                    diversity to campus—Cornel West, Chuck D, Manning Marable, and
+                                    Spike Lee and others. This was a big deal at the time. But in
+                                    some areas, I failed—I was shortsighted and not inclusive
+                                    enough. One of things I didn’t do was properly appreciate and
+                                    include the diversity of Black and Latinx voices—we didn’t
+                                    incorporate Caribbean and African speakers and programs much. We
+                                    didn’t celebrate and appreciate the Latinx perspective as much
+                                    as we should have—even during Hispanic Heritage Month.
+                                </p>
+                                <p>
+                                    Later, in my senior year, SOBHU was asked to make a presentation
+                                    about our experience and our concerns at Colby to administration
+                                    and trustees. In talking with friends and a few administrators,
+                                    we felt it was being pitched as a divide-and-conquer strategy.
+                                    We wanted to, and were encouraged to, present a united front of
+                                    underrepresented students. People like Hung Bui ’94, Karlene
+                                    Burrell-McRae ’94, Cicely Finley Taylor ’94, along with Jon
+                                    Thomas ’94 and Kendra King ‘94, were some other people heavily
+                                    involved. We partnered with various groups to make a
+                                    coalition—this was the genesis of Students of Color United for
+                                    Change. While each group had specific needs, we felt we had a
+                                    stronger voice if we could speak together. So at the meeting,
+                                    where SOBHU was scheduled to talk with the administration, we
+                                    all showed up as SOCUFC. What did we express?
+                                </p>
+                                <p>
+                                    We wanted more diverse faculty, we wanted a diverse housing
+                                    option similar to what was available at a few other NESCAC
+                                    schools, we wanted much more attention paid to the quality of
+                                    the student experience (and not just the recruitment) of
+                                    underrepresented groups. We wanted serious thought about a more
+                                    inclusive curriculum. I learned at Colby, I was pushed at Colby,
+                                    and grew at Colby because of many wonderful professors and
+                                    administrators who invested in me—from partnering with me to do
+                                    several independent study projects in areas that weren’t offered
+                                    (i.e., Marcus Garvey and Malcolm X, rap music and language,
+                                    Black women and leadership) to simply lending an ear to vent
+                                    when things got tough. I learned to lead at Colby because of
+                                    SOBHU and the people who were connected and supportive of our
+                                    group. For that, for SOBHU, I am extremely grateful.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <i>Essay submitted on Nov. 2019</i>
                                 </p>
                             </div>
                         </div>

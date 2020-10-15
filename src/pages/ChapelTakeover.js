@@ -615,64 +615,15 @@ const ChapelTakeover = () => {
                                             </div>
                                         </div>
                                         <div className="mb-4">
-                                            <img
-                                                src="images/newspaper-01-black-students-urge-colby-headline-crop.png"
-                                                className="img-fluid"
-                                                alt=""
-                                                onClick={() =>
-                                                    window.open(
-                                                        'pdfs/newspaper-black-students-urge-colby.pdf',
-                                                        '_blank'
-                                                    )
-                                                }
+                                            <Image
+                                                src={{
+                                                    main:
+                                                        'images/newspaper-01-black-students-urge-colby-act-on-demands--thumb.png',
+                                                }}
+                                                lightboxSrc="images/newspaper-01-black-students-urge-colby-act-on-demands--full.png"
+                                                alt="Portland Press Herald, March 6, 1970"
+                                                caption="Portland Press Herald, March 6, 1970"
                                             />
-                                            <div className="mt-2">
-                                                <div
-                                                    className="text-center p-2"
-                                                    style={{
-                                                        backgroundColor: '#000',
-                                                        color: '#fff',
-                                                        cursor: 'pointer',
-                                                    }}
-                                                    onClick={() =>
-                                                        window.open(
-                                                            'pdfs/newspaper-black-students-urge-colby.pdf',
-                                                            '_blank'
-                                                        )
-                                                    }
-                                                >
-                                                    <span
-                                                        className="heavy"
-                                                        style={{ textTransform: 'uppercase' }}
-                                                    >
-                                                        News
-                                                    </span>{' '}
-                                                    <span style={{ textTransform: 'uppercase' }}>
-                                                        Impact in the Media
-                                                    </span>{' '}
-                                                    <span style={{ verticalAlign: 'top' }}>
-                                                        <svg
-                                                            version="1.1"
-                                                            width="16"
-                                                            height="16"
-                                                            viewBox="0 0 16 16"
-                                                            style={{ marginTop: '-2px' }}
-                                                        >
-                                                            <path
-                                                                fill="currentColor"
-                                                                d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
-                                                            />
-                                                            <path
-                                                                fill="currentColor"
-                                                                d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
-                                                            />
-                                                        </svg>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div className="mt-2">
-                                                Portland Press Herald, March 6, 1970
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
