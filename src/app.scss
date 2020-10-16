@@ -243,18 +243,40 @@ h1 {
 
 .modal-dialog .close {
     opacity: 1 !important;
+    font-size: 1.8rem !important;
 }
 
 .modal-header {
+    padding: 0.5rem 1.5rem;
     background-color: #000 !important;
     color: #fff !important;
     border-radius: 0 !important;
-    padding: 0.5rem 1rem;
     button {
         span {
             color: #fff;
         }
     }
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-body p {
+    /* all new */
+    font-family: franklin-gothic-compressed, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.035rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.3rem;
 }
 
 .soblu-mobile-nav {
