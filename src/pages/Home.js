@@ -380,7 +380,7 @@ const Home = () => (
                                     fontSize: '1.5rem',
                                 }}
                             >
-                                When was the first time you knew you wanted to be part of SOBLU?
+                                When did your SOBLU experience mean to you?
                             </p>
                         </div>
                     </div>
