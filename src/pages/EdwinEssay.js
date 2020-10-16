@@ -117,10 +117,10 @@ const EdwinEssay = () => (
                                         thumbnail: 'images/Colby_SOBLU_Torres0002_thumbnail.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0002.jpg"
-                                    altText="A portrait of Doris Ford Mathis ‘73 at the Washington
+                                    altText="A portrait of Doris Ford Mathis ‘73 at her Washington
                                     D.C. home. Doris was a first-year student when SOBLU was
                                     originally founded on Colby’s campus."
-                                    caption="A portrait of Doris Ford Mathis ‘73 at the Washington
+                                    caption="A portrait of Doris Ford Mathis ‘73 at her Washington
                                     D.C. home. Doris was a first-year student when SOBLU was
                                     originally founded on Colby’s campus."
                                 />
