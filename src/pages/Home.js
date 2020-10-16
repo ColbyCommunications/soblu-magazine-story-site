@@ -369,7 +369,7 @@ const Home = () => (
                         <div className="embed-responsive embed-responsive-16by9">
                             <VideoPlayer
                                 url="videos/DareNorthward_ColbyCollege.mp4"
-                                image="images/Colby_SOBLU_Torres0017-retouched-1200.jpg"
+                                image="images/reynolds-90-video-thumb.jpg"
                             />
                         </div>
                         <div className="mt-4">
@@ -1002,24 +1002,6 @@ const Home = () => (
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
                                                     The E.V.E
-                                                </span>{' '}
-                                                <span style={{ verticalAlign: 'top' }}>
-                                                    <svg
-                                                        version="1.1"
-                                                        width="16"
-                                                        height="16"
-                                                        viewBox="0 0 16 16"
-                                                        style={{ marginTop: '-2px' }}
-                                                    >
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
-                                                        />
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
-                                                        />
-                                                    </svg>
                                                 </span>
                                             </div>
                                         </Link>
@@ -1107,24 +1089,6 @@ const Home = () => (
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
                                                     The E.V.E.
-                                                </span>{' '}
-                                                <span style={{ verticalAlign: 'top' }}>
-                                                    <svg
-                                                        version="1.1"
-                                                        width="16"
-                                                        height="16"
-                                                        viewBox="0 0 16 16"
-                                                        style={{ marginTop: '-2px' }}
-                                                    >
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
-                                                        />
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
-                                                        />
-                                                    </svg>
                                                 </span>
                                             </div>
                                         </Link>
@@ -1457,24 +1421,6 @@ const Home = () => (
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
                                                     “The Unity”
-                                                </span>{' '}
-                                                <span style={{ verticalAlign: 'top' }}>
-                                                    <svg
-                                                        version="1.1"
-                                                        width="16"
-                                                        height="16"
-                                                        viewBox="0 0 16 16"
-                                                        style={{ marginTop: '-2px' }}
-                                                    >
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
-                                                        />
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
-                                                        />
-                                                    </svg>
                                                 </span>
                                             </div>
                                         </Link>
@@ -1556,24 +1502,6 @@ const Home = () => (
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
                                                     “The Unity”
-                                                </span>{' '}
-                                                <span style={{ verticalAlign: 'top' }}>
-                                                    <svg
-                                                        version="1.1"
-                                                        width="16"
-                                                        height="16"
-                                                        viewBox="0 0 16 16"
-                                                        style={{ marginTop: '-2px' }}
-                                                    >
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
-                                                        />
-                                                        <path
-                                                            fill="currentColor"
-                                                            d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
-                                                        />
-                                                    </svg>
                                                 </span>
                                             </div>
                                         </Link>
