@@ -697,8 +697,8 @@ const Home = () => (
                                             main: 'images/Race-Relations-Colby-topic-thumb-600.jpg',
                                         }}
                                         lightboxSrc="images/Race-Relations-Colby-topic-1200.jpg"
-                                        altText=""
-                                        caption="lorem ipsum"
+                                        altText="A newspaper clip announcing a SOBHU-sponsored event during the Black History Month."
+                                        caption="A newspaper clip announcing a SOBHU-sponsored event during the Black History Month."
                                     />
                                 </div>
                                 <Image
@@ -706,8 +706,8 @@ const Home = () => (
                                         main: 'images/Black-oppresses-thumb-600.jpg',
                                     }}
                                     lightboxSrc="images/Black-oppresses-1200.jpg"
-                                    altText=""
-                                    caption="lorem ipsum"
+                                    altText="A piece reporting on the Black History Month event featuring Charles H. King Jr."
+                                    caption="A piece reporting on the Black History Month event featuring Charles H. King Jr."
                                 />
                             </div>
                         </div>
@@ -739,8 +739,8 @@ const Home = () => (
                                             main: 'images/Race-Relations-Colby-topic-thumb-600.jpg',
                                         }}
                                         lightboxSrc="images/Race-Relations-Colby-topic-1200.jpg"
-                                        altText=""
-                                        caption="lorem ipsum"
+                                        altText="A newspaper clip announcing a SOBHU-sponsored event during the Black History Month."
+                                        caption="A newspaper clip announcing a SOBHU-sponsored event during the Black History Month."
                                     />
                                 </div>
                                 <Image
@@ -749,7 +749,7 @@ const Home = () => (
                                     }}
                                     lightboxSrc="images/Black-oppresses-1200.jpg"
                                     altText=""
-                                    caption="lorem ipsum"
+                                    caption="A piece reporting on the Black History Month event featuring Charles H. King Jr."
                                 />
                             </div>
                             <p>
