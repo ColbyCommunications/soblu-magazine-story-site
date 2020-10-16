@@ -549,84 +549,88 @@ const ChapelTakeover = () => {
                                 <div className="row mb-4">
                                     <div className="col-lg-20 offset-lg-2">
                                         <div className="mb-5">
-                                            <img
-                                                src="images/Echo-blacks-in-chapel-composit.jpg"
-                                                className="img-fluid"
-                                                alt=""
-                                                onClick={() =>
-                                                    window.open(
-                                                        'pdfs/Blacks-in-chapel_CBO_1970_03_06.pdf',
-                                                        '_blank'
-                                                    )
-                                                }
-                                            />
-                                            <div className="mt-2">
-                                                <div
-                                                    className="text-center p-2"
-                                                    style={{
-                                                        backgroundColor: '#000',
-                                                        color: '#fff',
-                                                        cursor: 'pointer',
-                                                    }}
+                                            <div className="d-none">
+                                                <img
+                                                    src="images/Echo-blacks-in-chapel-composit.jpg"
+                                                    className="img-fluid"
+                                                    alt=""
                                                     onClick={() =>
                                                         window.open(
                                                             'pdfs/Blacks-in-chapel_CBO_1970_03_06.pdf',
                                                             '_blank'
                                                         )
                                                     }
-                                                >
-                                                    <span
-                                                        className="heavy"
-                                                        style={{ textTransform: 'uppercase' }}
-                                                    >
-                                                        <i>Echo</i>
-                                                    </span>{' '}
-                                                    <span
+                                                />
+                                                <div className="mt-2">
+                                                    <div
+                                                        className="text-center p-2"
                                                         style={{
-                                                            textTransform: 'uppercase',
-                                                            marginRight: '5px',
+                                                            backgroundColor: '#000',
+                                                            color: '#fff',
+                                                            cursor: 'pointer',
+                                                        }}
+                                                        onClick={() =>
+                                                            window.open(
+                                                                'pdfs/Blacks-in-chapel_CBO_1970_03_06.pdf',
+                                                                '_blank'
+                                                            )
+                                                        }
+                                                    >
+                                                        <span
+                                                            className="heavy"
+                                                            style={{ textTransform: 'uppercase' }}
+                                                        >
+                                                            <i>Echo</i>
+                                                        </span>{' '}
+                                                        <span
+                                                            style={{
+                                                                textTransform: 'uppercase',
+                                                                marginRight: '5px',
+                                                            }}
+                                                        >
+                                                            The Debate Begins
+                                                        </span>{' '}
+                                                        <span style={{ verticalAlign: 'top' }}>
+                                                            <svg
+                                                                version="1.1"
+                                                                width="16"
+                                                                height="16"
+                                                                viewBox="0 0 16 16"
+                                                                style={{ marginTop: '-2px' }}
+                                                            >
+                                                                <path
+                                                                    fill="currentColor"
+                                                                    d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
+                                                                />
+                                                                <path
+                                                                    fill="currentColor"
+                                                                    d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
+                                                                />
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <div
+                                                        style={{
+                                                            marginTop: '5px',
                                                         }}
                                                     >
-                                                        The Debate Begins
-                                                    </span>{' '}
-                                                    <span style={{ verticalAlign: 'top' }}>
-                                                        <svg
-                                                            version="1.1"
-                                                            width="16"
-                                                            height="16"
-                                                            viewBox="0 0 16 16"
-                                                            style={{ marginTop: '-2px' }}
-                                                        >
-                                                            <path
-                                                                fill="currentColor"
-                                                                d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
-                                                            />
-                                                            <path
-                                                                fill="currentColor"
-                                                                d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
-                                                            />
-                                                        </svg>
-                                                    </span>
-                                                </div>
-                                                <div
-                                                    style={{
-                                                        marginTop: '5px',
-                                                    }}
-                                                >
-                                                    Colby Echo, March 6, 1970
+                                                        Colby Echo, March 6, 1970
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="mb-4">
-                                            <Image
-                                                src={{
-                                                    main:
-                                                        'images/newspaper-01-black-students-urge-colby-act-on-demands--thumb.png',
-                                                }}
-                                                lightboxSrc="images/newspaper-01-black-students-urge-colby-act-on-demands--full.png"
-                                                alt="Portland Press Herald, March 6, 1970"
-                                                caption="Portland Press Herald, March 6, 1970"
-                                            />
+                                            <div className="d-none">
+                                                <Image
+                                                    src={{
+                                                        main:
+                                                            'images/newspaper-01-black-students-urge-colby-act-on-demands--thumb.png',
+                                                    }}
+                                                    lightboxSrc="images/newspaper-01-black-students-urge-colby-act-on-demands--full.png"
+                                                    alt="Portland Press Herald, March 6, 1970"
+                                                    caption="Portland Press Herald, March 6, 1970"
+                                                />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -778,71 +782,77 @@ const ChapelTakeover = () => {
                                             </div>
                                         </div>
                                         <div className="mb-4">
-                                            <div className="d-table">
-                                                <img
-                                                    src="images/Echo-blacks-OUT-chapel-composit-thumb.jpg"
-                                                    className="img-fluid"
-                                                    alt=""
-                                                    onClick={() =>
-                                                        window.open(
-                                                            'pdfs/Blacks-out-of-chapel_CBO_1970_03_13.pdf',
-                                                            '_blank'
-                                                        )
-                                                    }
-                                                />
-                                                <div className="span-caption">
-                                                    <div className="mt-2">
-                                                        <div
-                                                            className="text-center p-2"
-                                                            style={{
-                                                                backgroundColor: '#000',
-                                                                color: '#fff',
-                                                                cursor: 'pointer',
-                                                            }}
-                                                            onClick={() =>
-                                                                window.open(
-                                                                    'pdfs/Blacks-out-of-chapel_CBO_1970_03_13.pdf',
-                                                                    '_blank'
-                                                                )
-                                                            }
-                                                        >
-                                                            <span
-                                                                className="heavy"
+                                            <div className="d-none">
+                                                <div className="d-table">
+                                                    <img
+                                                        src="images/Echo-blacks-OUT-chapel-composit-thumb.jpg"
+                                                        className="img-fluid"
+                                                        alt=""
+                                                        onClick={() =>
+                                                            window.open(
+                                                                'pdfs/Blacks-out-of-chapel_CBO_1970_03_13.pdf',
+                                                                '_blank'
+                                                            )
+                                                        }
+                                                    />
+                                                    <div className="span-caption">
+                                                        <div className="mt-2">
+                                                            <div
+                                                                className="text-center p-2"
                                                                 style={{
-                                                                    textTransform: 'uppercase',
+                                                                    backgroundColor: '#000',
+                                                                    color: '#fff',
+                                                                    cursor: 'pointer',
                                                                 }}
+                                                                onClick={() =>
+                                                                    window.open(
+                                                                        'pdfs/Blacks-out-of-chapel_CBO_1970_03_13.pdf',
+                                                                        '_blank'
+                                                                    )
+                                                                }
                                                             >
-                                                                <i>ECHO</i>
-                                                            </span>{' '}
-                                                            <span
-                                                                style={{
-                                                                    textTransform: 'uppercase',
-                                                                }}
-                                                            >
-                                                                Reaction
-                                                            </span>{' '}
-                                                            <span style={{ verticalAlign: 'top' }}>
-                                                                <svg
-                                                                    version="1.1"
-                                                                    width="16"
-                                                                    height="16"
-                                                                    viewBox="0 0 16 16"
-                                                                    style={{ marginTop: '-2px' }}
+                                                                <span
+                                                                    className="heavy"
+                                                                    style={{
+                                                                        textTransform: 'uppercase',
+                                                                    }}
                                                                 >
-                                                                    <path
-                                                                        fill="currentColor"
-                                                                        d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
-                                                                    />
-                                                                    <path
-                                                                        fill="currentColor"
-                                                                        d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
-                                                                    />
-                                                                </svg>
-                                                            </span>
+                                                                    <i>ECHO</i>
+                                                                </span>{' '}
+                                                                <span
+                                                                    style={{
+                                                                        textTransform: 'uppercase',
+                                                                    }}
+                                                                >
+                                                                    Reaction
+                                                                </span>{' '}
+                                                                <span
+                                                                    style={{ verticalAlign: 'top' }}
+                                                                >
+                                                                    <svg
+                                                                        version="1.1"
+                                                                        width="16"
+                                                                        height="16"
+                                                                        viewBox="0 0 16 16"
+                                                                        style={{
+                                                                            marginTop: '-2px',
+                                                                        }}
+                                                                    >
+                                                                        <path
+                                                                            fill="currentColor"
+                                                                            d="M11 13h-8v-8h4.5l2-2h-8.5v12h12v-8.5l-2 2v4.5z"
+                                                                        />
+                                                                        <path
+                                                                            fill="currentColor"
+                                                                            d="M16 0h-6.5l2.5 2.5-7.5 7.5 1.5 1.5 7.5-7.5 2.5 2.5v-6.5z"
+                                                                        />
+                                                                    </svg>
+                                                                </span>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div className="mt-2">
-                                                        Colby Echo, March 13, 1970
+                                                        <div className="mt-2">
+                                                            Colby Echo, March 13, 1970
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

@@ -456,7 +456,7 @@ const Home = () => (
                     </div>
                     <div className="row">
                         <div className="col-md-9 d-flex align-items-center">
-                            <div className="soblu-mobile-hide">
+                            <div className="soblu-mobile-hide d-none">
                                 <Image
                                     src={{
                                         main:
@@ -713,7 +713,7 @@ const Home = () => (
                     </div>
                     <div className="row mt-4">
                         <div className="col-md-9 d-flex align-items-center">
-                            <div className="soblu-mobile-hide">
+                            <div className="soblu-mobile-hide d-none">
                                 <div className="mb-0 mb-md-4">
                                     <Image
                                         src={{
@@ -755,7 +755,7 @@ const Home = () => (
                                 not alone in some of the things that you may have been
                                 experiencing.”
                             </p>
-                            <div className="soblu-desktop-hide my-4">
+                            <div className="soblu-desktop-hide my-4 d-none">
                                 <div className="my-4 mb-md-4">
                                     <Image
                                         src={{
