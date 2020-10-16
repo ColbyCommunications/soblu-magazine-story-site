@@ -136,27 +136,42 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="1970s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <HashLink to="/#a-radical-movement">
+                                                <HashLink
+                                                    to="/#a-radical-movement"
+                                                    onClick={onClick}
+                                                >
                                                     A Radical Movement
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#pillar-of-support">
+                                                <HashLink
+                                                    to="/#pillar-of-support"
+                                                    onClick={onClick}
+                                                >
                                                     Pillar of Support
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#a-cultural-outlet">
+                                                <HashLink
+                                                    to="/#a-cultural-outlet"
+                                                    onClick={onClick}
+                                                >
                                                     A Cultural Outlet
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#a-space-of-its-own">
+                                                <HashLink
+                                                    to="/#a-space-of-its-own"
+                                                    onClick={onClick}
+                                                >
                                                     A Space of its Own
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#an-organization-for-whom">
+                                                <HashLink
+                                                    to="/#an-organization-for-whom"
+                                                    onClick={onClick}
+                                                >
                                                     An Organization for Whom?
                                                 </HashLink>
                                             </li>
@@ -167,7 +182,10 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="1980s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <HashLink to="/#back-to-the-old-days">
+                                                <HashLink
+                                                    to="/#back-to-the-old-days"
+                                                    onClick={onClick}
+                                                >
                                                     Back to the Old Days
                                                 </HashLink>
                                             </li>
@@ -178,12 +196,15 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="1990s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <HashLink to="/#branching-out">
+                                                <HashLink to="/#branching-out" onClick={onClick}>
                                                     Branching Out
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#an-agency-of-change">
+                                                <HashLink
+                                                    to="/#an-agency-of-change"
+                                                    onClick={onClick}
+                                                >
                                                     An Agency of Change
                                                 </HashLink>
                                             </li>
@@ -194,17 +215,26 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="2000s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <HashLink to="/#activism-and-support-in-tandem">
+                                                <HashLink
+                                                    to="/#activism-and-support-in-tandem"
+                                                    onClick={onClick}
+                                                >
                                                     Activism and Support in Tandem
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#a-journey-of-self-discovery">
+                                                <HashLink
+                                                    to="/#a-journey-of-self-discovery"
+                                                    onClick={onClick}
+                                                >
                                                     A Journey of Self Discovery
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#incredibly-diverse-within">
+                                                <HashLink
+                                                    to="/#incredibly-diverse-within"
+                                                    onClick={onClick}
+                                                >
                                                     Incredibly Diverse from Within
                                                 </HashLink>
                                             </li>
@@ -215,22 +245,28 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="2010s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <HashLink to="/#an-extended-family">
+                                                <HashLink
+                                                    to="/#an-extended-family"
+                                                    onClick={onClick}
+                                                >
                                                     An Extended Family
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#developing-leaders">
+                                                <HashLink
+                                                    to="/#developing-leaders"
+                                                    onClick={onClick}
+                                                >
                                                     Developing Leaders
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#a-second-home">
+                                                <HashLink to="/#a-second-home" onClick={onClick}>
                                                     A Second Home
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#the-b-and-the-l">
+                                                <HashLink to="/#the-b-and-the-l" onClick={onClick}>
                                                     The “B” and the “L”
                                                 </HashLink>
                                             </li>
@@ -241,12 +277,15 @@ const Nav = withRouter(props => {
                                     <HiddenBlock title="2020s">
                                         <ul id="soblu-vertical-menu-1970-collapse">
                                             <li>
-                                                <HashLink to="/#the-soblu-room">
+                                                <HashLink to="/#the-soblu-room" onClick={onClick}>
                                                     The SOBLU Room
                                                 </HashLink>
                                             </li>
                                             <li>
-                                                <HashLink to="/#still-a-critical-organization">
+                                                <HashLink
+                                                    to="/#still-a-critical-organization"
+                                                    onClick={onClick}
+                                                >
                                                     Still a Critical Organization
                                                 </HashLink>
                                             </li>
@@ -254,7 +293,7 @@ const Nav = withRouter(props => {
                                     </HiddenBlock>
                                 </li>
                                 <li>
-                                    <HashLink to="/#kardelens-reflection">
+                                    <HashLink to="/#kardelens-reflection" onClick={onClick}>
                                         Kardelen&rsquo;s Reflection
                                     </HashLink>
                                 </li>

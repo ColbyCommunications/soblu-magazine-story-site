@@ -131,28 +131,11 @@ h1 {
     display: block;
 }
 
-// .heading1 {
-//     font-size: 4.6rem;
-//     line-height: 4.6rem;
-// }
-
 .bold-emphasis-text {
     font-size: 1.5rem;
     font-weight: 900;
     margin-top: 3rem;
 }
-
-// #soblu-title h1 {
-//     letter-spacing: -3px !important;
-//     font-size: 6rem;
-//     margin-bottom: 0;
-// }
-
-// #soblu-title-mobile h1 {
-//     letter-spacing: -3px !important;
-//     font-size: 6rem;
-//     margin-bottom: 0;
-// }
 
 #soblu-vertical-menu {
     position: relative;
@@ -227,18 +210,6 @@ h1 {
         }
     }
 }
-
-// #home-page #soblu-vertical-menu {
-//     margin-top: 1rem;
-// }
-
-// #soblu-voices-page,
-// #edwin-essay-page,
-// #takeover-page {
-//     #soblu-vertical-menu {
-//         margin-top: 2rem;
-//     }
-// }
 
 #soblu-menu-drawer-mobile {
     ul {
@@ -468,27 +439,7 @@ img {
 
 // Small Tablets
 // @media (max-width: 767px) {
-//     .soblu-mobile-hide {
-//         display: none;
-//     }
-//     .soblu-desktop-hide {
-//         display: block;
-//     }
 
-//     .soblu-first-section {
-//         margin-top: 4rem;
-//         img {
-//             margin-bottom: 4rem;
-//         }
-//     }
-
-//     #a-radical-movement,
-//     #a-pillar-of-support,
-//     #a-cultural-outlet,
-//     #a-space-of-its-own,
-//     #an-organization-for-whom {
-//         padding-top: 45px;
-//     }
 // }
 
 // phones
@@ -537,25 +488,30 @@ img {
     }
 
     .timeline-year {
-        margin-top: 2rem;
+        margin-top: 3rem;
         display: block;
         text-align: center;
     }
 
-    // #soblu-voices-page,
-    // #edwin-essay-page,
-    // #takeover-page,
-    // #home-page {
-    //     #soblu-vertical-menu {
-    //         margin-top: 0;
-    //     }
-    // }
-
-    #a-radical-movement,
     #pillar-of-support,
+    #a-radical-movement,
     #a-cultural-outlet,
     #a-space-of-its-own,
-    #an-organization-for-whom {
+    #an-organization-for-whom,
+    #back-to-the-old-days,
+    #branching-out,
+    #an-agency-of-change,
+    #activism-its-just-one-facet-of-sobhu,
+    #a-journey-of-self-discovery,
+    #incredibly-diverse-within,
+    #an-extended-family,
+    #developing-leaders,
+    #a-home-and-a-family,
+    #the-b-and-the-l,
+    #the-soblu-room,
+    #still-a-critical-organization,
+    #kardelens-reflection,
+    #a-second-home {
         padding-top: 45px;
     }
 
@@ -566,14 +522,6 @@ img {
     .inner-byline {
         margin-top: 2rem;
     }
-
-    // .soblu-image {
-    //     margin-bottom: 2rem;
-    // }
-
-    // #takeover-page .soblu-image {
-    //     margin: 2rem 0;
-    // }
 
     .rohnique-davy img {
         width: 100%;

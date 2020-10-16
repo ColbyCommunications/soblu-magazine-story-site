@@ -736,6 +736,26 @@ const Home = () => (
                                 not alone in some of the things that you may have been
                                 experiencing.”
                             </p>
+                            <div className="soblu-desktop-hide my-4">
+                                <div className="my-4 mb-md-4">
+                                    <Image
+                                        src={{
+                                            main: 'images/Race-Relations-Colby-topic-thumb-600.jpg',
+                                        }}
+                                        lightboxSrc="images/Race-Relations-Colby-topic-1200.jpg"
+                                        altText=""
+                                        caption="lorem ipsum"
+                                    />
+                                </div>
+                                <Image
+                                    src={{
+                                        main: 'images/Black-oppresses-thumb-600.jpg',
+                                    }}
+                                    lightboxSrc="images/Black-oppresses-1200.jpg"
+                                    altText=""
+                                    caption="lorem ipsum"
+                                />
+                            </div>
                             <p>
                                 In addition to rejuvenating SOBHU, Giangrande wanted members to be
                                 seen as Colby students rather than just students of color. That’s
