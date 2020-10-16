@@ -1012,7 +1012,8 @@ const Home = () => (
                                                 fontSize: '1.1rem',
                                             }}
                                         >
-                                            Lorem ipsum and stuff
+                                            Learn how the Ethnic Vocal Ensemble (E.V.E) took roots
+                                            in the SOBHU room.
                                         </div>
                                     </div>
                                 </div>
@@ -1087,7 +1088,7 @@ const Home = () => (
                                                     MORE
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
-                                                    Lorem ipsum
+                                                    The E.V.E.
                                                 </span>
                                             </div>
                                         </Link>
@@ -1098,7 +1099,8 @@ const Home = () => (
                                                 fontSize: '1.1rem',
                                             }}
                                         >
-                                            Lorem ipsum and stuff
+                                            Learn how the Ethnic Vocal Ensemble (E.V.E) took roots
+                                            in the SOBHU room.
                                         </div>
                                     </div>
                                 </div>
@@ -1418,7 +1420,7 @@ const Home = () => (
                                                     MORE
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
-                                                    Lorem ipsum
+                                                    “The Unity”
                                                 </span>
                                             </div>
                                         </Link>
@@ -1429,7 +1431,7 @@ const Home = () => (
                                                 fontSize: '1.1rem',
                                             }}
                                         >
-                                            Lorem ipsum and stuff
+                                            SOBHU members tell why they started this newsletter.
                                         </div>
                                     </div>
                                 </div>
@@ -1499,7 +1501,7 @@ const Home = () => (
                                                     MORE
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
-                                                    Lorem ipsum
+                                                    “The Unity”
                                                 </span>
                                             </div>
                                         </Link>
@@ -1510,7 +1512,7 @@ const Home = () => (
                                                 fontSize: '1.1rem',
                                             }}
                                         >
-                                            Lorem ipsum and stuff
+                                            SOBHU members tell why they started this newsletter.
                                         </div>
                                     </div>
                                 </div>
