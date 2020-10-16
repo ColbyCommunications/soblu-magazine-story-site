@@ -239,6 +239,7 @@ const ChapelTakeover = () => {
                                                 }
                                                 showModalCloseButton
                                                 title="Journey of Charles Terrell ’70"
+                                                scrollable
                                             >
                                                 <div>
                                                     <p>
@@ -374,6 +375,7 @@ const ChapelTakeover = () => {
                                                 }
                                                 showModalCloseButton
                                                 title="Journey of Vincent Guess ’73"
+                                                scrollable
                                             >
                                                 <div>
                                                     Guess came to Colby because of its close
@@ -493,6 +495,7 @@ const ChapelTakeover = () => {
                                                 }
                                                 showModalCloseButton
                                                 title="Journey of Sebsibe Mamo ’70"
+                                                scrollable
                                             >
                                                 <div>
                                                     <p>
@@ -744,6 +747,7 @@ const ChapelTakeover = () => {
                                                     }
                                                     showModalCloseButton
                                                     title="Journey of Doris Ford Mathis ’73"
+                                                    scrollable
                                                 >
                                                     <div>
                                                         In high school in Mobile, Ala., Mathis had
