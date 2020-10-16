@@ -163,7 +163,9 @@ const SobluVoices = () => (
                                         fontSize: '1.5rem',
                                     }}
                                 >
-                                    Rohnique Davy ’22 talks about what SOBLU is and does.
+                                    Spencer Gopaul &rsquo;13, Rohnique Davy ’22, Stephanie Rivera
+                                    &rsquo;18, and Josue Gonzalez &rsquo;23 talk about SOBLU&rsquo;s
+                                    past and present.
                                 </p>
                             </div>
                         </div>
@@ -193,7 +195,7 @@ const SobluVoices = () => (
                             <div className="embed-responsive embed-responsive-16by9">
                                 <VideoPlayer
                                     url="videos/SOBLU_Teaser.mp4"
-                                    image="images/rivera-18-homecoming-video-thumb-02.jpg"
+                                    image="images/Teaser-Thumb.jpg"
                                 />
                             </div>
                             <div className="mt-4" style={{ fontSize: '1.4rem' }}>
@@ -204,7 +206,8 @@ const SobluVoices = () => (
                                         fontSize: '1.5rem',
                                     }}
                                 >
-                                    Stephanie Rivera ’18 reflects back on SOBLU.
+                                    Alumni and students reflect on SOBLU&rsquo;s place in their
+                                    lives.
                                 </p>
                             </div>
                         </div>
