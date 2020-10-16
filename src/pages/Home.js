@@ -169,9 +169,9 @@ const Home = () => (
                                     sharing their recollections.
                                 </p>
                                 <p>
-                                    This is the result—a wide-ranging exploration of an organization
-                                    that has influenced hundreds, if not thousands, of Colby
-                                    students, faculty, and staff and offers insights into a
+                                    This is the result&mdash;a wide-ranging exploration of an
+                                    organization that has influenced hundreds, if not thousands, of
+                                    Colby students, faculty, and staff and offers insights into a
                                     half-century of change at Colby and across the country.
                                 </p>
                             </div>
@@ -423,8 +423,9 @@ const Home = () => (
                                 about transition issues, struggles, and classes with others who
                                 experienced similar issues. They also enjoyed each other’s company.
                                 “I traveled [a] really long way, and just having people that I can
-                                count on and go to was very important,” said Mathis, who now
-                                provides legal guidance.
+                                count on and go to was very important,” said Mathis, who earned a
+                                law degree from George Washington University and now provides legal
+                                guidance to people seeking advice in her community.
                             </p>
                             <div className="soblu-desktop-hide my-4" style={{ fontSize: '1.6rem' }}>
                                 <div style={{ fontWeight: '600' }}>
@@ -568,10 +569,7 @@ const Home = () => (
                                 with career transition. Those goals were crucial given the racial
                                 atmosphere in the late 1960s, Guess explained. “Whenever we went
                                 into town, people would stop their cars, look at you like
-                                they&rsquo;ve never seen anything like that before,” he said. The
-                                campus environment wasn’t much different. “People on campus looked
-                                at you like you&rsquo;re not nonexistent, something that was
-                                strange,” said Guess.
+                                they&rsquo;ve never seen anything like that before,” he said.
                             </p>
                             <p>
                                 In response SOBU pushed for change, including bringing more students
@@ -662,10 +660,8 @@ const Home = () => (
                     <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
                         <div>
                             <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
-                                “We didn&rsquo;t care if you came in, but you were in our house. ...
-                                You had to come in with certain deference ... you had to befriend
-                                people, and get to know people. And we would welcome you with arms
-                                wide open.”
+                                “You had to befriend people, and get to know people. And we would
+                                welcome you with arms wide open.”
                             </span>
                             &mdash;Donte Tates ’05, on nonmembers being welcome in the SOBHU space.
                         </div>
@@ -772,24 +768,12 @@ const Home = () => (
                                 administration called “The Essentials to Colby Diversity,” asking
                                 the College to recruit more minority students and faculty,
                                 restructure the African-American Studies Program, and establish a
-                                support network for the minority community. These demands were very
-                                similar to the demands of 1970, noted Lisa M. Wright ’90, SOBHU’s
-                                secretary at the time, when writing about “Unmasking of the Takeover
-                                of Lorimer Chapel,” an event SOBHU held in the chapel to commemorate
-                                the 20th anniversary of the chapel takeover.
+                                support network for the minority community. Those demands were a
+                                continuation of the efforts of the 1970s, noted Lisa M. Wright ’90,
+                                SOBHU’s secretary at the time, when writing about “Unmasking of the
+                                Takeover of Lorimer Chapel,” an event SOBHU held in the chapel to
+                                commemorate the 20th anniversary of the chapel takeover.
                             </p>
-                        </div>
-                    </div>
-                    <div className="row mt-4" style={{ fontSize: '1.4rem' }}>
-                        <div className="col-lg-20 offset-lg-4">
-                            <span className="fgCompressed fgCompressed-normal-weight fgCompressed-quote">
-                                “I think the lesson ... of the chapel sit-in was that it was a point
-                                in which they [declared], ‘We are a segment of this campus&rsquo;s
-                                intellectual conscience. We are your conscience.’ And that&rsquo;s
-                                something that I think SOBHU has done consistently in different
-                                ways.”
-                            </span>
-                            &mdash;Ajima Olaghere ’07
                         </div>
                     </div>
                     <div className="row">
@@ -906,11 +890,7 @@ const Home = () => (
                                 and that ability to just feel like you&rsquo;ve got another home, I
                                 think is important. And I think it really shows the purpose,” said
                                 Tolbert, who is an associate head coach and recruiting coordinator
-                                at Harvard University. “If you look at the state of the country in
-                                2019, versus the ’80s and ’90s, some things are very persistent. I
-                                guess some of the misconceptions about wanting to be secluded—no
-                                just wanting space sometimes—it is a very hard thing to understand
-                                if you&rsquo;re not a victim of white supremacy.”
+                                at Harvard University.
                             </p>
                             <p>
                                 This wasn’t the only issue where SOBHU played a key role. “We were
@@ -1021,7 +1001,7 @@ const Home = () => (
                                                     MORE
                                                 </span>{' '}
                                                 <span style={{ textTransform: 'uppercase' }}>
-                                                    Lorem ipsum
+                                                    The E.V.E
                                                 </span>
                                             </div>
                                         </Link>
@@ -1193,7 +1173,7 @@ const Home = () => (
                                 “We would argue like a family, we would fight like family, we would
                                 laugh like family, we would talk it out like family. ... Even in our
                                 worst times when there were screams and fights and arguments, we
-                                found ways to make that space a place for all of us.”
+                                found ways to make that space a place for all of us,” Tates said.
                             </p>
                             <p>
                                 That family looked out for others, too. They supported other clubs
@@ -1474,20 +1454,18 @@ const Home = () => (
                                 doors for them
                             </p>
                             <p>
-                                Sometimes a racial incident galvanized support for SOBHU on campus,
-                                and in the process that support turned students into leaders. In
-                                2012 Posse Scholar Tionna Haynes ’15, now a special education
+                                In 2012 Posse Scholar Tionna Haynes ’15, now a special education
                                 teacher in Chicago, Ill., and a candidate for an M.Ed. in
                                 educational leadership from Columbia University’s Teachers College,
                                 organized a protest march after a student inappropriately dressed up
-                                for Halloween as Trayvon Martin—the 17-year-old African American
+                                for Halloween as Trayvon Martin, the 17-year-old African American
                                 shot dead in Florida in 2012. “That started it all for me,” Haynes
                                 said in an email. Haynes, who became SOBHU’s president, said her
                                 SOBHU experience solidified her path at Colby, including her
                                 decision to major in African-American studies and history and to
-                                join the SGA and the presidential search committee for President
-                                David Greene. “SOBHU allowed me to be the leader and human I needed
-                                to be.”
+                                join the SGA and the presidential search committee that selected
+                                President David Greene. “SOBHU allowed me to be the leader and human
+                                I needed to be.”
                             </p>
                             <p>
                                 Her legacy included a newsletter called “The Unity” that connected
@@ -1555,9 +1533,9 @@ const Home = () => (
                                 exert leadership skills ... required me to speak out, which
                                 wasn&rsquo;t always very easy, about things that I thought would
                                 help and support the students. It also allowed me to build
-                                relationships with the dean of students, other deans. … So it helped
-                                me build a network and relationships that were very beneficial. It
-                                also gave me some exposure on campus.”
+                                relationships with the dean of students, other deans. ... So it
+                                helped me build a network and relationships that were very
+                                beneficial. It also gave me some exposure on campus.”
                             </span>
                             &mdash;Jocelyn Wooten Giangrande ’88
                         </div>
@@ -1761,11 +1739,7 @@ const Home = () => (
                             <p>
                                 Regardless of its location or era, the SOBLU room has always been a
                                 place where students have intellectual conversations, debates, and
-                                discussions about a wide variety of topics ranging from abortion to
-                                colorism to police brutality, members explained. The room, which is
-                                almost never empty, continues to be the place where students have
-                                convened after racist incidents—ranging from microaggressions to
-                                offensive Halloween parties—and try to heal one another.
+                                discussions about a wide variety of topics.
                             </p>
                             <p>
                                 The subjects of those conversations are documented on the SOBLU
@@ -1786,32 +1760,24 @@ const Home = () => (
                             </p>
                             <p>
                                 In the corner is a large Philly Pride Flag, which has black and
-                                brown stripes representing queer people of color.
-                            </p>
-                            <p>
-                                “We made sure to put that up in the club room because prior to that,
-                                I wouldn&rsquo;t say that it was unsafe to talk about those things,
-                                but it was definitely not the norm,” said SOBLU’s co-president for
-                                the 2019-20 academic year Juan Luna ’20 (they/their), who decorated
-                                the wall with their co-president Kris de Luna ’20, both of whom are
-                                queer-identifying individuals. They both made a concerted effort of
-                                “queering the space,” said Luna, a QuestBridge scholar from Miami.
-                            </p>
-                            <p>
-                                In the corner is a large Philly Pride Flag, which has black and
                                 brown stripes representing people of color.
                             </p>
                             <p>
                                 “I think we have the most programming out of any club on this
-                                campus,” Luna said. But the nature of events has changed within
-                                their four years in SOBLU. In their initial years at Colby, the
-                                club’s program was more outward facing, they said. “We were trying
-                                to teach white students on this campus, or students who don&rsquo;t
-                                have the Black or Latino experience, about our struggles on this
-                                campus,” they said. Events are not solely for SOBLU members, but
-                                they are more focused on members, whether it be an information
-                                session on STDs or board game nights. “I think [now] it is looking
-                                more inward.”
+                                campus,” said SOBLU’s co-president for the 2019-20 academic year
+                                Juan Luna ’20 (they/their), who decorated the wall with their
+                                co-president Kris de Luna ’20.
+                            </p>
+                            <p>
+                                {' '}
+                                But the nature of events has changed within their four years in
+                                SOBLU. In their initial years at Colby, the club’s program was more
+                                outward facing, they said. “We were trying to teach white students
+                                on this campus, or students who don&rsquo;t have the Black or Latino
+                                experience, about our struggles on this campus,” they said. Events
+                                are not solely for SOBLU members, but they are more focused on
+                                members, whether it be an information session on STDs or board game
+                                nights. “I think [now] it is looking more inward.”
                             </p>
                         </div>
                     </div>
@@ -1986,7 +1952,7 @@ const Home = () => (
                                 residents of Mayflower Hill, I hope you find ways to meaningfully
                                 engage with SOBLU.
                             </p>
-                            <div>&mdash;Kardelen Koldas ’15, July 2020</div>
+                            <div>&mdash;Kardelen Koldas ’15, October 2020</div>
                         </div>
                     </div>
                 </div>
