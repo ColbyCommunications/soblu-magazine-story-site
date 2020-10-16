@@ -455,7 +455,19 @@ const Home = () => (
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-9 d-flex align-items-center" />
+                        <div className="col-md-9 d-flex align-items-center">
+                            <div className="soblu-mobile-hide">
+                                <Image
+                                    src={{
+                                        main:
+                                            'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+                                    }}
+                                    lightboxSrc="images/newspaper-01-black-students-urge-colby-act-on-demands--full.png"
+                                    altText="Portland Press Herald, March 6, 1970"
+                                    caption="Portland Press Herald, March 6, 1970"
+                                />
+                            </div>
+                        </div>
                         <div className="col-md-1" />
                         <div className="col-md-14">
                             <h3
@@ -489,6 +501,17 @@ const Home = () => (
                                 that campus and acceptance of it,” especially important in the early
                                 1970s.
                             </p>
+                            <div className="soblu-desktop-hide my-4">
+                                <Image
+                                    src={{
+                                        main:
+                                            'images/newspaper-01-black-students-urge-colby-headline-crop.png',
+                                    }}
+                                    lightboxSrc="images/newspaper-01-black-students-urge-colby-act-on-demands--full.png"
+                                    altText="Portland Press Herald, March 6, 1970"
+                                    caption="Portland Press Herald, March 6, 1970"
+                                />
+                            </div>
                             <p>
                                 “That was the heyday of the Black Panther Party, student activism,
                                 and Black nationalism across the country,” he said. “It was a very
