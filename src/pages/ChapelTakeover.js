@@ -378,23 +378,27 @@ const ChapelTakeover = () => {
                                                 scrollable
                                             >
                                                 <div>
-                                                    Guess came to Colby because of its close
-                                                    proximity to his home city, Boston. “One of the
-                                                    things that is interesting about Colby is that
-                                                    the minority population was pretty scarce and
-                                                    that didn&rsquo;t bother me that much because
-                                                    I&rsquo;d gone to prep school,” where he was one
-                                                    of the few students of color. He started as a
-                                                    chemistry major but then switched to psychology
-                                                    due to missing coursework during the takeover,
-                                                    followed by the early school closing because of
-                                                    the Kent State shootings in the spring of 1970.
-                                                    For more than 40 years, he was with United
-                                                    Healthcare, working across many roles from sales
-                                                    to information technologies with colleagues from
-                                                    various nationalities and leading international
-                                                    teams. Now Guess has his own business in
-                                                    Connecticut as a career transition coach.
+                                                    <p>
+                                                        Guess came to Colby because of its close
+                                                        proximity to his home city, Boston. “One of
+                                                        the things that is interesting about Colby
+                                                        is that the minority population was pretty
+                                                        scarce and that didn&rsquo;t bother me that
+                                                        much because I&rsquo;d gone to prep school,”
+                                                        where he was one of the few students of
+                                                        color. He started as a chemistry major but
+                                                        then switched to psychology due to missing
+                                                        coursework during the takeover, followed by
+                                                        the early school closing because of the Kent
+                                                        State shootings in the spring of 1970. For
+                                                        more than 40 years, he was with United
+                                                        Healthcare, working across many roles from
+                                                        sales to information technologies with
+                                                        colleagues from various nationalities and
+                                                        leading international teams. Now Guess has
+                                                        his own business in Connecticut as a career
+                                                        transition coach.
+                                                    </p>
                                                 </div>
                                             </Modal>
                                         </div>
@@ -509,7 +513,6 @@ const ChapelTakeover = () => {
                                                         possibilities around Maine, found Colby, and
                                                         enrolled in January with a scholarship.
                                                     </p>
-
                                                     <p>
                                                         “I fell in love with Colby,” he said. Mamo
                                                         was vice president of the student
@@ -754,29 +757,33 @@ const ChapelTakeover = () => {
                                                     scrollable
                                                 >
                                                     <div>
-                                                        In high school in Mobile, Ala., Mathis had
-                                                        several options for college, but when she
-                                                        saw clips of Waterville, the snow, and the
-                                                        campus, she made her decision. “Just the
-                                                        idea that there was something different to
-                                                        do because I had gone to segregated schools
-                                                        in the South all my life,” she said. When
-                                                        she came to Colby, she found a community
-                                                        that was the complete opposite of the one
-                                                        she left. “It was a shocker to come
-                                                        downstairs for breakfast the first day,” she
-                                                        said. “It took me several days to see any
-                                                        other minority students.” At Colby, she
-                                                        majored in American studies and worked at
-                                                        the switchboard in Eustis, in the library,
-                                                        and at a dorm reception desk, where guests
-                                                        checked in and out. Following Colby, she
-                                                        earned a law degree from George Washington
-                                                        University. A year later, she found out she
-                                                        had breast cancer. In addition being an
-                                                        activist for various causes, she offers
-                                                        legal guidance to those in need in her
-                                                        community or family.
+                                                        <p>
+                                                            In high school in Mobile, Ala., Mathis
+                                                            had several options for college, but
+                                                            when she saw clips of Waterville, the
+                                                            snow, and the campus, she made her
+                                                            decision. “Just the idea that there was
+                                                            something different to do because I had
+                                                            gone to segregated schools in the South
+                                                            all my life,” she said. When she came to
+                                                            Colby, she found a community that was
+                                                            the complete opposite of the one she
+                                                            left. “It was a shocker to come
+                                                            downstairs for breakfast the first day,”
+                                                            she said. “It took me several days to
+                                                            see any other minority students.” At
+                                                            Colby, she majored in American studies
+                                                            and worked at the switchboard in Eustis,
+                                                            in the library, and at a dorm reception
+                                                            desk, where guests checked in and out.
+                                                            Following Colby, she earned a law degree
+                                                            from George Washington University. A
+                                                            year later, she found out she had breast
+                                                            cancer. In addition being an activist
+                                                            for various causes, she offers legal
+                                                            guidance to those in need in her
+                                                            community or family.
+                                                        </p>
                                                     </div>
                                                 </Modal>
                                             </div>
