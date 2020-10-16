@@ -4,6 +4,7 @@ import loadable from '@loadable/component';
 import ScrollTop from './components/common/ScrollTop';
 
 import LoadingComponent from './components/common/Loading';
+import LoadingComponentTakeover from './components/common/LoadingTakeover';
 
 const Home = loadable(
     () =>
@@ -42,7 +43,7 @@ const ChapelTakeover = loadable(
             /* webpackMode: "lazy" */ './pages/ChapelTakeover'
         ),
     {
-        fallback: <LoadingComponent />,
+        fallback: <LoadingComponentTakeover />,
     }
 );
 const Eve = loadable(
