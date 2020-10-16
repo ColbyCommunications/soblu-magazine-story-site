@@ -151,8 +151,8 @@ const SobluVoices = () => (
                         <div className="col">
                             <div className="embed-responsive embed-responsive-16by9">
                                 <VideoPlayer
-                                    url="videos/DareNorthward_ColbyCollege.mp4"
-                                    image="images/Colby_SOBLU_Torres0017-retouched-1200.jpg"
+                                    url="videos/SOBLU_Homecoming_Video.mp4"
+                                    image="images/davy-22-homecoming-video-thumb.jpg"
                                 />
                             </div>
                             <div className="mt-4" style={{ fontSize: '1.4rem' }}>
@@ -192,8 +192,8 @@ const SobluVoices = () => (
                         <div className="col">
                             <div className="embed-responsive embed-responsive-16by9">
                                 <VideoPlayer
-                                    url="videos/DareNorthward_ColbyCollege.mp4"
-                                    image="images/Colby_SOBLU_Torres0017-retouched-1200.jpg"
+                                    url="videos/SOBLU_Teaser.mp4"
+                                    image="images/rivera-18-homecoming-video-thumb-02.jpg"
                                 />
                             </div>
                             <div className="mt-4" style={{ fontSize: '1.4rem' }}>
