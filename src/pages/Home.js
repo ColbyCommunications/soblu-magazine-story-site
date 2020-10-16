@@ -368,8 +368,8 @@ const Home = () => (
                     <div className="row mt-6" style={{ fontSize: '1.4rem' }}>
                         <div className="embed-responsive embed-responsive-16by9">
                             <VideoPlayer
-                                url="videos/DareNorthward_ColbyCollege.mp4"
-                                image="images/reynolds-90-video-thumb.jpg"
+                                url="videos/What_did_your_SOBLU_experience_mean_to_you.mp4"
+                                image="images/doris-mathis-73-video-thumb.jpg"
                             />
                         </div>
                         <div className="mt-4">
