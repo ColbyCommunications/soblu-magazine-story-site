@@ -160,8 +160,8 @@ const Home = () => (
                                 <p>
                                     This story travels back to its founding and presents this
                                     organization through the eyes of its members, who spent only
-                                    four years on Mayflower Hill but took away many memories that
-                                    remain, for many, powerful decades later.
+                                    four years on Mayflower Hill but took away memories that remain,
+                                    for many, powerful decades later.
                                 </p>
                                 <p>
                                     More than 40 members across the 50-year spectrum, including many
@@ -1976,12 +1976,12 @@ const Home = () => (
                                 This project was one of the first assignments I took on when I
                                 returned to Colby as a staff writer in December 2018. I can imagine
                                 some of you asking, what took you so long to get it done? Well,
-                                that’s a very valid question. I must admit that none of us at Colby
-                                Magazine anticipated it would take this long to complete or be at
-                                this length. But one thing I knew from the very beginning was we
-                                wanted these stories and images to capture the essence of this
-                                organization that has continuously changed and challenged both its
-                                members and Colby for the better.
+                                that’s a very valid question. I must admit that none of us at{' '}
+                                <em>Colby Magazine</em> anticipated it would take this long to
+                                complete or be at this length. But one thing I knew from the very
+                                beginning was we wanted these stories and images to capture the
+                                essence of this organization that has continuously changed and
+                                challenged both its members and Colby for the better.
                             </p>
                             <p>
                                 I spent over a year tracking down former SOBLU members from early
