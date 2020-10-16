@@ -799,6 +799,7 @@ const Home = () => (
                             </p>
                         </div>
                     </div>
+
                     <div className="row">
                         <div>
                             <h2 className="fgCompressed fgCompressed-normal-weight timeline-year">
@@ -971,6 +972,25 @@ const Home = () => (
                                 the best version of yourself.”
                             </span>
                             &mdash;Marnay Avant ’18
+                        </div>
+                    </div>
+                    <div className="row mt-6" style={{ fontSize: '1.4rem' }}>
+                        <div className="embed-responsive embed-responsive-16by9">
+                            <VideoPlayer
+                                url="videos/What_were_some_of_the_pressing_issues_facing_you_and_SOBLU_at_the_time.mp4"
+                                image="images/tates-05-video-thumb.jpg"
+                            />
+                        </div>
+                        <div className="mt-4">
+                            <p
+                                style={{
+                                    fontWeight: '600',
+                                    display: 'inline-block',
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                What were some of the pressing issues during your time?
+                            </p>
                         </div>
                     </div>
                     <div className="row">
@@ -1334,6 +1354,25 @@ const Home = () => (
                                 the same, there was much diversity within us.”
                             </span>
                             &mdash;Olisa Okoh ’13
+                        </div>
+                    </div>
+                    <div className="row mt-6" style={{ fontSize: '1.4rem' }}>
+                        <div className="embed-responsive embed-responsive-16by9">
+                            <VideoPlayer
+                                url="videos/How_did_SOBLU_guide_you_through_your_time_at_Colby.mp4"
+                                image="images/reynolds-90-video-thumb.jpg"
+                            />
+                        </div>
+                        <div className="mt-4">
+                            <p
+                                style={{
+                                    fontWeight: '600',
+                                    display: 'inline-block',
+                                    fontSize: '1.5rem',
+                                }}
+                            >
+                                How did the SOBLU community guide you through your time at Colby?
+                            </p>
                         </div>
                     </div>
                     <div className="row">
