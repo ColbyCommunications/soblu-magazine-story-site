@@ -50,7 +50,7 @@
     },
     "dependencies": {
         "@colbycommunications/colby-click-button-component": "^1.0.0",
-        "@colbycommunications/colby-hidden-block-component": "^1.0.1",
+        "@colbycommunications/colby-hidden-block-component": "^1.0.2",
         "@colbycommunications/colby-image-component": "^1.1.0",
         "@colbycommunications/colby-modal": "^1.0.1",
         "@colbycommunications/colby-swiper-component": "^1.0.1",
