@@ -320,7 +320,7 @@ const EdwinEssay = () => (
                             </div>
                         </div>
                     </div>
-                    <div className="row mb-4 mb-md-5">
+                    <div className="row mb-0 mb-md-5">
                         <div className="col-md-13">
                             <div className="soblu-mobile-hide">
                                 <Image
