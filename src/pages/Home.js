@@ -913,8 +913,8 @@ const Home = () => (
                                 “Colby is a good place now, still. But having that space [the room]
                                 and that ability to just feel like you&rsquo;ve got another home, I
                                 think is important. And I think it really shows the purpose,” said
-                                Tolbert, who is an associate head coach and recruiting coordinator
-                                at Harvard University.
+                                Tolbert, who is an associate track and field head coach and
+                                recruiting coordinator at Harvard University.
                             </p>
                             <p>
                                 This wasn’t the only issue where SOBHU played a key role. “We were
