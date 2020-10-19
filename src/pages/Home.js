@@ -501,7 +501,7 @@ const Home = () => (
                                 that campus and acceptance of it,” especially important in the early
                                 1970s.
                             </p>
-                            <div className="soblu-desktop-hide my-4">
+                            <div className="soblu-desktop-hide my-4 d-none">
                                 <Image
                                     src={{
                                         main:
