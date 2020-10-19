@@ -31,22 +31,35 @@ const Image = props => {
             <>
                 <div className="soblu-image">
                     <div>
-                        <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
-                            {(src, loading) => (
-                                <img
-                                    style={{
-                                        ...{ filter: 'none' },
-                                        width: '100%',
-                                        filter: loading ? 'blur(3px)' : 'none',
-                                        transition: 'filter 100ms ease-in',
-                                    }}
-                                    src={src}
-                                    className="img-fluid"
-                                    alt={props.altText}
-                                    onClick={() => openLightboxOnSlide(1)}
-                                />
-                            )}
-                        </ProgressiveImage>
+                        {props.src.thumbnail && (
+                            <ProgressiveImage
+                                src={props.src.main}
+                                placeholder={props.src.thumbnail}
+                            >
+                                {(src, loading) => (
+                                    <img
+                                        style={{
+                                            ...{ filter: 'none' },
+                                            width: '100%',
+                                            filter: loading ? 'blur(3px)' : 'none',
+                                            transition: 'filter 100ms ease-in',
+                                        }}
+                                        src={src}
+                                        className="img-fluid"
+                                        alt={props.altText}
+                                        onClick={() => openLightboxOnSlide(1)}
+                                    />
+                                )}
+                            </ProgressiveImage>
+                        )}
+                        {!props.src.thumbnail && (
+                            <img
+                                src={props.src.main}
+                                className="img-fluid"
+                                alt={props.altText}
+                                onClick={() => openLightboxOnSlide(1)}
+                            />
+                        )}
                     </div>
                     <div>
                         <div className="d-flex mt-2">
@@ -84,22 +97,32 @@ const Image = props => {
 
     return (
         <>
-            <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
-                {(src, loading) => (
-                    <img
-                        style={{
-                            ...{ filter: 'none' },
-                            width: '100%',
-                            filter: loading ? 'blur(3px)' : 'none',
-                            transition: 'filter 100ms ease-in',
-                        }}
-                        src={src}
-                        className="img-fluid"
-                        alt={props.altText}
-                        onClick={() => openLightboxOnSlide(1)}
-                    />
-                )}
-            </ProgressiveImage>
+            {props.src.thumbnail && (
+                <ProgressiveImage src={props.src.main} placeholder={props.src.thumbnail}>
+                    {(src, loading) => (
+                        <img
+                            style={{
+                                ...{ filter: 'none' },
+                                width: '100%',
+                                filter: loading ? 'blur(3px)' : 'none',
+                                transition: 'filter 100ms ease-in',
+                            }}
+                            src={src}
+                            className="img-fluid"
+                            alt={props.altText}
+                            onClick={() => openLightboxOnSlide(1)}
+                        />
+                    )}
+                </ProgressiveImage>
+            )}
+            {!props.src.thumbnail && (
+                <img
+                    src={props.src.main}
+                    className="img-fluid"
+                    alt={props.altText}
+                    onClick={() => openLightboxOnSlide(1)}
+                />
+            )}
             <FsLightbox
                 toggler={lightboxController.isLightboxOpen}
                 sources={[props.lightboxSrc]}
