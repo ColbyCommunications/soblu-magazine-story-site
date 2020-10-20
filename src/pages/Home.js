@@ -332,7 +332,7 @@ const Home = () => (
                                 Around that time, SOBU-like organizations were popping up on college
                                 campuses across the country. “We were maybe one of the last ones,”
                                 said Mamo, an Olympic runner from Ethiopia, now retired from the New
-                                York Blood Center in Long Island, N.Y, a community-based NGO for
+                                York Blood Center in Long Island, N.Y., a community-based NGO for
                                 blood collection and distribution, “because we were checking out how
                                 effective it would be.” Of the handful of Black students who
                                 enrolled every fall, only one or two would return after winter break
@@ -492,7 +492,7 @@ const Home = () => (
                                 “Typically, most of us were coming from predominantly Black or
                                 minority communities and were getting away for the first time from
                                 home,” said Ken Melvin ’74, who went on to become a state circuit
-                                court judge and longtime member of the Virginia House of Delegates—
+                                court judge and longtime member of the Virginia House of Delegates
                                 and whose high school was integrated only for a year before he came
                                 to Colby. “So to have an organization that reinforced the culture
                                 that we left behind was extremely important.” Having SOBU as an
@@ -533,9 +533,9 @@ const Home = () => (
                                 In the 50 years that followed, SOBU has continued to bring—sometimes
                                 in collaboration with others—speakers, artists, and plays that
                                 reflected its members and their culture. For instance, activist and
-                                scholar Cornel West, film director Spike Lee, Brenda Robinson, the
-                                first African-American female pilot in the U.S. Navy, minister
-                                Samuel Proctor, and the play Platanos and Collard Greens.
+                                scholar Cornel West, film director Spike Lee, the first
+                                African-American female pilot in the U.S. Navy Brenda Robinson,
+                                minister Samuel Proctor, and the play Platanos and Collard Greens.
                             </p>
                         </div>
                     </div>
@@ -787,7 +787,7 @@ const Home = () => (
                             </p>
                             <p>
                                 The student activism that defined the club at its inception also
-                                returned. In 1989 SOBHU submitted a set of proposals to the
+                                returned. In 1989, SOBHU submitted a set of proposals to the
                                 administration called “The Essentials to Colby Diversity,” asking
                                 the College to recruit more minority students and faculty,
                                 restructure the African-American Studies Program, and establish a
@@ -898,11 +898,11 @@ const Home = () => (
                                 Multicultural and Special Interest Housing” to explore this
                                 proposal. In the end, the commission recommended having a
                                 multicultural center instead of a house. The eventual result was the
-                                Pugh Center. “SOBHU was a big big push because we&rsquo;re very
-                                visible, vocal, highly affected by the procedures and policies of
-                                the College,” said Kebba Tolbert ’94, a former SOBHU president and a
-                                leader in Students of Color United for Change about SOBHU’s role in
-                                the process.
+                                Pugh Center. “SOBHU was a big <em>big</em> push because we&rsquo;re
+                                very visible, vocal, highly affected by the procedures and policies
+                                of the College,” said Kebba Tolbert ’94, a former SOBHU president
+                                and a leader in Students of Color United for Change about SOBHU’s
+                                role in the process.
                             </p>
                             <p>
                                 In 1996 the Pugh Center opened, and the SOBHU room moved to the
@@ -1161,7 +1161,7 @@ const Home = () => (
                                 I was a good enough background singer to be in the chorale, but we
                                 had trouble getting into the groups,” she said, “because our voices
                                 were a little heavier sometimes, [and] they felt like we
-                                couldn&rsquo;t blend as well.” Subsequently, Sse and other students
+                                couldn&rsquo;t blend as well.” Subsequently, she and other students
                                 in SOBHU joined powers and formed the a cappella group E.V.E, Ethnic
                                 Vocal Ensemble.
                             </p>
@@ -1654,7 +1654,7 @@ const Home = () => (
                             </p>
                             <p>
                                 Avant still fondly remembers memories and relationships formed when
-                                producing Ntozake Shange’s for colored girls for Sounds of
+                                producing Ntozake Shange’s <em>for colored girls</em> for Sounds of
                                 Blackness, a Black History Month show that started in 2014. “There
                                 were so many different strong messages in there about Black
                                 womanhood in general,” she said. “I felt very empowered when I did
@@ -1818,9 +1818,9 @@ const Home = () => (
                                 Martin Luther King Jr.’s full-length “I Have a Dream” speech. There
                                 are also pictures from the 1970 chapel takeover, a sign saying
                                 #WeHaveNotForgottenYou, which was the name of a weeklong
-                                demonstration in 2015, and a front page of the Echo from an event
-                                that brought attention to the DREAM Act and immigration reform in
-                                2014.
+                                demonstration in 2015, and a front page of the <em>Echo</em> from an
+                                event that brought attention to the DREAM Act and immigration reform
+                                in 2014.
                             </p>
                             <p>
                                 In the corner is a large Philly Pride Flag, which has black and
@@ -1837,7 +1837,7 @@ const Home = () => (
                                 But the nature of events has changed within their four years in
                                 SOBLU. In their initial years at Colby, the club’s program was more
                                 outward facing, they said. “We were trying to teach white students
-                                on this campus, or students who don&rsquo;t have the Black or Latino
+                                on this campus, or students who don&rsquo;t have the Black or Latinx
                                 experience, about our struggles on this campus,” they said. Events
                                 are not solely for SOBLU members, but they are more focused on
                                 members, whether it be an information session on STDs or board game
@@ -1985,15 +1985,15 @@ const Home = () => (
                             </p>
                             <p>
                                 I spent over a year tracking down former SOBLU members from early
-                                Echo stories and materials from Colby’s Special Collections. Trying
-                                to connect with members of the so-called SOBU17, I sometimes called
-                                all the numbers listed under that name in online directories until I
-                                found the Colby alumnus. One conversation led to another, one event
-                                guided me to the next. In the end, I spoke with over 40 members of
-                                the club who inevitably and generously shared their time and stories
-                                with me. But all of this reporting took place over time. When I
-                                finished writing this story, I could still count my quarantine days
-                                on all my fingers.
+                                <em>Echo</em> stories and materials from Colby’s Special
+                                Collections. Trying to connect with members of the so-called SOBU17,
+                                I sometimes called all the numbers listed under that name in online
+                                directories until I found the Colby alumnus. One conversation led to
+                                another, one event guided me to the next. In the end, I spoke with
+                                over 40 members of the club who inevitably and generously shared
+                                their time and stories with me. But all of this reporting took place
+                                over time. When I finished writing this story, I could still count
+                                my quarantine days on all my fingers.
                             </p>
                             <p>
                                 If I were to start my reporting last winter instead of two winters

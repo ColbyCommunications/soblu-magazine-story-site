@@ -112,9 +112,9 @@ const ChapelTakeover = () => {
                         <p>
                             “Hence, the student body has given the committee system a year, and as a
                             result has gained nothing more than more committees,” wrote the SOBU
-                            members in a letter published in the Echo March 6, 1970. “The Student
-                            Organization for Black Unity is now taking action simply because we feel
-                            that our concerns cannot wait another year.”
+                            members in a letter published in the <em>Echo</em> March 6, 1970. “The
+                            Student Organization for Black Unity is now taking action simply because
+                            we feel that our concerns cannot wait another year.”
                         </p>
                     </div>
                 </div>
@@ -583,7 +583,7 @@ const ChapelTakeover = () => {
                                                             className="heavy"
                                                             style={{ textTransform: 'uppercase' }}
                                                         >
-                                                            <i>Echo</i>
+                                                            <em>Echo</em>
                                                         </span>{' '}
                                                         <span
                                                             style={{
@@ -617,7 +617,7 @@ const ChapelTakeover = () => {
                                                             marginTop: '5px',
                                                         }}
                                                     >
-                                                        Colby Echo, March 6, 1970
+                                                        Colby <em>Echo</em>, March 6, 1970
                                                     </div>
                                                 </div>
                                             </div>
@@ -858,7 +858,7 @@ const ChapelTakeover = () => {
                                                             </div>
                                                         </div>
                                                         <div className="mt-2">
-                                                            Colby Echo, March 13, 1970
+                                                            Colby <em>Echo</em>, March 13, 1970
                                                         </div>
                                                     </div>
                                                 </div>

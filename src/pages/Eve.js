@@ -120,13 +120,13 @@ const TowerAbove = () => (
                             <p>
                                 In another story from Sept. 12, 2002, the founding members shared
                                 details of their formation. “It was a joke at first,” Oliver told
-                                the Echo, adding: “It’s a blessing in disguise that all of us didn’t
-                                make the other a cappella groups; though it is kinda strange to
-                                think. This way, we wouldn’t have been able to come together like
-                                this.” Their name choice, they explained, was chosen because it
-                                captured their musical selections and styling. “Ethnic does not mean
-                                that it has to be a person of color. Ethnic is just soulful
-                                singing,” said Ramos.
+                                the <em>Echo</em>, adding: “It’s a blessing in disguise that all of
+                                us didn’t make the other a cappella groups; though it is kinda
+                                strange to think. This way, we wouldn’t have been able to come
+                                together like this.” Their name choice, they explained, was chosen
+                                because it captured their musical selections and styling. “Ethnic
+                                does not mean that it has to be a person of color. Ethnic is just
+                                soulful singing,” said Ramos.
                             </p>
                             <p>
                                 “We literally started out [with] one white woman and all the rest of
@@ -172,7 +172,7 @@ const TowerAbove = () => (
                                         fontSize: '1.5rem',
                                     }}
                                 >
-                                    &mdash;Chyann Oliver ’04 to the Echo
+                                    &mdash;Chyann Oliver ’04 to the <em>Echo</em>
                                 </p>
                             </div>
                         </div>

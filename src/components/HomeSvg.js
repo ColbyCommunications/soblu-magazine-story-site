@@ -103,7 +103,7 @@ const HomeSvg = () => (
         </div>
         <div className="row mb-4 soblu-mobile-hide" style={{ marginTop: '-7px' }}>
             <div className="col-sm text-right">
-                <p>By Kardelen Koldas &lsquo;15 | Photography by Edwin Torres &lsquo;12</p>
+                <p>By Kardelen Koldas &rsquo;15 | Photography by Edwin Torres &rsquo;12</p>
             </div>
         </div>
 
