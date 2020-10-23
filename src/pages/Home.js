@@ -1829,19 +1829,19 @@ const Home = () => (
                             <p>
                                 “I think we have the most programming out of any club on this
                                 campus,” said SOBLU’s co-president for the 2019-20 academic year
-                                Juan Luna ’20 (they/their), who decorated the wall with their
-                                co-president Kris de Luna ’20.
+                                Juan Luna ’20, who decorated the wall with their co-president Kris
+                                de Luna ’20.
                             </p>
                             <p>
                                 {' '}
                                 But the nature of events has changed within their four years in
                                 SOBLU. In their initial years at Colby, the club’s program was more
-                                outward facing, they said. “We were trying to teach white students
-                                on this campus, or students who don&rsquo;t have the Black or Latinx
-                                experience, about our struggles on this campus,” they said. Events
-                                are not solely for SOBLU members, but they are more focused on
-                                members, whether it be an information session on STDs or board game
-                                nights. “I think [now] it is looking more inward.”
+                                outward facing, Juan Luna said. “We were trying to teach white
+                                students on this campus, or students who don&rsquo;t have the Black
+                                or Latinx experience, about our struggles on this campus,” Luna
+                                said. Events are not solely for SOBLU members, but they are more
+                                focused on members, whether it be an information session on STDs or
+                                board game nights. “I think [now] it is looking more inward.”
                             </p>
                         </div>
                     </div>

@@ -406,11 +406,6 @@ const SobluVoices = () => (
                                     or permanent. But neither is regression.”
                                 </p>
                             </div>
-                            <div>
-                                <p>
-                                    <i>Essay submitted on Nov. 2019</i>
-                                </p>
-                            </div>
                             <div className="mt-5">
                                 <h3>More Voices to Come</h3>
                                 <p>Additional essays will appear here in coming weeks.</p>
