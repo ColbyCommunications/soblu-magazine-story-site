@@ -225,7 +225,7 @@ const EdwinEssay = () => (
                         <div className="col-md-11 d-flex align-items-center">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption">
-                                    Juan Luna ’20, co-president, in front of a mural wall made to
+                                    Nereyda Luna ’20, co-president, in front of a mural wall made to
                                     inspire club members.
                                 </p>
                             </div>
@@ -239,7 +239,7 @@ const EdwinEssay = () => (
                                                 'images/Juanluna_SOBLU_Torres0114-retouched-600.jpg',
                                         }}
                                         lightboxSrc="images/Juanluna_SOBLU_Torres0114-retouched-1200.jpg"
-                                        altText="Juan Luna ’20, co-president, in front of a mural wall made
+                                        altText="Nereyda Luna ’20, co-president, in front of a mural wall made
                                         to inspire club members."
                                         onClick={() => openLightboxOnSlide(7)}
                                     />
@@ -251,9 +251,9 @@ const EdwinEssay = () => (
                                                 'images/Juanluna_SOBLU_Torres0114-retouched-600.jpg',
                                         }}
                                         lightboxSrc="images/Juanluna_SOBLU_Torres0114-retouched-1200.jpg"
-                                        altText="Juan Luna ’20, co-president, in front of a mural wall made
+                                        altText="Nereyda Luna ’20, co-president, in front of a mural wall made
                                         to inspire club members."
-                                        caption="Juan Luna ’20, co-president, in front of a mural wall made
+                                        caption="Nereyda Luna ’20, co-president, in front of a mural wall made
                                         to inspire club members."
                                     />
                                 </div>

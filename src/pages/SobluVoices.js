@@ -64,12 +64,12 @@ const SobluVoices = () => (
                                     A Message from SOBLU’s Co-Presidents
                                 </p>
                                 <p style={{ fontSize: '1.5rem' }}>
-                                    By Kris de Luna ’20 and Juan Luna ’20
+                                    By Kris de Luna ’20 and Nereyda Luna ’20
                                 </p>
                             </div>
                             <p style={{ fontSize: '1.5rem' }}>Dear readers, </p>
                             <p>
-                                Our names are Kris de Luna and Juan Luna, and we’re the
+                                Our names are Kris de Luna and Nereyda Luna, and we’re the
                                 co-presidents of SOBLU (Students Organized for Black and Latinx
                                 Unity) for the 2019-20 scholastic year. And just in case you’re
                                 wondering, no, we are not related. This year, we’re proud to be
@@ -138,7 +138,7 @@ const SobluVoices = () => (
                             </div>
                             <div>
                                 <p className="p-no-margin-bottom">Warmly,</p>
-                                <p className="p-no-margin-bottom">Kris de Luna and Juan Luna</p>
+                                <p className="p-no-margin-bottom">Kris de Luna and Nereyda Luna</p>
                                 <p className="p-no-margin-bottom">Co-Presidents of SOBLU</p>
                                 <p className="p-no-margin-bottom">
                                     <i>Essay submitted on Nov. 2019</i>
@@ -183,7 +183,7 @@ const SobluVoices = () => (
                                 part in our lives, and we know SOBLU alums feel the same.”
                             </div>
                             <div className="text-right heavy fgCompressed-quote kris-juan">
-                                <p className="p-no-margin-bottom">Kris de Luna and Juan Luna</p>
+                                <p className="p-no-margin-bottom">Kris de Luna and Nereyda Luna</p>
                                 <p className="p-no-margin-bottom">
                                     Co-Presidents of SOBLU for 2019-2020 Academic Year
                                 </p>
