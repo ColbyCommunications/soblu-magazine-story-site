@@ -170,6 +170,120 @@ const SobluVoices = () => (
                             </div>
                         </div>
                     </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2">
+                            <div className="mb-4">
+                                <p
+                                    className="fgCompressed heavy p-no-margin-bottom"
+                                    style={{ fontSize: '1.7rem' }}
+                                >
+                                    SOBHU reflection for 50th Anniversary
+                                </p>
+                                <p style={{ fontSize: '1.5rem' }}>By Kebba Tolbert ’94</p>
+                            </div>
+                            <p className="p-no-margin-bottom">
+                                When I reflect on my time at Colby, one of the things that resonates
+                                with me is that it was both challenging and fulfilling. As a young
+                                African-American in Waterville—there were times where you just felt
+                                out of place. I was a third-generation college student, had gone to
+                                a public high school and an elite boarding school, so I’d spent most
+                                of my educational career at majority white institutions. I was on
+                                the track team as well, so I had a built-in, ready-made community.
+                                This all helped ease my transition. But there were still times when
+                                it felt like I was in a foreign land. SOBHU—the group, the people,
+                                and the room—was a place that felt comfortable, a place that felt
+                                like home. It was home in ways big and small. From just being to
+                                take off the mask of double consciousness and just be. The people in
+                                SOBHU created a space to talk about things particular and familiar.
+                                We had conversations about things important (representation in the
+                                curriculum) and inane (which rap mc). We created space to laugh
+                                about the ridiculous (the local theater explaining that they weren’t
+                                showing “Boyz n the Hood” because they were afraid of gang violence
+                                in Waterville!) and to support each other through serious trials.
+                                And we had the SOBHU room—in the SOBHU room we had dances, we hung
+                                out in the SOBHU room, we rented movies that we wanted to see, we
+                                had a representative—in a sense extracurricular—library in the SOBHU
+                                room. It was a safe space, it was relaxing, it was home.
+                            </p>
+                            <p>
+                                I remember in talking with Jonathan Thomas ’94, a good friend and
+                                SOBHU vice president, about our senior year—he recalled that there
+                                were several SOBHU members that were part of Stu-A our freshman
+                                year. He said, “Let’s make it seem like Black History Month all year
+                                long.” So, in addition to being president of SOBHU, I was the
+                                student government cultural chair. The Stu-A government that year
+                                was very diverse—Marinel Mateo ’94 was president, Kendra King ’94
+                                was the parliamentarian, Mike Miller ’95 was the social chair. We
+                                worked hard to be more inclusive, be more sensitive to students’
+                                needs, and in many ways we were successful. We had vigorous support
+                                from people in administration like Tulio Nieman and Dean (Victoria)
+                                Hershey.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col mobile-text-center">
+                            <span className="fgCompressed heavy fgCompressed-voices-quote">
+                                “SOBHU—the group, the people, and the room—was a place that felt
+                                comfortable, a place that felt like home.”
+                            </span>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div>
+                                <p>
+                                    When I look back, I was able to play a big part as SOBHU
+                                    president and Stu-A cultural chair in bringing a certain type of
+                                    diversity to campus—Cornel West, Chuck D, Manning Marable, and
+                                    Spike Lee and others. This was a big deal at the time. But in
+                                    some areas, I failed—I was shortsighted and not inclusive
+                                    enough. One of things I didn’t do was properly appreciate and
+                                    include the diversity of Black and Latinx voices—we didn’t
+                                    incorporate Caribbean and African speakers and programs much. We
+                                    didn’t celebrate and appreciate the Latinx perspective as much
+                                    as we should have—even during Hispanic Heritage Month.
+                                </p>
+                                <p>
+                                    Later, in my senior year, SOBHU was asked to make a presentation
+                                    about our experience and our concerns at Colby to administration
+                                    and trustees. In talking with friends and a few administrators,
+                                    we felt it was being pitched as a divide-and-conquer strategy.
+                                    We wanted to, and were encouraged to, present a united front of
+                                    underrepresented students. People like Hung Bui ’94, Karlene
+                                    Burrell-McRae ’94, Cicely Finley Taylor ’94, along with Jon
+                                    Thomas ’94 and Kendra King ‘94, were some other people heavily
+                                    involved. We partnered with various groups to make a
+                                    coalition—this was the genesis of Students of Color United for
+                                    Change. While each group had specific needs, we felt we had a
+                                    stronger voice if we could speak together. So at the meeting,
+                                    where SOBHU was scheduled to talk with the administration, we
+                                    all showed up as SOCUFC. What did we express?
+                                </p>
+                                <p>
+                                    We wanted more diverse faculty, we wanted a diverse housing
+                                    option similar to what was available at a few other NESCAC
+                                    schools, we wanted much more attention paid to the quality of
+                                    the student experience (and not just the recruitment) of
+                                    underrepresented groups. We wanted serious thought about a more
+                                    inclusive curriculum. I learned at Colby, I was pushed at Colby,
+                                    and grew at Colby because of many wonderful professors and
+                                    administrators who invested in me—from partnering with me to do
+                                    several independent study projects in areas that weren’t offered
+                                    (i.e., Marcus Garvey and Malcolm X, rap music and language,
+                                    Black women and leadership) to simply lending an ear to vent
+                                    when things got tough. I learned to lead at Colby because of
+                                    SOBHU and the people who were connected and supportive of our
+                                    group. For that, for SOBHU, I am extremely grateful.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <i>Essay submitted on Nov. 2019</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div className="row mb-4 mb-lg-5">
                         <div className="col">
                             <div
