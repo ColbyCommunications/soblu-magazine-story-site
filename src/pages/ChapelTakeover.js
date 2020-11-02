@@ -217,7 +217,11 @@ const ChapelTakeover = () => {
                                             </div>
                                             <Modal
                                                 trigger={
-                                                    <button type="button" className="btn btn-dark">
+                                                    <button
+                                                        type="button"
+                                                        className="btn btn-dark"
+                                                        aria-label="expand story"
+                                                    >
                                                         <svg
                                                             width="1em"
                                                             height="1em"
@@ -353,7 +357,11 @@ const ChapelTakeover = () => {
                                             </div>
                                             <Modal
                                                 trigger={
-                                                    <button type="button" className="btn btn-dark">
+                                                    <button
+                                                        type="button"
+                                                        className="btn btn-dark"
+                                                        aria-label="expand story"
+                                                    >
                                                         <svg
                                                             width="1em"
                                                             height="1em"
@@ -477,7 +485,11 @@ const ChapelTakeover = () => {
                                             </div>
                                             <Modal
                                                 trigger={
-                                                    <button type="button" className="btn btn-dark">
+                                                    <button
+                                                        type="button"
+                                                        className="btn btn-dark"
+                                                        aria-label="expand story"
+                                                    >
                                                         <svg
                                                             width="1em"
                                                             height="1em"
@@ -732,6 +744,7 @@ const ChapelTakeover = () => {
                                                         <button
                                                             type="button"
                                                             className="btn btn-dark"
+                                                            aria-label="expand story"
                                                         >
                                                             <svg
                                                                 width="1em"
