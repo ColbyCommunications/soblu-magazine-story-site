@@ -551,7 +551,7 @@ const ChapelTakeover = () => {
                             <div className="col-md-12 d-flex align-items-center">
                                 <div className="row mb-0 mb-md-4">
                                     <div className="col-lg-20 offset-lg-2">
-                                        <div className="mb-5">
+                                        <div className="mb-0 mb-md-5">
                                             <div className="d-none">
                                                 <img
                                                     src="images/Echo-blacks-in-chapel-composit.jpg"
@@ -622,7 +622,7 @@ const ChapelTakeover = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="mb-4">
+                                        <div className="mb-0 mb-md-4">
                                             <div className="d-none">
                                                 <Image
                                                     src={{
