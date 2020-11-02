@@ -548,8 +548,8 @@ const ChapelTakeover = () => {
                             </div>
                         </div>
                         <div className="row mb-4">
-                            <div className="col-md-12 d-none">
-                                <div className="row mb-4">
+                            <div className="col-md-12 d-flex align-items-center">
+                                <div className="row mb-0 mb-md-4">
                                     <div className="col-lg-20 offset-lg-2">
                                         <div className="mb-5">
                                             <div className="d-none">
@@ -788,7 +788,7 @@ const ChapelTakeover = () => {
                                                 </Modal>
                                             </div>
                                         </div>
-                                        <div className="mb-4">
+                                        <div className="mb-0 mb-md-4">
                                             <div className="d-none">
                                                 <div className="d-table">
                                                     <img
