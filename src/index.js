@@ -16,6 +16,4 @@ Sentry.init({
     tracesSampleRate: 1.0,
 });
 
-myUndefinedFunction();
-
 render(<App />, document.getElementById('app'));
