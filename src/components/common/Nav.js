@@ -292,11 +292,6 @@ const Nav = withRouter(props => {
                                         </ul>
                                     </HiddenBlock>
                                 </li>
-                                <li>
-                                    <HashLink to="/#kardelens-reflection" onClick={onClick}>
-                                        Kardelen&rsquo;s Reflection
-                                    </HashLink>
-                                </li>
                             </ul>
                         </div>
                     </div>
