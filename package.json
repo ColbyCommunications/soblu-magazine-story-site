@@ -55,6 +55,8 @@
         "@colbycommunications/colby-modal": "^1.0.1",
         "@colbycommunications/colby-swiper-component": "^1.0.1",
         "@loadable/component": "^5.13.2",
+        "@sentry/browser": "^5.27.2",
+        "@sentry/tracing": "^5.27.2",
         "bootstrap": "^4.5.0",
         "fslightbox-react": "file:dist/libraries/fslightbox-react-pro-1.3.0.tgz",
         "lodash": "^4.17.15",

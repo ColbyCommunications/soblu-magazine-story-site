@@ -1,17 +1,21 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './App';
-// import { Provider } from 'react-redux';
-// import configureStore from './store/configureStore';
 
+import * as Sentry from '@sentry/browser';
+import { Integrations } from '@sentry/tracing';
+
+import App from './App';
 import './app.scss';
 
-// const store = configureStore();
+Sentry.init({
+    dsn: 'https://c8508eb5daaf4cdcad9ed0897d1fb44b@o322766.ingest.sentry.io/5501477',
+    integrations: [new Integrations.BrowserTracing()],
 
-// render(
-//     <Provider store={store}>
-//         <div>Foo</div>
-//     </Provider>,
-//     document.getElementById('app')
-// );
+    // We recommend adjusting this value in production, or using tracesSampler
+    // for finer control
+    tracesSampleRate: 1.0,
+});
+
+myUndefinedFunction();
+
 render(<App />, document.getElementById('app'));
