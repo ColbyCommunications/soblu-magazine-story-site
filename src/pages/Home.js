@@ -1019,7 +1019,7 @@ const Home = () => (
                         <div className="col-md-9 d-flex align-items-center">
                             <div className="soblu-mobile-hide">
                                 <div className="d-table">
-                                    <Link to="/ethnic-vocal-ensemble">
+                                    <Link to="/ethnic-vocal-ensemble" name="ethnic vocal ensemble">
                                         <img
                                             src="images/Eve-a-new-sound-thumb-600.jpg"
                                             className="img-fluid"
@@ -1457,7 +1457,7 @@ const Home = () => (
                         <div className="col-md-9 d-flex align-items-center">
                             <div className="soblu-mobile-hide">
                                 <div className="d-table">
-                                    <Link to="/the-unity">
+                                    <Link to="/the-unity" name="the unity">
                                         <img
                                             src="images/The-Unity-de-donde-vengo-yo-1200.jpg"
                                             className="img-fluid"
