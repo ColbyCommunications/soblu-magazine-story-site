@@ -1415,11 +1415,19 @@ const Home = () => (
                                 “We all just became like one big family.”
                             </p>
                             <p>
-                                But within that family, the growing number of Latinx students like
-                                her also tried to find their own identity. Over the years, although
-                                Colby had Latinx students, their representation was smaller compared
-                                to African-American students in SOBHU, and not all Latinx students
-                                were involved in the club. Around this time, they started
+                                That family was both stressed and strengthened during that time, she
+                                recalled, as, in 2009, SOBHU rallied around two members who were
+                                excessively restrained by security officers who had entered the
+                                SOBHU room. The incident resulted in a campus-wide protest, a
+                                subsequent investigation commissioned by the College, and
+                                recommended reforms of security procedures.
+                            </p>
+                            <p>
+                                But as SOBHU came together, the growing number of Latinx students
+                                like her also tried to find their own identity. Over the years,
+                                although Colby had Latinx students, their representation was smaller
+                                compared to African-American students in SOBHU, and not all Latinx
+                                students were involved in the club. Around this time, they started
                                 discussions about changing the name of the club from Hispanic to
                                 Latino/Latina. The members were “trying to find our identity as a
                                 Latinx community at Colby and what that meant within SOBHU,” she
