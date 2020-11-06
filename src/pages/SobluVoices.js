@@ -171,6 +171,99 @@ const SobluVoices = () => (
                         </div>
                     </div>
                     <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 mb-4">
+                            <div>
+                                <p
+                                    className="fgCompressed heavy p-no-margin-bottom"
+                                    style={{ fontSize: '1.7rem' }}
+                                >
+                                    SOBHU
+                                </p>
+                                <p style={{ fontSize: '1.5rem' }}>By Claire Jimenez ’06</p>
+                            </div>
+                            <p className="p-no-margin-bottom">
+                                As a seventeen-year-old Puerto Rican girl from Staten Island, New
+                                York, I had no idea what to expect when I landed at Colby. The year
+                                was 2002, and there was way too much Eminem playing on the radio.
+                                Only a year before, two planes crashed into the Twin Towers, setting
+                                them on fire and shutting the city down for weeks. New York had
+                                become so apocalyptic that I wondered if college would even happen.
+                            </p>
+                            <p>
+                                But it did. I came to Colby on a full tuition scholarship from the
+                                Posse Foundation with nine other students from New York City, who I
+                                had met and trained with for a year. It turned out that much of my
+                                experience attending Colby was actually painful; there was a great
+                                deal of racism that students faced on campus at that time. And, yet,
+                                many of my most enduring friendships flourished at Colby. SOBHU
+                                provided me with the community to survive what were often terrible
+                                moments.
+                            </p>
+                            <p>
+                                One of my greatest friends, Shapel Mallard ’08, was the president of
+                                SOBHU, a fellow Posse scholar and the mastermind behind a midnight
+                                Friday open mic called Poets Rest at Dawn. In New York, as
+                                teenagers, Shapel and I would travel to the Nuyorican to perform our
+                                poetry, then he would chase the M15 so that we could ride down to
+                                the ferry. He was a high school football player from Brooklyn who
+                                was obsessed with philosophy and would carry around Nietzsche books
+                                the size of bricks in his backpack, while reciting lyrics from Black
+                                on Both Sides. You always wanted to make a guy like Shapel laugh at
+                                an open mic because the sound of his joy was infectious. His booming
+                                laughter bounced around you and across the room as if it were alive.
+                                He was 17 years old. And he was brilliant.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col mobile-text-center">
+                            <span className="fgCompressed heavy fgCompressed-voices-quote">
+                                “Many of my most enduring friendships flourished at Colby. SOBHU
+                                provided me with the community to survive ...”
+                            </span>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div>
+                                <p>
+                                    Because we missed those New York City open mics, somehow Shapel
+                                    managed to convince the folks who ran the coffeehouse downstairs
+                                    of the quiet dorm to let us use it Friday nights to read our
+                                    poetry. Come 12 o’clock, he’d drag a mic up to the stage and
+                                    offer up one of his poems to lure people to read. Gradually,
+                                    other students would come into the coffeehouse, smelling like
+                                    whatever party they just left, sometimes tearful, sometimes
+                                    spinning happily into the room, drunk; they’d take the mic. Kids
+                                    you never expected to perform, who you never even imagined liked
+                                    poetry. Sometimes the coffeehouse was packed with people
+                                    cheering after each person read. And sometimes there would be
+                                    only five of us sitting in the dark, taking turns reading our
+                                    poems. What I know is that those nights nurtured me as a writer,
+                                    who didn’t yet understand that she would become a writer.
+                                </p>
+                                <p>
+                                    Right now, over 10,000 people have died of the coronavirus in my
+                                    home of New York City. All around the country, many writers are
+                                    trying to understand if what they do actually matters. But here,
+                                    quarantined in my little house in Nebraska, thinking about Poets
+                                    Rest at Dawn, I’m reminded of the real value of writing and why
+                                    I first loved it. Not book deals or awards or fancy
+                                    publications. I picture a few homesick eighteen-year-old kids
+                                    dragging a mic at midnight to the front of the room, week after
+                                    week, trying to recreate some type of semblance of home, to make
+                                    each other feel safe, to bring each other joy, with the faith
+                                    that they could do so with their words.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <i>Essay submitted on April 2020</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
                         <div className="col-md-22 offset-md-2">
                             <div className="mb-4">
                                 <p
