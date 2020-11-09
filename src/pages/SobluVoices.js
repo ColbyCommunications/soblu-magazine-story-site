@@ -146,7 +146,6 @@ const SobluVoices = () => (
                             </div>
                         </div>
                     </div>
-
                     <div className="row mb-4 mt-6 mb-lg-5">
                         <div className="col">
                             <div className="embed-responsive embed-responsive-16by9">
@@ -166,6 +165,105 @@ const SobluVoices = () => (
                                     Spencer Gopaul &rsquo;13, Rohnique Davy ’22, Stephanie Rivera
                                     &rsquo;18, and Josue Gonzalez &rsquo;23 talk about SOBLU&rsquo;s
                                     past and present.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div style={{ marginBottom: '1.7rem' }}>
+                                <p
+                                    className="fgCompressed heavy p-no-margin-bottom"
+                                    style={{ fontSize: '1.7rem' }}
+                                >
+                                    Ode to the Courageous Chapel 17: A Legacy of Love &amp; Courage
+                                </p>
+                                <p style={{ fontSize: '1.5rem' }}>By Tionna Haynes ’15</p>
+                            </div>
+                            <p className="p-no-margin-bottom">
+                                SOBU. SOBHU. SOBLU. No matter what it was called during your time on
+                                campus, Students Organized for Black and Latinx Unity (SOBLU) has
+                                not only spoken truth to power but has taken risks for the greater
+                                good through activism. During the 1970s, there were few Black
+                                students enrolled at Colby, and SOBU organized to improve the
+                                recruitment support for Black students. For students who received
+                                scholarships, there was a higher minimum GPA than for
+                                non-scholarship students. This was a practice that adversely
+                                impacted the brilliant Black students at Colby. The occupation of
+                                the chapel was a protest against this discriminatory practice and
+                                demanded the institution to direct action to create better support
+                                for Black students. Led by senior Charles Terrell ’70 (now a Colby
+                                trustee emeritus), 17 students locked themselves in the chapel for
+                                eight days to try to end this unfair policy, improve remediation
+                                academic support, and demand acceptance of more Black students.
+                                Ultimately, their efforts brought equity to the institutional
+                                practice: the higher GPA requirement for scholarship was eliminated.
+                                The Chapel 17 protest led to the creation of SOBU as a staple
+                                organization, which is still fighting for fair treatment and support
+                                of Black and Brown students on campus and in Waterville.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col mobile-text-center">
+                            <span className="fgCompressed heavy fgCompressed-voices-quote">
+                                “SOBHU gave me the courage to ... be me, unapologetically.”
+                            </span>
+                        </div>
+                    </div>
+                    <div className="row mb-4">
+                        <div className="col-md-22 offset-md-2 ">
+                            <div>
+                                <p>
+                                    I am an African-American woman who attended Colby as a Posse-NY
+                                    scholar and therefore received financial aid. The Chapel 17 and
+                                    their allies will never understand how indebted I am to them for
+                                    their courage and for their leadership by example. I have so
+                                    many fond memories of Colby because of the friendships,
+                                    acquaintances, events, and opportunities for coalition-building
+                                    that happened due to being a member and leader of SOBHU. During
+                                    my first year, I recognized my calling and became an active
+                                    member of SOBHU. The first demonstration I led was a march from
+                                    the student center to Miller steps in protest of the murder of
+                                    Trayvon Martin at the hands of vigilante George Zimmerman. Later
+                                    on that semester, with the Pugh Community Board, we organized a
+                                    conversation about affirmative action. These formative instances
+                                    led me to join the SOBHU board, and, ultimately, become
+                                    president of the longest-standing multicultural organization in
+                                    Colby’s history.
+                                </p>
+                                <p>
+                                    SOBHU gave me the courage to lead protests, the courage to lead
+                                    demonstrations, the courage to pursue a double major in
+                                    African-American studies and history, the courage to choose to
+                                    be an educator in Black communities in Chicago in a world that
+                                    does not value Black lives or the education that Black children
+                                    receive, and the courage to be me, unapologetically. I know my
+                                    story might be unique to me, but for anyone who was a member of
+                                    the club or attended an event, you know that at the club’s
+                                    foundation was love and empowerment.
+                                </p>
+                                <p>
+                                    From fighting against the institution’s discriminatory practices
+                                    to bringing cultural awareness of issues concerning Black and
+                                    Latinx people throughout the diasporas to celebrating traditions
+                                    and helping students feel good about being themselves in Maine
+                                    at Colby, SOBLU has been at the forefront of the student-led
+                                    changes on the campus. The diversity in applicants and the high
+                                    graduation rates of Black students at Colby can only be
+                                    celebrated since the Courageous Chapel 17 changed policy and
+                                    changed the trajectory for success of international or domestic
+                                    students of color at the school. The 50-year legacy of Students
+                                    Organized for Black and Latinx Unity is proof that courage can
+                                    change the world. On behalf of the many students of color who
+                                    attended and graduated from Colby, thank you SOBU, every member
+                                    and president since them, and allies for your courage. Because
+                                    of you, we can.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    <i>Essay submitted on Nov. 2019</i>
                                 </p>
                             </div>
                         </div>
