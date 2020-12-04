@@ -268,8 +268,7 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0007-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0007.jpg"
-                                    altText="Rohnique Davy ’22 poses for a portrait on the SOBLU couch
-                                    and President Obama “Hope” poster."
+                                    altText="Rohnique Davy ’22 poses for a portrait on the SOBLU couch."
                                 />
                             </div>
                             <div className="soblu-desktop-hide">
@@ -278,18 +277,15 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0007-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0007.jpg"
-                                    altText="Rohnique Davy ’22 poses for a portrait on the SOBLU couch
-                                    and President Obama “Hope” poster."
-                                    caption="Rohnique Davy ’22 poses for a portrait on the SOBLU couch
-                                and President Obama “Hope” poster."
+                                    altText="Rohnique Davy ’22 poses for a portrait on the SOBLU couch."
+                                    caption="Rohnique Davy ’22 poses for a portrait on the SOBLU couch."
                                 />
                             </div>
                         </div>
                         <div className="col-md-10 offset-md-1 d-flex align-items-center justify-content-center flex-column">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
-                                    Rohnique Davy ’22 poses for a portrait on the SOBLU couch and
-                                    President Obama “Hope” poster.
+                                    Rohnique Davy ’22 poses for a portrait on the SOBLU couch.
                                 </p>
                             </div>
                         </div>
@@ -327,7 +323,7 @@ const EdwinEssay = () => (
                                     src={{
                                         main: 'images/Colby_SOBLU_Torres0011-thumb.jpg',
                                     }}
-                                    altText="Reagen Dennis ’23 poses for a portrait by the club computer
+                                    altText="Reagan Dennis ’23 poses for a portrait by the club computer
                                     in the SOBLU room."
                                     lightboxSrc="images/Colby_SOBLU_Torres0011.jpg"
                                 />
@@ -337,10 +333,10 @@ const EdwinEssay = () => (
                                     src={{
                                         main: 'images/Colby_SOBLU_Torres0011-thumb.jpg',
                                     }}
-                                    altText="Reagen Dennis ’23 poses for a portrait by the club computer
+                                    altText="Reagan Dennis ’23 poses for a portrait by the club computer
                                     in the SOBLU room."
                                     lightboxSrc="images/Colby_SOBLU_Torres0011.jpg"
-                                    caption="Reagen Dennis ’23 poses for a portrait by the club computer
+                                    caption="Reagan Dennis ’23 poses for a portrait by the club computer
                                 in the SOBLU room."
                                 />
                             </div>
@@ -348,7 +344,7 @@ const EdwinEssay = () => (
                         <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
-                                    Reagen Dennis ’23 poses for a portrait by the club computer in
+                                    Reagan Dennis ’23 poses for a portrait by the club computer in
                                     the SOBLU room.
                                 </p>
                             </div>
