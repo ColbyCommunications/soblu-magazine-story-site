@@ -35,11 +35,11 @@ const EdwinEssay = () => (
                 </div>
                 <div className="col-md-11 offset-md-1">
                     <p>
-                        Photographing for Colby Magazine has prompted me to revisit the meaning of
-                        home. What is it that best reminds us of home? Is it a porch with a slow
-                        rocker? Is it the presence of loved ones? Is it the smell? Or is it the
-                        collective feeling that we are all in this together? It’s a combination of
-                        all of these things.
+                        Photographing for <i>Colby Magazine</i> has prompted me to revisit the
+                        meaning of home. What is it that best reminds us of home? Is it a porch with
+                        a slow rocker? Is it the presence of loved ones? Is it the smell? Or is it
+                        the collective feeling that we are all in this together? It’s a combination
+                        of all of these things.
                     </p>
                     <p>
                         As I sat on the porch at the home of Doris Ford Mathis ‘73 in Washington,
@@ -51,7 +51,7 @@ const EdwinEssay = () => (
                     </p>
                     <p>
                         As a student from the Bronx, N.Y., I traveled to Colby from a high school
-                        that was 98 percent Hispanic and black. There was a certain culture and
+                        that was 98 percent Hispanic and Black. There was a certain culture and
                         rhythm to us whenever we hung out or even interacted. I found this same
                         rhythm at SOBLU. The club represented a sense of home and family. In this
                         new home, I would do a variety of things. I would take a nap on the infamous
@@ -74,7 +74,7 @@ const EdwinEssay = () => (
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption">
                                     Doris’s granddaughter checks her makeup and hair before a
-                                    portrait session on her porch in Washington D.C. in February
+                                    portrait session on her porch in Washington, D.C., in February
                                     2020.
                                 </p>
                             </div>
@@ -87,7 +87,7 @@ const EdwinEssay = () => (
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0001.jpg"
                                     altText="Doris’s granddaughter checks her makeup and hair before a
-                                    portrait session on her porch in Washington D.C. in February
+                                    portrait session on her porch in Washington, D.C., in February
                                     2020."
                                 />
                             </div>
@@ -99,10 +99,10 @@ const EdwinEssay = () => (
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0001.jpg"
                                     altText="Doris’s granddaughter checks her makeup and hair before a
-                                    portrait session on her porch in Washington D.C. in February
+                                    portrait session on her porch in Washington, D.C., in February
                                     2020."
                                     caption="Doris’s granddaughter checks her makeup and hair before a
-                                portrait session on her porch in Washington D.C. in February
+                                portrait session on her porch in Washington, D.C., in February
                                 2020."
                                 />
                             </div>
@@ -135,21 +135,21 @@ const EdwinEssay = () => (
                                 now in the present, remained the same. It is this timeless quality
                                 that I was looking to instill in my work. Working on this photo
                                 essay was a true blessing. I had the opportunity to meet SOBLU
-                                members from almost every major era in New York City, Washington
+                                members from almost every major era in New York City, Washington,
                                 D.C., and Maine. It was a process of sharing stories and catching up
                                 on life since Colby. With the students on campus, I felt incredibly
                                 humbled to be let into their “era of SOBLU.” I was wholeheartedly
                                 impressed with how they fostered community and contributed to the
-                                greater campus through their maturity. I listened to their stories
+                                greater campus through their maturity. I listened to their stories,
                                 and I embraced them.
                             </p>
                             <p>
                                 I made these photographs with the intention of preserving a slice of
                                 “home” for a club with an immense history. Many of my photographs
-                                were shot on medium format film and hand developed at my home. This
+                                were shot on medium-format film and hand developed at my home. This
                                 slower process helped my subjects slow down from their usual routine
                                 and reflect on the importance of our collective narrative. For me,
-                                this process filled my heart with a warm feeling and I was humbled
+                                this process filled my heart with a warm feeling, and I was humbled
                                 to be able to listen and see.
                             </p>
                             <p className="text-right">
@@ -164,7 +164,7 @@ const EdwinEssay = () => (
                         >
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption" style={{ marginTop: '2.5rem' }}>
-                                    Miller Library on Mayflower Hill in February of 2020.
+                                    Miller Library on Mayflower Hill in February 2020.
                                 </p>
                             </div>
                         </div>
@@ -176,7 +176,7 @@ const EdwinEssay = () => (
                                         thumbnail: 'images/Colby_SOBLU_Torres0003_thumbnail.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0003.jpg"
-                                    altText="Miller Library on Mayflower Hill in February of 2020."
+                                    altText="Miller Library on Mayflower Hill in February 2020."
                                 />
                             </div>
                             <div className="soblu-desktop-hide">
@@ -186,8 +186,8 @@ const EdwinEssay = () => (
                                         thumbnail: 'images/Colby_SOBLU_Torres0003_thumbnail.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0003.jpg"
-                                    altText="Miller Library on Mayflower Hill in February of 2020."
-                                    caption="Miller Library on Mayflower Hill in February of 2020."
+                                    altText="Miller Library on Mayflower Hill in February 2020."
+                                    caption="Miller Library on Mayflower Hill in February 2020."
                                 />
                             </div>
                         </div>
@@ -201,9 +201,9 @@ const EdwinEssay = () => (
                                         thumbnail: 'images/Colby_SOBLU_Torres0005_thumbnail.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0005.jpg"
-                                    altText="Students play a series of card games during a social
+                                    altText="Students play card games during a social
                                     night on a wintry Saturday in the SOBLU club room."
-                                    caption="Students play a series of card games during a social
+                                    caption="Students play card games during a social
                                     night on a wintry Saturday in the SOBLU club room."
                                 />
                             </div>
@@ -215,8 +215,8 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0004-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0004.jpg"
-                                    altText="Kris de Luna ’20 is co-president of the SOBLU this year."
-                                    caption="Kris de Luna ’20 is co-president of the SOBLU this year."
+                                    altText="Kris de Luna ’20, co-president the SOBLU for the 2019-20 academic year."
+                                    caption="Kris de Luna ’20, co-president the SOBLU for the 2019-20 academic year."
                                 />
                             </div>
                         </div>
@@ -225,8 +225,8 @@ const EdwinEssay = () => (
                         <div className="col-md-11 d-flex align-items-center">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption">
-                                    Nereyda Luna ’20, co-president, in front of a mural wall made to
-                                    inspire club members.
+                                    Nereyda Luna ’20, co-president of SOBLU for the 2019-20 academic
+                                    year, in front of a mural made to inspire club members.
                                 </p>
                             </div>
                         </div>
@@ -298,8 +298,8 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0009-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0009.jpg"
-                                    altText="A photograph of Lorimer Chapel."
-                                    caption="A photograph of Lorimer Chapel."
+                                    altText="Lorimer Chapel."
+                                    caption="Lorimer Chapel."
                                 />
                             </div>
                         </div>
@@ -333,19 +333,19 @@ const EdwinEssay = () => (
                                     src={{
                                         main: 'images/Colby_SOBLU_Torres0011-thumb.jpg',
                                     }}
-                                    altText="Reagan Dennis ’23 poses for a portrait by the club computer
-                                    in the SOBLU room."
+                                    altText="Reagan Dennis ’23 poses for a portrait
+                                    in the SOBLU room, located in The Pugh Center."
                                     lightboxSrc="images/Colby_SOBLU_Torres0011.jpg"
-                                    caption="Reagan Dennis ’23 poses for a portrait by the club computer
-                                in the SOBLU room."
+                                    caption="Reagan Dennis ’23 poses for a portrait
+                                in the SOBLU room, located in The Pugh Center."
                                 />
                             </div>
                         </div>
                         <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
-                                    Reagan Dennis ’23 poses for a portrait by the club computer in
-                                    the SOBLU room.
+                                    Reagan Dennis ’23 poses for a portrait in the SOBLU room,
+                                    located in The Pugh Center.
                                 </p>
                             </div>
                         </div>
@@ -354,11 +354,11 @@ const EdwinEssay = () => (
                         <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
-                                    Kenny Douyon ’23 by the Colby student mailboxes during his
-                                    freshman year. Kenny traveled from Massachusetts to attend
-                                    Colby. He was the first student I met while visiting campus for
-                                    the story. I walked into the SOBLU club room unannounced and saw
-                                    him lying on the couch bumping hip-hop music and nodding along.
+                                    Kenny Douyon ’23 by the Colby student mailboxes during his first
+                                    year. Douyon traveled from Massachusetts to attend Colby. He was
+                                    the first student I met while visiting campus for the story. I
+                                    walked into the SOBLU club room unannounced and saw him lying on
+                                    the couch bumping hip-hop music and nodding along.
                                 </p>
                             </div>
                         </div>
@@ -370,7 +370,7 @@ const EdwinEssay = () => (
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0010.jpg"
                                     altText="Kenny Douyon ’23 by the Colby student mailboxes during his
-                                    freshman year. Kenny traveled from Massachusetts to attend
+                                    first year. Douyon traveled from Massachusetts to attend
                                     Colby. He was the first student I met while visiting campus
                                     for the story. I walked into the SOBLU club room unannounced
                                     and saw him lying on the couch bumping hip-hop music and
@@ -384,13 +384,13 @@ const EdwinEssay = () => (
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0010.jpg"
                                     altText="Kenny Douyon ’23 by the Colby student mailboxes during his
-                                    freshman year. Kenny traveled from Massachusetts to attend
+                                    first year. Douyon traveled from Massachusetts to attend
                                     Colby. He was the first student I met while visiting campus
                                     for the story. I walked into the SOBLU club room unannounced
                                     and saw him lying on the couch bumping hip-hop music and
                                     nodding along."
                                     caption="Kenny Douyon ’23 by the Colby student mailboxes during his
-                                freshman year. Kenny traveled from Massachusetts to attend
+                                first year. Douyon traveled from Massachusetts to attend
                                 Colby. He was the first student I met while visiting campus
                                 for the story. I walked into the SOBLU club room unannounced
                                 and saw him lying on the couch bumping hip-hop music and
@@ -419,8 +419,8 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0012-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0012.jpg"
-                                    altText="A candid moment with Reagan Dennis ’22 and a few other students during a Saturday night at the Pugh Center."
-                                    caption="A candid moment with Reagan Dennis ’22 and a few other students during a Saturday night at the Pugh Center."
+                                    altText="A candid moment with Reagan Dennis ’23 and other students during a Saturday night at the Pugh Center."
+                                    caption="A candid moment with Reagan Dennis ’23 and other students during a Saturday night at the Pugh Center."
                                 />
                             </div>
                         </div>
@@ -482,8 +482,7 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0015-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0015.jpg"
-                                    altText="Donte’s desk at the Maret School in Washington D.C. in
-                                    February."
+                                    altText="Tate’s desk at the Maret School in Washington, D.C."
                                 />
                             </div>
                             <div className="soblu-desktop-hide Z">
@@ -492,17 +491,15 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0015-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0015.jpg"
-                                    altText="Donte’s desk at the Maret School in Washington D.C. in
-                                    February."
-                                    caption="Donte’s desk at the Maret School in Washington D.C. in
-                                February."
+                                    altText="Tate’s desk at the Maret School in Washington, D.C."
+                                    caption="Tate’s desk at the Maret School in Washington, D.C."
                                 />
                             </div>
                         </div>
                         <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
-                                    Donte’s desk at the Maret School in Washington D.C. in February.
+                                    Tate’s desk at the Maret School in Washington, D.C.
                                 </p>
                             </div>
                         </div>
@@ -544,8 +541,8 @@ const EdwinEssay = () => (
                                 thumbnail: 'images/Colby_SOBLU_Torres0017-retouched-thumb.jpg',
                             }}
                             lightboxSrc="images/Colby_SOBLU_Torres0017.jpg"
-                            altText="Students sit tightly together on a SOBLU couch during one of their executive board club meetings on a Sunday night."
-                            caption="Students sit tightly together on a SOBLU couch during one of their executive board club meetings on a Sunday night."
+                            altText="Students sit on a SOBLU couch during one of their Sunday night executive board meetings."
+                            caption="Students sit on a SOBLU couch during one of their Sunday night executive board meetings."
                         />
                     </div>
                 </div>
