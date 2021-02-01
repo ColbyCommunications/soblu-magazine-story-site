@@ -215,8 +215,8 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0004-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0004.jpg"
-                                    altText="Kris de Luna ’20, co-president the SOBLU for the 2019-20 academic year."
-                                    caption="Kris de Luna ’20, co-president the SOBLU for the 2019-20 academic year."
+                                    altText="Kris de Luna ’20, co-president of SOBLU for the 2019-20 academic year."
+                                    caption="Kris de Luna ’20, co-president of SOBLU for the 2019-20 academic year."
                                 />
                             </div>
                         </div>
@@ -298,8 +298,8 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0009-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0009.jpg"
-                                    altText="Lorimer Chapel."
-                                    caption="Lorimer Chapel."
+                                    altText="Lorimer Chapel, which SOBU occupied in March 1970. In the organization’s first major action, members demanded to have more students and faculty of color, the elimination of a GPA requirement for maintaining financial aid, a Black studies program, and an orientation week for incoming Black students."
+                                    caption="Lorimer Chapel, which SOBU occupied in March 1970. In the organization’s first major action, members demanded to have more students and faculty of color, the elimination of a GPA requirement for maintaining financial aid, a Black studies program, and an orientation week for incoming Black students."
                                 />
                             </div>
                         </div>
@@ -310,8 +310,8 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0008-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0008.jpg"
-                                    altText="In Harlem, New York City, James Reynolds ’90 works on his artwork in his home studio. James was president of SOBHU and his goal then was to collaborate further with the international club."
-                                    caption="In Harlem, New York City, James Reynolds ’90 works on his artwork in his home studio. James was president of SOBHU and his goal then was to collaborate further with the international club."
+                                    altText="James Reynolds ’90 works on his artwork in his home studio in Harlem, N.Y. He was a president of SOBHU, and one of his goals was to collaborate further with the International Club"
+                                    caption="James Reynolds ’90 works on his artwork in his home studio in Harlem, N.Y. He was a president of SOBHU, and one of his goals was to collaborate further with the International Club"
                                 />
                             </div>
                         </div>
@@ -334,10 +334,10 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0011-thumb.jpg',
                                     }}
                                     altText="Reagan Dennis ’23 poses for a portrait
-                                    in the SOBLU room, located in The Pugh Center."
+                                    in the SOBLU room, located in the Pugh Center."
                                     lightboxSrc="images/Colby_SOBLU_Torres0011.jpg"
                                     caption="Reagan Dennis ’23 poses for a portrait
-                                in the SOBLU room, located in The Pugh Center."
+                                in the SOBLU room, located in the Pugh Center."
                                 />
                             </div>
                         </div>
@@ -345,7 +345,7 @@ const EdwinEssay = () => (
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
                                     Reagan Dennis ’23 poses for a portrait in the SOBLU room,
-                                    located in The Pugh Center.
+                                    located in the Pugh Center.
                                 </p>
                             </div>
                         </div>
@@ -406,9 +406,9 @@ const EdwinEssay = () => (
                                     src={{
                                         main: 'images/Colby_SOBLU_Torres0013.jpg',
                                     }}
-                                    altText="Sarah Martinez Roth ’11 is a Ph.D. candidate at Georgetown in tumor biology. Sarah was a president of the club in her years and was mentored by one of the original SOBU members Charles Terell of Class of 1970."
+                                    altText="Sarah Martinez Roth ’11 is a Ph.D. candidate studying tumor biology at Georgetown University. At Colby, she was president of the club and was mentored by the inaugural SOBU president, Charles Terrell ’70."
                                     lightboxSrc="images/Colby_SOBLU_Torres0013.jpg"
-                                    caption="Sarah Martinez Roth ’11 is a Ph.D. candidate at Georgetown in tumor biology. Sarah was a president of the club in her years and was mentored by one of the original SOBU members Charles Terell of Class of 1970."
+                                    caption="Sarah Martinez Roth ’11 is a Ph.D. candidate studying tumor biology at Georgetown University. At Colby, she was president of the club and was mentored by the inaugural SOBU president, Charles Terrell ’70."
                                 />
                             </div>
                         </div>
@@ -430,10 +430,11 @@ const EdwinEssay = () => (
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
                                     Donte Tates ’05 reflects on his SOBLU experience from his home
-                                    terrace in Washington D.C. Donte currently teaches literature,
-                                    psychology, queer studies, and public speaking. Tates says SOBLU
-                                    was where he discovered himself in terms of his identity. Now,
-                                    he’s trying to do the same for his students as a teacher.
+                                    terrace in Washington, D.C. Tates teaches literature,
+                                    psychology, queer studies, and public speaking to high
+                                    schoolers. He says SOBLU was where he discovered himself in
+                                    terms of his identity. Now, he’s trying to do the same for his
+                                    students.
                                 </p>
                             </div>
                         </div>
@@ -444,12 +445,7 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0014-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0014.jpg"
-                                    altText="Donte Tates ’05 reflects on his SOBLU experience from his
-                                    home terrace in Washington D.C. Donte currently teaches
-                                    literature, psychology, queer studies, and public speaking.
-                                    Tates says SOBLU was where he discovered himself in terms of
-                                    his identity. Now, he’s trying to do the same for his
-                                    students as a teacher."
+                                    altText="Donte Tates ’05 reflects on his SOBLU experience from his home terrace in Washington, D.C. Tates teaches literature, psychology, queer studies, and public speaking to high schoolers. He says SOBLU was where he discovered himself in terms of his identity. Now, he’s trying to do the same for his students."
                                 />
                             </div>
                             <div className="soblu-desktop-hide ">
@@ -458,18 +454,8 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0014-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0014.jpg"
-                                    altText="Donte Tates ’05 reflects on his SOBLU experience from his
-                                    home terrace in Washington D.C. Donte currently teaches
-                                    literature, psychology, queer studies, and public speaking.
-                                    Tates says SOBLU was where he discovered himself in terms of
-                                    his identity. Now, he’s trying to do the same for his
-                                    students as a teacher."
-                                    caption="Donte Tates ’05 reflects on his SOBLU experience from his
-                                    home terrace in Washington D.C. Donte currently teaches
-                                    literature, psychology, queer studies, and public speaking.
-                                    Tates says SOBLU was where he discovered himself in terms of
-                                    his identity. Now, he’s trying to do the same for his
-                                    students as a teacher."
+                                    altText="Donte Tates ’05 reflects on his SOBLU experience from his home terrace in Washington, D.C. Tates teaches literature, psychology, queer studies, and public speaking to high schoolers. He says SOBLU was where he discovered himself in terms of his identity. Now, he’s trying to do the same for his students."
+                                    caption="Donte Tates ’05 reflects on his SOBLU experience from his home terrace in Washington, D.C. Tates teaches literature, psychology, queer studies, and public speaking to high schoolers. He says SOBLU was where he discovered himself in terms of his identity. Now, he’s trying to do the same for his students."
                                 />
                             </div>
                         </div>
@@ -482,7 +468,7 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0015-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0015.jpg"
-                                    altText="Tate’s desk at the Maret School in Washington, D.C."
+                                    altText="Tates’s desk at the Maret School in Washington, D.C."
                                 />
                             </div>
                             <div className="soblu-desktop-hide Z">
@@ -491,15 +477,15 @@ const EdwinEssay = () => (
                                         main: 'images/Colby_SOBLU_Torres0015-thumb.jpg',
                                     }}
                                     lightboxSrc="images/Colby_SOBLU_Torres0015.jpg"
-                                    altText="Tate’s desk at the Maret School in Washington, D.C."
-                                    caption="Tate’s desk at the Maret School in Washington, D.C."
+                                    altText="Tates’s desk at the Maret School in Washington, D.C."
+                                    caption="Tates’s desk at the Maret School in Washington, D.C."
                                 />
                             </div>
                         </div>
                         <div className="col-md-11 d-flex align-items-center justify-content-center flex-column">
                             <div className="soblu-mobile-hide">
                                 <p className="soblu-img-caption mt-5">
-                                    Tate’s desk at the Maret School in Washington, D.C.
+                                    Tates’s desk at the Maret School in Washington, D.C.
                                 </p>
                             </div>
                         </div>
