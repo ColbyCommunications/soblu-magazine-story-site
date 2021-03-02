@@ -1,2 +1,8 @@
 [build.environment]
   NPM_CONFIG_USERCONFIG = "./netlify/.npmrc"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cace-Control = "max-age=3600"
+    Cace-Control = "public"
