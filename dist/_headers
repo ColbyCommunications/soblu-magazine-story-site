@@ -4,3 +4,6 @@
 /soblu.bundle.js
     cache-control: max-age=300
     cache-control: public
+/
+    cache-control: max-age=300
+    cache-control: public
