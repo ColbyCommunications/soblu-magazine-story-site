@@ -1,3 +1,6 @@
 /images/*
     cache-control: max-age=3600
     cache-control: public
+/soblu.bundle.js
+    cache-control: max-age=300
+    cache-control: public
