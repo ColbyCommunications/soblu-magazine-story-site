@@ -2,7 +2,13 @@
   NPM_CONFIG_USERCONFIG = "./netlify/.npmrc"
 
 [[headers]]
-  for = "/*"
+  for = "*.js"
+  [headers.values]
+    cache-control = '''
+    public
+    max-age=3600'''
+[[headers]]
+  for = "*.css"
   [headers.values]
     cache-control = '''
     public
