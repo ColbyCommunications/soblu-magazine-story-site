@@ -4,5 +4,5 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Cace-Control = "max-age=3600"
-    Cace-Control = "public"
+    Cache-Control = "max-age=3600"
+    Cache-Control = "public"
