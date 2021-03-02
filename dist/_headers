@@ -1,2 +1,3 @@
 /iimages/*
     cache-control: max-age=3600
+    cache-control: public
