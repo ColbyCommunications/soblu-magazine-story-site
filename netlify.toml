@@ -1,28 +1,2 @@
 [build.environment]
   NPM_CONFIG_USERCONFIG = "./netlify/.npmrc"
-
-[[headers]]
-  for = "*.js"
-  [headers.values]
-    cache-control = '''
-    public
-    max-age=3600'''
-[[headers]]
-  for = "*.css"
-  [headers.values]
-    cache-control = '''
-    public
-    max-age=3600'''
-[[headers]]
-  for = "*.html"
-  [headers.values]
-    cache-control = '''
-    public
-    max-age=3600'''
-  
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
-  headers = {Cache-Control = "max-age=3600"}
