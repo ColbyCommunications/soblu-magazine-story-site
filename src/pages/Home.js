@@ -108,12 +108,12 @@ const Home = () => (
                                 <p>
                                     For a half-century, these Sunday meetings have been a SOBLU
                                     tradition. They have flourished since its beginnings in the
-                                    1970s as Students Organized for Black Unity (SOBU), to its shift
-                                    to include growing numbers of students of color and their allies
-                                    as Students Organized for Black and Hispanic Unity (SOBHU), to
-                                    its recent leadership focusing to enrich the experiences of its
-                                    members as Students Organized for Black and Latinx Unity
-                                    (SOBLU).
+                                    1970s as Student Organization for Black Unity (SOBU), to its
+                                    shift to include growing numbers of students of color and their
+                                    allies as Students Organized for Black and Hispanic Unity
+                                    (SOBHU), to its recent leadership focusing to enrich the
+                                    experiences of its members as Students Organized for Black and
+                                    Latinx Unity (SOBLU).
                                 </p>
                                 <p>
                                     “Being here in the 1970s versus 2019 is very different in terms
