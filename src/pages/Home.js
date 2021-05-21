@@ -258,7 +258,7 @@ const Home = () => (
                                 imagined.”
                             </p>
                             <p>
-                                Before becoming SOBLU, it was called Students Organized for Black
+                                Before becoming SOBLU, it was called Student Organization for Black
                                 Unity (SOBU, pronounced “S” “O” “B” “U”), more commonly known by its
                                 handful of members as “the organization,” which emerged in 1969.
                                 “Our time at Colby was post-civil rights, and we were really a part
