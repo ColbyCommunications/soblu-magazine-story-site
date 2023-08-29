@@ -150,7 +150,7 @@ const SobluVoices = () => (
                         <div className="col">
                             <div className="embed-responsive embed-responsive-16by9">
                                 <VideoPlayer
-                                    url="videos/SOBLU_Homecoming_Video.mp4"
+                                    url="https://www.colby.edu/communications/soblu/videos/soblu_homecoming_video.mp4"
                                     image="images/davy-22-homecoming-video-thumb.jpg"
                                 />
                             </div>
@@ -499,7 +499,7 @@ const SobluVoices = () => (
                         <div className="col">
                             <div className="embed-responsive embed-responsive-16by9">
                                 <VideoPlayer
-                                    url="videos/SOBLU_Teaser.mp4"
+                                    url="https://www.colby.edu/communications/soblu/videos/soblu_teaser.mp4"
                                     image="images/Teaser-Thumb.jpg"
                                 />
                             </div>
