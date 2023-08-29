@@ -368,7 +368,7 @@ const Home = () => (
                     <div className="row mt-6" style={{ fontSize: '1.4rem' }}>
                         <div className="embed-responsive embed-responsive-16by9">
                             <VideoPlayer
-                                url="videos/What_did_your_SOBLU_experience_mean_to_you.mp4"
+                                url="https://www.colby.edu/communications/soblu/videos/what_did_your_soblu_experience_mean_to_you.mp4"
                                 image="images/doris-mathis-73-video-thumb.jpg"
                             />
                         </div>
@@ -977,7 +977,7 @@ const Home = () => (
                     <div className="row mt-6" style={{ fontSize: '1.4rem' }}>
                         <div className="embed-responsive embed-responsive-16by9">
                             <VideoPlayer
-                                url="videos/What_were_some_of_the_pressing_issues_facing_you_and_SOBLU_at_the_time.mp4"
+                                url="https://www.colby.edu/communications/soblu/videos/what_were_some_of_the_pressing_issues_facing_you_and_soblu_at_the_time.mp4"
                                 image="images/tates-05-video-thumb.jpg"
                             />
                         </div>
@@ -1362,7 +1362,7 @@ const Home = () => (
                     <div className="row mt-6" style={{ fontSize: '1.4rem' }}>
                         <div className="embed-responsive embed-responsive-16by9">
                             <VideoPlayer
-                                url="videos/How_did_SOBLU_guide_you_through_your_time_at_Colby.mp4"
+                                url="https://www.colby.edu/communications/soblu/videos/how_did_soblu_guide_you_through_your_time_at_colby.mp4"
                                 image="images/reynolds-90-video-thumb.jpg"
                             />
                         </div>
